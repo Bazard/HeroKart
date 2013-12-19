@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/HeroKart
+exec_prefix=C:/Program Files (x86)/HeroKart/bin
+libdir=C:/Program Files (x86)/HeroKart/lib
+includedir=C:/Program Files (x86)/HeroKart/include/assimp
+
+Name: HeroKart
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 3.0.1264
+Libs: -L${libdir} -lassimp
+Cflags: -I${includedir} 

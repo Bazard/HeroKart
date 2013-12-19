@@ -1,0 +1,6 @@
+C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir
+C:/Cours/Synthese d'image/HeroKart/build/third-party/assimp/code/CMakeFiles/assimp.dir
+C:/Cours/Synthese d'image/HeroKart/build/third-party/glew-1.10.0/CMakeFiles/glew.dir
+C:/Cours/Synthese d'image/HeroKart/build/lib/CMakeFiles/glimac.dir
+C:/Cours/Synthese d'image/HeroKart/build/third-party/assimp/CMakeFiles/uninstall.dir
+C:/Cours/Synthese d'image/HeroKart/build/third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir

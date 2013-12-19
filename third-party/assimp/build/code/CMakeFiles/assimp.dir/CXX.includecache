@@ -1,0 +1,3434 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../code/BoostWorkaround/boost/foreach.hpp
+
+../code/BoostWorkaround/boost/format.hpp
+string
+-
+vector
+-
+
+../code/BoostWorkaround/boost/lexical_cast.hpp
+
+../code/BoostWorkaround/boost/make_shared.hpp
+
+../code/BoostWorkaround/boost/math/common_factor_rt.hpp
+
+../code/BoostWorkaround/boost/noncopyable.hpp
+
+../code/BoostWorkaround/boost/pointer_cast.hpp
+
+../code/BoostWorkaround/boost/scoped_array.hpp
+
+../code/BoostWorkaround/boost/scoped_ptr.hpp
+
+../code/BoostWorkaround/boost/shared_array.hpp
+
+../code/BoostWorkaround/boost/shared_ptr.hpp
+
+../code/BoostWorkaround/boost/static_assert.hpp
+
+../code/BoostWorkaround/boost/timer.hpp
+ctime
+-
+
+../code/BoostWorkaround/boost/tuple/tuple.hpp
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../contrib/irrXML/irrXML.h
+stdio.h
+-
+irrXML.h
+-
+string
+-
+irrXML.h
+-
+irrXML.h
+-
+irrXML.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/pushpack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/pushpack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/IOStream.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Importer.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/types.h
+config.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/config.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/color4.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/color4.inl
+color4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/color4.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/defs.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix3x3.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix3x3.inl
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix3x3.h
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix4x4.h
+algorithm
+-
+limits
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix4x4.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix4x4.inl
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix4x4.h
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix3x3.h
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/quaternion.h
+algorithm
+-
+limits
+-
+math.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/quaternion.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/quaternion.inl
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/quaternion.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/types.h
+sys/types.h
+-
+memory.h
+-
+math.h
+-
+stddef.h
+-
+defs.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/defs.h
+vector3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector3.h
+vector2.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector2.h
+color4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/color4.h
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix3x3.h
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix4x4.h
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/quaternion.h
+new
+-
+string
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/poppack1.h
+vector2.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector2.inl
+vector3.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector3.inl
+color4.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/color4.inl
+quaternion.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/quaternion.inl
+matrix3x3.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix3x3.inl
+matrix4x4.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/matrix4x4.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector2.h
+math.h
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector2.inl
+vector2.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector2.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector3.h
+math.h
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector3.inl
+vector3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/vector3.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/version.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/3DSConverter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+3DSLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/3DSLoader.h
+TargetAnimation.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TargetAnimation.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/3DSHelper.h
+SpatialSort.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SpatialSort.h
+SmoothingGroups.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SmoothingGroups.h
+./../include/assimp/Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/pushpack1.h
+./../include/assimp/Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/3DSLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+3DSLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/3DSLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/3DSLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+3DSHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/3DSHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ACLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ACLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ACLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+Subdivision.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Subdivision.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ACLoader.h
+vector
+-
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ASELoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ASELoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ASELoader.h
+StringComparison.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StringComparison.h
+SkeletonMeshBuilder.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.h
+TargetAnimation.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TargetAnimation.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ASELoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+ASEParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ASEParser.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ASEParser.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+TextureTransform.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TextureTransform.h
+ASELoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ASELoader.h
+MaterialSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MaterialSystem.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ASEParser.h
+string
+-
+vector
+-
+list
+-
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+../include/assimp/anim.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/anim.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+qnan.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/qnan.h
+3DSLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/3DSLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Assimp.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+../include/assimp/cimport.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/cimport.h
+GenericProperty.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenericProperty.h
+CInterfaceIOWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CInterfaceIOWrapper.h
+Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.h
+boost/thread/thread.hpp
+-
+boost/thread/mutex.hpp
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpCExport.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+CInterfaceIOWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CInterfaceIOWrapper.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+./../include/assimp/version.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/version.h
+../revision.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/revision.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+../include/assimp/defs.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/defs.h
+pstdint.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/pstdint.h
+stdint.h
+-
+ctype.h
+-
+vector
+-
+list
+-
+map
+-
+set
+-
+string
+-
+sstream
+-
+iomanip
+-
+cassert
+-
+stack
+-
+queue
+-
+iostream
+-
+algorithm
+-
+numeric
+-
+new
+-
+cstdio
+-
+limits.h
+-
+memory
+-
+boost/pointer_cast.hpp
+-
+boost/scoped_ptr.hpp
+-
+boost/scoped_array.hpp
+-
+boost/shared_ptr.hpp
+-
+boost/shared_array.hpp
+-
+boost/make_shared.hpp
+-
+boost/format.hpp
+-
+boost/foreach.hpp
+-
+boost/static_assert.hpp
+-
+boost/lexical_cast.hpp
+-
+../include/assimp/DefaultLogger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/DefaultLogger.hpp
+../include/assimp/IOStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOStream.hpp
+../include/assimp/IOSystem.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOSystem.hpp
+../include/assimp/scene.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/scene.h
+../include/assimp/importerdesc.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/importerdesc.h
+../include/assimp/postprocess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/postprocess.h
+../include/assimp/Importer.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/Importer.hpp
+../include/assimp/Exporter.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/Exporter.hpp
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+StringComparison.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StringComparison.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+qnan.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/qnan.h
+ScenePrivate.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ScenePrivate.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/B3DImporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+B3DImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/B3DImporter.h
+TextureTransform.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TextureTransform.h
+ConvertToLHProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/B3DImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+../include/assimp/material.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/material.h
+string
+-
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BVHLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+BVHLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BVHLoader.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+SkeletonMeshBuilder.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BVHLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+FileSystemFilter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FileSystemFilter.h
+Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.h
+../contrib/ConvertUTF/ConvertUTF.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/ConvertUTF/ConvertUTF.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+Exceptional.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Exceptional.h
+string
+-
+map
+-
+vector
+-
+./../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+map
+-
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+GenericProperty.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenericProperty.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderDNA.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+BlenderDNA.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderDNA.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+fstream
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderDNA.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+BlenderDNA.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderDNA.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderDNA.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderIntermediate.h
+BlenderLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderLoader.h
+BlenderDNA.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderDNA.h
+BlenderScene.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderScene.h
+BlenderSceneGen.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderSceneGen.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+BlenderIntermediate.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderIntermediate.h
+BlenderModifier.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderModifier.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+MemoryIOWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MemoryIOWrapper.h
+zlib.h
+-
+../contrib/zlib/zlib.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/zlib/zlib.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+LogAux.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LogAux.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderModifier.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+BlenderModifier.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderModifier.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+Subdivision.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Subdivision.h
+functional
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderModifier.h
+BlenderIntermediate.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderIntermediate.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderScene.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+BlenderDNA.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderDNA.h
+BlenderScene.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderScene.h
+BlenderSceneGen.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderSceneGen.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderScene.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderSceneGen.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlobIOSystem.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ByteSwap.h
+../include/assimp/ai_assert.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/ai_assert.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+stdlib.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CInterfaceIOWrapper.h
+../include/assimp/cfileio.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/cfileio.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/COBLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+COBLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/COBLoader.h
+COBScene.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/COBScene.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+LineSplitter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LineSplitter.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/COBLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/COBScene.h
+boost/shared_ptr.hpp
+-
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CSMLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+CSMLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CSMLoader.h
+SkeletonMeshBuilder.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CSMLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CalcTangentsProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+CalcTangentsProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CalcTangentsProcess.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CalcTangentsProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaExporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ColladaExporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaExporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaExporter.h
+../include/assimp/ai_assert.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/ai_assert.h
+sstream
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+../include/assimp/anim.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/anim.h
+ColladaLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaLoader.h
+ColladaParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaParser.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+SkeletonMeshBuilder.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.h
+time.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/time.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+ColladaParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaParser.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaParser.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ColladaParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaParser.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaParser.h
+irrXMLWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/irrXMLWrapper.h
+ColladaHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ComputeUVMappingProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ComputeUVMappingProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ComputeUVMappingProcess.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ComputeUVMappingProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ConvertToLHProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DXFHelper.h
+LineSplitter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LineSplitter.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DXFLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+DXFLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DXFLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+ConvertToLHProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+DXFHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DXFHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DXFLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DeboneProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+DeboneProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DeboneProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DeboneProcess.h
+vector
+-
+utility
+-
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+../include/assimp/scene.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/scene.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOStream.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+DefaultIOStream.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOStream.h
+sys/types.h
+-
+sys/stat.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOStream.h
+stdio.h
+-
+../include/assimp/IOStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOStream.hpp
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+stdlib.h
+-
+DefaultIOSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.h
+DefaultIOStream.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOStream.h
+sys/param.h
+-
+stdlib.h
+-
+windows.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.h
+../include/assimp/IOSystem.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOSystem.hpp
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultLogger.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+DefaultIOSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.h
+Win32DebugLogStream.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Win32DebugLogStream.h
+StdOStreamLogStream.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StdOStreamLogStream.h
+FileLogStream.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FileLogStream.h
+boost/thread/thread.hpp
+-
+boost/thread/mutex.hpp
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultProgressHandler.h
+../include/assimp/ProgressHandler.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/ProgressHandler.hpp
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Exceptional.h
+stdexcept
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Exporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+DefaultIOSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.h
+BlobIOSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlobIOSystem.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.h
+MakeVerboseFormat.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MakeVerboseFormat.h
+ConvertToLHProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FileLogStream.h
+../include/assimp/LogStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/LogStream.hpp
+../include/assimp/IOStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOStream.hpp
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FileSystemFilter.h
+../include/assimp/IOSystem.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOSystem.hpp
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindDegenerates.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+FindDegenerates.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindDegenerates.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindDegenerates.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindInstancesProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+FindInstancesProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindInstancesProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindInstancesProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindInvalidDataProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+FindInvalidDataProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindInvalidDataProcess.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindInvalidDataProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FixNormalsStep.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+FixNormalsStep.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FixNormalsStep.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FixNormalsStep.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenFaceNormalsProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+GenFaceNormalsProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenFaceNormalsProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenFaceNormalsProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenVertexNormalsProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+GenVertexNormalsProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenVertexNormalsProcess.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenVertexNormalsProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenericProperty.h
+./../include/assimp/Importer.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Importer.hpp
+Hash.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Hash.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/HMPFileData.h
+./../include/assimp/Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/pushpack1.h
+./../include/assimp/Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/HMPLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+HMPLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/HMPLoader.h
+MD2FileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2FileData.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/HMPLoader.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/texture.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/texture.h
+../include/assimp/material.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/material.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+MDLLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLLoader.h
+HMPFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/HMPFileData.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/HalfLifeFileData.h
+./../include/assimp/Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/pushpack1.h
+MDLFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLFileData.h
+./../include/assimp/Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Hash.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCCurve.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+IFCUtil.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCUtil.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCGeometry.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+IFCUtil.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCUtil.h
+PolyTools.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PolyTools.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+../contrib/poly2tri/poly2tri/poly2tri.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/poly2tri.h
+../contrib/clipper/clipper.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/clipper/clipper.hpp
+iterator
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+iterator
+-
+boost/tuple/tuple.hpp
+-
+IFCLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCLoader.h
+STEPFileReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STEPFileReader.h
+IFCUtil.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCUtil.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+MemoryIOWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MemoryIOWrapper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+LogAux.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LogAux.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCMaterial.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+IFCUtil.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCUtil.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCProfile.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+IFCUtil.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCUtil.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCReaderGen.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+IFCReaderGen.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCReaderGen.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCReaderGen.h
+STEPFile.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STEPFile.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCUtil.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+IFCUtil.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCUtil.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCUtil.h
+IFCReaderGen.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCReaderGen.h
+IFCLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFF.h
+ByteSwap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ByteSwap.h
+./../include/assimp/Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/pushpack1.h
+./../include/assimp/Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+IRRLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+GenericProperty.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenericProperty.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+StandardShapes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StandardShapes.h
+Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.h
+boost/math/common_factor_rt.hpp
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRLoader.h
+IRRShared.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRShared.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRMeshLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+IRRMeshLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRMeshLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRMeshLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+IRRShared.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRShared.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRShared.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+IRRShared.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRShared.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRShared.h
+irrXMLWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/irrXMLWrapper.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+../include/assimp/version.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/version.h
+Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+DefaultIOStream.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOStream.h
+DefaultIOSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.h
+DefaultProgressHandler.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultProgressHandler.h
+GenericProperty.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenericProperty.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+ScenePreprocessor.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ScenePreprocessor.h
+MemoryIOWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MemoryIOWrapper.h
+Profiler.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Profiler.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+ValidateDataStructure.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ValidateDataStructure.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ImporterRegistry.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+XFileImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileImporter.h
+3DSLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/3DSLoader.h
+MD3Loader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD3Loader.h
+MDLLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLLoader.h
+MD2Loader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2Loader.h
+PlyLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyLoader.h
+ASELoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ASELoader.h
+ObjFileImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileImporter.h
+HMPLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/HMPLoader.h
+SMDLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SMDLoader.h
+MDCLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDCLoader.h
+MD5Loader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD5Loader.h
+STLLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STLLoader.h
+LWOLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOLoader.h
+DXFLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DXFLoader.h
+NFFLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/NFFLoader.h
+RawLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RawLoader.h
+OFFLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OFFLoader.h
+ACLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ACLoader.h
+BVHLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BVHLoader.h
+IRRMeshLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRMeshLoader.h
+IRRLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IRRLoader.h
+Q3DLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3DLoader.h
+B3DImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/B3DImporter.h
+ColladaLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ColladaLoader.h
+TerragenLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TerragenLoader.h
+CSMLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CSMLoader.h
+UnrealLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/UnrealLoader.h
+LWSLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWSLoader.h
+OgreImporter.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreImporter.hpp
+MS3DLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MS3DLoader.h
+COBLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/COBLoader.h
+BlenderLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BlenderLoader.h
+Q3BSPFileImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileImporter.h
+NDOLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/NDOLoader.h
+IFCLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFCLoader.h
+M3Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/M3Importer.h
+XGLLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XGLLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ImproveCacheLocality.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ImproveCacheLocality.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ImproveCacheLocality.h
+VertexTriangleAdjacency.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/VertexTriangleAdjacency.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ImproveCacheLocality.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/JoinVerticesProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+JoinVerticesProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/JoinVerticesProcess.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+Vertex.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Vertex.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/JoinVerticesProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOAnimation.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+LWOFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOFileData.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOAnimation.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOBLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+LWOLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOFileData.h
+vector
+-
+list
+-
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+IFF.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/IFF.h
+LWOAnimation.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOAnimation.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+LWOLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOLoader.h
+StringComparison.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StringComparison.h
+SGSpatialSort.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SGSpatialSort.h
+ByteSwap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ByteSwap.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+ConvertToLHProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOLoader.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/DefaultLogger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/DefaultLogger.hpp
+LWOFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOFileData.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOMaterial.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+LWOLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOLoader.h
+ByteSwap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ByteSwap.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWSLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+LWSLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWSLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+GenericProperty.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenericProperty.h
+SkeletonMeshBuilder.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.h
+ConvertToLHProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWSLoader.h
+LWOFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LWOFileData.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LimitBoneWeightsProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+LimitBoneWeightsProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LimitBoneWeightsProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LimitBoneWeightsProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LineSplitter.h
+stdexcept
+-
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LogAux.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/M3Importer.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+M3Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/M3Importer.h
+sstream
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/M3Importer.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2FileData.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+../include/assimp/anim.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/anim.h
+./../include/assimp/Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/pushpack1.h
+./../include/assimp/Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2Loader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+MD2Loader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2Loader.h
+ByteSwap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ByteSwap.h
+MD2NormalTable.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2NormalTable.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2Loader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+MD2FileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2FileData.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2NormalTable.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD3FileData.h
+string
+-
+vector
+-
+sstream
+-
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+../include/assimp/anim.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/anim.h
+./../include/assimp/Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/pushpack1.h
+./../include/assimp/Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD3Loader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+MD3Loader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD3Loader.h
+ByteSwap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ByteSwap.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+GenericProperty.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenericProperty.h
+RemoveComments.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveComments.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+Importer.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Importer.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD3Loader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+ByteSwap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ByteSwap.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+MD3FileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD3FileData.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD5Loader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+RemoveComments.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveComments.h
+MD5Loader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD5Loader.h
+StringComparison.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StringComparison.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+SkeletonMeshBuilder.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD5Loader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+MD5Parser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD5Parser.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD5Parser.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+MD5Loader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD5Loader.h
+MaterialSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MaterialSystem.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+StringComparison.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StringComparison.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD5Parser.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDCFileData.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+../include/assimp/anim.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/anim.h
+./../include/assimp/Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/pushpack1.h
+./../include/assimp/Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDCLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+MDCLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDCLoader.h
+MD3FileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD3FileData.h
+MDCNormalTable.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDCNormalTable.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDCLoader.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+MDCFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDCFileData.h
+ByteSwap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ByteSwap.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDCNormalTable.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLDefaultColorMap.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLFileData.h
+./../include/assimp/Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/pushpack1.h
+./../include/assimp/Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+MDLLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLLoader.h
+MDLDefaultColorMap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLDefaultColorMap.h
+MD2FileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MD2FileData.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+MDLFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLFileData.h
+HalfLifeFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/HalfLifeFileData.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLMaterialLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+MDLLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLLoader.h
+MDLDefaultColorMap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MDLDefaultColorMap.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MS3DLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+MS3DLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MS3DLoader.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MS3DLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MakeVerboseFormat.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+MakeVerboseFormat.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MakeVerboseFormat.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MakeVerboseFormat.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MaterialSystem.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+Hash.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Hash.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+MaterialSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MaterialSystem.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MaterialSystem.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MemoryIOWrapper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/NDOLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+NDOLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/NDOLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/NDOLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/NFFLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+NFFLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/NFFLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+StandardShapes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StandardShapes.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+RemoveComments.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveComments.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/NFFLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+vector
+-
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OFFLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+OFFLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OFFLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OFFLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjExporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ObjExporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjExporter.h
+../include/assimp/version.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/version.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjExporter.h
+sstream
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileData.h
+vector
+-
+map
+-
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileImporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+DefaultIOSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.h
+ObjFileImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileImporter.h
+ObjFileParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileParser.h
+ObjFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileData.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileImporter.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileMtlImporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ObjFileMtlImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileMtlImporter.h
+ObjTools.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjTools.h
+ObjFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileData.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileMtlImporter.h
+vector
+-
+string
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileParser.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ObjFileParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileParser.h
+ObjFileMtlImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileMtlImporter.h
+ObjTools.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjTools.h
+ObjFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileData.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+DefaultIOSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjFileParser.h
+vector
+-
+string
+-
+map
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ObjTools.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreImporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+vector
+-
+sstream
+-
+OgreImporter.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreImporter.hpp
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+irrXMLWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/irrXMLWrapper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreImporter.hpp
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+vector
+-
+OgreXmlHelper.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreXmlHelper.hpp
+irrXMLWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/irrXMLWrapper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreMaterial.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+vector
+-
+sstream
+-
+OgreImporter.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreImporter.hpp
+irrXMLWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/irrXMLWrapper.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreMesh.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+OgreImporter.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreImporter.hpp
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreSkeleton.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+OgreImporter.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreImporter.hpp
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OgreXmlHelper.hpp
+irrXMLWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/irrXMLWrapper.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OptimizeGraph.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+OptimizeGraph.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OptimizeGraph.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OptimizeGraph.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OptimizeMeshes.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+OptimizeMeshes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OptimizeMeshes.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OptimizeMeshes.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+StringComparison.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StringComparison.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyExporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+PlyExporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyExporter.h
+../include/assimp/version.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/version.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyExporter.h
+sstream
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+PlyLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+PlyParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyParser.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyParser.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+PlyLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyLoader.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PlyParser.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PolyTools.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PostStepRegistry.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+CalcTangentsProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/CalcTangentsProcess.h
+JoinVerticesProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/JoinVerticesProcess.h
+ConvertToLHProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+TriangulateProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TriangulateProcess.h
+GenFaceNormalsProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenFaceNormalsProcess.h
+GenVertexNormalsProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/GenVertexNormalsProcess.h
+RemoveVCProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveVCProcess.h
+SplitLargeMeshes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SplitLargeMeshes.h
+PretransformVertices.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PretransformVertices.h
+LimitBoneWeightsProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LimitBoneWeightsProcess.h
+ValidateDataStructure.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ValidateDataStructure.h
+ImproveCacheLocality.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ImproveCacheLocality.h
+FixNormalsStep.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FixNormalsStep.h
+RemoveRedundantMaterials.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveRedundantMaterials.h
+FindInvalidDataProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindInvalidDataProcess.h
+FindDegenerates.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindDegenerates.h
+SortByPTypeProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SortByPTypeProcess.h
+ComputeUVMappingProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ComputeUVMappingProcess.h
+TextureTransform.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TextureTransform.h
+FindInstancesProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/FindInstancesProcess.h
+OptimizeMeshes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OptimizeMeshes.h
+OptimizeGraph.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/OptimizeGraph.h
+SplitByBoneCountProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SplitByBoneCountProcess.h
+DeboneProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DeboneProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PretransformVertices.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+PretransformVertices.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PretransformVertices.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PretransformVertices.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+limits
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+../include/assimp/postprocess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/postprocess.h
+SpatialSort.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SpatialSort.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Profiler.h
+boost/timer.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/boost/timer.hpp
+../include/assimp/DefaultLogger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/DefaultLogger.hpp
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileData.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileImporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+DefaultIOSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.h
+Q3BSPFileImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileImporter.h
+Q3BSPZipArchive.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPZipArchive.h
+Q3BSPFileParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileParser.h
+Q3BSPFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileData.h
+zlib.h
+-
+../contrib/zlib/zlib.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/zlib/zlib.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileImporter.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileParser.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+Q3BSPFileParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileParser.h
+DefaultIOSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/DefaultIOSystem.h
+Q3BSPFileData.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileData.h
+Q3BSPZipArchive.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPZipArchive.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPFileParser.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+string
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPZipArchive.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+Q3BSPZipArchive.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPZipArchive.h
+algorithm
+-
+cassert
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3BSPZipArchive.h
+../contrib/unzip/unzip.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/unzip/unzip.h
+../include/assimp/IOStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOStream.hpp
+../include/assimp/IOSystem.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOSystem.hpp
+string
+-
+vector
+-
+map
+-
+cassert
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3DLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+Q3DLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3DLoader.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Q3DLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RawLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+RawLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RawLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RawLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveComments.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+RemoveComments.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveComments.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveComments.h
+../include/assimp/ai_assert.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/ai_assert.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveRedundantMaterials.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+RemoveRedundantMaterials.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveRedundantMaterials.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+MaterialSystem.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MaterialSystem.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveRedundantMaterials.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveVCProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+RemoveVCProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveVCProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/RemoveVCProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SGSpatialSort.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+SGSpatialSort.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SGSpatialSort.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SGSpatialSort.h
+vector
+-
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SMDLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+SMDLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SMDLoader.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+SkeletonMeshBuilder.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SMDLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/texture.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/texture.h
+../include/assimp/anim.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/anim.h
+../include/assimp/material.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/material.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STEPFile.h
+boost/noncopyable.hpp
+-
+bitset
+-
+memory
+-
+typeinfo
+-
+unordered_map
+-
+LineSplitter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LineSplitter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STEPFileReader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+STEPFileReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STEPFileReader.h
+TinyFormatter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+functional
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STEPFileReader.h
+STEPFile.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STEPFile.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STLExporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+STLExporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STLExporter.h
+../include/assimp/version.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/version.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STLExporter.h
+sstream
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STLLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+STLLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STLLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/STLLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+Hash.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Hash.h
+time.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/time.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+../include/assimp/ai_assert.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/ai_assert.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ScenePreprocessor.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ScenePreprocessor.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ScenePreprocessor.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ScenePreprocessor.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ScenePrivate.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+../include/assimp/scene.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/scene.h
+SkeletonMeshBuilder.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SkeletonMeshBuilder.h
+vector
+-
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SmoothingGroups.h
+SmoothingGroups.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SmoothingGroups.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SmoothingGroups.inl
+SGSpatialSort.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SGSpatialSort.h
+algorithm
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SortByPTypeProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+SortByPTypeProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SortByPTypeProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SortByPTypeProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SpatialSort.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+SpatialSort.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SpatialSort.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SpatialSort.h
+vector
+-
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SplitByBoneCountProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+SplitByBoneCountProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SplitByBoneCountProcess.h
+limits
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SplitByBoneCountProcess.h
+vector
+-
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+../include/assimp/scene.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/scene.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SplitLargeMeshes.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+SplitLargeMeshes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SplitLargeMeshes.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SplitLargeMeshes.h
+vector
+-
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+../include/assimp/scene.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/scene.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StandardShapes.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+StandardShapes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StandardShapes.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StandardShapes.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StdOStreamLogStream.h
+../include/assimp/LogStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/LogStream.hpp
+ostream
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+ByteSwap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ByteSwap.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StringComparison.h
+../include/assimp/ai_assert.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/ai_assert.h
+cstring
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Subdivision.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+Subdivision.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Subdivision.h
+SceneCombiner.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SceneCombiner.h
+SpatialSort.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/SpatialSort.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+Vertex.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Vertex.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Subdivision.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TargetAnimation.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+TargetAnimation.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TargetAnimation.h
+algorithm
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TargetAnimation.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TerragenLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+TerragenLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TerragenLoader.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TerragenLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TextureTransform.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+TextureTransform.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TextureTransform.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TextureTransform.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TinyFormatter.h
+sstream
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TriangulateProcess.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+TriangulateProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TriangulateProcess.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+PolyTools.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/PolyTools.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/TriangulateProcess.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/UnrealLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+UnrealLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/UnrealLoader.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+ConvertToLHProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/UnrealLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ValidateDataStructure.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+ValidateDataStructure.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ValidateDataStructure.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+ProcessHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ProcessHelper.h
+stdarg.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ValidateDataStructure.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Vertex.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/VertexTriangleAdjacency.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+VertexTriangleAdjacency.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/VertexTriangleAdjacency.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/VertexTriangleAdjacency.h
+BaseProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseProcess.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/ai_assert.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/ai_assert.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/Win32DebugLogStream.h
+../include/assimp/LogStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/LogStream.hpp
+windows.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/windows.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileHelper.h
+string
+-
+vector
+-
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+../include/assimp/quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/quaternion.h
+../include/assimp/mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+../include/assimp/anim.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/anim.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileImporter.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+XFileImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileImporter.h
+XFileParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileParser.h
+ConvertToLHProcess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ConvertToLHProcess.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileImporter.h
+map
+-
+XFileHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileHelper.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileParser.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+XFileParser.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileParser.h
+XFileHelper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileHelper.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+zlib.h
+-
+../contrib/zlib/zlib.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/zlib/zlib.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XFileParser.h
+string
+-
+vector
+-
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XGLLoader.cpp
+AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/AssimpPCH.h
+XGLLoader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XGLLoader.h
+ParsingUtils.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/ParsingUtils.h
+fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/StreamReader.h
+MemoryIOWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/MemoryIOWrapper.h
+zlib.h
+-
+../contrib/zlib/zlib.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/zlib/zlib.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/XGLLoader.h
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/BaseImporter.h
+irrXMLWrapper.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/irrXMLWrapper.h
+LogAux.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/LogAux.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/fast_atof.h
+math.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/irrXMLWrapper.h
+./../contrib/irrXML/irrXML.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../contrib/irrXML/irrXML.h
+./../include/assimp/IOStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/./../include/assimp/IOStream.hpp
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/pstdint.h
+stddef.h
+-
+limits.h
+-
+signal.h
+-
+stdint.h
+-
+wchar.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/code/qnan.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/ConvertUTF/ConvertUTF.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/clipper/clipper.hpp
+vector
+-
+stdexcept
+-
+cstring
+-
+cstdlib
+-
+ostream
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/types.h
+sys/types.h
+-
+memory.h
+-
+math.h
+-
+stddef.h
+-
+defs.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/defs.h
+vector3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/vector3.h
+vector2.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/vector2.h
+color4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/color4.h
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/matrix3x3.h
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/matrix4x4.h
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/quaternion.h
+new
+-
+string
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/./Compiler/poppack1.h
+vector2.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/vector2.inl
+vector3.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/vector3.inl
+color4.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/color4.inl
+quaternion.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/quaternion.inl
+matrix3x3.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/matrix3x3.inl
+matrix4x4.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/matrix4x4.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/AssimpPCH.h
+../include/assimp/defs.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/defs.h
+pstdint.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/pstdint.h
+stdint.h
+-
+ctype.h
+-
+vector
+-
+list
+-
+map
+-
+set
+-
+string
+-
+sstream
+-
+iomanip
+-
+cassert
+-
+stack
+-
+queue
+-
+iostream
+-
+algorithm
+-
+numeric
+-
+new
+-
+cstdio
+-
+limits.h
+-
+memory
+-
+boost/pointer_cast.hpp
+-
+boost/scoped_ptr.hpp
+-
+boost/scoped_array.hpp
+-
+boost/shared_ptr.hpp
+-
+boost/shared_array.hpp
+-
+boost/make_shared.hpp
+-
+boost/format.hpp
+-
+boost/foreach.hpp
+-
+boost/static_assert.hpp
+-
+boost/lexical_cast.hpp
+-
+../include/assimp/DefaultLogger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/DefaultLogger.hpp
+../include/assimp/IOStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/IOStream.hpp
+../include/assimp/IOSystem.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/IOSystem.hpp
+../include/assimp/scene.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/scene.h
+../include/assimp/importerdesc.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/importerdesc.h
+../include/assimp/postprocess.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/postprocess.h
+../include/assimp/Importer.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/Importer.hpp
+../include/assimp/Exporter.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/Exporter.hpp
+BaseImporter.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/BaseImporter.h
+StringComparison.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/StringComparison.h
+StreamReader.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/StreamReader.h
+qnan.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/qnan.h
+ScenePrivate.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/ScenePrivate.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/BaseImporter.h
+Exceptional.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/Exceptional.h
+string
+-
+map
+-
+vector
+-
+./../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/./../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/ByteSwap.h
+../include/assimp/ai_assert.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/ai_assert.h
+../include/assimp/types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+stdlib.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/Exceptional.h
+stdexcept
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/ScenePrivate.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/StreamReader.h
+ByteSwap.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/ByteSwap.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/StringComparison.h
+../include/assimp/ai_assert.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/ai_assert.h
+cstring
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/fast_atof.h
+math.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/pstdint.h
+stddef.h
+-
+limits.h
+-
+signal.h
+-
+stdint.h
+-
+wchar.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/qnan.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/pushpack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/DefaultLogger.hpp
+Logger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/Logger.hpp
+LogStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/LogStream.hpp
+NullLogger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/NullLogger.hpp
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/Exporter.hpp
+cexport.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/cexport.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/IOStream.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/IOSystem.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/Importer.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+config.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/config.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/LogStream.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/Logger.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/NullLogger.hpp
+Logger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/Logger.hpp
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/ai_assert.h
+assert.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/anim.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/quaternion.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/camera.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/cexport.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/color4.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/color4.inl
+color4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/color4.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/config.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/defs.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/importerdesc.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/light.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/material.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/poppack1.h
+material.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/material.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/material.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix3x3.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix3x3.inl
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix3x3.h
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix4x4.h
+algorithm
+-
+limits
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix4x4.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix4x4.inl
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix4x4.h
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix3x3.h
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/quaternion.h
+algorithm
+-
+limits
+-
+math.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/mesh.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/postprocess.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/quaternion.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/quaternion.inl
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/quaternion.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/scene.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+texture.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/texture.h
+mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/mesh.h
+light.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/light.h
+camera.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/camera.h
+material.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/material.h
+anim.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/anim.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/texture.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/types.h
+sys/types.h
+-
+memory.h
+-
+math.h
+-
+stddef.h
+-
+defs.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/defs.h
+vector3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector3.h
+vector2.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector2.h
+color4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/color4.h
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix3x3.h
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix4x4.h
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/quaternion.h
+new
+-
+string
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/poppack1.h
+vector2.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector2.inl
+vector3.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector3.inl
+color4.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/color4.inl
+quaternion.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/quaternion.inl
+matrix3x3.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix3x3.inl
+matrix4x4.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/matrix4x4.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector2.h
+math.h
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector2.inl
+vector2.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector2.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector3.h
+math.h
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector3.inl
+vector3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../include/assimp/vector3.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/CXMLReaderImpl.h
+irrXML.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrXML.h
+irrString.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrString.h
+irrArray.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrArray.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/heapsort.h
+irrTypes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrTypes.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrArray.h
+irrTypes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrTypes.h
+heapsort.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/heapsort.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrString.h
+irrTypes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrTypes.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrTypes.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrXML.cpp
+./../../code/AssimpPCH.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/AssimpPCH.h
+irrXML.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrXML.h
+irrString.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrString.h
+irrArray.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrArray.h
+./../../code/fast_atof.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/./../../code/fast_atof.h
+CXMLReaderImpl.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/CXMLReaderImpl.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/irrXML/irrXML.h
+stdio.h
+-
+irrXML.h
+-
+string
+-
+irrXML.h
+-
+irrXML.h
+-
+irrXML.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
+vector
+-
+cstddef
+-
+stdexcept
+-
+assert.h
+-
+cmath
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/poly2tri.h
+common/shapes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
+sweep/cdt.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
+../common/shapes.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.h
+advancing_front.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
+sweep_context.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h
+sweep.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.h
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h
+list
+-
+vector
+-
+cstddef
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/unzip/ioapi.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/unzip/unzip.h
+zlib.h
+-
+../zlib/zlib.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/zlib/zlib.h
+ioapi.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/unzip/ioapi.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/zlib/zconf.h
+windows.h
+-
+sys/types.h
+-
+unistd.h
+-
+unixio.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/zlib/zlib.h
+zconf.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/contrib/zlib/zconf.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/pushpack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/DefaultLogger.hpp
+Logger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/Logger.hpp
+LogStream.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/LogStream.hpp
+NullLogger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/NullLogger.hpp
+vector
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/Exporter.hpp
+cexport.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/cexport.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOStream.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/IOSystem.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/Importer.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+config.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/config.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/LogStream.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/Logger.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/NullLogger.hpp
+Logger.hpp
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/Logger.hpp
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/ProgressHandler.hpp
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/ai_assert.h
+assert.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/anim.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/quaternion.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/camera.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/cexport.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/cfileio.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/cimport.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/color4.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/color4.inl
+color4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/color4.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/config.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/defs.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/importerdesc.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/light.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/material.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/poppack1.h
+material.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/material.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/material.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix3x3.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix3x3.inl
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix3x3.h
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix4x4.h
+algorithm
+-
+limits
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix4x4.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix4x4.inl
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix4x4.h
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix3x3.h
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/quaternion.h
+algorithm
+-
+limits
+-
+math.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/postprocess.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/quaternion.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/quaternion.inl
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/quaternion.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/scene.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+texture.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/texture.h
+mesh.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/mesh.h
+light.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/light.h
+camera.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/camera.h
+material.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/material.h
+anim.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/anim.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/texture.h
+types.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/types.h
+sys/types.h
+-
+memory.h
+-
+math.h
+-
+stddef.h
+-
+defs.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/defs.h
+vector3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector3.h
+vector2.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector2.h
+color4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/color4.h
+matrix3x3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix3x3.h
+matrix4x4.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix4x4.h
+quaternion.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/quaternion.h
+new
+-
+string
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/poppack1.h
+vector2.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector2.inl
+vector3.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector3.inl
+color4.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/color4.inl
+quaternion.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/quaternion.inl
+matrix3x3.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix3x3.inl
+matrix4x4.inl
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/matrix4x4.inl
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector2.h
+math.h
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector2.inl
+vector2.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector2.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector3.h
+math.h
+-
+./Compiler/pushpack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/pushpack1.h
+./Compiler/poppack1.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/./Compiler/poppack1.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector3.inl
+vector3.h
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/vector3.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/include/assimp/version.h
+
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/revision.h
+

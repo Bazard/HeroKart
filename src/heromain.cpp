@@ -10,15 +10,17 @@
 #include "Shader.hpp"
 #include <vector>
 #include <ctime>
-#include "Game.h"
-#include "PlayerIA.h"
-#include "Character.h"
-#include "Kart.h"
-#include "Race.h"
-#include "Track.h"
-#include "Vertex2DUV.hpp"
-#include "Matrix2D.hpp"
 #include <SOIL/SOIL.h>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp> 
+#include <glm/gtc/type_ptr.hpp> 
+#include "common.hpp"
+#include <glm/gtc/random.hpp>
+#include "TrackballCamera.hpp"
+#include "FreeflyCamera.hpp"
+#include "Object3D.h"
+#include "Kart.h"
+// #include "Menu.h"
 
 #undef main
 
@@ -28,8 +30,6 @@ static const Uint32 FRAME_DURATION = 1000.f / FPS;
 static const Uint32 WINDOW_WIDTH = 800;
 static const Uint32 WINDOW_HEIGHT = 600;
 static const Uint32 WINDOW_BPP = 32;
-
-#define M_PI 3.14
 
 using namespace glimac;
 
@@ -56,155 +56,154 @@ int main(int argc, char** argv) {
 		return EXIT_FAILURE;
 	}
 
-	VBO vbo;
-	vbo.bind();
-
-	std::vector<Vertex2DUV> vertices;
+	//Objet1
+	Kart kart(2,0.01,0.75);
+	kart.setPosition(glm::vec3(0,0.5,0));
+	kart.LoadObjFromFile("../models/ACC/ACC2.obj");	
+	kart.buildVBO();
+	kart.buildVAO();
+	kart.LoadTexture("../textures/CCTex.jpg");
 	
-	//Triangle
-	//vertices.push_back(Vertex3DRGB(0.0f, -0.25f, 0.0f, 1.0f, 1.0f, 0.0f));//Derriere
-	vertices.push_back(Vertex2DUV(-1.0f, -1.f, 0.0f, 1.0f));//Gauche
-	vertices.push_back(Vertex2DUV(1.0f, -1.0f, 1.0f, 1.0f));//Droite	
-	vertices.push_back(Vertex2DUV(0.0f, 1.0f, 0.5f, 0.0f));	//Haut
+	//Objet2
+	Object3D floor;
+	floor.LoadObjFromFile("../models/floor.obj");	
+	floor.build();
+	floor.LoadTexture("../textures/MoonMap.png");
+
+	//Ciel
+	Object3D sky;
+	sky.sphere(1,32,16);
+	sky.build();
+	sky.LoadTexture("../textures/sky.jpg");
 	
-	//Rectangle
-	/*vertices.push_back(Vertex3DRGB(-1.0f, 1.0f, -0.5f, 1.0f, 1.0f, 1.0f));
-	vertices.push_back(Vertex3DRGB(-1.0f, -1.0f, -0.5f, 1.0f, 1.0f, 1.0f));	
-	vertices.push_back(Vertex3DRGB(1.0f, 1.0f, -0.5f, 1.0f, 1.0f, 1.0f));
-	vertices.push_back(Vertex3DRGB(1.0f, -1.0f, -0.5f, 1.0f, 1.0f, 1.0f));*/
-
-	glBufferData(GL_ARRAY_BUFFER, 3*sizeof(Vertex2DUV), &vertices[0], GL_STATIC_DRAW);	
-	VBO::debind(); // on débinde
-
-	VAO vao;
-	vao.bind();
-	//Position
-	glEnableVertexAttribArray(0);
-	vbo.bind();
-	glVertexAttribPointer(0,2,GL_FLOAT,GL_FALSE, sizeof(Vertex2DUV),(const GLvoid*) (0 * sizeof(GLfloat)));
-
-	//Couleur
-	glEnableVertexAttribArray(1);
-	glVertexAttribPointer(1,2,GL_FLOAT,GL_FALSE, sizeof(Vertex2DUV),(const GLvoid*) (2 * sizeof(GLfloat)));
-	VBO::debind(); // on débinde
-
-	VAO::debind();
-
-	//setupColor2DShaders();
 	Program prog;
 	if(argc == 3){
 		prog=loadProgram(argv[1],argv[2]);
 		prog.use();
 		}
 	else{
-		prog=loadProgram("../shaders/tex2D.vs.glsl","../shaders/tex2D.fs.glsl");
+		prog=loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
 		prog.use();
 	}
 	
-	//GLuint uTime=glGetUniformLocation(prog.getGLId(),"uTime");
-	GLuint uModelMatrix=glGetUniformLocation(prog.getGLId(),"uModelMatrix");
-	GLuint uColor=glGetUniformLocation(prog.getGLId(),"uColor");
-	GLuint idTriforce=glGetUniformLocation(prog.getGLId(),"uTexture");
 	
-	Matrix2D matrotateorigin;
-	Matrix2D matrotate;
-	Matrix2D mattranslate;
-	Matrix2D matscale;
-	Matrix2D mattotal;
+	GLuint uMVPMatrix=glGetUniformLocation(prog.getGLId(),"uMVPMatrix");
+	GLuint uMVMatrix=glGetUniformLocation(prog.getGLId(),"uMVMatrix");
+	GLuint uNormalMatrix=glGetUniformLocation(prog.getGLId(),"uNormalMatrix");
+	GLuint uTex=glGetUniformLocation(prog.getGLId(),"uTexture");
 	
-	bool done = false;
-	float tourne=0;
+	glEnable(GL_DEPTH_TEST);
 	
+	glm::mat4 ViewMatrix;
+	glm::mat4 ProjMatrix; 
+	glm::mat4 NormalMatrix;
+		
+	TrackballCamera camera;
+	 //FreeflyCamera camera;
 	
-	  int img_width=0, img_height=0;
-  unsigned char* img = SOIL_load_image("../textures/triforce.png", &img_width, &img_height, NULL, 0);
+	// Menu interface;
+	// interface.RocketInitialisation();
 	
-	GLuint idTexture;
-	glGenTextures(1,&idTexture);
-	glBindTexture(GL_TEXTURE_2D,idTexture);
+	int xinit=WINDOW_WIDTH/2;
+	int yinit=WINDOW_HEIGHT/2;
 	
-
-	  glGenTextures(1, &idTexture);
-	  glBindTexture(GL_TEXTURE_2D, idTexture);
-	  glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	  glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
-	glBindTexture(GL_TEXTURE_2D,0);
-	
-	
+	int xcurr,ycurr;
+	bool sens=true;
+	bool done=false;
 	while(!done) {
 		
 		Uint32 tStart = SDL_GetTicks();
 		
-		glClear(GL_COLOR_BUFFER_BIT);
-		vao.bind();
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+		// SDL_GetMouseState(&xcurr, &ycurr);
+		// camera.rotateLeft((float)(xinit-xcurr));
+		// camera.rotateUp((float)(yinit-ycurr));
+		yinit=ycurr;
+		xinit=xcurr;
 		
-		tourne+=0.1;
-		if(tourne>=180) tourne=0;
 		
-		matscale.scale(0.25,0.25);
-		matrotateorigin.rotate(tourne);
-		// Rendering code goes here
+		//Camera
+		ViewMatrix=camera.getViewMatrix(kart.getPosition(), kart.getAngle(),kart.back);
+		ProjMatrix=glm::perspective(70.f,(float)WINDOW_WIDTH/(float)WINDOW_HEIGHT,0.1f,100.f); //angle vertical, ratio largeur/hauteur, near, far
 		
-		//Triangle topleft
-		matrotate.rotate(-3*tourne);
-		mattranslate.translate(-2,2);
-		mattotal=matrotateorigin*matscale*mattranslate*matrotate;
-		glUniformMatrix3fv(uModelMatrix,9,false,mattotal.values);
+		//Objet1
+		kart.getVAO().bind();		
+		
+		kart.TransfoMatrix(ViewMatrix, kart.getPosition(), kart.getAngle(), glm::vec3(1,1,1));
+		
+		NormalMatrix=glm::transpose(glm::inverse(kart.MVMatrix));
 	
-		glBindTexture(GL_TEXTURE_2D, idTexture);
-		glUniform1i(idTriforce,0);
-		glDrawArrays(GL_TRIANGLES, 0, 3);
-		glBindTexture(GL_TEXTURE_2D, 0);
+		glUniformMatrix4fv(uMVMatrix, 1, false, glm::value_ptr(kart.MVMatrix));
+		glUniformMatrix4fv(uMVPMatrix, 1, false, glm::value_ptr(ProjMatrix*kart.MVMatrix));			
+		glUniformMatrix4fv(uNormalMatrix, 1, false, glm::value_ptr(NormalMatrix));
+		kart.Draw(uTex);
+
 		
-		//Triangle topright
-		matrotate.rotate(tourne);
-		mattranslate.translate(2,2);
-		mattotal=matrotateorigin*matscale*mattranslate*matrotate;
-		glUniformMatrix3fv(uModelMatrix,9,false,mattotal.values);
 		
-		glBindTexture(GL_TEXTURE_2D, idTexture);
-		glUniform1i(idTriforce,0);
-		glDrawArrays(GL_TRIANGLES, 0, 3);
-		glBindTexture(GL_TEXTURE_2D, 0);
+		//Floor
+		floor.getVAO().bind();		
+		floor.MVMatrix = glm::translate(ViewMatrix, glm::vec3(0,0,-1));
+		floor.MVMatrix = glm::scale(floor.MVMatrix, glm::vec3(4, 1, 4));
+		NormalMatrix=glm::transpose(glm::inverse(floor.MVMatrix));
+	
+		glUniformMatrix4fv(uMVMatrix, 1, false, glm::value_ptr(floor.MVMatrix));
+		glUniformMatrix4fv(uMVPMatrix, 1, false, glm::value_ptr(ProjMatrix*floor.MVMatrix));			
+		glUniformMatrix4fv(uNormalMatrix, 1, false, glm::value_ptr(NormalMatrix));
+		floor.Draw(uTex);
 		
-		//Triangle bottomleft
-		matrotate.rotate(tourne);
-		mattranslate.translate(-2,-2);
-		mattotal=matrotateorigin*matscale*mattranslate*matrotate;
-		glUniformMatrix3fv(uModelMatrix,9,false,mattotal.values);
+
+		//Sky
+		sky.getVAO().bind();		
+		sky.MVMatrix = glm::rotate(ViewMatrix, tStart* 0.001f, glm::vec3(0,1,0));
+		sky.MVMatrix = glm::scale(sky.MVMatrix, glm::vec3(20, 20, 20));
+		NormalMatrix=glm::transpose(glm::inverse(sky.MVMatrix));
+	
+		glUniformMatrix4fv(uMVMatrix, 1, false, glm::value_ptr(floor.MVMatrix));
+		glUniformMatrix4fv(uMVPMatrix, 1, false, glm::value_ptr(ProjMatrix*sky.MVMatrix));			
+		glUniformMatrix4fv(uNormalMatrix, 1, false, glm::value_ptr(NormalMatrix));
+		sky.Draw(uTex);
 		
-		glBindTexture(GL_TEXTURE_2D, idTexture);
-		glUniform1i(idTriforce,0);
-		glDrawArrays(GL_TRIANGLES, 0, 3);
-		glBindTexture(GL_TEXTURE_2D, 0);
-		
-		//Triangle bottomright
-		matrotate.rotate(-3*tourne);
-		mattranslate.translate(2,-2);
-		mattotal=matrotateorigin*matscale*mattranslate*matrotate;
-		glUniformMatrix3fv(uModelMatrix,9,false,mattotal.values);
-		
-		glBindTexture(GL_TEXTURE_2D, idTexture);
-		glUniform1i(idTriforce,0);
-		glDrawArrays(GL_TRIANGLES, 0, 3);
-		glBindTexture(GL_TEXTURE_2D, 0);
-		
-		//glLineWidth(20);
 		VAO::debind();
-
-		// Application code goes here
-
+	
+		// interface.RocketShow();
+		
 		SDL_Event e;
 		while(SDL_PollEvent(&e)) {
 			switch(e.type) {
-				default:
+				case SDL_MOUSEBUTTONDOWN:
+					// if (e.button.button==SDL_BUTTON_LEFT){
+						
+					// }
+					// else if(e.button.button==SDL_BUTTON_RIGHT){
+						// xinit=(float)(e.button.x);
+						// yinit=(float)(e.button.y);		
+					// }
+			
 					break;
+				
 				case SDL_QUIT:
 					done = true;
 					break;
+				default:
+					break;
+				
 			}
 		}
-
+		
+		Uint8 *keystate = SDL_GetKeyState(NULL);
+		// if ( keystate[SDLK_w] ) camera.moveFront(0.1);
+		// if ( keystate[SDLK_a] ) camera.moveLeft(0.1);
+		// if ( keystate[SDLK_s] ) camera.moveFront(-0.1);
+		// if ( keystate[SDLK_d] ) camera.moveLeft(-0.1);
+	
+		if ( keystate[SDLK_UP] ) kart.move(1);
+		if ( keystate[SDLK_DOWN] ) kart.move(-1);
+		if (!keystate[SDLK_UP] && !keystate[SDLK_UP]) kart.move(0);
+		
+		if ( keystate[SDLK_LEFT] ) kart.rotate(1);
+		if ( keystate[SDLK_RIGHT] ) kart.rotate(-1);
+		
 		// Mise à jour de la fenêtre (synchronisation implicite avec OpenGL)
 		SDL_GL_SwapBuffers();
 
@@ -214,8 +213,8 @@ int main(int argc, char** argv) {
 			SDL_Delay(FRAME_DURATION - d);
 		}
 	}
-
-	glDeleteTextures(1,&idTexture);
+	
+	// interface.RocketShutDown();
 	
 	SDL_Quit();
 

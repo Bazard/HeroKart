@@ -1,0 +1,23 @@
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/assimp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec1109323743/fast"
+C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1109323743.dir\build.make CMakeFiles/cmTryCompileExec1109323743.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/assimp/build/CMakeFiles/CMakeTmp'
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\assimp\build\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1109323743.dir/CheckFunctionExists.c.obj
+C:\Logiciels\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles\cmTryCompileExec1109323743.dir\CheckFunctionExists.c.obj   -c "C:\Logiciels\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec1109323743.exe
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1109323743.dir\link.txt --verbose=1
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1109323743.dir/objects.a
+C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1109323743.dir/objects.a @CMakeFiles\cmTryCompileExec1109323743.dir\objects1.rsp
+C:\Logiciels\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=fseeko    -Wl,--whole-archive CMakeFiles\cmTryCompileExec1109323743.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1109323743.exe -Wl,--out-implib,libcmTryCompileExec1109323743.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec1109323743.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `fseeko'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTryCompileExec1109323743.dir\build.make:91: recipe for target 'cmTryCompileExec1109323743.exe' failed
+mingw32-make.exe[1]: *** [cmTryCompileExec1109323743.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Cours/Synthese d'image/HeroKart/third-party/assimp/build/CMakeFiles/CMakeTmp'
+Makefile:116: recipe for target 'cmTryCompileExec1109323743/fast' failed
+mingw32-make.exe: *** [cmTryCompileExec1109323743/fast] Error 2
+
+

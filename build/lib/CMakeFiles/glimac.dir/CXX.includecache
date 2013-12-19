@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/include/Program.hpp
+GL/glew.h
+-
+Shader.hpp
+../lib/include/Shader.hpp
+
+../lib/include/Shader.hpp
+GL/glew.h
+-
+string
+-
+
+../third-party/glew-1.10.0/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+C:/Cours/Synthese d'image/HeroKart/lib/src/Program.cpp
+Program.hpp
+C:/Cours/Synthese d'image/HeroKart/lib/src/Program.hpp
+stdexcept
+-
+
+C:/Cours/Synthese d'image/HeroKart/lib/src/Shader.cpp
+Shader.hpp
+C:/Cours/Synthese d'image/HeroKart/lib/src/Shader.hpp
+fstream
+-
+stdexcept
+-
+string
+-
+sstream
+-
+
+C:/Logiciels/MinGW/include/GL/gl.h
+
+C:/Logiciels/MinGW/include/GL/glu.h
+stddef.h
+-
+GL/gl.h
+-
+
+C:/Logiciels/MinGW/include/_mingw.h
+
+C:/Logiciels/MinGW/include/inttypes.h
+_mingw.h
+-
+stdint.h
+-
+stddef.h
+-
+
+C:/Logiciels/MinGW/include/stdint.h
+stddef.h
+-
+

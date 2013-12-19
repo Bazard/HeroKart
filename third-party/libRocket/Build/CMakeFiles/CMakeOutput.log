@@ -1,0 +1,333 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Logiciels/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/2.8.12/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Logiciels/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/2.8.12/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec4012751864/fast"
+C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec4012751864.dir\build.make CMakeFiles/cmTryCompileExec4012751864.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4012751864.dir/testCCompiler.c.obj
+C:\Logiciels\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec4012751864.dir\testCCompiler.c.obj   -c "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTryCompileExec4012751864.exe
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec4012751864.dir\link.txt --verbose=1
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec4012751864.dir/objects.a
+C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec4012751864.dir/objects.a @CMakeFiles\cmTryCompileExec4012751864.dir\objects1.rsp
+C:\Logiciels\MinGW\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTryCompileExec4012751864.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec4012751864.exe -Wl,--out-implib,libcmTryCompileExec4012751864.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec615921894/fast"
+C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec615921894.dir\build.make CMakeFiles/cmTryCompileExec615921894.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec615921894.dir/CMakeCCompilerABI.c.obj
+C:\Logiciels\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec615921894.dir\CMakeCCompilerABI.c.obj   -c "C:\Logiciels\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec615921894.exe
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec615921894.dir\link.txt --verbose=1
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec615921894.dir/objects.a
+C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec615921894.dir/objects.a @CMakeFiles\cmTryCompileExec615921894.dir\objects1.rsp
+C:\Logiciels\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec615921894.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec615921894.exe -Wl,--out-implib,libcmTryCompileExec615921894.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=C:\Logiciels\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T
+Thread model: win32
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/;c:/logiciels/mingw/bin/../libexec/gcc/;c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/
+LIBRARY_PATH=c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/;c:/logiciels/mingw/bin/../lib/gcc/;c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/;c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec615921894.exe' '-mtune=generic' '-march=pentiumpro'
+ c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -o cmTryCompileExec615921894.exe c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/logiciels/mingw/bin/../lib/gcc -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTryCompileExec615921894.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec615921894.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec615921894/fast"]
+  ignore line: [C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec615921894.dir\build.make CMakeFiles/cmTryCompileExec615921894.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp']
+  ignore line: ["C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CMakeFiles" 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec615921894.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Logiciels\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec615921894.dir\CMakeCCompilerABI.c.obj   -c "C:\Logiciels\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec615921894.exe]
+  ignore line: ["C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec615921894.dir\link.txt --verbose=1]
+  ignore line: ["C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec615921894.dir/objects.a]
+  ignore line: [C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec615921894.dir/objects.a @CMakeFiles\cmTryCompileExec615921894.dir\objects1.rsp]
+  ignore line: [C:\Logiciels\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec615921894.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec615921894.exe -Wl,--out-implib,libcmTryCompileExec615921894.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Logiciels\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/]
+  ignore line: [c:/logiciels/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/]
+  ignore line: [c:/logiciels/mingw/bin/../lib/gcc/]
+  ignore line: [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/]
+  ignore line: [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec615921894.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -o cmTryCompileExec615921894.exe c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/logiciels/mingw/bin/../lib/gcc -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTryCompileExec615921894.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec615921894.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o]
+    arg [c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec615921894.exe] ==> ignore
+    arg [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o] ==> ignore
+    arg [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o] ==> ignore
+    arg [-Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1]
+    arg [-Lc:/logiciels/mingw/bin/../lib/gcc] ==> dir [c:/logiciels/mingw/bin/../lib/gcc]
+    arg [-Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib]
+    arg [-Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTryCompileExec615921894.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec615921894.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> [c:/Logiciels/MinGW/lib/gcc/mingw32/4.8.1]
+  collapse library dir [c:/logiciels/mingw/bin/../lib/gcc] ==> [c:/Logiciels/MinGW/lib/gcc]
+  collapse library dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> [c:/Logiciels/MinGW/mingw32/lib]
+  collapse library dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> [c:/Logiciels/MinGW/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [c:/Logiciels/MinGW/lib/gcc/mingw32/4.8.1;c:/Logiciels/MinGW/lib/gcc;c:/Logiciels/MinGW/mingw32/lib;c:/Logiciels/MinGW/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec1511102756/fast"
+C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1511102756.dir\build.make CMakeFiles/cmTryCompileExec1511102756.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec1511102756.dir/testCXXCompiler.cxx.obj
+C:\Logiciels\MinGW\bin\g++.exe     -o CMakeFiles\cmTryCompileExec1511102756.dir\testCXXCompiler.cxx.obj -c "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTryCompileExec1511102756.exe
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1511102756.dir\link.txt --verbose=1
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1511102756.dir/objects.a
+C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1511102756.dir/objects.a @CMakeFiles\cmTryCompileExec1511102756.dir\objects1.rsp
+C:\Logiciels\MinGW\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTryCompileExec1511102756.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1511102756.exe -Wl,--out-implib,libcmTryCompileExec1511102756.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec1782265848/fast"
+C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1782265848.dir\build.make CMakeFiles/cmTryCompileExec1782265848.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec1782265848.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Logiciels\MinGW\bin\g++.exe     -o CMakeFiles\cmTryCompileExec1782265848.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Logiciels\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec1782265848.exe
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1782265848.dir\link.txt --verbose=1
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1782265848.dir/objects.a
+C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1782265848.dir/objects.a @CMakeFiles\cmTryCompileExec1782265848.dir\objects1.rsp
+C:\Logiciels\MinGW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec1782265848.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1782265848.exe -Wl,--out-implib,libcmTryCompileExec1782265848.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=C:\Logiciels\MinGW\bin\g++.exe
+COLLECT_LTO_WRAPPER=c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T
+Thread model: win32
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/;c:/logiciels/mingw/bin/../libexec/gcc/;c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/
+LIBRARY_PATH=c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/;c:/logiciels/mingw/bin/../lib/gcc/;c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/;c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1782265848.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+ c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec1782265848.exe c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/logiciels/mingw/bin/../lib/gcc -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTryCompileExec1782265848.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec1782265848.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec1782265848/fast"]
+  ignore line: [C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1782265848.dir\build.make CMakeFiles/cmTryCompileExec1782265848.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp']
+  ignore line: ["C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CMakeFiles" 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1782265848.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Logiciels\MinGW\bin\g++.exe     -o CMakeFiles\cmTryCompileExec1782265848.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Logiciels\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec1782265848.exe]
+  ignore line: ["C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1782265848.dir\link.txt --verbose=1]
+  ignore line: ["C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1782265848.dir/objects.a]
+  ignore line: [C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1782265848.dir/objects.a @CMakeFiles\cmTryCompileExec1782265848.dir\objects1.rsp]
+  ignore line: [C:\Logiciels\MinGW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec1782265848.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1782265848.exe -Wl,--out-implib,libcmTryCompileExec1782265848.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Logiciels\MinGW\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/]
+  ignore line: [c:/logiciels/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/]
+  ignore line: [c:/logiciels/mingw/bin/../lib/gcc/]
+  ignore line: [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/]
+  ignore line: [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1782265848.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro']
+  link line: [ c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec1782265848.exe c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/logiciels/mingw/bin/../lib/gcc -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTryCompileExec1782265848.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec1782265848.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o]
+    arg [c:/logiciels/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1782265848.exe] ==> ignore
+    arg [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o] ==> ignore
+    arg [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o] ==> ignore
+    arg [-Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1]
+    arg [-Lc:/logiciels/mingw/bin/../lib/gcc] ==> dir [c:/logiciels/mingw/bin/../lib/gcc]
+    arg [-Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib]
+    arg [-Lc:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTryCompileExec1782265848.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec1782265848.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> [c:/Logiciels/MinGW/lib/gcc/mingw32/4.8.1]
+  collapse library dir [c:/logiciels/mingw/bin/../lib/gcc] ==> [c:/Logiciels/MinGW/lib/gcc]
+  collapse library dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> [c:/Logiciels/MinGW/mingw32/lib]
+  collapse library dir [c:/logiciels/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> [c:/Logiciels/MinGW/lib]
+  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [c:/Logiciels/MinGW/lib/gcc/mingw32/4.8.1;c:/Logiciels/MinGW/lib/gcc;c:/Logiciels/MinGW/mingw32/lib;c:/Logiciels/MinGW/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler understands ansi for scopes passed with the following output:
+Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec2863089563/fast"
+C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2863089563.dir\build.make CMakeFiles/cmTryCompileExec2863089563.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec2863089563.dir/TestForAnsiForScope.cxx.obj
+C:\Logiciels\MinGW\bin\g++.exe     -o CMakeFiles\cmTryCompileExec2863089563.dir\TestForAnsiForScope.cxx.obj -c "C:\Logiciels\CMake 2.8\share\cmake-2.8\Modules\TestForAnsiForScope.cxx"
+Linking CXX executable cmTryCompileExec2863089563.exe
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec2863089563.dir\link.txt --verbose=1
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec2863089563.dir/objects.a
+C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec2863089563.dir/objects.a @CMakeFiles\cmTryCompileExec2863089563.dir\objects1.rsp
+C:\Logiciels\MinGW\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTryCompileExec2863089563.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec2863089563.exe -Wl,--out-implib,libcmTryCompileExec2863089563.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file iostream exists passed with the following output:
+Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec984927340/fast"
+C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec984927340.dir\build.make CMakeFiles/cmTryCompileExec984927340.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec984927340.dir/CheckIncludeFile.cxx.obj
+C:\Logiciels\MinGW\bin\g++.exe     -o CMakeFiles\cmTryCompileExec984927340.dir\CheckIncludeFile.cxx.obj -c "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+Linking CXX executable cmTryCompileExec984927340.exe
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec984927340.dir\link.txt --verbose=1
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec984927340.dir/objects.a
+C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec984927340.dir/objects.a @CMakeFiles\cmTryCompileExec984927340.dir\objects1.rsp
+C:\Logiciels\MinGW\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTryCompileExec984927340.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec984927340.exe -Wl,--out-implib,libcmTryCompileExec984927340.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler has std namespace passed with the following output:
+Change Dir: C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/Logiciels/MinGW/bin/mingw32-make.exe "cmTryCompileExec1568354783/fast"
+C:/Logiciels/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1568354783.dir\build.make CMakeFiles/cmTryCompileExec1568354783.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\third-party\libRocket\Build\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec1568354783.dir/TestForSTDNamespace.cxx.obj
+C:\Logiciels\MinGW\bin\g++.exe     -o CMakeFiles\cmTryCompileExec1568354783.dir\TestForSTDNamespace.cxx.obj -c "C:\Logiciels\CMake 2.8\share\cmake-2.8\Modules\TestForSTDNamespace.cxx"
+Linking CXX executable cmTryCompileExec1568354783.exe
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1568354783.dir\link.txt --verbose=1
+"C:\Logiciels\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1568354783.dir/objects.a
+C:\Logiciels\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1568354783.dir/objects.a @CMakeFiles\cmTryCompileExec1568354783.dir\objects1.rsp
+C:\Logiciels\MinGW\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTryCompileExec1568354783.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1568354783.exe -Wl,--out-implib,libcmTryCompileExec1568354783.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+mingw32-make.exe[1]: Leaving directory 'C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/CMakeTmp'
+
+

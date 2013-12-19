@@ -1,0 +1,3 @@
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/build/code/CMakeFiles/assimp.dir
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/build/CMakeFiles/uninstall.dir
+C:/Cours/Synthese d'image/HeroKart/third-party/assimp/build/contrib/zlib/CMakeFiles/zlib.dir
