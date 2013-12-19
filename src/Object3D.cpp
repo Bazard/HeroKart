@@ -6,6 +6,7 @@
 #include <SOIL/SOIL.h>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp> 
 
 using namespace glimac;
 
@@ -287,4 +288,11 @@ void Object3D::TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra, float angle, g
 		MVMatrix = glm::translate(MVMatrix,tra);	
 		MVMatrix = glm::rotate(MVMatrix, angle,glm::vec3(0,1,0));	
 		MVMatrix = glm::scale(MVMatrix, sca);
+}
+
+void Object3D::MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalMatrix,int WINDOW_WIDTH, int WINDOW_HEIGHT){
+		glm::mat4 ProjMatrix=glm::perspective(70.f,(float)WINDOW_WIDTH/(float)WINDOW_HEIGHT,0.1f,100.f); //angle vertical, ratio largeur/hauteur, near, far
+		glUniformMatrix4fv(uMVMatrix, 1, false, glm::value_ptr(MVMatrix));
+		glUniformMatrix4fv(uMVPMatrix, 1, false, glm::value_ptr(ProjMatrix*MVMatrix));			
+		glUniformMatrix4fv(uNormalMatrix, 1, false, glm::value_ptr(glm::transpose(glm::inverse(MVMatrix))));
 }

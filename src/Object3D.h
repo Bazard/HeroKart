@@ -58,7 +58,7 @@ public:
 	}
 	
 	void Draw(GLuint uTex);
-	
+	void MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalMatrix, int WINDOW_WIDTH, int WINDOW_HEIGHT);
     // Renvoit le nombre de vertex
     GLsizei getVertexCount() const {
         return m_nVertexCount;
