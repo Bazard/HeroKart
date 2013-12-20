@@ -6,7 +6,7 @@ class Game
 {
 private:
 	Race race;
-	PlayerIA players[8];
+	// PlayerIA players[8];
 public:
 	Game();
 	~Game();

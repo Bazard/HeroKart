@@ -2,15 +2,19 @@
 #include "Character.h"
 #include "Kart.h"
 #include "PowerObject.h"
+
 class PlayerIA
 {
 private:
-	char* playerName;
-	Character character;
-	Kart kart;
-	PowerObject Object;
+	std::string playerName;
+	Character &character;
+	Kart &kart;
+	PowerObject *object=NULL;
 public:
-	PlayerIA();
+	PlayerIA(std::string,Kart&, Character&);
 	~PlayerIA();
+	
+	void pickPower(const PowerObject& power);
+	void usePower();
 };
 

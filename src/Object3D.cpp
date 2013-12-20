@@ -296,3 +296,13 @@ void Object3D::MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalM
 		glUniformMatrix4fv(uMVPMatrix, 1, false, glm::value_ptr(ProjMatrix*MVMatrix));			
 		glUniformMatrix4fv(uNormalMatrix, 1, false, glm::value_ptr(glm::transpose(glm::inverse(MVMatrix))));
 }
+
+Object3D::Object3D(const Object3D& obj){
+	idTexture=obj.idTexture;
+	pos=obj.pos;
+	dir=obj.dir;
+	angle=obj.angle;
+	m_Vertices=obj.m_Vertices;
+	m_nVertexCount=obj.m_nVertexCount;
+	build();
+}

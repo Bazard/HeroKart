@@ -17,8 +17,7 @@
 #include <glm/gtc/random.hpp>
 #include "TrackballCamera.hpp"
 #include "FreeflyCamera.hpp"
-#include "Object3D.h"
-#include "Kart.h"
+#include "PlayerIA.h"
 #include <queue>
 // #include <SDL/SDL_ttf.h>
 // #include "Menu.h"
@@ -60,7 +59,7 @@ int main(int argc, char** argv) {
 	// }
 			
 	//kart
-	Kart kart(2,0.01,0.75);
+	Kart kart(2,0.01,0.75,5);
 	kart.setPosition(glm::vec3(0,0.5,0));
 	kart.LoadObjFromFile("../models/ACC/ACC2.obj");	
 	kart.buildVBO();
@@ -103,6 +102,9 @@ int main(int argc, char** argv) {
 	 //FreeflyCamera camera;
 	std::queue<std::pair<float,Uint32>> anglefile;
 	anglefile.push(std::pair<float,Uint32>(0,0));
+	
+	Character SuperBru;
+	PlayerIA brubru("Brubru", kart, SuperBru);
 	
 	bool done=false;
 	while(!done) {

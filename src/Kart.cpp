@@ -57,7 +57,7 @@ void Kart::rotate(int sens){
 		return;
 		
 		float coeff=1/((sqrt(speed*speed))/speedmax)*0.5; //Rotation en fonction de la vitesse
-		if(coeff>5) coeff=5;
+		if(coeff>5) coeff=3;
 		
 		// std::cout << "tourne" << tourne << std::endl;
 		// std::cout << "coeff" << coeff << std::endl;

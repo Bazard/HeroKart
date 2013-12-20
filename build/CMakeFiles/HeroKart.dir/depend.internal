@@ -362,6 +362,78 @@ CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj
  C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj
+ ../lib/include/VAO.hpp
+ ../lib/include/VBO.hpp
+ ../lib/include/common.hpp
+ ../third-party/glew-1.10.0/include/GL/glew.h
+ ../third-party/glm/glm/./core/_detail.hpp
+ ../third-party/glm/glm/./core/_fixes.hpp
+ ../third-party/glm/glm/./core/_swizzle.hpp
+ ../third-party/glm/glm/./core/_swizzle_func.hpp
+ ../third-party/glm/glm/./core/_vectorize.hpp
+ ../third-party/glm/glm/./core/func_common.hpp
+ ../third-party/glm/glm/./core/func_common.inl
+ ../third-party/glm/glm/./core/func_exponential.hpp
+ ../third-party/glm/glm/./core/func_exponential.inl
+ ../third-party/glm/glm/./core/func_geometric.hpp
+ ../third-party/glm/glm/./core/func_geometric.inl
+ ../third-party/glm/glm/./core/func_integer.hpp
+ ../third-party/glm/glm/./core/func_integer.inl
+ ../third-party/glm/glm/./core/func_matrix.hpp
+ ../third-party/glm/glm/./core/func_matrix.inl
+ ../third-party/glm/glm/./core/func_noise.hpp
+ ../third-party/glm/glm/./core/func_noise.inl
+ ../third-party/glm/glm/./core/func_packing.hpp
+ ../third-party/glm/glm/./core/func_packing.inl
+ ../third-party/glm/glm/./core/func_trigonometric.hpp
+ ../third-party/glm/glm/./core/func_trigonometric.inl
+ ../third-party/glm/glm/./core/func_vector_relational.hpp
+ ../third-party/glm/glm/./core/func_vector_relational.inl
+ ../third-party/glm/glm/./core/setup.hpp
+ ../third-party/glm/glm/./core/type.hpp
+ ../third-party/glm/glm/./core/type_float.hpp
+ ../third-party/glm/glm/./core/type_gentype.hpp
+ ../third-party/glm/glm/./core/type_half.hpp
+ ../third-party/glm/glm/./core/type_half.inl
+ ../third-party/glm/glm/./core/type_int.hpp
+ ../third-party/glm/glm/./core/type_mat.hpp
+ ../third-party/glm/glm/./core/type_mat2x2.hpp
+ ../third-party/glm/glm/./core/type_mat2x2.inl
+ ../third-party/glm/glm/./core/type_mat2x3.hpp
+ ../third-party/glm/glm/./core/type_mat2x3.inl
+ ../third-party/glm/glm/./core/type_mat2x4.hpp
+ ../third-party/glm/glm/./core/type_mat2x4.inl
+ ../third-party/glm/glm/./core/type_mat3x2.hpp
+ ../third-party/glm/glm/./core/type_mat3x2.inl
+ ../third-party/glm/glm/./core/type_mat3x3.hpp
+ ../third-party/glm/glm/./core/type_mat3x3.inl
+ ../third-party/glm/glm/./core/type_mat3x4.hpp
+ ../third-party/glm/glm/./core/type_mat3x4.inl
+ ../third-party/glm/glm/./core/type_mat4x2.hpp
+ ../third-party/glm/glm/./core/type_mat4x2.inl
+ ../third-party/glm/glm/./core/type_mat4x3.hpp
+ ../third-party/glm/glm/./core/type_mat4x3.inl
+ ../third-party/glm/glm/./core/type_mat4x4.hpp
+ ../third-party/glm/glm/./core/type_mat4x4.inl
+ ../third-party/glm/glm/./core/type_size.hpp
+ ../third-party/glm/glm/./core/type_vec.hpp
+ ../third-party/glm/glm/./core/type_vec1.hpp
+ ../third-party/glm/glm/./core/type_vec1.inl
+ ../third-party/glm/glm/./core/type_vec2.hpp
+ ../third-party/glm/glm/./core/type_vec2.inl
+ ../third-party/glm/glm/./core/type_vec3.hpp
+ ../third-party/glm/glm/./core/type_vec3.inl
+ ../third-party/glm/glm/./core/type_vec4.hpp
+ ../third-party/glm/glm/./core/type_vec4.inl
+ ../third-party/glm/glm/core/_fixes.hpp
+ ../third-party/glm/glm/core/setup.hpp
+ ../third-party/glm/glm/glm.hpp
+ C:/Logiciels/MinGW/include/GL/gl.h
+ C:/Logiciels/MinGW/include/GL/glu.h
+ C:/Logiciels/MinGW/include/_mingw.h
+ C:/Logiciels/MinGW/include/inttypes.h
+ C:/Logiciels/MinGW/include/stdint.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj
@@ -502,6 +574,9 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj
  C:/Logiciels/MinGW/include/time.h
  C:/Logiciels/MinGW/include/wchar.h
  C:/Logiciels/MinGW/include/wctype.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/heromain.cpp

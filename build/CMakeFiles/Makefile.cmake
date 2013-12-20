@@ -28,7 +28,6 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "C:/Logiciels/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake"
   "C:/Logiciels/CMake 2.8/share/cmake-2.8/Modules/FindPkgConfig.cmake"
   "C:/Logiciels/CMake 2.8/share/cmake-2.8/Modules/FindSDL.cmake"
-  "C:/Logiciels/CMake 2.8/share/cmake-2.8/Modules/FindSDL_ttf.cmake"
   "C:/Logiciels/CMake 2.8/share/cmake-2.8/Modules/FindThreads.cmake"
   "C:/Logiciels/CMake 2.8/share/cmake-2.8/Modules/FindZLIB.cmake"
   "C:/Logiciels/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-GNU-C-ABI.cmake"

@@ -9,6 +9,8 @@
 
 class Object3D {
 
+	std::vector<glimac::ShapeVertex> m_Vertices;
+    GLsizei m_nVertexCount; // Nombre de sommets
 	GLuint idTexture;
 	glimac::VAO vao;
 	glimac::VBO vbo;
@@ -23,7 +25,9 @@ public:
 	
     // Constructeur: alloue le tableau de données et construit les attributs des vertex
     Object3D():m_nVertexCount(0), angle(0){dir.z=1;};
-
+	
+	Object3D(const Object3D&);
+	
 	bool LoadObjFromFile(std::string sFilePath);
     // Renvoit le pointeur vers les données
     const glimac::ShapeVertex* getDataPointer() const {
@@ -64,7 +68,4 @@ public:
         return m_nVertexCount;
     }
 
-private:
-    std::vector<glimac::ShapeVertex> m_Vertices;
-    GLsizei m_nVertexCount; // Nombre de sommets
 };
