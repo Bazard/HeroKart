@@ -4,7 +4,6 @@
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: ../third-party/glew-1.10.0/include/GL/glew.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: ../third-party/glew-1.10.0/include/GL/glxew.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: ../third-party/glew-1.10.0/include/GL/wglew.h
-third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: ../third-party/glew-1.10.0/src/glew.c
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: C:/Logiciels/MinGW/include/GL/gl.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: C:/Logiciels/MinGW/include/GL/glu.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: C:/Logiciels/MinGW/include/X11/X.h
@@ -78,11 +77,11 @@ third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: C:/Logiciels/MinGW/i
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: C:/Logiciels/MinGW/include/winuser.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: C:/Logiciels/MinGW/include/winver.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: C:/Logiciels/MinGW/include/wtypes.h
+third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: ../third-party/glew-1.10.0/src/glew.c
 
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: ../third-party/glew-1.10.0/include/GL/glew.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: ../third-party/glew-1.10.0/include/GL/glxew.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: ../third-party/glew-1.10.0/include/GL/wglew.h
-third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: ../third-party/glew-1.10.0/src/glewinfo.c
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: C:/Logiciels/MinGW/include/GL/gl.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: C:/Logiciels/MinGW/include/GL/glu.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: C:/Logiciels/MinGW/include/X11/X.h
@@ -156,4 +155,5 @@ third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: C:/Logiciels/Min
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: C:/Logiciels/MinGW/include/winuser.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: C:/Logiciels/MinGW/include/winver.h
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: C:/Logiciels/MinGW/include/wtypes.h
+third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: ../third-party/glew-1.10.0/src/glewinfo.c
 

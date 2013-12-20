@@ -3,11 +3,11 @@
 
 # compile C with C:/Logiciels/MinGW/bin/gcc.exe
 # compile CXX with C:/Logiciels/MinGW/bin/g++.exe
-C_FLAGS = -O3 -DNDEBUG @CMakeFiles/assimp.dir/includes_C.rsp   -fPIC -fvisibility=hidden
+C_FLAGS = @CMakeFiles/assimp.dir/includes_C.rsp   -fPIC -fvisibility=hidden
 
-C_DEFINES = -DASSIMP_BUILD_BOOST_WORKAROUND -DASSIMP_BUILD_DLL_EXPORT -DGLEW_STATIC=1
+C_DEFINES = -DASSIMP_BUILD_BOOST_WORKAROUND -DASSIMP_BUILD_DLL_EXPORT -DGLEW_STATIC=1 -Dassimp_EXPORTS
 
-CXX_FLAGS = -std=gnu++0x -O3 -DNDEBUG @CMakeFiles/assimp.dir/includes_CXX.rsp   -fPIC -fvisibility=hidden
+CXX_FLAGS = -std=gnu++0x @CMakeFiles/assimp.dir/includes_CXX.rsp   -fPIC -fvisibility=hidden
 
-CXX_DEFINES = -DASSIMP_BUILD_BOOST_WORKAROUND -DASSIMP_BUILD_DLL_EXPORT -DGLEW_STATIC=1
+CXX_DEFINES = -DASSIMP_BUILD_BOOST_WORKAROUND -DASSIMP_BUILD_DLL_EXPORT -DGLEW_STATIC=1 -Dassimp_EXPORTS
 

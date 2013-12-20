@@ -41,10 +41,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "C:\Logiciels\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Cours\Synthese d'image\HeroKart"
+CMAKE_SOURCE_DIR = C:\Users\bruno\Documents\GitHub\HeroKart
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Cours\Synthese d'image\HeroKart\build"
+CMAKE_BINARY_DIR = C:\Users\bruno\Documents\GitHub\HeroKart\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -112,14 +112,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" "C:\Cours\Synthese d'image\HeroKart\build\lib\CMakeFiles\progress.marks"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" 0
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles C:\Users\bruno\Documents\GitHub\HeroKart\build\lib\CMakeFiles\progress.marks
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/clean
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -128,22 +128,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/glimac.dir/rule:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/glimac.dir/rule
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/glimac.dir/rule
 .PHONY : lib/CMakeFiles/glimac.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ glimac: lib/CMakeFiles/glimac.dir/rule
 
 # fast build rule for target.
 glimac/fast:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/build
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/build
 .PHONY : glimac/fast
 
 src/Program.obj: src/Program.cpp.obj
@@ -160,7 +160,7 @@ src/Program.obj: src/Program.cpp.obj
 
 # target to build an object file
 src/Program.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Program.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Program.cpp.obj
 .PHONY : src/Program.cpp.obj
 
 src/Program.i: src/Program.cpp.i
@@ -168,7 +168,7 @@ src/Program.i: src/Program.cpp.i
 
 # target to preprocess a source file
 src/Program.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Program.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Program.cpp.i
 .PHONY : src/Program.cpp.i
 
 src/Program.s: src/Program.cpp.s
@@ -176,7 +176,7 @@ src/Program.s: src/Program.cpp.s
 
 # target to generate assembly for a file
 src/Program.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Program.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Program.cpp.s
 .PHONY : src/Program.cpp.s
 
 src/Shader.obj: src/Shader.cpp.obj
@@ -184,7 +184,7 @@ src/Shader.obj: src/Shader.cpp.obj
 
 # target to build an object file
 src/Shader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj
 .PHONY : src/Shader.cpp.obj
 
 src/Shader.i: src/Shader.cpp.i
@@ -192,7 +192,7 @@ src/Shader.i: src/Shader.cpp.i
 
 # target to preprocess a source file
 src/Shader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Shader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Shader.cpp.i
 .PHONY : src/Shader.cpp.i
 
 src/Shader.s: src/Shader.cpp.s
@@ -200,7 +200,7 @@ src/Shader.s: src/Shader.cpp.s
 
 # target to generate assembly for a file
 src/Shader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Shader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f lib\CMakeFiles\glimac.dir\build.make lib/CMakeFiles/glimac.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
 # Help Target
@@ -233,6 +233,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

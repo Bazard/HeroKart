@@ -70,6 +70,11 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../third-party/glm/glm/./core/type_vec
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../third-party/glm/glm/core/_fixes.hpp
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../third-party/glm/glm/core/setup.hpp
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../third-party/glm/glm/glm.hpp
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.h
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Character.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Game.cpp
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Game.h
@@ -79,11 +84,6 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/PlayerIA.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/PowerObject.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Race.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Track.h
-CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.h
-CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
-CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
-CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
-CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../lib/include/VAO.hpp
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../lib/include/VBO.hpp
@@ -157,14 +157,14 @@ CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../third-party/glm/glm/gtx/rotate_vect
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../third-party/glm/glm/gtx/rotate_vector.inl
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../third-party/glm/glm/gtx/transform.hpp
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../third-party/glm/glm/gtx/transform.inl
-CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Kart.cpp
-CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Kart.h
-CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Object3D.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
+CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Kart.cpp
+CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Kart.h
+CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Object3D.h
 
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: ../src/Menu.cpp
 
@@ -261,10 +261,15 @@ CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/./core/type
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/core/_fixes.hpp
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/core/setup.hpp
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/glm.hpp
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/gtc/constants.hpp
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/gtc/constants.inl
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/gtc/half_float.hpp
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/gtc/half_float.inl
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/gtc/matrix_transform.hpp
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/gtc/matrix_transform.inl
-CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.cpp
-CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.h
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/gtc/quaternion.hpp
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/gtc/type_ptr.hpp
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../third-party/glm/glm/gtc/type_ptr.inl
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/SOIL/SOIL.h
@@ -275,6 +280,8 @@ CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/memory.
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/string.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/sys/types.h
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.cpp
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.h
 
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../lib/include/VAO.hpp
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../lib/include/VBO.hpp
@@ -342,17 +349,17 @@ CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../third-party/glm/glm/./core/type
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../third-party/glm/glm/core/_fixes.hpp
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../third-party/glm/glm/core/setup.hpp
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../third-party/glm/glm/glm.hpp
+CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.h
+CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
+CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
+CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
+CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/Character.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/Kart.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/Object3D.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/PlayerIA.cpp
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/PlayerIA.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/PowerObject.h
-CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.h
-CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
-CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
-CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
-CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/PowerObject.cpp
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/PowerObject.h
@@ -447,9 +454,6 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../third-party/glm/glm/gtc/random.
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../third-party/glm/glm/gtc/random.inl
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../third-party/glm/glm/gtc/type_ptr.hpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../third-party/glm/glm/gtc/type_ptr.inl
-CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../src/Kart.h
-CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../src/Object3D.h
-CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../src/heromain.cpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL.h
@@ -497,4 +501,7 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/sys/typ
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/time.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/wchar.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/wctype.h
+CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../src/Kart.h
+CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../src/Object3D.h
+CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../src/heromain.cpp
 

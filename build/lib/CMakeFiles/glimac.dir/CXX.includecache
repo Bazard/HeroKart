@@ -32,24 +32,6 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-C:/Cours/Synthese d'image/HeroKart/lib/src/Program.cpp
-Program.hpp
-C:/Cours/Synthese d'image/HeroKart/lib/src/Program.hpp
-stdexcept
--
-
-C:/Cours/Synthese d'image/HeroKart/lib/src/Shader.cpp
-Shader.hpp
-C:/Cours/Synthese d'image/HeroKart/lib/src/Shader.hpp
-fstream
--
-stdexcept
--
-string
--
-sstream
--
-
 C:/Logiciels/MinGW/include/GL/gl.h
 
 C:/Logiciels/MinGW/include/GL/glu.h
@@ -70,5 +52,23 @@ stddef.h
 
 C:/Logiciels/MinGW/include/stdint.h
 stddef.h
+-
+
+C:/Users/bruno/Documents/GitHub/HeroKart/lib/src/Program.cpp
+Program.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/lib/src/Program.hpp
+stdexcept
+-
+
+C:/Users/bruno/Documents/GitHub/HeroKart/lib/src/Shader.cpp
+Shader.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/lib/src/Shader.hpp
+fstream
+-
+stdexcept
+-
+string
+-
+sstream
 -
 

@@ -41,10 +41,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "C:\Logiciels\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Cours\Synthese d'image\HeroKart"
+CMAKE_SOURCE_DIR = C:\Users\bruno\Documents\GitHub\HeroKart
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Cours\Synthese d'image\HeroKart\build"
+CMAKE_BINARY_DIR = C:\Users\bruno\Documents\GitHub\HeroKart\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -112,14 +112,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" "C:\Cours\Synthese d'image\HeroKart\build\third-party\assimp\contrib\zlib\CMakeFiles\progress.marks"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" 0
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\contrib\zlib\CMakeFiles\progress.marks
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/clean
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/clean
 .PHONY : clean
 
 # The main clean target
@@ -128,22 +128,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/preinstall
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/preinstall
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/rule:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/rule
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/rule
 .PHONY : third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ zlib: third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/rule
 
 # fast build rule for target.
 zlib/fast:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/build
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/build
 .PHONY : zlib/fast
 
 adler32.obj: adler32.c.obj
@@ -160,7 +160,7 @@ adler32.obj: adler32.c.obj
 
 # target to build an object file
 adler32.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj
 .PHONY : adler32.c.obj
 
 adler32.i: adler32.c.i
@@ -168,7 +168,7 @@ adler32.i: adler32.c.i
 
 # target to preprocess a source file
 adler32.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.i
 .PHONY : adler32.c.i
 
 adler32.s: adler32.c.s
@@ -176,7 +176,7 @@ adler32.s: adler32.c.s
 
 # target to generate assembly for a file
 adler32.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.s
 .PHONY : adler32.c.s
 
 compress.obj: compress.c.obj
@@ -184,7 +184,7 @@ compress.obj: compress.c.obj
 
 # target to build an object file
 compress.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj
 .PHONY : compress.c.obj
 
 compress.i: compress.c.i
@@ -192,7 +192,7 @@ compress.i: compress.c.i
 
 # target to preprocess a source file
 compress.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.i
 .PHONY : compress.c.i
 
 compress.s: compress.c.s
@@ -200,7 +200,7 @@ compress.s: compress.c.s
 
 # target to generate assembly for a file
 compress.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.s
 .PHONY : compress.c.s
 
 crc32.obj: crc32.c.obj
@@ -208,7 +208,7 @@ crc32.obj: crc32.c.obj
 
 # target to build an object file
 crc32.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj
 .PHONY : crc32.c.obj
 
 crc32.i: crc32.c.i
@@ -216,7 +216,7 @@ crc32.i: crc32.c.i
 
 # target to preprocess a source file
 crc32.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.i
 .PHONY : crc32.c.i
 
 crc32.s: crc32.c.s
@@ -224,7 +224,7 @@ crc32.s: crc32.c.s
 
 # target to generate assembly for a file
 crc32.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.s
 .PHONY : crc32.c.s
 
 deflate.obj: deflate.c.obj
@@ -232,7 +232,7 @@ deflate.obj: deflate.c.obj
 
 # target to build an object file
 deflate.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj
 .PHONY : deflate.c.obj
 
 deflate.i: deflate.c.i
@@ -240,7 +240,7 @@ deflate.i: deflate.c.i
 
 # target to preprocess a source file
 deflate.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.i
 .PHONY : deflate.c.i
 
 deflate.s: deflate.c.s
@@ -248,7 +248,7 @@ deflate.s: deflate.c.s
 
 # target to generate assembly for a file
 deflate.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.s
 .PHONY : deflate.c.s
 
 inffast.obj: inffast.c.obj
@@ -256,7 +256,7 @@ inffast.obj: inffast.c.obj
 
 # target to build an object file
 inffast.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj
 .PHONY : inffast.c.obj
 
 inffast.i: inffast.c.i
@@ -264,7 +264,7 @@ inffast.i: inffast.c.i
 
 # target to preprocess a source file
 inffast.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.i
 .PHONY : inffast.c.i
 
 inffast.s: inffast.c.s
@@ -272,7 +272,7 @@ inffast.s: inffast.c.s
 
 # target to generate assembly for a file
 inffast.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.s
 .PHONY : inffast.c.s
 
 inflate.obj: inflate.c.obj
@@ -280,7 +280,7 @@ inflate.obj: inflate.c.obj
 
 # target to build an object file
 inflate.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj
 .PHONY : inflate.c.obj
 
 inflate.i: inflate.c.i
@@ -288,7 +288,7 @@ inflate.i: inflate.c.i
 
 # target to preprocess a source file
 inflate.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.i
 .PHONY : inflate.c.i
 
 inflate.s: inflate.c.s
@@ -296,7 +296,7 @@ inflate.s: inflate.c.s
 
 # target to generate assembly for a file
 inflate.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.s
 .PHONY : inflate.c.s
 
 inftrees.obj: inftrees.c.obj
@@ -304,7 +304,7 @@ inftrees.obj: inftrees.c.obj
 
 # target to build an object file
 inftrees.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj
 .PHONY : inftrees.c.obj
 
 inftrees.i: inftrees.c.i
@@ -312,7 +312,7 @@ inftrees.i: inftrees.c.i
 
 # target to preprocess a source file
 inftrees.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.i
 .PHONY : inftrees.c.i
 
 inftrees.s: inftrees.c.s
@@ -320,7 +320,7 @@ inftrees.s: inftrees.c.s
 
 # target to generate assembly for a file
 inftrees.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.s
 .PHONY : inftrees.c.s
 
 trees.obj: trees.c.obj
@@ -328,7 +328,7 @@ trees.obj: trees.c.obj
 
 # target to build an object file
 trees.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj
 .PHONY : trees.c.obj
 
 trees.i: trees.c.i
@@ -336,7 +336,7 @@ trees.i: trees.c.i
 
 # target to preprocess a source file
 trees.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.i
 .PHONY : trees.c.i
 
 trees.s: trees.c.s
@@ -344,7 +344,7 @@ trees.s: trees.c.s
 
 # target to generate assembly for a file
 trees.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.s
 .PHONY : trees.c.s
 
 zutil.obj: zutil.c.obj
@@ -352,7 +352,7 @@ zutil.obj: zutil.c.obj
 
 # target to build an object file
 zutil.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj
 .PHONY : zutil.c.obj
 
 zutil.i: zutil.c.i
@@ -360,7 +360,7 @@ zutil.i: zutil.c.i
 
 # target to preprocess a source file
 zutil.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.i
 .PHONY : zutil.c.i
 
 zutil.s: zutil.c.s
@@ -368,7 +368,7 @@ zutil.s: zutil.c.s
 
 # target to generate assembly for a file
 zutil.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\contrib\zlib\CMakeFiles\zlib.dir\build.make third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.s
 .PHONY : zutil.c.s
 
 # Help Target
@@ -422,6 +422,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

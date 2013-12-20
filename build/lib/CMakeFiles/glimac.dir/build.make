@@ -37,10 +37,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "C:\Logiciels\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Cours\Synthese d'image\HeroKart"
+CMAKE_SOURCE_DIR = C:\Users\bruno\Documents\GitHub\HeroKart
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Cours\Synthese d'image\HeroKart\build"
+CMAKE_BINARY_DIR = C:\Users\bruno\Documents\GitHub\HeroKart\build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/glimac.dir/depend.make
@@ -54,17 +54,17 @@ include lib/CMakeFiles/glimac.dir/flags.make
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: lib/CMakeFiles/glimac.dir/flags.make
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: lib/CMakeFiles/glimac.dir/includes_CXX.rsp
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: ../lib/src/Program.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/glimac.dir/src/Program.cpp.obj"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Program.cpp.obj -c "C:\Cours\Synthese d'image\HeroKart\lib\src\Program.cpp"
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Program.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Program.cpp
 
 lib/CMakeFiles/glimac.dir/src/Program.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Program.cpp.i"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "C:\Cours\Synthese d'image\HeroKart\lib\src\Program.cpp" > CMakeFiles\glimac.dir\src\Program.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Program.cpp > CMakeFiles\glimac.dir\src\Program.cpp.i
 
 lib/CMakeFiles/glimac.dir/src/Program.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Program.cpp.s"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "C:\Cours\Synthese d'image\HeroKart\lib\src\Program.cpp" -o CMakeFiles\glimac.dir\src\Program.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Program.cpp -o CMakeFiles\glimac.dir\src\Program.cpp.s
 
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj.requires:
 .PHONY : lib/CMakeFiles/glimac.dir/src/Program.cpp.obj.requires
@@ -78,17 +78,17 @@ lib/CMakeFiles/glimac.dir/src/Program.cpp.obj.provides.build: lib/CMakeFiles/gli
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: lib/CMakeFiles/glimac.dir/flags.make
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: lib/CMakeFiles/glimac.dir/includes_CXX.rsp
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: ../lib/src/Shader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Shader.cpp.obj -c "C:\Cours\Synthese d'image\HeroKart\lib\src\Shader.cpp"
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Shader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Shader.cpp
 
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Shader.cpp.i"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E "C:\Cours\Synthese d'image\HeroKart\lib\src\Shader.cpp" > CMakeFiles\glimac.dir\src\Shader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Shader.cpp > CMakeFiles\glimac.dir\src\Shader.cpp.i
 
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Shader.cpp.s"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S "C:\Cours\Synthese d'image\HeroKart\lib\src\Shader.cpp" -o CMakeFiles\glimac.dir\src\Shader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Shader.cpp -o CMakeFiles\glimac.dir\src\Shader.cpp.s
 
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj.requires:
 .PHONY : lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj.requires
@@ -112,8 +112,8 @@ lib/libglimac.a: lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj
 lib/libglimac.a: lib/CMakeFiles/glimac.dir/build.make
 lib/libglimac.a: lib/CMakeFiles/glimac.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libglimac.a"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\lib && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean_target.cmake
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glimac.dir\link.txt --verbose=$(VERBOSE)
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean_target.cmake
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glimac.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/glimac.dir/build: lib/libglimac.a
@@ -124,10 +124,10 @@ lib/CMakeFiles/glimac.dir/requires: lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj
 .PHONY : lib/CMakeFiles/glimac.dir/requires
 
 lib/CMakeFiles/glimac.dir/clean:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\lib && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean.cmake
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && $(CMAKE_COMMAND) -P CMakeFiles\glimac.dir\cmake_clean.cmake
 .PHONY : lib/CMakeFiles/glimac.dir/clean
 
 lib/CMakeFiles/glimac.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Cours\Synthese d'image\HeroKart" "C:\Cours\Synthese d'image\HeroKart\lib" "C:\Cours\Synthese d'image\HeroKart\build" "C:\Cours\Synthese d'image\HeroKart\build\lib" "C:\Cours\Synthese d'image\HeroKart\build\lib\CMakeFiles\glimac.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\bruno\Documents\GitHub\HeroKart C:\Users\bruno\Documents\GitHub\HeroKart\lib C:\Users\bruno\Documents\GitHub\HeroKart\build C:\Users\bruno\Documents\GitHub\HeroKart\build\lib C:\Users\bruno\Documents\GitHub\HeroKart\build\lib\CMakeFiles\glimac.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/glimac.dir/depend
 

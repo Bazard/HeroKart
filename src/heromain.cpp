@@ -7,7 +7,6 @@
 #include "VAO.hpp"
 #include "Vertex3DRGB.hpp"
 #include "Program.hpp"
-#include "Shader.hpp"
 #include <vector>
 #include <ctime>
 #include <SOIL/SOIL.h>
@@ -20,6 +19,8 @@
 #include "FreeflyCamera.hpp"
 #include "Object3D.h"
 #include "Kart.h"
+#include <queue>
+// #include <SDL/SDL_ttf.h>
 // #include "Menu.h"
 
 #undef main
@@ -53,6 +54,11 @@ int main(int argc, char** argv) {
 		return EXIT_FAILURE;
 	}
 
+	// if(TTF_Init() == -1)
+	// {
+		// std::cout << "Erreur de TTF" << std::endl;
+	// }
+			
 	//kart
 	Kart kart(2,0.01,0.75);
 	kart.setPosition(glm::vec3(0,0.5,0));
@@ -95,6 +101,8 @@ int main(int argc, char** argv) {
 		
 	TrackballCamera camera;
 	 //FreeflyCamera camera;
+	std::queue<std::pair<float,Uint32>> anglefile;
+	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	bool done=false;
 	while(!done) {
@@ -104,7 +112,16 @@ int main(int argc, char** argv) {
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		
 		//Camera
-		ViewMatrix=camera.getViewMatrix(kart.getPosition(), kart.getAngle(),kart.back);
+		// std::cout << tStart << std::endl;
+		if(tStart-anglefile.front().second>330){
+			if(anglefile.size()>1)
+				anglefile.pop();
+		}
+		
+		ViewMatrix=camera.getViewMatrix(kart.getPosition(), anglefile.front().first,kart.back);
+	
+			
+		
 		
 		//Kart
 		kart.getVAO().bind();		//Bind du VAO
@@ -144,8 +161,8 @@ int main(int argc, char** argv) {
 		if ( keystate[SDLK_DOWN] ) kart.move(-1);
 		if (!keystate[SDLK_UP] && !keystate[SDLK_UP]) kart.move(0);
 		
-		if ( keystate[SDLK_LEFT] ) kart.rotate(1);
-		if ( keystate[SDLK_RIGHT] ) kart.rotate(-1);
+		if ( keystate[SDLK_LEFT] ){ kart.rotate(1); anglefile.push(std::pair<float,Uint32>(kart.getAngle(),tStart));}
+		if ( keystate[SDLK_RIGHT] ){ kart.rotate(-1); anglefile.push(std::pair<float,Uint32>(kart.getAngle(),tStart));}
 		
 		// Mise à jour de la fenêtre (synchronisation implicite avec OpenGL)
 		SDL_GL_SwapBuffers();

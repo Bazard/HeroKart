@@ -41,10 +41,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "C:\Logiciels\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Cours\Synthese d'image\HeroKart"
+CMAKE_SOURCE_DIR = C:\Users\bruno\Documents\GitHub\HeroKart
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Cours\Synthese d'image\HeroKart\build"
+CMAKE_BINARY_DIR = C:\Users\bruno\Documents\GitHub\HeroKart\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -112,14 +112,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" "C:\Cours\Synthese d'image\HeroKart\build\third-party\glew-1.10.0\CMakeFiles\progress.marks"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" 0
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0\CMakeFiles\progress.marks
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/clean
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/clean
 .PHONY : clean
 
 # The main clean target
@@ -128,22 +128,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/preinstall
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/preinstall
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/glew-1.10.0/CMakeFiles/glew.dir/rule:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/CMakeFiles/glew.dir/rule
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/glew-1.10.0/CMakeFiles/glew.dir/rule
 .PHONY : third-party/glew-1.10.0/CMakeFiles/glew.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ glew: third-party/glew-1.10.0/CMakeFiles/glew.dir/rule
 
 # fast build rule for target.
 glew/fast:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/build
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/build
 .PHONY : glew/fast
 
 src/glew.obj: src/glew.c.obj
@@ -160,7 +160,7 @@ src/glew.obj: src/glew.c.obj
 
 # target to build an object file
 src/glew.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj
 .PHONY : src/glew.c.obj
 
 src/glew.i: src/glew.c.i
@@ -168,7 +168,7 @@ src/glew.i: src/glew.c.i
 
 # target to preprocess a source file
 src/glew.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.i
 .PHONY : src/glew.c.i
 
 src/glew.s: src/glew.c.s
@@ -176,7 +176,7 @@ src/glew.s: src/glew.c.s
 
 # target to generate assembly for a file
 src/glew.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.s
 .PHONY : src/glew.c.s
 
 src/glewinfo.obj: src/glewinfo.c.obj
@@ -184,7 +184,7 @@ src/glewinfo.obj: src/glewinfo.c.obj
 
 # target to build an object file
 src/glewinfo.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj
 .PHONY : src/glewinfo.c.obj
 
 src/glewinfo.i: src/glewinfo.c.i
@@ -192,7 +192,7 @@ src/glewinfo.i: src/glewinfo.c.i
 
 # target to preprocess a source file
 src/glewinfo.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.i
 .PHONY : src/glewinfo.c.i
 
 src/glewinfo.s: src/glewinfo.c.s
@@ -200,7 +200,7 @@ src/glewinfo.s: src/glewinfo.c.s
 
 # target to generate assembly for a file
 src/glewinfo.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\glew-1.10.0\CMakeFiles\glew.dir\build.make third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.s
 .PHONY : src/glewinfo.c.s
 
 # Help Target
@@ -233,6 +233,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -41,10 +41,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "C:\Logiciels\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Cours\Synthese d'image\HeroKart"
+CMAKE_SOURCE_DIR = C:\Users\bruno\Documents\GitHub\HeroKart
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Cours\Synthese d'image\HeroKart\build"
+CMAKE_BINARY_DIR = C:\Users\bruno\Documents\GitHub\HeroKart\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -112,9 +112,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

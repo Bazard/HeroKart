@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "C:/Cours/Synthese d'image/HeroKart/third-party/glew-1.10.0/src/glew.c" "C:/Cours/Synthese d'image/HeroKart/build/third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj"
-  "C:/Cours/Synthese d'image/HeroKart/third-party/glew-1.10.0/src/glewinfo.c" "C:/Cours/Synthese d'image/HeroKart/build/third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/third-party/glew-1.10.0/src/glew.c" "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/third-party/glew-1.10.0/src/glewinfo.c" "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

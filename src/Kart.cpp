@@ -31,6 +31,7 @@ void Kart::move(int sens){
 			speed-=2*acceleration;
 		//Marche Arriere
 		else if(speed>=-speedmax/2.f){
+			if(speed<-0.1)
 				back=true;
 			speed-=acceleration;
 		}
@@ -51,7 +52,7 @@ void Kart::move(int sens){
 }
 
 void Kart::rotate(int sens){
-	float idle=0.075;
+	float idle=0.05;
 	if(speed < idle && speed > -idle)
 		return;
 		
@@ -66,7 +67,7 @@ void Kart::rotate(int sens){
 		
 		
 	if(sens>=0){
-		if(!back){
+		if(speed>0){
 			dir=glm::normalize(glm::rotate(dir,tourne*coeff,glm::vec3(0,1,0)));
 			angle+=tourne*coeff;
 		}
@@ -76,7 +77,7 @@ void Kart::rotate(int sens){
 		}
 	}
 	else {
-		if(!back){
+		if(speed>0){
 			dir=glm::normalize(glm::rotate(dir,-tourne*coeff,glm::vec3(0,1,0)));
 			angle-=tourne*coeff;
 		}

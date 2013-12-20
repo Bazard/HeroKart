@@ -4,16 +4,16 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Cours/Synthese d'image/HeroKart/src/Character.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/Character.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/src/Game.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/Game.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/src/Kart.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/Kart.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/src/Menu.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/Menu.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/src/Object3D.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/src/PlayerIA.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/src/PowerObject.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/src/Race.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/Race.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/src/Track.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/Track.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/src/heromain.cpp" "C:/Cours/Synthese d'image/HeroKart/build/CMakeFiles/HeroKart.dir/src/heromain.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Character.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Game.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Kart.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/Menu.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Menu.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Race.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Track.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/heromain.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/heromain.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,10 +24,10 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Cours/Synthese d'image/HeroKart/build/third-party/assimp/code/CMakeFiles/assimp.dir/DependInfo.cmake"
-  "C:/Cours/Synthese d'image/HeroKart/build/third-party/glew-1.10.0/CMakeFiles/glew.dir/DependInfo.cmake"
-  "C:/Cours/Synthese d'image/HeroKart/build/lib/CMakeFiles/glimac.dir/DependInfo.cmake"
-  "C:/Cours/Synthese d'image/HeroKart/build/third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/assimp/code/CMakeFiles/assimp.dir/DependInfo.cmake"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/glew-1.10.0/CMakeFiles/glew.dir/DependInfo.cmake"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/build/lib/CMakeFiles/glimac.dir/DependInfo.cmake"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

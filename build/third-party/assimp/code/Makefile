@@ -41,10 +41,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "C:\Logiciels\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Cours\Synthese d'image\HeroKart"
+CMAKE_SOURCE_DIR = C:\Users\bruno\Documents\GitHub\HeroKart
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Cours\Synthese d'image\HeroKart\build"
+CMAKE_BINARY_DIR = C:\Users\bruno\Documents\GitHub\HeroKart\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -112,14 +112,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" "C:\Cours\Synthese d'image\HeroKart\build\third-party\assimp\code\CMakeFiles\progress.marks"
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Cours\Synthese d'image\HeroKart\build\CMakeFiles" 0
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code\CMakeFiles\progress.marks
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/clean
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/clean
 .PHONY : clean
 
 # The main clean target
@@ -128,22 +128,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/preinstall
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/preinstall
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/assimp/code/CMakeFiles/assimp.dir/rule:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/CMakeFiles/assimp.dir/rule
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f CMakeFiles\Makefile2 third-party/assimp/code/CMakeFiles/assimp.dir/rule
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ assimp: third-party/assimp/code/CMakeFiles/assimp.dir/rule
 
 # fast build rule for target.
 assimp/fast:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/build
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/build
 .PHONY : assimp/fast
 
 3DSConverter.obj: 3DSConverter.cpp.obj
@@ -160,7 +160,7 @@ assimp/fast:
 
 # target to build an object file
 3DSConverter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj
 .PHONY : 3DSConverter.cpp.obj
 
 3DSConverter.i: 3DSConverter.cpp.i
@@ -168,7 +168,7 @@ assimp/fast:
 
 # target to preprocess a source file
 3DSConverter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.i
 .PHONY : 3DSConverter.cpp.i
 
 3DSConverter.s: 3DSConverter.cpp.s
@@ -176,7 +176,7 @@ assimp/fast:
 
 # target to generate assembly for a file
 3DSConverter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.s
 .PHONY : 3DSConverter.cpp.s
 
 3DSLoader.obj: 3DSLoader.cpp.obj
@@ -184,7 +184,7 @@ assimp/fast:
 
 # target to build an object file
 3DSLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj
 .PHONY : 3DSLoader.cpp.obj
 
 3DSLoader.i: 3DSLoader.cpp.i
@@ -192,7 +192,7 @@ assimp/fast:
 
 # target to preprocess a source file
 3DSLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.i
 .PHONY : 3DSLoader.cpp.i
 
 3DSLoader.s: 3DSLoader.cpp.s
@@ -200,7 +200,7 @@ assimp/fast:
 
 # target to generate assembly for a file
 3DSLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.s
 .PHONY : 3DSLoader.cpp.s
 
 ACLoader.obj: ACLoader.cpp.obj
@@ -208,7 +208,7 @@ ACLoader.obj: ACLoader.cpp.obj
 
 # target to build an object file
 ACLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj
 .PHONY : ACLoader.cpp.obj
 
 ACLoader.i: ACLoader.cpp.i
@@ -216,7 +216,7 @@ ACLoader.i: ACLoader.cpp.i
 
 # target to preprocess a source file
 ACLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.i
 .PHONY : ACLoader.cpp.i
 
 ACLoader.s: ACLoader.cpp.s
@@ -224,7 +224,7 @@ ACLoader.s: ACLoader.cpp.s
 
 # target to generate assembly for a file
 ACLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.s
 .PHONY : ACLoader.cpp.s
 
 ASELoader.obj: ASELoader.cpp.obj
@@ -232,7 +232,7 @@ ASELoader.obj: ASELoader.cpp.obj
 
 # target to build an object file
 ASELoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj
 .PHONY : ASELoader.cpp.obj
 
 ASELoader.i: ASELoader.cpp.i
@@ -240,7 +240,7 @@ ASELoader.i: ASELoader.cpp.i
 
 # target to preprocess a source file
 ASELoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.i
 .PHONY : ASELoader.cpp.i
 
 ASELoader.s: ASELoader.cpp.s
@@ -248,7 +248,7 @@ ASELoader.s: ASELoader.cpp.s
 
 # target to generate assembly for a file
 ASELoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.s
 .PHONY : ASELoader.cpp.s
 
 ASEParser.obj: ASEParser.cpp.obj
@@ -256,7 +256,7 @@ ASEParser.obj: ASEParser.cpp.obj
 
 # target to build an object file
 ASEParser.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj
 .PHONY : ASEParser.cpp.obj
 
 ASEParser.i: ASEParser.cpp.i
@@ -264,7 +264,7 @@ ASEParser.i: ASEParser.cpp.i
 
 # target to preprocess a source file
 ASEParser.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.i
 .PHONY : ASEParser.cpp.i
 
 ASEParser.s: ASEParser.cpp.s
@@ -272,7 +272,7 @@ ASEParser.s: ASEParser.cpp.s
 
 # target to generate assembly for a file
 ASEParser.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.s
 .PHONY : ASEParser.cpp.s
 
 Assimp.obj: Assimp.cpp.obj
@@ -280,7 +280,7 @@ Assimp.obj: Assimp.cpp.obj
 
 # target to build an object file
 Assimp.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.obj
 .PHONY : Assimp.cpp.obj
 
 Assimp.i: Assimp.cpp.i
@@ -288,7 +288,7 @@ Assimp.i: Assimp.cpp.i
 
 # target to preprocess a source file
 Assimp.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.i
 .PHONY : Assimp.cpp.i
 
 Assimp.s: Assimp.cpp.s
@@ -296,7 +296,7 @@ Assimp.s: Assimp.cpp.s
 
 # target to generate assembly for a file
 Assimp.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.s
 .PHONY : Assimp.cpp.s
 
 AssimpCExport.obj: AssimpCExport.cpp.obj
@@ -304,7 +304,7 @@ AssimpCExport.obj: AssimpCExport.cpp.obj
 
 # target to build an object file
 AssimpCExport.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj
 .PHONY : AssimpCExport.cpp.obj
 
 AssimpCExport.i: AssimpCExport.cpp.i
@@ -312,7 +312,7 @@ AssimpCExport.i: AssimpCExport.cpp.i
 
 # target to preprocess a source file
 AssimpCExport.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.i
 .PHONY : AssimpCExport.cpp.i
 
 AssimpCExport.s: AssimpCExport.cpp.s
@@ -320,7 +320,7 @@ AssimpCExport.s: AssimpCExport.cpp.s
 
 # target to generate assembly for a file
 AssimpCExport.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.s
 .PHONY : AssimpCExport.cpp.s
 
 AssimpPCH.obj: AssimpPCH.cpp.obj
@@ -328,7 +328,7 @@ AssimpPCH.obj: AssimpPCH.cpp.obj
 
 # target to build an object file
 AssimpPCH.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj
 .PHONY : AssimpPCH.cpp.obj
 
 AssimpPCH.i: AssimpPCH.cpp.i
@@ -336,7 +336,7 @@ AssimpPCH.i: AssimpPCH.cpp.i
 
 # target to preprocess a source file
 AssimpPCH.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.i
 .PHONY : AssimpPCH.cpp.i
 
 AssimpPCH.s: AssimpPCH.cpp.s
@@ -344,7 +344,7 @@ AssimpPCH.s: AssimpPCH.cpp.s
 
 # target to generate assembly for a file
 AssimpPCH.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.s
 .PHONY : AssimpPCH.cpp.s
 
 B3DImporter.obj: B3DImporter.cpp.obj
@@ -352,7 +352,7 @@ B3DImporter.obj: B3DImporter.cpp.obj
 
 # target to build an object file
 B3DImporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj
 .PHONY : B3DImporter.cpp.obj
 
 B3DImporter.i: B3DImporter.cpp.i
@@ -360,7 +360,7 @@ B3DImporter.i: B3DImporter.cpp.i
 
 # target to preprocess a source file
 B3DImporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.i
 .PHONY : B3DImporter.cpp.i
 
 B3DImporter.s: B3DImporter.cpp.s
@@ -368,7 +368,7 @@ B3DImporter.s: B3DImporter.cpp.s
 
 # target to generate assembly for a file
 B3DImporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.s
 .PHONY : B3DImporter.cpp.s
 
 BVHLoader.obj: BVHLoader.cpp.obj
@@ -376,7 +376,7 @@ BVHLoader.obj: BVHLoader.cpp.obj
 
 # target to build an object file
 BVHLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj
 .PHONY : BVHLoader.cpp.obj
 
 BVHLoader.i: BVHLoader.cpp.i
@@ -384,7 +384,7 @@ BVHLoader.i: BVHLoader.cpp.i
 
 # target to preprocess a source file
 BVHLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.i
 .PHONY : BVHLoader.cpp.i
 
 BVHLoader.s: BVHLoader.cpp.s
@@ -392,7 +392,7 @@ BVHLoader.s: BVHLoader.cpp.s
 
 # target to generate assembly for a file
 BVHLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.s
 .PHONY : BVHLoader.cpp.s
 
 BaseImporter.obj: BaseImporter.cpp.obj
@@ -400,7 +400,7 @@ BaseImporter.obj: BaseImporter.cpp.obj
 
 # target to build an object file
 BaseImporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj
 .PHONY : BaseImporter.cpp.obj
 
 BaseImporter.i: BaseImporter.cpp.i
@@ -408,7 +408,7 @@ BaseImporter.i: BaseImporter.cpp.i
 
 # target to preprocess a source file
 BaseImporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.i
 .PHONY : BaseImporter.cpp.i
 
 BaseImporter.s: BaseImporter.cpp.s
@@ -416,7 +416,7 @@ BaseImporter.s: BaseImporter.cpp.s
 
 # target to generate assembly for a file
 BaseImporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.s
 .PHONY : BaseImporter.cpp.s
 
 BaseProcess.obj: BaseProcess.cpp.obj
@@ -424,7 +424,7 @@ BaseProcess.obj: BaseProcess.cpp.obj
 
 # target to build an object file
 BaseProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj
 .PHONY : BaseProcess.cpp.obj
 
 BaseProcess.i: BaseProcess.cpp.i
@@ -432,7 +432,7 @@ BaseProcess.i: BaseProcess.cpp.i
 
 # target to preprocess a source file
 BaseProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.i
 .PHONY : BaseProcess.cpp.i
 
 BaseProcess.s: BaseProcess.cpp.s
@@ -440,7 +440,7 @@ BaseProcess.s: BaseProcess.cpp.s
 
 # target to generate assembly for a file
 BaseProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.s
 .PHONY : BaseProcess.cpp.s
 
 BlenderDNA.obj: BlenderDNA.cpp.obj
@@ -448,7 +448,7 @@ BlenderDNA.obj: BlenderDNA.cpp.obj
 
 # target to build an object file
 BlenderDNA.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj
 .PHONY : BlenderDNA.cpp.obj
 
 BlenderDNA.i: BlenderDNA.cpp.i
@@ -456,7 +456,7 @@ BlenderDNA.i: BlenderDNA.cpp.i
 
 # target to preprocess a source file
 BlenderDNA.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.i
 .PHONY : BlenderDNA.cpp.i
 
 BlenderDNA.s: BlenderDNA.cpp.s
@@ -464,7 +464,7 @@ BlenderDNA.s: BlenderDNA.cpp.s
 
 # target to generate assembly for a file
 BlenderDNA.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.s
 .PHONY : BlenderDNA.cpp.s
 
 BlenderLoader.obj: BlenderLoader.cpp.obj
@@ -472,7 +472,7 @@ BlenderLoader.obj: BlenderLoader.cpp.obj
 
 # target to build an object file
 BlenderLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj
 .PHONY : BlenderLoader.cpp.obj
 
 BlenderLoader.i: BlenderLoader.cpp.i
@@ -480,7 +480,7 @@ BlenderLoader.i: BlenderLoader.cpp.i
 
 # target to preprocess a source file
 BlenderLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.i
 .PHONY : BlenderLoader.cpp.i
 
 BlenderLoader.s: BlenderLoader.cpp.s
@@ -488,7 +488,7 @@ BlenderLoader.s: BlenderLoader.cpp.s
 
 # target to generate assembly for a file
 BlenderLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.s
 .PHONY : BlenderLoader.cpp.s
 
 BlenderModifier.obj: BlenderModifier.cpp.obj
@@ -496,7 +496,7 @@ BlenderModifier.obj: BlenderModifier.cpp.obj
 
 # target to build an object file
 BlenderModifier.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj
 .PHONY : BlenderModifier.cpp.obj
 
 BlenderModifier.i: BlenderModifier.cpp.i
@@ -504,7 +504,7 @@ BlenderModifier.i: BlenderModifier.cpp.i
 
 # target to preprocess a source file
 BlenderModifier.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.i
 .PHONY : BlenderModifier.cpp.i
 
 BlenderModifier.s: BlenderModifier.cpp.s
@@ -512,7 +512,7 @@ BlenderModifier.s: BlenderModifier.cpp.s
 
 # target to generate assembly for a file
 BlenderModifier.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.s
 .PHONY : BlenderModifier.cpp.s
 
 BlenderScene.obj: BlenderScene.cpp.obj
@@ -520,7 +520,7 @@ BlenderScene.obj: BlenderScene.cpp.obj
 
 # target to build an object file
 BlenderScene.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj
 .PHONY : BlenderScene.cpp.obj
 
 BlenderScene.i: BlenderScene.cpp.i
@@ -528,7 +528,7 @@ BlenderScene.i: BlenderScene.cpp.i
 
 # target to preprocess a source file
 BlenderScene.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.i
 .PHONY : BlenderScene.cpp.i
 
 BlenderScene.s: BlenderScene.cpp.s
@@ -536,7 +536,7 @@ BlenderScene.s: BlenderScene.cpp.s
 
 # target to generate assembly for a file
 BlenderScene.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.s
 .PHONY : BlenderScene.cpp.s
 
 COBLoader.obj: COBLoader.cpp.obj
@@ -544,7 +544,7 @@ COBLoader.obj: COBLoader.cpp.obj
 
 # target to build an object file
 COBLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj
 .PHONY : COBLoader.cpp.obj
 
 COBLoader.i: COBLoader.cpp.i
@@ -552,7 +552,7 @@ COBLoader.i: COBLoader.cpp.i
 
 # target to preprocess a source file
 COBLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.i
 .PHONY : COBLoader.cpp.i
 
 COBLoader.s: COBLoader.cpp.s
@@ -560,7 +560,7 @@ COBLoader.s: COBLoader.cpp.s
 
 # target to generate assembly for a file
 COBLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.s
 .PHONY : COBLoader.cpp.s
 
 CSMLoader.obj: CSMLoader.cpp.obj
@@ -568,7 +568,7 @@ CSMLoader.obj: CSMLoader.cpp.obj
 
 # target to build an object file
 CSMLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj
 .PHONY : CSMLoader.cpp.obj
 
 CSMLoader.i: CSMLoader.cpp.i
@@ -576,7 +576,7 @@ CSMLoader.i: CSMLoader.cpp.i
 
 # target to preprocess a source file
 CSMLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.i
 .PHONY : CSMLoader.cpp.i
 
 CSMLoader.s: CSMLoader.cpp.s
@@ -584,7 +584,7 @@ CSMLoader.s: CSMLoader.cpp.s
 
 # target to generate assembly for a file
 CSMLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.s
 .PHONY : CSMLoader.cpp.s
 
 CalcTangentsProcess.obj: CalcTangentsProcess.cpp.obj
@@ -592,7 +592,7 @@ CalcTangentsProcess.obj: CalcTangentsProcess.cpp.obj
 
 # target to build an object file
 CalcTangentsProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj
 .PHONY : CalcTangentsProcess.cpp.obj
 
 CalcTangentsProcess.i: CalcTangentsProcess.cpp.i
@@ -600,7 +600,7 @@ CalcTangentsProcess.i: CalcTangentsProcess.cpp.i
 
 # target to preprocess a source file
 CalcTangentsProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.i
 .PHONY : CalcTangentsProcess.cpp.i
 
 CalcTangentsProcess.s: CalcTangentsProcess.cpp.s
@@ -608,7 +608,7 @@ CalcTangentsProcess.s: CalcTangentsProcess.cpp.s
 
 # target to generate assembly for a file
 CalcTangentsProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.s
 .PHONY : CalcTangentsProcess.cpp.s
 
 ColladaExporter.obj: ColladaExporter.cpp.obj
@@ -616,7 +616,7 @@ ColladaExporter.obj: ColladaExporter.cpp.obj
 
 # target to build an object file
 ColladaExporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj
 .PHONY : ColladaExporter.cpp.obj
 
 ColladaExporter.i: ColladaExporter.cpp.i
@@ -624,7 +624,7 @@ ColladaExporter.i: ColladaExporter.cpp.i
 
 # target to preprocess a source file
 ColladaExporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.i
 .PHONY : ColladaExporter.cpp.i
 
 ColladaExporter.s: ColladaExporter.cpp.s
@@ -632,7 +632,7 @@ ColladaExporter.s: ColladaExporter.cpp.s
 
 # target to generate assembly for a file
 ColladaExporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.s
 .PHONY : ColladaExporter.cpp.s
 
 ColladaLoader.obj: ColladaLoader.cpp.obj
@@ -640,7 +640,7 @@ ColladaLoader.obj: ColladaLoader.cpp.obj
 
 # target to build an object file
 ColladaLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj
 .PHONY : ColladaLoader.cpp.obj
 
 ColladaLoader.i: ColladaLoader.cpp.i
@@ -648,7 +648,7 @@ ColladaLoader.i: ColladaLoader.cpp.i
 
 # target to preprocess a source file
 ColladaLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.i
 .PHONY : ColladaLoader.cpp.i
 
 ColladaLoader.s: ColladaLoader.cpp.s
@@ -656,7 +656,7 @@ ColladaLoader.s: ColladaLoader.cpp.s
 
 # target to generate assembly for a file
 ColladaLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.s
 .PHONY : ColladaLoader.cpp.s
 
 ColladaParser.obj: ColladaParser.cpp.obj
@@ -664,7 +664,7 @@ ColladaParser.obj: ColladaParser.cpp.obj
 
 # target to build an object file
 ColladaParser.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj
 .PHONY : ColladaParser.cpp.obj
 
 ColladaParser.i: ColladaParser.cpp.i
@@ -672,7 +672,7 @@ ColladaParser.i: ColladaParser.cpp.i
 
 # target to preprocess a source file
 ColladaParser.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.i
 .PHONY : ColladaParser.cpp.i
 
 ColladaParser.s: ColladaParser.cpp.s
@@ -680,7 +680,7 @@ ColladaParser.s: ColladaParser.cpp.s
 
 # target to generate assembly for a file
 ColladaParser.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.s
 .PHONY : ColladaParser.cpp.s
 
 ComputeUVMappingProcess.obj: ComputeUVMappingProcess.cpp.obj
@@ -688,7 +688,7 @@ ComputeUVMappingProcess.obj: ComputeUVMappingProcess.cpp.obj
 
 # target to build an object file
 ComputeUVMappingProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj
 .PHONY : ComputeUVMappingProcess.cpp.obj
 
 ComputeUVMappingProcess.i: ComputeUVMappingProcess.cpp.i
@@ -696,7 +696,7 @@ ComputeUVMappingProcess.i: ComputeUVMappingProcess.cpp.i
 
 # target to preprocess a source file
 ComputeUVMappingProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.i
 .PHONY : ComputeUVMappingProcess.cpp.i
 
 ComputeUVMappingProcess.s: ComputeUVMappingProcess.cpp.s
@@ -704,7 +704,7 @@ ComputeUVMappingProcess.s: ComputeUVMappingProcess.cpp.s
 
 # target to generate assembly for a file
 ComputeUVMappingProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.s
 .PHONY : ComputeUVMappingProcess.cpp.s
 
 ConvertToLHProcess.obj: ConvertToLHProcess.cpp.obj
@@ -712,7 +712,7 @@ ConvertToLHProcess.obj: ConvertToLHProcess.cpp.obj
 
 # target to build an object file
 ConvertToLHProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj
 .PHONY : ConvertToLHProcess.cpp.obj
 
 ConvertToLHProcess.i: ConvertToLHProcess.cpp.i
@@ -720,7 +720,7 @@ ConvertToLHProcess.i: ConvertToLHProcess.cpp.i
 
 # target to preprocess a source file
 ConvertToLHProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.i
 .PHONY : ConvertToLHProcess.cpp.i
 
 ConvertToLHProcess.s: ConvertToLHProcess.cpp.s
@@ -728,7 +728,7 @@ ConvertToLHProcess.s: ConvertToLHProcess.cpp.s
 
 # target to generate assembly for a file
 ConvertToLHProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.s
 .PHONY : ConvertToLHProcess.cpp.s
 
 DXFLoader.obj: DXFLoader.cpp.obj
@@ -736,7 +736,7 @@ DXFLoader.obj: DXFLoader.cpp.obj
 
 # target to build an object file
 DXFLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj
 .PHONY : DXFLoader.cpp.obj
 
 DXFLoader.i: DXFLoader.cpp.i
@@ -744,7 +744,7 @@ DXFLoader.i: DXFLoader.cpp.i
 
 # target to preprocess a source file
 DXFLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.i
 .PHONY : DXFLoader.cpp.i
 
 DXFLoader.s: DXFLoader.cpp.s
@@ -752,7 +752,7 @@ DXFLoader.s: DXFLoader.cpp.s
 
 # target to generate assembly for a file
 DXFLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.s
 .PHONY : DXFLoader.cpp.s
 
 DeboneProcess.obj: DeboneProcess.cpp.obj
@@ -760,7 +760,7 @@ DeboneProcess.obj: DeboneProcess.cpp.obj
 
 # target to build an object file
 DeboneProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj
 .PHONY : DeboneProcess.cpp.obj
 
 DeboneProcess.i: DeboneProcess.cpp.i
@@ -768,7 +768,7 @@ DeboneProcess.i: DeboneProcess.cpp.i
 
 # target to preprocess a source file
 DeboneProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.i
 .PHONY : DeboneProcess.cpp.i
 
 DeboneProcess.s: DeboneProcess.cpp.s
@@ -776,7 +776,7 @@ DeboneProcess.s: DeboneProcess.cpp.s
 
 # target to generate assembly for a file
 DeboneProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.s
 .PHONY : DeboneProcess.cpp.s
 
 DefaultIOStream.obj: DefaultIOStream.cpp.obj
@@ -784,7 +784,7 @@ DefaultIOStream.obj: DefaultIOStream.cpp.obj
 
 # target to build an object file
 DefaultIOStream.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj
 .PHONY : DefaultIOStream.cpp.obj
 
 DefaultIOStream.i: DefaultIOStream.cpp.i
@@ -792,7 +792,7 @@ DefaultIOStream.i: DefaultIOStream.cpp.i
 
 # target to preprocess a source file
 DefaultIOStream.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.i
 .PHONY : DefaultIOStream.cpp.i
 
 DefaultIOStream.s: DefaultIOStream.cpp.s
@@ -800,7 +800,7 @@ DefaultIOStream.s: DefaultIOStream.cpp.s
 
 # target to generate assembly for a file
 DefaultIOStream.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.s
 .PHONY : DefaultIOStream.cpp.s
 
 DefaultIOSystem.obj: DefaultIOSystem.cpp.obj
@@ -808,7 +808,7 @@ DefaultIOSystem.obj: DefaultIOSystem.cpp.obj
 
 # target to build an object file
 DefaultIOSystem.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj
 .PHONY : DefaultIOSystem.cpp.obj
 
 DefaultIOSystem.i: DefaultIOSystem.cpp.i
@@ -816,7 +816,7 @@ DefaultIOSystem.i: DefaultIOSystem.cpp.i
 
 # target to preprocess a source file
 DefaultIOSystem.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.i
 .PHONY : DefaultIOSystem.cpp.i
 
 DefaultIOSystem.s: DefaultIOSystem.cpp.s
@@ -824,7 +824,7 @@ DefaultIOSystem.s: DefaultIOSystem.cpp.s
 
 # target to generate assembly for a file
 DefaultIOSystem.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.s
 .PHONY : DefaultIOSystem.cpp.s
 
 DefaultLogger.obj: DefaultLogger.cpp.obj
@@ -832,7 +832,7 @@ DefaultLogger.obj: DefaultLogger.cpp.obj
 
 # target to build an object file
 DefaultLogger.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj
 .PHONY : DefaultLogger.cpp.obj
 
 DefaultLogger.i: DefaultLogger.cpp.i
@@ -840,7 +840,7 @@ DefaultLogger.i: DefaultLogger.cpp.i
 
 # target to preprocess a source file
 DefaultLogger.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.i
 .PHONY : DefaultLogger.cpp.i
 
 DefaultLogger.s: DefaultLogger.cpp.s
@@ -848,7 +848,7 @@ DefaultLogger.s: DefaultLogger.cpp.s
 
 # target to generate assembly for a file
 DefaultLogger.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.s
 .PHONY : DefaultLogger.cpp.s
 
 Exporter.obj: Exporter.cpp.obj
@@ -856,7 +856,7 @@ Exporter.obj: Exporter.cpp.obj
 
 # target to build an object file
 Exporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.obj
 .PHONY : Exporter.cpp.obj
 
 Exporter.i: Exporter.cpp.i
@@ -864,7 +864,7 @@ Exporter.i: Exporter.cpp.i
 
 # target to preprocess a source file
 Exporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.i
 .PHONY : Exporter.cpp.i
 
 Exporter.s: Exporter.cpp.s
@@ -872,7 +872,7 @@ Exporter.s: Exporter.cpp.s
 
 # target to generate assembly for a file
 Exporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.s
 .PHONY : Exporter.cpp.s
 
 FindDegenerates.obj: FindDegenerates.cpp.obj
@@ -880,7 +880,7 @@ FindDegenerates.obj: FindDegenerates.cpp.obj
 
 # target to build an object file
 FindDegenerates.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj
 .PHONY : FindDegenerates.cpp.obj
 
 FindDegenerates.i: FindDegenerates.cpp.i
@@ -888,7 +888,7 @@ FindDegenerates.i: FindDegenerates.cpp.i
 
 # target to preprocess a source file
 FindDegenerates.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.i
 .PHONY : FindDegenerates.cpp.i
 
 FindDegenerates.s: FindDegenerates.cpp.s
@@ -896,7 +896,7 @@ FindDegenerates.s: FindDegenerates.cpp.s
 
 # target to generate assembly for a file
 FindDegenerates.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.s
 .PHONY : FindDegenerates.cpp.s
 
 FindInstancesProcess.obj: FindInstancesProcess.cpp.obj
@@ -904,7 +904,7 @@ FindInstancesProcess.obj: FindInstancesProcess.cpp.obj
 
 # target to build an object file
 FindInstancesProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj
 .PHONY : FindInstancesProcess.cpp.obj
 
 FindInstancesProcess.i: FindInstancesProcess.cpp.i
@@ -912,7 +912,7 @@ FindInstancesProcess.i: FindInstancesProcess.cpp.i
 
 # target to preprocess a source file
 FindInstancesProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.i
 .PHONY : FindInstancesProcess.cpp.i
 
 FindInstancesProcess.s: FindInstancesProcess.cpp.s
@@ -920,7 +920,7 @@ FindInstancesProcess.s: FindInstancesProcess.cpp.s
 
 # target to generate assembly for a file
 FindInstancesProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.s
 .PHONY : FindInstancesProcess.cpp.s
 
 FindInvalidDataProcess.obj: FindInvalidDataProcess.cpp.obj
@@ -928,7 +928,7 @@ FindInvalidDataProcess.obj: FindInvalidDataProcess.cpp.obj
 
 # target to build an object file
 FindInvalidDataProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj
 .PHONY : FindInvalidDataProcess.cpp.obj
 
 FindInvalidDataProcess.i: FindInvalidDataProcess.cpp.i
@@ -936,7 +936,7 @@ FindInvalidDataProcess.i: FindInvalidDataProcess.cpp.i
 
 # target to preprocess a source file
 FindInvalidDataProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.i
 .PHONY : FindInvalidDataProcess.cpp.i
 
 FindInvalidDataProcess.s: FindInvalidDataProcess.cpp.s
@@ -944,7 +944,7 @@ FindInvalidDataProcess.s: FindInvalidDataProcess.cpp.s
 
 # target to generate assembly for a file
 FindInvalidDataProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.s
 .PHONY : FindInvalidDataProcess.cpp.s
 
 FixNormalsStep.obj: FixNormalsStep.cpp.obj
@@ -952,7 +952,7 @@ FixNormalsStep.obj: FixNormalsStep.cpp.obj
 
 # target to build an object file
 FixNormalsStep.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj
 .PHONY : FixNormalsStep.cpp.obj
 
 FixNormalsStep.i: FixNormalsStep.cpp.i
@@ -960,7 +960,7 @@ FixNormalsStep.i: FixNormalsStep.cpp.i
 
 # target to preprocess a source file
 FixNormalsStep.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.i
 .PHONY : FixNormalsStep.cpp.i
 
 FixNormalsStep.s: FixNormalsStep.cpp.s
@@ -968,7 +968,7 @@ FixNormalsStep.s: FixNormalsStep.cpp.s
 
 # target to generate assembly for a file
 FixNormalsStep.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.s
 .PHONY : FixNormalsStep.cpp.s
 
 GenFaceNormalsProcess.obj: GenFaceNormalsProcess.cpp.obj
@@ -976,7 +976,7 @@ GenFaceNormalsProcess.obj: GenFaceNormalsProcess.cpp.obj
 
 # target to build an object file
 GenFaceNormalsProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj
 .PHONY : GenFaceNormalsProcess.cpp.obj
 
 GenFaceNormalsProcess.i: GenFaceNormalsProcess.cpp.i
@@ -984,7 +984,7 @@ GenFaceNormalsProcess.i: GenFaceNormalsProcess.cpp.i
 
 # target to preprocess a source file
 GenFaceNormalsProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.i
 .PHONY : GenFaceNormalsProcess.cpp.i
 
 GenFaceNormalsProcess.s: GenFaceNormalsProcess.cpp.s
@@ -992,7 +992,7 @@ GenFaceNormalsProcess.s: GenFaceNormalsProcess.cpp.s
 
 # target to generate assembly for a file
 GenFaceNormalsProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.s
 .PHONY : GenFaceNormalsProcess.cpp.s
 
 GenVertexNormalsProcess.obj: GenVertexNormalsProcess.cpp.obj
@@ -1000,7 +1000,7 @@ GenVertexNormalsProcess.obj: GenVertexNormalsProcess.cpp.obj
 
 # target to build an object file
 GenVertexNormalsProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj
 .PHONY : GenVertexNormalsProcess.cpp.obj
 
 GenVertexNormalsProcess.i: GenVertexNormalsProcess.cpp.i
@@ -1008,7 +1008,7 @@ GenVertexNormalsProcess.i: GenVertexNormalsProcess.cpp.i
 
 # target to preprocess a source file
 GenVertexNormalsProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.i
 .PHONY : GenVertexNormalsProcess.cpp.i
 
 GenVertexNormalsProcess.s: GenVertexNormalsProcess.cpp.s
@@ -1016,7 +1016,7 @@ GenVertexNormalsProcess.s: GenVertexNormalsProcess.cpp.s
 
 # target to generate assembly for a file
 GenVertexNormalsProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.s
 .PHONY : GenVertexNormalsProcess.cpp.s
 
 HMPLoader.obj: HMPLoader.cpp.obj
@@ -1024,7 +1024,7 @@ HMPLoader.obj: HMPLoader.cpp.obj
 
 # target to build an object file
 HMPLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj
 .PHONY : HMPLoader.cpp.obj
 
 HMPLoader.i: HMPLoader.cpp.i
@@ -1032,7 +1032,7 @@ HMPLoader.i: HMPLoader.cpp.i
 
 # target to preprocess a source file
 HMPLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.i
 .PHONY : HMPLoader.cpp.i
 
 HMPLoader.s: HMPLoader.cpp.s
@@ -1040,7 +1040,7 @@ HMPLoader.s: HMPLoader.cpp.s
 
 # target to generate assembly for a file
 HMPLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.s
 .PHONY : HMPLoader.cpp.s
 
 IFCCurve.obj: IFCCurve.cpp.obj
@@ -1048,7 +1048,7 @@ IFCCurve.obj: IFCCurve.cpp.obj
 
 # target to build an object file
 IFCCurve.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj
 .PHONY : IFCCurve.cpp.obj
 
 IFCCurve.i: IFCCurve.cpp.i
@@ -1056,7 +1056,7 @@ IFCCurve.i: IFCCurve.cpp.i
 
 # target to preprocess a source file
 IFCCurve.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.i
 .PHONY : IFCCurve.cpp.i
 
 IFCCurve.s: IFCCurve.cpp.s
@@ -1064,7 +1064,7 @@ IFCCurve.s: IFCCurve.cpp.s
 
 # target to generate assembly for a file
 IFCCurve.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.s
 .PHONY : IFCCurve.cpp.s
 
 IFCGeometry.obj: IFCGeometry.cpp.obj
@@ -1072,7 +1072,7 @@ IFCGeometry.obj: IFCGeometry.cpp.obj
 
 # target to build an object file
 IFCGeometry.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj
 .PHONY : IFCGeometry.cpp.obj
 
 IFCGeometry.i: IFCGeometry.cpp.i
@@ -1080,7 +1080,7 @@ IFCGeometry.i: IFCGeometry.cpp.i
 
 # target to preprocess a source file
 IFCGeometry.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.i
 .PHONY : IFCGeometry.cpp.i
 
 IFCGeometry.s: IFCGeometry.cpp.s
@@ -1088,7 +1088,7 @@ IFCGeometry.s: IFCGeometry.cpp.s
 
 # target to generate assembly for a file
 IFCGeometry.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.s
 .PHONY : IFCGeometry.cpp.s
 
 IFCLoader.obj: IFCLoader.cpp.obj
@@ -1096,7 +1096,7 @@ IFCLoader.obj: IFCLoader.cpp.obj
 
 # target to build an object file
 IFCLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj
 .PHONY : IFCLoader.cpp.obj
 
 IFCLoader.i: IFCLoader.cpp.i
@@ -1104,7 +1104,7 @@ IFCLoader.i: IFCLoader.cpp.i
 
 # target to preprocess a source file
 IFCLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.i
 .PHONY : IFCLoader.cpp.i
 
 IFCLoader.s: IFCLoader.cpp.s
@@ -1112,7 +1112,7 @@ IFCLoader.s: IFCLoader.cpp.s
 
 # target to generate assembly for a file
 IFCLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.s
 .PHONY : IFCLoader.cpp.s
 
 IFCMaterial.obj: IFCMaterial.cpp.obj
@@ -1120,7 +1120,7 @@ IFCMaterial.obj: IFCMaterial.cpp.obj
 
 # target to build an object file
 IFCMaterial.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj
 .PHONY : IFCMaterial.cpp.obj
 
 IFCMaterial.i: IFCMaterial.cpp.i
@@ -1128,7 +1128,7 @@ IFCMaterial.i: IFCMaterial.cpp.i
 
 # target to preprocess a source file
 IFCMaterial.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.i
 .PHONY : IFCMaterial.cpp.i
 
 IFCMaterial.s: IFCMaterial.cpp.s
@@ -1136,7 +1136,7 @@ IFCMaterial.s: IFCMaterial.cpp.s
 
 # target to generate assembly for a file
 IFCMaterial.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.s
 .PHONY : IFCMaterial.cpp.s
 
 IFCProfile.obj: IFCProfile.cpp.obj
@@ -1144,7 +1144,7 @@ IFCProfile.obj: IFCProfile.cpp.obj
 
 # target to build an object file
 IFCProfile.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj
 .PHONY : IFCProfile.cpp.obj
 
 IFCProfile.i: IFCProfile.cpp.i
@@ -1152,7 +1152,7 @@ IFCProfile.i: IFCProfile.cpp.i
 
 # target to preprocess a source file
 IFCProfile.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.i
 .PHONY : IFCProfile.cpp.i
 
 IFCProfile.s: IFCProfile.cpp.s
@@ -1160,7 +1160,7 @@ IFCProfile.s: IFCProfile.cpp.s
 
 # target to generate assembly for a file
 IFCProfile.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.s
 .PHONY : IFCProfile.cpp.s
 
 IFCReaderGen.obj: IFCReaderGen.cpp.obj
@@ -1168,7 +1168,7 @@ IFCReaderGen.obj: IFCReaderGen.cpp.obj
 
 # target to build an object file
 IFCReaderGen.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj
 .PHONY : IFCReaderGen.cpp.obj
 
 IFCReaderGen.i: IFCReaderGen.cpp.i
@@ -1176,7 +1176,7 @@ IFCReaderGen.i: IFCReaderGen.cpp.i
 
 # target to preprocess a source file
 IFCReaderGen.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.i
 .PHONY : IFCReaderGen.cpp.i
 
 IFCReaderGen.s: IFCReaderGen.cpp.s
@@ -1184,7 +1184,7 @@ IFCReaderGen.s: IFCReaderGen.cpp.s
 
 # target to generate assembly for a file
 IFCReaderGen.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.s
 .PHONY : IFCReaderGen.cpp.s
 
 IFCUtil.obj: IFCUtil.cpp.obj
@@ -1192,7 +1192,7 @@ IFCUtil.obj: IFCUtil.cpp.obj
 
 # target to build an object file
 IFCUtil.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj
 .PHONY : IFCUtil.cpp.obj
 
 IFCUtil.i: IFCUtil.cpp.i
@@ -1200,7 +1200,7 @@ IFCUtil.i: IFCUtil.cpp.i
 
 # target to preprocess a source file
 IFCUtil.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.i
 .PHONY : IFCUtil.cpp.i
 
 IFCUtil.s: IFCUtil.cpp.s
@@ -1208,7 +1208,7 @@ IFCUtil.s: IFCUtil.cpp.s
 
 # target to generate assembly for a file
 IFCUtil.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.s
 .PHONY : IFCUtil.cpp.s
 
 IRRLoader.obj: IRRLoader.cpp.obj
@@ -1216,7 +1216,7 @@ IRRLoader.obj: IRRLoader.cpp.obj
 
 # target to build an object file
 IRRLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj
 .PHONY : IRRLoader.cpp.obj
 
 IRRLoader.i: IRRLoader.cpp.i
@@ -1224,7 +1224,7 @@ IRRLoader.i: IRRLoader.cpp.i
 
 # target to preprocess a source file
 IRRLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.i
 .PHONY : IRRLoader.cpp.i
 
 IRRLoader.s: IRRLoader.cpp.s
@@ -1232,7 +1232,7 @@ IRRLoader.s: IRRLoader.cpp.s
 
 # target to generate assembly for a file
 IRRLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.s
 .PHONY : IRRLoader.cpp.s
 
 IRRMeshLoader.obj: IRRMeshLoader.cpp.obj
@@ -1240,7 +1240,7 @@ IRRMeshLoader.obj: IRRMeshLoader.cpp.obj
 
 # target to build an object file
 IRRMeshLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj
 .PHONY : IRRMeshLoader.cpp.obj
 
 IRRMeshLoader.i: IRRMeshLoader.cpp.i
@@ -1248,7 +1248,7 @@ IRRMeshLoader.i: IRRMeshLoader.cpp.i
 
 # target to preprocess a source file
 IRRMeshLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.i
 .PHONY : IRRMeshLoader.cpp.i
 
 IRRMeshLoader.s: IRRMeshLoader.cpp.s
@@ -1256,7 +1256,7 @@ IRRMeshLoader.s: IRRMeshLoader.cpp.s
 
 # target to generate assembly for a file
 IRRMeshLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.s
 .PHONY : IRRMeshLoader.cpp.s
 
 IRRShared.obj: IRRShared.cpp.obj
@@ -1264,7 +1264,7 @@ IRRShared.obj: IRRShared.cpp.obj
 
 # target to build an object file
 IRRShared.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj
 .PHONY : IRRShared.cpp.obj
 
 IRRShared.i: IRRShared.cpp.i
@@ -1272,7 +1272,7 @@ IRRShared.i: IRRShared.cpp.i
 
 # target to preprocess a source file
 IRRShared.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.i
 .PHONY : IRRShared.cpp.i
 
 IRRShared.s: IRRShared.cpp.s
@@ -1280,7 +1280,7 @@ IRRShared.s: IRRShared.cpp.s
 
 # target to generate assembly for a file
 IRRShared.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.s
 .PHONY : IRRShared.cpp.s
 
 Importer.obj: Importer.cpp.obj
@@ -1288,7 +1288,7 @@ Importer.obj: Importer.cpp.obj
 
 # target to build an object file
 Importer.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.obj
 .PHONY : Importer.cpp.obj
 
 Importer.i: Importer.cpp.i
@@ -1296,7 +1296,7 @@ Importer.i: Importer.cpp.i
 
 # target to preprocess a source file
 Importer.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.i
 .PHONY : Importer.cpp.i
 
 Importer.s: Importer.cpp.s
@@ -1304,7 +1304,7 @@ Importer.s: Importer.cpp.s
 
 # target to generate assembly for a file
 Importer.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.s
 .PHONY : Importer.cpp.s
 
 ImporterRegistry.obj: ImporterRegistry.cpp.obj
@@ -1312,7 +1312,7 @@ ImporterRegistry.obj: ImporterRegistry.cpp.obj
 
 # target to build an object file
 ImporterRegistry.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj
 .PHONY : ImporterRegistry.cpp.obj
 
 ImporterRegistry.i: ImporterRegistry.cpp.i
@@ -1320,7 +1320,7 @@ ImporterRegistry.i: ImporterRegistry.cpp.i
 
 # target to preprocess a source file
 ImporterRegistry.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.i
 .PHONY : ImporterRegistry.cpp.i
 
 ImporterRegistry.s: ImporterRegistry.cpp.s
@@ -1328,7 +1328,7 @@ ImporterRegistry.s: ImporterRegistry.cpp.s
 
 # target to generate assembly for a file
 ImporterRegistry.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.s
 .PHONY : ImporterRegistry.cpp.s
 
 ImproveCacheLocality.obj: ImproveCacheLocality.cpp.obj
@@ -1336,7 +1336,7 @@ ImproveCacheLocality.obj: ImproveCacheLocality.cpp.obj
 
 # target to build an object file
 ImproveCacheLocality.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj
 .PHONY : ImproveCacheLocality.cpp.obj
 
 ImproveCacheLocality.i: ImproveCacheLocality.cpp.i
@@ -1344,7 +1344,7 @@ ImproveCacheLocality.i: ImproveCacheLocality.cpp.i
 
 # target to preprocess a source file
 ImproveCacheLocality.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.i
 .PHONY : ImproveCacheLocality.cpp.i
 
 ImproveCacheLocality.s: ImproveCacheLocality.cpp.s
@@ -1352,7 +1352,7 @@ ImproveCacheLocality.s: ImproveCacheLocality.cpp.s
 
 # target to generate assembly for a file
 ImproveCacheLocality.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.s
 .PHONY : ImproveCacheLocality.cpp.s
 
 JoinVerticesProcess.obj: JoinVerticesProcess.cpp.obj
@@ -1360,7 +1360,7 @@ JoinVerticesProcess.obj: JoinVerticesProcess.cpp.obj
 
 # target to build an object file
 JoinVerticesProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj
 .PHONY : JoinVerticesProcess.cpp.obj
 
 JoinVerticesProcess.i: JoinVerticesProcess.cpp.i
@@ -1368,7 +1368,7 @@ JoinVerticesProcess.i: JoinVerticesProcess.cpp.i
 
 # target to preprocess a source file
 JoinVerticesProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.i
 .PHONY : JoinVerticesProcess.cpp.i
 
 JoinVerticesProcess.s: JoinVerticesProcess.cpp.s
@@ -1376,7 +1376,7 @@ JoinVerticesProcess.s: JoinVerticesProcess.cpp.s
 
 # target to generate assembly for a file
 JoinVerticesProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.s
 .PHONY : JoinVerticesProcess.cpp.s
 
 LWOAnimation.obj: LWOAnimation.cpp.obj
@@ -1384,7 +1384,7 @@ LWOAnimation.obj: LWOAnimation.cpp.obj
 
 # target to build an object file
 LWOAnimation.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj
 .PHONY : LWOAnimation.cpp.obj
 
 LWOAnimation.i: LWOAnimation.cpp.i
@@ -1392,7 +1392,7 @@ LWOAnimation.i: LWOAnimation.cpp.i
 
 # target to preprocess a source file
 LWOAnimation.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.i
 .PHONY : LWOAnimation.cpp.i
 
 LWOAnimation.s: LWOAnimation.cpp.s
@@ -1400,7 +1400,7 @@ LWOAnimation.s: LWOAnimation.cpp.s
 
 # target to generate assembly for a file
 LWOAnimation.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.s
 .PHONY : LWOAnimation.cpp.s
 
 LWOBLoader.obj: LWOBLoader.cpp.obj
@@ -1408,7 +1408,7 @@ LWOBLoader.obj: LWOBLoader.cpp.obj
 
 # target to build an object file
 LWOBLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj
 .PHONY : LWOBLoader.cpp.obj
 
 LWOBLoader.i: LWOBLoader.cpp.i
@@ -1416,7 +1416,7 @@ LWOBLoader.i: LWOBLoader.cpp.i
 
 # target to preprocess a source file
 LWOBLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.i
 .PHONY : LWOBLoader.cpp.i
 
 LWOBLoader.s: LWOBLoader.cpp.s
@@ -1424,7 +1424,7 @@ LWOBLoader.s: LWOBLoader.cpp.s
 
 # target to generate assembly for a file
 LWOBLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.s
 .PHONY : LWOBLoader.cpp.s
 
 LWOLoader.obj: LWOLoader.cpp.obj
@@ -1432,7 +1432,7 @@ LWOLoader.obj: LWOLoader.cpp.obj
 
 # target to build an object file
 LWOLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj
 .PHONY : LWOLoader.cpp.obj
 
 LWOLoader.i: LWOLoader.cpp.i
@@ -1440,7 +1440,7 @@ LWOLoader.i: LWOLoader.cpp.i
 
 # target to preprocess a source file
 LWOLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.i
 .PHONY : LWOLoader.cpp.i
 
 LWOLoader.s: LWOLoader.cpp.s
@@ -1448,7 +1448,7 @@ LWOLoader.s: LWOLoader.cpp.s
 
 # target to generate assembly for a file
 LWOLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.s
 .PHONY : LWOLoader.cpp.s
 
 LWOMaterial.obj: LWOMaterial.cpp.obj
@@ -1456,7 +1456,7 @@ LWOMaterial.obj: LWOMaterial.cpp.obj
 
 # target to build an object file
 LWOMaterial.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj
 .PHONY : LWOMaterial.cpp.obj
 
 LWOMaterial.i: LWOMaterial.cpp.i
@@ -1464,7 +1464,7 @@ LWOMaterial.i: LWOMaterial.cpp.i
 
 # target to preprocess a source file
 LWOMaterial.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.i
 .PHONY : LWOMaterial.cpp.i
 
 LWOMaterial.s: LWOMaterial.cpp.s
@@ -1472,7 +1472,7 @@ LWOMaterial.s: LWOMaterial.cpp.s
 
 # target to generate assembly for a file
 LWOMaterial.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.s
 .PHONY : LWOMaterial.cpp.s
 
 LWSLoader.obj: LWSLoader.cpp.obj
@@ -1480,7 +1480,7 @@ LWSLoader.obj: LWSLoader.cpp.obj
 
 # target to build an object file
 LWSLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj
 .PHONY : LWSLoader.cpp.obj
 
 LWSLoader.i: LWSLoader.cpp.i
@@ -1488,7 +1488,7 @@ LWSLoader.i: LWSLoader.cpp.i
 
 # target to preprocess a source file
 LWSLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.i
 .PHONY : LWSLoader.cpp.i
 
 LWSLoader.s: LWSLoader.cpp.s
@@ -1496,7 +1496,7 @@ LWSLoader.s: LWSLoader.cpp.s
 
 # target to generate assembly for a file
 LWSLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.s
 .PHONY : LWSLoader.cpp.s
 
 LimitBoneWeightsProcess.obj: LimitBoneWeightsProcess.cpp.obj
@@ -1504,7 +1504,7 @@ LimitBoneWeightsProcess.obj: LimitBoneWeightsProcess.cpp.obj
 
 # target to build an object file
 LimitBoneWeightsProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj
 .PHONY : LimitBoneWeightsProcess.cpp.obj
 
 LimitBoneWeightsProcess.i: LimitBoneWeightsProcess.cpp.i
@@ -1512,7 +1512,7 @@ LimitBoneWeightsProcess.i: LimitBoneWeightsProcess.cpp.i
 
 # target to preprocess a source file
 LimitBoneWeightsProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.i
 .PHONY : LimitBoneWeightsProcess.cpp.i
 
 LimitBoneWeightsProcess.s: LimitBoneWeightsProcess.cpp.s
@@ -1520,7 +1520,7 @@ LimitBoneWeightsProcess.s: LimitBoneWeightsProcess.cpp.s
 
 # target to generate assembly for a file
 LimitBoneWeightsProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.s
 .PHONY : LimitBoneWeightsProcess.cpp.s
 
 M3Importer.obj: M3Importer.cpp.obj
@@ -1528,7 +1528,7 @@ M3Importer.obj: M3Importer.cpp.obj
 
 # target to build an object file
 M3Importer.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj
 .PHONY : M3Importer.cpp.obj
 
 M3Importer.i: M3Importer.cpp.i
@@ -1536,7 +1536,7 @@ M3Importer.i: M3Importer.cpp.i
 
 # target to preprocess a source file
 M3Importer.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.i
 .PHONY : M3Importer.cpp.i
 
 M3Importer.s: M3Importer.cpp.s
@@ -1544,7 +1544,7 @@ M3Importer.s: M3Importer.cpp.s
 
 # target to generate assembly for a file
 M3Importer.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.s
 .PHONY : M3Importer.cpp.s
 
 MD2Loader.obj: MD2Loader.cpp.obj
@@ -1552,7 +1552,7 @@ MD2Loader.obj: MD2Loader.cpp.obj
 
 # target to build an object file
 MD2Loader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj
 .PHONY : MD2Loader.cpp.obj
 
 MD2Loader.i: MD2Loader.cpp.i
@@ -1560,7 +1560,7 @@ MD2Loader.i: MD2Loader.cpp.i
 
 # target to preprocess a source file
 MD2Loader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.i
 .PHONY : MD2Loader.cpp.i
 
 MD2Loader.s: MD2Loader.cpp.s
@@ -1568,7 +1568,7 @@ MD2Loader.s: MD2Loader.cpp.s
 
 # target to generate assembly for a file
 MD2Loader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.s
 .PHONY : MD2Loader.cpp.s
 
 MD3Loader.obj: MD3Loader.cpp.obj
@@ -1576,7 +1576,7 @@ MD3Loader.obj: MD3Loader.cpp.obj
 
 # target to build an object file
 MD3Loader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj
 .PHONY : MD3Loader.cpp.obj
 
 MD3Loader.i: MD3Loader.cpp.i
@@ -1584,7 +1584,7 @@ MD3Loader.i: MD3Loader.cpp.i
 
 # target to preprocess a source file
 MD3Loader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.i
 .PHONY : MD3Loader.cpp.i
 
 MD3Loader.s: MD3Loader.cpp.s
@@ -1592,7 +1592,7 @@ MD3Loader.s: MD3Loader.cpp.s
 
 # target to generate assembly for a file
 MD3Loader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.s
 .PHONY : MD3Loader.cpp.s
 
 MD5Loader.obj: MD5Loader.cpp.obj
@@ -1600,7 +1600,7 @@ MD5Loader.obj: MD5Loader.cpp.obj
 
 # target to build an object file
 MD5Loader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj
 .PHONY : MD5Loader.cpp.obj
 
 MD5Loader.i: MD5Loader.cpp.i
@@ -1608,7 +1608,7 @@ MD5Loader.i: MD5Loader.cpp.i
 
 # target to preprocess a source file
 MD5Loader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.i
 .PHONY : MD5Loader.cpp.i
 
 MD5Loader.s: MD5Loader.cpp.s
@@ -1616,7 +1616,7 @@ MD5Loader.s: MD5Loader.cpp.s
 
 # target to generate assembly for a file
 MD5Loader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.s
 .PHONY : MD5Loader.cpp.s
 
 MD5Parser.obj: MD5Parser.cpp.obj
@@ -1624,7 +1624,7 @@ MD5Parser.obj: MD5Parser.cpp.obj
 
 # target to build an object file
 MD5Parser.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj
 .PHONY : MD5Parser.cpp.obj
 
 MD5Parser.i: MD5Parser.cpp.i
@@ -1632,7 +1632,7 @@ MD5Parser.i: MD5Parser.cpp.i
 
 # target to preprocess a source file
 MD5Parser.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.i
 .PHONY : MD5Parser.cpp.i
 
 MD5Parser.s: MD5Parser.cpp.s
@@ -1640,7 +1640,7 @@ MD5Parser.s: MD5Parser.cpp.s
 
 # target to generate assembly for a file
 MD5Parser.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.s
 .PHONY : MD5Parser.cpp.s
 
 MDCLoader.obj: MDCLoader.cpp.obj
@@ -1648,7 +1648,7 @@ MDCLoader.obj: MDCLoader.cpp.obj
 
 # target to build an object file
 MDCLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj
 .PHONY : MDCLoader.cpp.obj
 
 MDCLoader.i: MDCLoader.cpp.i
@@ -1656,7 +1656,7 @@ MDCLoader.i: MDCLoader.cpp.i
 
 # target to preprocess a source file
 MDCLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.i
 .PHONY : MDCLoader.cpp.i
 
 MDCLoader.s: MDCLoader.cpp.s
@@ -1664,7 +1664,7 @@ MDCLoader.s: MDCLoader.cpp.s
 
 # target to generate assembly for a file
 MDCLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.s
 .PHONY : MDCLoader.cpp.s
 
 MDLLoader.obj: MDLLoader.cpp.obj
@@ -1672,7 +1672,7 @@ MDLLoader.obj: MDLLoader.cpp.obj
 
 # target to build an object file
 MDLLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj
 .PHONY : MDLLoader.cpp.obj
 
 MDLLoader.i: MDLLoader.cpp.i
@@ -1680,7 +1680,7 @@ MDLLoader.i: MDLLoader.cpp.i
 
 # target to preprocess a source file
 MDLLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.i
 .PHONY : MDLLoader.cpp.i
 
 MDLLoader.s: MDLLoader.cpp.s
@@ -1688,7 +1688,7 @@ MDLLoader.s: MDLLoader.cpp.s
 
 # target to generate assembly for a file
 MDLLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.s
 .PHONY : MDLLoader.cpp.s
 
 MDLMaterialLoader.obj: MDLMaterialLoader.cpp.obj
@@ -1696,7 +1696,7 @@ MDLMaterialLoader.obj: MDLMaterialLoader.cpp.obj
 
 # target to build an object file
 MDLMaterialLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj
 .PHONY : MDLMaterialLoader.cpp.obj
 
 MDLMaterialLoader.i: MDLMaterialLoader.cpp.i
@@ -1704,7 +1704,7 @@ MDLMaterialLoader.i: MDLMaterialLoader.cpp.i
 
 # target to preprocess a source file
 MDLMaterialLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.i
 .PHONY : MDLMaterialLoader.cpp.i
 
 MDLMaterialLoader.s: MDLMaterialLoader.cpp.s
@@ -1712,7 +1712,7 @@ MDLMaterialLoader.s: MDLMaterialLoader.cpp.s
 
 # target to generate assembly for a file
 MDLMaterialLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.s
 .PHONY : MDLMaterialLoader.cpp.s
 
 MS3DLoader.obj: MS3DLoader.cpp.obj
@@ -1720,7 +1720,7 @@ MS3DLoader.obj: MS3DLoader.cpp.obj
 
 # target to build an object file
 MS3DLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj
 .PHONY : MS3DLoader.cpp.obj
 
 MS3DLoader.i: MS3DLoader.cpp.i
@@ -1728,7 +1728,7 @@ MS3DLoader.i: MS3DLoader.cpp.i
 
 # target to preprocess a source file
 MS3DLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.i
 .PHONY : MS3DLoader.cpp.i
 
 MS3DLoader.s: MS3DLoader.cpp.s
@@ -1736,7 +1736,7 @@ MS3DLoader.s: MS3DLoader.cpp.s
 
 # target to generate assembly for a file
 MS3DLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.s
 .PHONY : MS3DLoader.cpp.s
 
 MakeVerboseFormat.obj: MakeVerboseFormat.cpp.obj
@@ -1744,7 +1744,7 @@ MakeVerboseFormat.obj: MakeVerboseFormat.cpp.obj
 
 # target to build an object file
 MakeVerboseFormat.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj
 .PHONY : MakeVerboseFormat.cpp.obj
 
 MakeVerboseFormat.i: MakeVerboseFormat.cpp.i
@@ -1752,7 +1752,7 @@ MakeVerboseFormat.i: MakeVerboseFormat.cpp.i
 
 # target to preprocess a source file
 MakeVerboseFormat.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.i
 .PHONY : MakeVerboseFormat.cpp.i
 
 MakeVerboseFormat.s: MakeVerboseFormat.cpp.s
@@ -1760,7 +1760,7 @@ MakeVerboseFormat.s: MakeVerboseFormat.cpp.s
 
 # target to generate assembly for a file
 MakeVerboseFormat.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.s
 .PHONY : MakeVerboseFormat.cpp.s
 
 MaterialSystem.obj: MaterialSystem.cpp.obj
@@ -1768,7 +1768,7 @@ MaterialSystem.obj: MaterialSystem.cpp.obj
 
 # target to build an object file
 MaterialSystem.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj
 .PHONY : MaterialSystem.cpp.obj
 
 MaterialSystem.i: MaterialSystem.cpp.i
@@ -1776,7 +1776,7 @@ MaterialSystem.i: MaterialSystem.cpp.i
 
 # target to preprocess a source file
 MaterialSystem.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.i
 .PHONY : MaterialSystem.cpp.i
 
 MaterialSystem.s: MaterialSystem.cpp.s
@@ -1784,7 +1784,7 @@ MaterialSystem.s: MaterialSystem.cpp.s
 
 # target to generate assembly for a file
 MaterialSystem.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.s
 .PHONY : MaterialSystem.cpp.s
 
 NDOLoader.obj: NDOLoader.cpp.obj
@@ -1792,7 +1792,7 @@ NDOLoader.obj: NDOLoader.cpp.obj
 
 # target to build an object file
 NDOLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj
 .PHONY : NDOLoader.cpp.obj
 
 NDOLoader.i: NDOLoader.cpp.i
@@ -1800,7 +1800,7 @@ NDOLoader.i: NDOLoader.cpp.i
 
 # target to preprocess a source file
 NDOLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.i
 .PHONY : NDOLoader.cpp.i
 
 NDOLoader.s: NDOLoader.cpp.s
@@ -1808,7 +1808,7 @@ NDOLoader.s: NDOLoader.cpp.s
 
 # target to generate assembly for a file
 NDOLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.s
 .PHONY : NDOLoader.cpp.s
 
 NFFLoader.obj: NFFLoader.cpp.obj
@@ -1816,7 +1816,7 @@ NFFLoader.obj: NFFLoader.cpp.obj
 
 # target to build an object file
 NFFLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj
 .PHONY : NFFLoader.cpp.obj
 
 NFFLoader.i: NFFLoader.cpp.i
@@ -1824,7 +1824,7 @@ NFFLoader.i: NFFLoader.cpp.i
 
 # target to preprocess a source file
 NFFLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.i
 .PHONY : NFFLoader.cpp.i
 
 NFFLoader.s: NFFLoader.cpp.s
@@ -1832,7 +1832,7 @@ NFFLoader.s: NFFLoader.cpp.s
 
 # target to generate assembly for a file
 NFFLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.s
 .PHONY : NFFLoader.cpp.s
 
 OFFLoader.obj: OFFLoader.cpp.obj
@@ -1840,7 +1840,7 @@ OFFLoader.obj: OFFLoader.cpp.obj
 
 # target to build an object file
 OFFLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj
 .PHONY : OFFLoader.cpp.obj
 
 OFFLoader.i: OFFLoader.cpp.i
@@ -1848,7 +1848,7 @@ OFFLoader.i: OFFLoader.cpp.i
 
 # target to preprocess a source file
 OFFLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.i
 .PHONY : OFFLoader.cpp.i
 
 OFFLoader.s: OFFLoader.cpp.s
@@ -1856,7 +1856,7 @@ OFFLoader.s: OFFLoader.cpp.s
 
 # target to generate assembly for a file
 OFFLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.s
 .PHONY : OFFLoader.cpp.s
 
 ObjExporter.obj: ObjExporter.cpp.obj
@@ -1864,7 +1864,7 @@ ObjExporter.obj: ObjExporter.cpp.obj
 
 # target to build an object file
 ObjExporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj
 .PHONY : ObjExporter.cpp.obj
 
 ObjExporter.i: ObjExporter.cpp.i
@@ -1872,7 +1872,7 @@ ObjExporter.i: ObjExporter.cpp.i
 
 # target to preprocess a source file
 ObjExporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.i
 .PHONY : ObjExporter.cpp.i
 
 ObjExporter.s: ObjExporter.cpp.s
@@ -1880,7 +1880,7 @@ ObjExporter.s: ObjExporter.cpp.s
 
 # target to generate assembly for a file
 ObjExporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.s
 .PHONY : ObjExporter.cpp.s
 
 ObjFileImporter.obj: ObjFileImporter.cpp.obj
@@ -1888,7 +1888,7 @@ ObjFileImporter.obj: ObjFileImporter.cpp.obj
 
 # target to build an object file
 ObjFileImporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj
 .PHONY : ObjFileImporter.cpp.obj
 
 ObjFileImporter.i: ObjFileImporter.cpp.i
@@ -1896,7 +1896,7 @@ ObjFileImporter.i: ObjFileImporter.cpp.i
 
 # target to preprocess a source file
 ObjFileImporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.i
 .PHONY : ObjFileImporter.cpp.i
 
 ObjFileImporter.s: ObjFileImporter.cpp.s
@@ -1904,7 +1904,7 @@ ObjFileImporter.s: ObjFileImporter.cpp.s
 
 # target to generate assembly for a file
 ObjFileImporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.s
 .PHONY : ObjFileImporter.cpp.s
 
 ObjFileMtlImporter.obj: ObjFileMtlImporter.cpp.obj
@@ -1912,7 +1912,7 @@ ObjFileMtlImporter.obj: ObjFileMtlImporter.cpp.obj
 
 # target to build an object file
 ObjFileMtlImporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj
 .PHONY : ObjFileMtlImporter.cpp.obj
 
 ObjFileMtlImporter.i: ObjFileMtlImporter.cpp.i
@@ -1920,7 +1920,7 @@ ObjFileMtlImporter.i: ObjFileMtlImporter.cpp.i
 
 # target to preprocess a source file
 ObjFileMtlImporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.i
 .PHONY : ObjFileMtlImporter.cpp.i
 
 ObjFileMtlImporter.s: ObjFileMtlImporter.cpp.s
@@ -1928,7 +1928,7 @@ ObjFileMtlImporter.s: ObjFileMtlImporter.cpp.s
 
 # target to generate assembly for a file
 ObjFileMtlImporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.s
 .PHONY : ObjFileMtlImporter.cpp.s
 
 ObjFileParser.obj: ObjFileParser.cpp.obj
@@ -1936,7 +1936,7 @@ ObjFileParser.obj: ObjFileParser.cpp.obj
 
 # target to build an object file
 ObjFileParser.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj
 .PHONY : ObjFileParser.cpp.obj
 
 ObjFileParser.i: ObjFileParser.cpp.i
@@ -1944,7 +1944,7 @@ ObjFileParser.i: ObjFileParser.cpp.i
 
 # target to preprocess a source file
 ObjFileParser.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.i
 .PHONY : ObjFileParser.cpp.i
 
 ObjFileParser.s: ObjFileParser.cpp.s
@@ -1952,7 +1952,7 @@ ObjFileParser.s: ObjFileParser.cpp.s
 
 # target to generate assembly for a file
 ObjFileParser.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.s
 .PHONY : ObjFileParser.cpp.s
 
 OgreImporter.obj: OgreImporter.cpp.obj
@@ -1960,7 +1960,7 @@ OgreImporter.obj: OgreImporter.cpp.obj
 
 # target to build an object file
 OgreImporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj
 .PHONY : OgreImporter.cpp.obj
 
 OgreImporter.i: OgreImporter.cpp.i
@@ -1968,7 +1968,7 @@ OgreImporter.i: OgreImporter.cpp.i
 
 # target to preprocess a source file
 OgreImporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.i
 .PHONY : OgreImporter.cpp.i
 
 OgreImporter.s: OgreImporter.cpp.s
@@ -1976,7 +1976,7 @@ OgreImporter.s: OgreImporter.cpp.s
 
 # target to generate assembly for a file
 OgreImporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.s
 .PHONY : OgreImporter.cpp.s
 
 OgreMaterial.obj: OgreMaterial.cpp.obj
@@ -1984,7 +1984,7 @@ OgreMaterial.obj: OgreMaterial.cpp.obj
 
 # target to build an object file
 OgreMaterial.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj
 .PHONY : OgreMaterial.cpp.obj
 
 OgreMaterial.i: OgreMaterial.cpp.i
@@ -1992,7 +1992,7 @@ OgreMaterial.i: OgreMaterial.cpp.i
 
 # target to preprocess a source file
 OgreMaterial.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.i
 .PHONY : OgreMaterial.cpp.i
 
 OgreMaterial.s: OgreMaterial.cpp.s
@@ -2000,7 +2000,7 @@ OgreMaterial.s: OgreMaterial.cpp.s
 
 # target to generate assembly for a file
 OgreMaterial.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.s
 .PHONY : OgreMaterial.cpp.s
 
 OgreMesh.obj: OgreMesh.cpp.obj
@@ -2008,7 +2008,7 @@ OgreMesh.obj: OgreMesh.cpp.obj
 
 # target to build an object file
 OgreMesh.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj
 .PHONY : OgreMesh.cpp.obj
 
 OgreMesh.i: OgreMesh.cpp.i
@@ -2016,7 +2016,7 @@ OgreMesh.i: OgreMesh.cpp.i
 
 # target to preprocess a source file
 OgreMesh.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.i
 .PHONY : OgreMesh.cpp.i
 
 OgreMesh.s: OgreMesh.cpp.s
@@ -2024,7 +2024,7 @@ OgreMesh.s: OgreMesh.cpp.s
 
 # target to generate assembly for a file
 OgreMesh.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.s
 .PHONY : OgreMesh.cpp.s
 
 OgreSkeleton.obj: OgreSkeleton.cpp.obj
@@ -2032,7 +2032,7 @@ OgreSkeleton.obj: OgreSkeleton.cpp.obj
 
 # target to build an object file
 OgreSkeleton.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj
 .PHONY : OgreSkeleton.cpp.obj
 
 OgreSkeleton.i: OgreSkeleton.cpp.i
@@ -2040,7 +2040,7 @@ OgreSkeleton.i: OgreSkeleton.cpp.i
 
 # target to preprocess a source file
 OgreSkeleton.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.i
 .PHONY : OgreSkeleton.cpp.i
 
 OgreSkeleton.s: OgreSkeleton.cpp.s
@@ -2048,7 +2048,7 @@ OgreSkeleton.s: OgreSkeleton.cpp.s
 
 # target to generate assembly for a file
 OgreSkeleton.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.s
 .PHONY : OgreSkeleton.cpp.s
 
 OptimizeGraph.obj: OptimizeGraph.cpp.obj
@@ -2056,7 +2056,7 @@ OptimizeGraph.obj: OptimizeGraph.cpp.obj
 
 # target to build an object file
 OptimizeGraph.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj
 .PHONY : OptimizeGraph.cpp.obj
 
 OptimizeGraph.i: OptimizeGraph.cpp.i
@@ -2064,7 +2064,7 @@ OptimizeGraph.i: OptimizeGraph.cpp.i
 
 # target to preprocess a source file
 OptimizeGraph.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.i
 .PHONY : OptimizeGraph.cpp.i
 
 OptimizeGraph.s: OptimizeGraph.cpp.s
@@ -2072,7 +2072,7 @@ OptimizeGraph.s: OptimizeGraph.cpp.s
 
 # target to generate assembly for a file
 OptimizeGraph.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.s
 .PHONY : OptimizeGraph.cpp.s
 
 OptimizeMeshes.obj: OptimizeMeshes.cpp.obj
@@ -2080,7 +2080,7 @@ OptimizeMeshes.obj: OptimizeMeshes.cpp.obj
 
 # target to build an object file
 OptimizeMeshes.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj
 .PHONY : OptimizeMeshes.cpp.obj
 
 OptimizeMeshes.i: OptimizeMeshes.cpp.i
@@ -2088,7 +2088,7 @@ OptimizeMeshes.i: OptimizeMeshes.cpp.i
 
 # target to preprocess a source file
 OptimizeMeshes.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.i
 .PHONY : OptimizeMeshes.cpp.i
 
 OptimizeMeshes.s: OptimizeMeshes.cpp.s
@@ -2096,7 +2096,7 @@ OptimizeMeshes.s: OptimizeMeshes.cpp.s
 
 # target to generate assembly for a file
 OptimizeMeshes.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.s
 .PHONY : OptimizeMeshes.cpp.s
 
 PlyExporter.obj: PlyExporter.cpp.obj
@@ -2104,7 +2104,7 @@ PlyExporter.obj: PlyExporter.cpp.obj
 
 # target to build an object file
 PlyExporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj
 .PHONY : PlyExporter.cpp.obj
 
 PlyExporter.i: PlyExporter.cpp.i
@@ -2112,7 +2112,7 @@ PlyExporter.i: PlyExporter.cpp.i
 
 # target to preprocess a source file
 PlyExporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.i
 .PHONY : PlyExporter.cpp.i
 
 PlyExporter.s: PlyExporter.cpp.s
@@ -2120,7 +2120,7 @@ PlyExporter.s: PlyExporter.cpp.s
 
 # target to generate assembly for a file
 PlyExporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.s
 .PHONY : PlyExporter.cpp.s
 
 PlyLoader.obj: PlyLoader.cpp.obj
@@ -2128,7 +2128,7 @@ PlyLoader.obj: PlyLoader.cpp.obj
 
 # target to build an object file
 PlyLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj
 .PHONY : PlyLoader.cpp.obj
 
 PlyLoader.i: PlyLoader.cpp.i
@@ -2136,7 +2136,7 @@ PlyLoader.i: PlyLoader.cpp.i
 
 # target to preprocess a source file
 PlyLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.i
 .PHONY : PlyLoader.cpp.i
 
 PlyLoader.s: PlyLoader.cpp.s
@@ -2144,7 +2144,7 @@ PlyLoader.s: PlyLoader.cpp.s
 
 # target to generate assembly for a file
 PlyLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.s
 .PHONY : PlyLoader.cpp.s
 
 PlyParser.obj: PlyParser.cpp.obj
@@ -2152,7 +2152,7 @@ PlyParser.obj: PlyParser.cpp.obj
 
 # target to build an object file
 PlyParser.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj
 .PHONY : PlyParser.cpp.obj
 
 PlyParser.i: PlyParser.cpp.i
@@ -2160,7 +2160,7 @@ PlyParser.i: PlyParser.cpp.i
 
 # target to preprocess a source file
 PlyParser.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.i
 .PHONY : PlyParser.cpp.i
 
 PlyParser.s: PlyParser.cpp.s
@@ -2168,7 +2168,7 @@ PlyParser.s: PlyParser.cpp.s
 
 # target to generate assembly for a file
 PlyParser.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.s
 .PHONY : PlyParser.cpp.s
 
 PostStepRegistry.obj: PostStepRegistry.cpp.obj
@@ -2176,7 +2176,7 @@ PostStepRegistry.obj: PostStepRegistry.cpp.obj
 
 # target to build an object file
 PostStepRegistry.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj
 .PHONY : PostStepRegistry.cpp.obj
 
 PostStepRegistry.i: PostStepRegistry.cpp.i
@@ -2184,7 +2184,7 @@ PostStepRegistry.i: PostStepRegistry.cpp.i
 
 # target to preprocess a source file
 PostStepRegistry.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.i
 .PHONY : PostStepRegistry.cpp.i
 
 PostStepRegistry.s: PostStepRegistry.cpp.s
@@ -2192,7 +2192,7 @@ PostStepRegistry.s: PostStepRegistry.cpp.s
 
 # target to generate assembly for a file
 PostStepRegistry.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.s
 .PHONY : PostStepRegistry.cpp.s
 
 PretransformVertices.obj: PretransformVertices.cpp.obj
@@ -2200,7 +2200,7 @@ PretransformVertices.obj: PretransformVertices.cpp.obj
 
 # target to build an object file
 PretransformVertices.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj
 .PHONY : PretransformVertices.cpp.obj
 
 PretransformVertices.i: PretransformVertices.cpp.i
@@ -2208,7 +2208,7 @@ PretransformVertices.i: PretransformVertices.cpp.i
 
 # target to preprocess a source file
 PretransformVertices.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.i
 .PHONY : PretransformVertices.cpp.i
 
 PretransformVertices.s: PretransformVertices.cpp.s
@@ -2216,7 +2216,7 @@ PretransformVertices.s: PretransformVertices.cpp.s
 
 # target to generate assembly for a file
 PretransformVertices.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.s
 .PHONY : PretransformVertices.cpp.s
 
 ProcessHelper.obj: ProcessHelper.cpp.obj
@@ -2224,7 +2224,7 @@ ProcessHelper.obj: ProcessHelper.cpp.obj
 
 # target to build an object file
 ProcessHelper.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj
 .PHONY : ProcessHelper.cpp.obj
 
 ProcessHelper.i: ProcessHelper.cpp.i
@@ -2232,7 +2232,7 @@ ProcessHelper.i: ProcessHelper.cpp.i
 
 # target to preprocess a source file
 ProcessHelper.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.i
 .PHONY : ProcessHelper.cpp.i
 
 ProcessHelper.s: ProcessHelper.cpp.s
@@ -2240,7 +2240,7 @@ ProcessHelper.s: ProcessHelper.cpp.s
 
 # target to generate assembly for a file
 ProcessHelper.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.s
 .PHONY : ProcessHelper.cpp.s
 
 Q3BSPFileImporter.obj: Q3BSPFileImporter.cpp.obj
@@ -2248,7 +2248,7 @@ Q3BSPFileImporter.obj: Q3BSPFileImporter.cpp.obj
 
 # target to build an object file
 Q3BSPFileImporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj
 .PHONY : Q3BSPFileImporter.cpp.obj
 
 Q3BSPFileImporter.i: Q3BSPFileImporter.cpp.i
@@ -2256,7 +2256,7 @@ Q3BSPFileImporter.i: Q3BSPFileImporter.cpp.i
 
 # target to preprocess a source file
 Q3BSPFileImporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.i
 .PHONY : Q3BSPFileImporter.cpp.i
 
 Q3BSPFileImporter.s: Q3BSPFileImporter.cpp.s
@@ -2264,7 +2264,7 @@ Q3BSPFileImporter.s: Q3BSPFileImporter.cpp.s
 
 # target to generate assembly for a file
 Q3BSPFileImporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.s
 .PHONY : Q3BSPFileImporter.cpp.s
 
 Q3BSPFileParser.obj: Q3BSPFileParser.cpp.obj
@@ -2272,7 +2272,7 @@ Q3BSPFileParser.obj: Q3BSPFileParser.cpp.obj
 
 # target to build an object file
 Q3BSPFileParser.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj
 .PHONY : Q3BSPFileParser.cpp.obj
 
 Q3BSPFileParser.i: Q3BSPFileParser.cpp.i
@@ -2280,7 +2280,7 @@ Q3BSPFileParser.i: Q3BSPFileParser.cpp.i
 
 # target to preprocess a source file
 Q3BSPFileParser.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.i
 .PHONY : Q3BSPFileParser.cpp.i
 
 Q3BSPFileParser.s: Q3BSPFileParser.cpp.s
@@ -2288,7 +2288,7 @@ Q3BSPFileParser.s: Q3BSPFileParser.cpp.s
 
 # target to generate assembly for a file
 Q3BSPFileParser.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.s
 .PHONY : Q3BSPFileParser.cpp.s
 
 Q3BSPZipArchive.obj: Q3BSPZipArchive.cpp.obj
@@ -2296,7 +2296,7 @@ Q3BSPZipArchive.obj: Q3BSPZipArchive.cpp.obj
 
 # target to build an object file
 Q3BSPZipArchive.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj
 .PHONY : Q3BSPZipArchive.cpp.obj
 
 Q3BSPZipArchive.i: Q3BSPZipArchive.cpp.i
@@ -2304,7 +2304,7 @@ Q3BSPZipArchive.i: Q3BSPZipArchive.cpp.i
 
 # target to preprocess a source file
 Q3BSPZipArchive.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.i
 .PHONY : Q3BSPZipArchive.cpp.i
 
 Q3BSPZipArchive.s: Q3BSPZipArchive.cpp.s
@@ -2312,7 +2312,7 @@ Q3BSPZipArchive.s: Q3BSPZipArchive.cpp.s
 
 # target to generate assembly for a file
 Q3BSPZipArchive.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.s
 .PHONY : Q3BSPZipArchive.cpp.s
 
 Q3DLoader.obj: Q3DLoader.cpp.obj
@@ -2320,7 +2320,7 @@ Q3DLoader.obj: Q3DLoader.cpp.obj
 
 # target to build an object file
 Q3DLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj
 .PHONY : Q3DLoader.cpp.obj
 
 Q3DLoader.i: Q3DLoader.cpp.i
@@ -2328,7 +2328,7 @@ Q3DLoader.i: Q3DLoader.cpp.i
 
 # target to preprocess a source file
 Q3DLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.i
 .PHONY : Q3DLoader.cpp.i
 
 Q3DLoader.s: Q3DLoader.cpp.s
@@ -2336,7 +2336,7 @@ Q3DLoader.s: Q3DLoader.cpp.s
 
 # target to generate assembly for a file
 Q3DLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.s
 .PHONY : Q3DLoader.cpp.s
 
 RawLoader.obj: RawLoader.cpp.obj
@@ -2344,7 +2344,7 @@ RawLoader.obj: RawLoader.cpp.obj
 
 # target to build an object file
 RawLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj
 .PHONY : RawLoader.cpp.obj
 
 RawLoader.i: RawLoader.cpp.i
@@ -2352,7 +2352,7 @@ RawLoader.i: RawLoader.cpp.i
 
 # target to preprocess a source file
 RawLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.i
 .PHONY : RawLoader.cpp.i
 
 RawLoader.s: RawLoader.cpp.s
@@ -2360,7 +2360,7 @@ RawLoader.s: RawLoader.cpp.s
 
 # target to generate assembly for a file
 RawLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.s
 .PHONY : RawLoader.cpp.s
 
 RemoveComments.obj: RemoveComments.cpp.obj
@@ -2368,7 +2368,7 @@ RemoveComments.obj: RemoveComments.cpp.obj
 
 # target to build an object file
 RemoveComments.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj
 .PHONY : RemoveComments.cpp.obj
 
 RemoveComments.i: RemoveComments.cpp.i
@@ -2376,7 +2376,7 @@ RemoveComments.i: RemoveComments.cpp.i
 
 # target to preprocess a source file
 RemoveComments.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.i
 .PHONY : RemoveComments.cpp.i
 
 RemoveComments.s: RemoveComments.cpp.s
@@ -2384,7 +2384,7 @@ RemoveComments.s: RemoveComments.cpp.s
 
 # target to generate assembly for a file
 RemoveComments.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.s
 .PHONY : RemoveComments.cpp.s
 
 RemoveRedundantMaterials.obj: RemoveRedundantMaterials.cpp.obj
@@ -2392,7 +2392,7 @@ RemoveRedundantMaterials.obj: RemoveRedundantMaterials.cpp.obj
 
 # target to build an object file
 RemoveRedundantMaterials.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj
 .PHONY : RemoveRedundantMaterials.cpp.obj
 
 RemoveRedundantMaterials.i: RemoveRedundantMaterials.cpp.i
@@ -2400,7 +2400,7 @@ RemoveRedundantMaterials.i: RemoveRedundantMaterials.cpp.i
 
 # target to preprocess a source file
 RemoveRedundantMaterials.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.i
 .PHONY : RemoveRedundantMaterials.cpp.i
 
 RemoveRedundantMaterials.s: RemoveRedundantMaterials.cpp.s
@@ -2408,7 +2408,7 @@ RemoveRedundantMaterials.s: RemoveRedundantMaterials.cpp.s
 
 # target to generate assembly for a file
 RemoveRedundantMaterials.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.s
 .PHONY : RemoveRedundantMaterials.cpp.s
 
 RemoveVCProcess.obj: RemoveVCProcess.cpp.obj
@@ -2416,7 +2416,7 @@ RemoveVCProcess.obj: RemoveVCProcess.cpp.obj
 
 # target to build an object file
 RemoveVCProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj
 .PHONY : RemoveVCProcess.cpp.obj
 
 RemoveVCProcess.i: RemoveVCProcess.cpp.i
@@ -2424,7 +2424,7 @@ RemoveVCProcess.i: RemoveVCProcess.cpp.i
 
 # target to preprocess a source file
 RemoveVCProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.i
 .PHONY : RemoveVCProcess.cpp.i
 
 RemoveVCProcess.s: RemoveVCProcess.cpp.s
@@ -2432,7 +2432,7 @@ RemoveVCProcess.s: RemoveVCProcess.cpp.s
 
 # target to generate assembly for a file
 RemoveVCProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.s
 .PHONY : RemoveVCProcess.cpp.s
 
 SGSpatialSort.obj: SGSpatialSort.cpp.obj
@@ -2440,7 +2440,7 @@ SGSpatialSort.obj: SGSpatialSort.cpp.obj
 
 # target to build an object file
 SGSpatialSort.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj
 .PHONY : SGSpatialSort.cpp.obj
 
 SGSpatialSort.i: SGSpatialSort.cpp.i
@@ -2448,7 +2448,7 @@ SGSpatialSort.i: SGSpatialSort.cpp.i
 
 # target to preprocess a source file
 SGSpatialSort.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.i
 .PHONY : SGSpatialSort.cpp.i
 
 SGSpatialSort.s: SGSpatialSort.cpp.s
@@ -2456,7 +2456,7 @@ SGSpatialSort.s: SGSpatialSort.cpp.s
 
 # target to generate assembly for a file
 SGSpatialSort.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.s
 .PHONY : SGSpatialSort.cpp.s
 
 SMDLoader.obj: SMDLoader.cpp.obj
@@ -2464,7 +2464,7 @@ SMDLoader.obj: SMDLoader.cpp.obj
 
 # target to build an object file
 SMDLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj
 .PHONY : SMDLoader.cpp.obj
 
 SMDLoader.i: SMDLoader.cpp.i
@@ -2472,7 +2472,7 @@ SMDLoader.i: SMDLoader.cpp.i
 
 # target to preprocess a source file
 SMDLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.i
 .PHONY : SMDLoader.cpp.i
 
 SMDLoader.s: SMDLoader.cpp.s
@@ -2480,7 +2480,7 @@ SMDLoader.s: SMDLoader.cpp.s
 
 # target to generate assembly for a file
 SMDLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.s
 .PHONY : SMDLoader.cpp.s
 
 STEPFileReader.obj: STEPFileReader.cpp.obj
@@ -2488,7 +2488,7 @@ STEPFileReader.obj: STEPFileReader.cpp.obj
 
 # target to build an object file
 STEPFileReader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj
 .PHONY : STEPFileReader.cpp.obj
 
 STEPFileReader.i: STEPFileReader.cpp.i
@@ -2496,7 +2496,7 @@ STEPFileReader.i: STEPFileReader.cpp.i
 
 # target to preprocess a source file
 STEPFileReader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.i
 .PHONY : STEPFileReader.cpp.i
 
 STEPFileReader.s: STEPFileReader.cpp.s
@@ -2504,7 +2504,7 @@ STEPFileReader.s: STEPFileReader.cpp.s
 
 # target to generate assembly for a file
 STEPFileReader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.s
 .PHONY : STEPFileReader.cpp.s
 
 STLExporter.obj: STLExporter.cpp.obj
@@ -2512,7 +2512,7 @@ STLExporter.obj: STLExporter.cpp.obj
 
 # target to build an object file
 STLExporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj
 .PHONY : STLExporter.cpp.obj
 
 STLExporter.i: STLExporter.cpp.i
@@ -2520,7 +2520,7 @@ STLExporter.i: STLExporter.cpp.i
 
 # target to preprocess a source file
 STLExporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.i
 .PHONY : STLExporter.cpp.i
 
 STLExporter.s: STLExporter.cpp.s
@@ -2528,7 +2528,7 @@ STLExporter.s: STLExporter.cpp.s
 
 # target to generate assembly for a file
 STLExporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.s
 .PHONY : STLExporter.cpp.s
 
 STLLoader.obj: STLLoader.cpp.obj
@@ -2536,7 +2536,7 @@ STLLoader.obj: STLLoader.cpp.obj
 
 # target to build an object file
 STLLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj
 .PHONY : STLLoader.cpp.obj
 
 STLLoader.i: STLLoader.cpp.i
@@ -2544,7 +2544,7 @@ STLLoader.i: STLLoader.cpp.i
 
 # target to preprocess a source file
 STLLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.i
 .PHONY : STLLoader.cpp.i
 
 STLLoader.s: STLLoader.cpp.s
@@ -2552,7 +2552,7 @@ STLLoader.s: STLLoader.cpp.s
 
 # target to generate assembly for a file
 STLLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.s
 .PHONY : STLLoader.cpp.s
 
 SceneCombiner.obj: SceneCombiner.cpp.obj
@@ -2560,7 +2560,7 @@ SceneCombiner.obj: SceneCombiner.cpp.obj
 
 # target to build an object file
 SceneCombiner.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj
 .PHONY : SceneCombiner.cpp.obj
 
 SceneCombiner.i: SceneCombiner.cpp.i
@@ -2568,7 +2568,7 @@ SceneCombiner.i: SceneCombiner.cpp.i
 
 # target to preprocess a source file
 SceneCombiner.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.i
 .PHONY : SceneCombiner.cpp.i
 
 SceneCombiner.s: SceneCombiner.cpp.s
@@ -2576,7 +2576,7 @@ SceneCombiner.s: SceneCombiner.cpp.s
 
 # target to generate assembly for a file
 SceneCombiner.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.s
 .PHONY : SceneCombiner.cpp.s
 
 ScenePreprocessor.obj: ScenePreprocessor.cpp.obj
@@ -2584,7 +2584,7 @@ ScenePreprocessor.obj: ScenePreprocessor.cpp.obj
 
 # target to build an object file
 ScenePreprocessor.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj
 .PHONY : ScenePreprocessor.cpp.obj
 
 ScenePreprocessor.i: ScenePreprocessor.cpp.i
@@ -2592,7 +2592,7 @@ ScenePreprocessor.i: ScenePreprocessor.cpp.i
 
 # target to preprocess a source file
 ScenePreprocessor.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.i
 .PHONY : ScenePreprocessor.cpp.i
 
 ScenePreprocessor.s: ScenePreprocessor.cpp.s
@@ -2600,7 +2600,7 @@ ScenePreprocessor.s: ScenePreprocessor.cpp.s
 
 # target to generate assembly for a file
 ScenePreprocessor.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.s
 .PHONY : ScenePreprocessor.cpp.s
 
 SkeletonMeshBuilder.obj: SkeletonMeshBuilder.cpp.obj
@@ -2608,7 +2608,7 @@ SkeletonMeshBuilder.obj: SkeletonMeshBuilder.cpp.obj
 
 # target to build an object file
 SkeletonMeshBuilder.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj
 .PHONY : SkeletonMeshBuilder.cpp.obj
 
 SkeletonMeshBuilder.i: SkeletonMeshBuilder.cpp.i
@@ -2616,7 +2616,7 @@ SkeletonMeshBuilder.i: SkeletonMeshBuilder.cpp.i
 
 # target to preprocess a source file
 SkeletonMeshBuilder.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.i
 .PHONY : SkeletonMeshBuilder.cpp.i
 
 SkeletonMeshBuilder.s: SkeletonMeshBuilder.cpp.s
@@ -2624,7 +2624,7 @@ SkeletonMeshBuilder.s: SkeletonMeshBuilder.cpp.s
 
 # target to generate assembly for a file
 SkeletonMeshBuilder.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.s
 .PHONY : SkeletonMeshBuilder.cpp.s
 
 SortByPTypeProcess.obj: SortByPTypeProcess.cpp.obj
@@ -2632,7 +2632,7 @@ SortByPTypeProcess.obj: SortByPTypeProcess.cpp.obj
 
 # target to build an object file
 SortByPTypeProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj
 .PHONY : SortByPTypeProcess.cpp.obj
 
 SortByPTypeProcess.i: SortByPTypeProcess.cpp.i
@@ -2640,7 +2640,7 @@ SortByPTypeProcess.i: SortByPTypeProcess.cpp.i
 
 # target to preprocess a source file
 SortByPTypeProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.i
 .PHONY : SortByPTypeProcess.cpp.i
 
 SortByPTypeProcess.s: SortByPTypeProcess.cpp.s
@@ -2648,7 +2648,7 @@ SortByPTypeProcess.s: SortByPTypeProcess.cpp.s
 
 # target to generate assembly for a file
 SortByPTypeProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.s
 .PHONY : SortByPTypeProcess.cpp.s
 
 SpatialSort.obj: SpatialSort.cpp.obj
@@ -2656,7 +2656,7 @@ SpatialSort.obj: SpatialSort.cpp.obj
 
 # target to build an object file
 SpatialSort.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj
 .PHONY : SpatialSort.cpp.obj
 
 SpatialSort.i: SpatialSort.cpp.i
@@ -2664,7 +2664,7 @@ SpatialSort.i: SpatialSort.cpp.i
 
 # target to preprocess a source file
 SpatialSort.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.i
 .PHONY : SpatialSort.cpp.i
 
 SpatialSort.s: SpatialSort.cpp.s
@@ -2672,7 +2672,7 @@ SpatialSort.s: SpatialSort.cpp.s
 
 # target to generate assembly for a file
 SpatialSort.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.s
 .PHONY : SpatialSort.cpp.s
 
 SplitByBoneCountProcess.obj: SplitByBoneCountProcess.cpp.obj
@@ -2680,7 +2680,7 @@ SplitByBoneCountProcess.obj: SplitByBoneCountProcess.cpp.obj
 
 # target to build an object file
 SplitByBoneCountProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj
 .PHONY : SplitByBoneCountProcess.cpp.obj
 
 SplitByBoneCountProcess.i: SplitByBoneCountProcess.cpp.i
@@ -2688,7 +2688,7 @@ SplitByBoneCountProcess.i: SplitByBoneCountProcess.cpp.i
 
 # target to preprocess a source file
 SplitByBoneCountProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.i
 .PHONY : SplitByBoneCountProcess.cpp.i
 
 SplitByBoneCountProcess.s: SplitByBoneCountProcess.cpp.s
@@ -2696,7 +2696,7 @@ SplitByBoneCountProcess.s: SplitByBoneCountProcess.cpp.s
 
 # target to generate assembly for a file
 SplitByBoneCountProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.s
 .PHONY : SplitByBoneCountProcess.cpp.s
 
 SplitLargeMeshes.obj: SplitLargeMeshes.cpp.obj
@@ -2704,7 +2704,7 @@ SplitLargeMeshes.obj: SplitLargeMeshes.cpp.obj
 
 # target to build an object file
 SplitLargeMeshes.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj
 .PHONY : SplitLargeMeshes.cpp.obj
 
 SplitLargeMeshes.i: SplitLargeMeshes.cpp.i
@@ -2712,7 +2712,7 @@ SplitLargeMeshes.i: SplitLargeMeshes.cpp.i
 
 # target to preprocess a source file
 SplitLargeMeshes.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.i
 .PHONY : SplitLargeMeshes.cpp.i
 
 SplitLargeMeshes.s: SplitLargeMeshes.cpp.s
@@ -2720,7 +2720,7 @@ SplitLargeMeshes.s: SplitLargeMeshes.cpp.s
 
 # target to generate assembly for a file
 SplitLargeMeshes.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.s
 .PHONY : SplitLargeMeshes.cpp.s
 
 StandardShapes.obj: StandardShapes.cpp.obj
@@ -2728,7 +2728,7 @@ StandardShapes.obj: StandardShapes.cpp.obj
 
 # target to build an object file
 StandardShapes.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj
 .PHONY : StandardShapes.cpp.obj
 
 StandardShapes.i: StandardShapes.cpp.i
@@ -2736,7 +2736,7 @@ StandardShapes.i: StandardShapes.cpp.i
 
 # target to preprocess a source file
 StandardShapes.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.i
 .PHONY : StandardShapes.cpp.i
 
 StandardShapes.s: StandardShapes.cpp.s
@@ -2744,7 +2744,7 @@ StandardShapes.s: StandardShapes.cpp.s
 
 # target to generate assembly for a file
 StandardShapes.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.s
 .PHONY : StandardShapes.cpp.s
 
 Subdivision.obj: Subdivision.cpp.obj
@@ -2752,7 +2752,7 @@ Subdivision.obj: Subdivision.cpp.obj
 
 # target to build an object file
 Subdivision.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj
 .PHONY : Subdivision.cpp.obj
 
 Subdivision.i: Subdivision.cpp.i
@@ -2760,7 +2760,7 @@ Subdivision.i: Subdivision.cpp.i
 
 # target to preprocess a source file
 Subdivision.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.i
 .PHONY : Subdivision.cpp.i
 
 Subdivision.s: Subdivision.cpp.s
@@ -2768,7 +2768,7 @@ Subdivision.s: Subdivision.cpp.s
 
 # target to generate assembly for a file
 Subdivision.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.s
 .PHONY : Subdivision.cpp.s
 
 TargetAnimation.obj: TargetAnimation.cpp.obj
@@ -2776,7 +2776,7 @@ TargetAnimation.obj: TargetAnimation.cpp.obj
 
 # target to build an object file
 TargetAnimation.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj
 .PHONY : TargetAnimation.cpp.obj
 
 TargetAnimation.i: TargetAnimation.cpp.i
@@ -2784,7 +2784,7 @@ TargetAnimation.i: TargetAnimation.cpp.i
 
 # target to preprocess a source file
 TargetAnimation.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.i
 .PHONY : TargetAnimation.cpp.i
 
 TargetAnimation.s: TargetAnimation.cpp.s
@@ -2792,7 +2792,7 @@ TargetAnimation.s: TargetAnimation.cpp.s
 
 # target to generate assembly for a file
 TargetAnimation.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.s
 .PHONY : TargetAnimation.cpp.s
 
 TerragenLoader.obj: TerragenLoader.cpp.obj
@@ -2800,7 +2800,7 @@ TerragenLoader.obj: TerragenLoader.cpp.obj
 
 # target to build an object file
 TerragenLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj
 .PHONY : TerragenLoader.cpp.obj
 
 TerragenLoader.i: TerragenLoader.cpp.i
@@ -2808,7 +2808,7 @@ TerragenLoader.i: TerragenLoader.cpp.i
 
 # target to preprocess a source file
 TerragenLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.i
 .PHONY : TerragenLoader.cpp.i
 
 TerragenLoader.s: TerragenLoader.cpp.s
@@ -2816,7 +2816,7 @@ TerragenLoader.s: TerragenLoader.cpp.s
 
 # target to generate assembly for a file
 TerragenLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.s
 .PHONY : TerragenLoader.cpp.s
 
 TextureTransform.obj: TextureTransform.cpp.obj
@@ -2824,7 +2824,7 @@ TextureTransform.obj: TextureTransform.cpp.obj
 
 # target to build an object file
 TextureTransform.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj
 .PHONY : TextureTransform.cpp.obj
 
 TextureTransform.i: TextureTransform.cpp.i
@@ -2832,7 +2832,7 @@ TextureTransform.i: TextureTransform.cpp.i
 
 # target to preprocess a source file
 TextureTransform.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.i
 .PHONY : TextureTransform.cpp.i
 
 TextureTransform.s: TextureTransform.cpp.s
@@ -2840,7 +2840,7 @@ TextureTransform.s: TextureTransform.cpp.s
 
 # target to generate assembly for a file
 TextureTransform.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.s
 .PHONY : TextureTransform.cpp.s
 
 TriangulateProcess.obj: TriangulateProcess.cpp.obj
@@ -2848,7 +2848,7 @@ TriangulateProcess.obj: TriangulateProcess.cpp.obj
 
 # target to build an object file
 TriangulateProcess.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj
 .PHONY : TriangulateProcess.cpp.obj
 
 TriangulateProcess.i: TriangulateProcess.cpp.i
@@ -2856,7 +2856,7 @@ TriangulateProcess.i: TriangulateProcess.cpp.i
 
 # target to preprocess a source file
 TriangulateProcess.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.i
 .PHONY : TriangulateProcess.cpp.i
 
 TriangulateProcess.s: TriangulateProcess.cpp.s
@@ -2864,7 +2864,7 @@ TriangulateProcess.s: TriangulateProcess.cpp.s
 
 # target to generate assembly for a file
 TriangulateProcess.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.s
 .PHONY : TriangulateProcess.cpp.s
 
 UnrealLoader.obj: UnrealLoader.cpp.obj
@@ -2872,7 +2872,7 @@ UnrealLoader.obj: UnrealLoader.cpp.obj
 
 # target to build an object file
 UnrealLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj
 .PHONY : UnrealLoader.cpp.obj
 
 UnrealLoader.i: UnrealLoader.cpp.i
@@ -2880,7 +2880,7 @@ UnrealLoader.i: UnrealLoader.cpp.i
 
 # target to preprocess a source file
 UnrealLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.i
 .PHONY : UnrealLoader.cpp.i
 
 UnrealLoader.s: UnrealLoader.cpp.s
@@ -2888,7 +2888,7 @@ UnrealLoader.s: UnrealLoader.cpp.s
 
 # target to generate assembly for a file
 UnrealLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.s
 .PHONY : UnrealLoader.cpp.s
 
 ValidateDataStructure.obj: ValidateDataStructure.cpp.obj
@@ -2896,7 +2896,7 @@ ValidateDataStructure.obj: ValidateDataStructure.cpp.obj
 
 # target to build an object file
 ValidateDataStructure.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj
 .PHONY : ValidateDataStructure.cpp.obj
 
 ValidateDataStructure.i: ValidateDataStructure.cpp.i
@@ -2904,7 +2904,7 @@ ValidateDataStructure.i: ValidateDataStructure.cpp.i
 
 # target to preprocess a source file
 ValidateDataStructure.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.i
 .PHONY : ValidateDataStructure.cpp.i
 
 ValidateDataStructure.s: ValidateDataStructure.cpp.s
@@ -2912,7 +2912,7 @@ ValidateDataStructure.s: ValidateDataStructure.cpp.s
 
 # target to generate assembly for a file
 ValidateDataStructure.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.s
 .PHONY : ValidateDataStructure.cpp.s
 
 VertexTriangleAdjacency.obj: VertexTriangleAdjacency.cpp.obj
@@ -2920,7 +2920,7 @@ VertexTriangleAdjacency.obj: VertexTriangleAdjacency.cpp.obj
 
 # target to build an object file
 VertexTriangleAdjacency.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj
 .PHONY : VertexTriangleAdjacency.cpp.obj
 
 VertexTriangleAdjacency.i: VertexTriangleAdjacency.cpp.i
@@ -2928,7 +2928,7 @@ VertexTriangleAdjacency.i: VertexTriangleAdjacency.cpp.i
 
 # target to preprocess a source file
 VertexTriangleAdjacency.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.i
 .PHONY : VertexTriangleAdjacency.cpp.i
 
 VertexTriangleAdjacency.s: VertexTriangleAdjacency.cpp.s
@@ -2936,7 +2936,7 @@ VertexTriangleAdjacency.s: VertexTriangleAdjacency.cpp.s
 
 # target to generate assembly for a file
 VertexTriangleAdjacency.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.s
 .PHONY : VertexTriangleAdjacency.cpp.s
 
 XFileImporter.obj: XFileImporter.cpp.obj
@@ -2944,7 +2944,7 @@ XFileImporter.obj: XFileImporter.cpp.obj
 
 # target to build an object file
 XFileImporter.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj
 .PHONY : XFileImporter.cpp.obj
 
 XFileImporter.i: XFileImporter.cpp.i
@@ -2952,7 +2952,7 @@ XFileImporter.i: XFileImporter.cpp.i
 
 # target to preprocess a source file
 XFileImporter.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.i
 .PHONY : XFileImporter.cpp.i
 
 XFileImporter.s: XFileImporter.cpp.s
@@ -2960,7 +2960,7 @@ XFileImporter.s: XFileImporter.cpp.s
 
 # target to generate assembly for a file
 XFileImporter.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.s
 .PHONY : XFileImporter.cpp.s
 
 XFileParser.obj: XFileParser.cpp.obj
@@ -2968,7 +2968,7 @@ XFileParser.obj: XFileParser.cpp.obj
 
 # target to build an object file
 XFileParser.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj
 .PHONY : XFileParser.cpp.obj
 
 XFileParser.i: XFileParser.cpp.i
@@ -2976,7 +2976,7 @@ XFileParser.i: XFileParser.cpp.i
 
 # target to preprocess a source file
 XFileParser.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.i
 .PHONY : XFileParser.cpp.i
 
 XFileParser.s: XFileParser.cpp.s
@@ -2984,7 +2984,7 @@ XFileParser.s: XFileParser.cpp.s
 
 # target to generate assembly for a file
 XFileParser.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.s
 .PHONY : XFileParser.cpp.s
 
 XGLLoader.obj: XGLLoader.cpp.obj
@@ -2992,7 +2992,7 @@ XGLLoader.obj: XGLLoader.cpp.obj
 
 # target to build an object file
 XGLLoader.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj
 .PHONY : XGLLoader.cpp.obj
 
 XGLLoader.i: XGLLoader.cpp.i
@@ -3000,7 +3000,7 @@ XGLLoader.i: XGLLoader.cpp.i
 
 # target to preprocess a source file
 XGLLoader.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.i
 .PHONY : XGLLoader.cpp.i
 
 XGLLoader.s: XGLLoader.cpp.s
@@ -3008,7 +3008,7 @@ XGLLoader.s: XGLLoader.cpp.s
 
 # target to generate assembly for a file
 XGLLoader.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.s
 .PHONY : XGLLoader.cpp.s
 
 __/contrib/ConvertUTF/ConvertUTF.obj: __/contrib/ConvertUTF/ConvertUTF.c.obj
@@ -3016,7 +3016,7 @@ __/contrib/ConvertUTF/ConvertUTF.obj: __/contrib/ConvertUTF/ConvertUTF.c.obj
 
 # target to build an object file
 __/contrib/ConvertUTF/ConvertUTF.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj
 .PHONY : __/contrib/ConvertUTF/ConvertUTF.c.obj
 
 __/contrib/ConvertUTF/ConvertUTF.i: __/contrib/ConvertUTF/ConvertUTF.c.i
@@ -3024,7 +3024,7 @@ __/contrib/ConvertUTF/ConvertUTF.i: __/contrib/ConvertUTF/ConvertUTF.c.i
 
 # target to preprocess a source file
 __/contrib/ConvertUTF/ConvertUTF.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.i
 .PHONY : __/contrib/ConvertUTF/ConvertUTF.c.i
 
 __/contrib/ConvertUTF/ConvertUTF.s: __/contrib/ConvertUTF/ConvertUTF.c.s
@@ -3032,7 +3032,7 @@ __/contrib/ConvertUTF/ConvertUTF.s: __/contrib/ConvertUTF/ConvertUTF.c.s
 
 # target to generate assembly for a file
 __/contrib/ConvertUTF/ConvertUTF.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.s
 .PHONY : __/contrib/ConvertUTF/ConvertUTF.c.s
 
 __/contrib/clipper/clipper.obj: __/contrib/clipper/clipper.cpp.obj
@@ -3040,7 +3040,7 @@ __/contrib/clipper/clipper.obj: __/contrib/clipper/clipper.cpp.obj
 
 # target to build an object file
 __/contrib/clipper/clipper.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj
 .PHONY : __/contrib/clipper/clipper.cpp.obj
 
 __/contrib/clipper/clipper.i: __/contrib/clipper/clipper.cpp.i
@@ -3048,7 +3048,7 @@ __/contrib/clipper/clipper.i: __/contrib/clipper/clipper.cpp.i
 
 # target to preprocess a source file
 __/contrib/clipper/clipper.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.i
 .PHONY : __/contrib/clipper/clipper.cpp.i
 
 __/contrib/clipper/clipper.s: __/contrib/clipper/clipper.cpp.s
@@ -3056,7 +3056,7 @@ __/contrib/clipper/clipper.s: __/contrib/clipper/clipper.cpp.s
 
 # target to generate assembly for a file
 __/contrib/clipper/clipper.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.s
 .PHONY : __/contrib/clipper/clipper.cpp.s
 
 __/contrib/irrXML/irrXML.obj: __/contrib/irrXML/irrXML.cpp.obj
@@ -3064,7 +3064,7 @@ __/contrib/irrXML/irrXML.obj: __/contrib/irrXML/irrXML.cpp.obj
 
 # target to build an object file
 __/contrib/irrXML/irrXML.cpp.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj
 .PHONY : __/contrib/irrXML/irrXML.cpp.obj
 
 __/contrib/irrXML/irrXML.i: __/contrib/irrXML/irrXML.cpp.i
@@ -3072,7 +3072,7 @@ __/contrib/irrXML/irrXML.i: __/contrib/irrXML/irrXML.cpp.i
 
 # target to preprocess a source file
 __/contrib/irrXML/irrXML.cpp.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.i
 .PHONY : __/contrib/irrXML/irrXML.cpp.i
 
 __/contrib/irrXML/irrXML.s: __/contrib/irrXML/irrXML.cpp.s
@@ -3080,7 +3080,7 @@ __/contrib/irrXML/irrXML.s: __/contrib/irrXML/irrXML.cpp.s
 
 # target to generate assembly for a file
 __/contrib/irrXML/irrXML.cpp.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.s
 .PHONY : __/contrib/irrXML/irrXML.cpp.s
 
 __/contrib/poly2tri/poly2tri/common/shapes.obj: __/contrib/poly2tri/poly2tri/common/shapes.cc.obj
@@ -3088,7 +3088,7 @@ __/contrib/poly2tri/poly2tri/common/shapes.obj: __/contrib/poly2tri/poly2tri/com
 
 # target to build an object file
 __/contrib/poly2tri/poly2tri/common/shapes.cc.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj
 .PHONY : __/contrib/poly2tri/poly2tri/common/shapes.cc.obj
 
 __/contrib/poly2tri/poly2tri/common/shapes.i: __/contrib/poly2tri/poly2tri/common/shapes.cc.i
@@ -3096,7 +3096,7 @@ __/contrib/poly2tri/poly2tri/common/shapes.i: __/contrib/poly2tri/poly2tri/commo
 
 # target to preprocess a source file
 __/contrib/poly2tri/poly2tri/common/shapes.cc.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.i
 .PHONY : __/contrib/poly2tri/poly2tri/common/shapes.cc.i
 
 __/contrib/poly2tri/poly2tri/common/shapes.s: __/contrib/poly2tri/poly2tri/common/shapes.cc.s
@@ -3104,7 +3104,7 @@ __/contrib/poly2tri/poly2tri/common/shapes.s: __/contrib/poly2tri/poly2tri/commo
 
 # target to generate assembly for a file
 __/contrib/poly2tri/poly2tri/common/shapes.cc.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.s
 .PHONY : __/contrib/poly2tri/poly2tri/common/shapes.cc.s
 
 __/contrib/poly2tri/poly2tri/sweep/advancing_front.obj: __/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj
@@ -3112,7 +3112,7 @@ __/contrib/poly2tri/poly2tri/sweep/advancing_front.obj: __/contrib/poly2tri/poly
 
 # target to build an object file
 __/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj
 
 __/contrib/poly2tri/poly2tri/sweep/advancing_front.i: __/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.i
@@ -3120,7 +3120,7 @@ __/contrib/poly2tri/poly2tri/sweep/advancing_front.i: __/contrib/poly2tri/poly2t
 
 # target to preprocess a source file
 __/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.i
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.i
 
 __/contrib/poly2tri/poly2tri/sweep/advancing_front.s: __/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.s
@@ -3128,7 +3128,7 @@ __/contrib/poly2tri/poly2tri/sweep/advancing_front.s: __/contrib/poly2tri/poly2t
 
 # target to generate assembly for a file
 __/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.s
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.s
 
 __/contrib/poly2tri/poly2tri/sweep/cdt.obj: __/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj
@@ -3136,7 +3136,7 @@ __/contrib/poly2tri/poly2tri/sweep/cdt.obj: __/contrib/poly2tri/poly2tri/sweep/c
 
 # target to build an object file
 __/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj
 
 __/contrib/poly2tri/poly2tri/sweep/cdt.i: __/contrib/poly2tri/poly2tri/sweep/cdt.cc.i
@@ -3144,7 +3144,7 @@ __/contrib/poly2tri/poly2tri/sweep/cdt.i: __/contrib/poly2tri/poly2tri/sweep/cdt
 
 # target to preprocess a source file
 __/contrib/poly2tri/poly2tri/sweep/cdt.cc.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.i
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/cdt.cc.i
 
 __/contrib/poly2tri/poly2tri/sweep/cdt.s: __/contrib/poly2tri/poly2tri/sweep/cdt.cc.s
@@ -3152,7 +3152,7 @@ __/contrib/poly2tri/poly2tri/sweep/cdt.s: __/contrib/poly2tri/poly2tri/sweep/cdt
 
 # target to generate assembly for a file
 __/contrib/poly2tri/poly2tri/sweep/cdt.cc.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.s
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/cdt.cc.s
 
 __/contrib/poly2tri/poly2tri/sweep/sweep.obj: __/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj
@@ -3160,7 +3160,7 @@ __/contrib/poly2tri/poly2tri/sweep/sweep.obj: __/contrib/poly2tri/poly2tri/sweep
 
 # target to build an object file
 __/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj
 
 __/contrib/poly2tri/poly2tri/sweep/sweep.i: __/contrib/poly2tri/poly2tri/sweep/sweep.cc.i
@@ -3168,7 +3168,7 @@ __/contrib/poly2tri/poly2tri/sweep/sweep.i: __/contrib/poly2tri/poly2tri/sweep/s
 
 # target to preprocess a source file
 __/contrib/poly2tri/poly2tri/sweep/sweep.cc.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.i
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/sweep.cc.i
 
 __/contrib/poly2tri/poly2tri/sweep/sweep.s: __/contrib/poly2tri/poly2tri/sweep/sweep.cc.s
@@ -3176,7 +3176,7 @@ __/contrib/poly2tri/poly2tri/sweep/sweep.s: __/contrib/poly2tri/poly2tri/sweep/s
 
 # target to generate assembly for a file
 __/contrib/poly2tri/poly2tri/sweep/sweep.cc.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.s
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/sweep.cc.s
 
 __/contrib/poly2tri/poly2tri/sweep/sweep_context.obj: __/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj
@@ -3184,7 +3184,7 @@ __/contrib/poly2tri/poly2tri/sweep/sweep_context.obj: __/contrib/poly2tri/poly2t
 
 # target to build an object file
 __/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj
 
 __/contrib/poly2tri/poly2tri/sweep/sweep_context.i: __/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.i
@@ -3192,7 +3192,7 @@ __/contrib/poly2tri/poly2tri/sweep/sweep_context.i: __/contrib/poly2tri/poly2tri
 
 # target to preprocess a source file
 __/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.i
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.i
 
 __/contrib/poly2tri/poly2tri/sweep/sweep_context.s: __/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.s
@@ -3200,7 +3200,7 @@ __/contrib/poly2tri/poly2tri/sweep/sweep_context.s: __/contrib/poly2tri/poly2tri
 
 # target to generate assembly for a file
 __/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.s
 .PHONY : __/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.s
 
 __/contrib/unzip/ioapi.obj: __/contrib/unzip/ioapi.c.obj
@@ -3208,7 +3208,7 @@ __/contrib/unzip/ioapi.obj: __/contrib/unzip/ioapi.c.obj
 
 # target to build an object file
 __/contrib/unzip/ioapi.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj
 .PHONY : __/contrib/unzip/ioapi.c.obj
 
 __/contrib/unzip/ioapi.i: __/contrib/unzip/ioapi.c.i
@@ -3216,7 +3216,7 @@ __/contrib/unzip/ioapi.i: __/contrib/unzip/ioapi.c.i
 
 # target to preprocess a source file
 __/contrib/unzip/ioapi.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.i
 .PHONY : __/contrib/unzip/ioapi.c.i
 
 __/contrib/unzip/ioapi.s: __/contrib/unzip/ioapi.c.s
@@ -3224,7 +3224,7 @@ __/contrib/unzip/ioapi.s: __/contrib/unzip/ioapi.c.s
 
 # target to generate assembly for a file
 __/contrib/unzip/ioapi.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.s
 .PHONY : __/contrib/unzip/ioapi.c.s
 
 __/contrib/unzip/unzip.obj: __/contrib/unzip/unzip.c.obj
@@ -3232,7 +3232,7 @@ __/contrib/unzip/unzip.obj: __/contrib/unzip/unzip.c.obj
 
 # target to build an object file
 __/contrib/unzip/unzip.c.obj:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj
 .PHONY : __/contrib/unzip/unzip.c.obj
 
 __/contrib/unzip/unzip.i: __/contrib/unzip/unzip.c.i
@@ -3240,7 +3240,7 @@ __/contrib/unzip/unzip.i: __/contrib/unzip/unzip.c.i
 
 # target to preprocess a source file
 __/contrib/unzip/unzip.c.i:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.i
 .PHONY : __/contrib/unzip/unzip.c.i
 
 __/contrib/unzip/unzip.s: __/contrib/unzip/unzip.c.s
@@ -3248,7 +3248,7 @@ __/contrib/unzip/unzip.s: __/contrib/unzip/unzip.c.s
 
 # target to generate assembly for a file
 __/contrib/unzip/unzip.c.s:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(MAKE) -f third-party\assimp\code\CMakeFiles\assimp.dir\build.make third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.s
 .PHONY : __/contrib/unzip/unzip.c.s
 
 # Help Target
@@ -3662,6 +3662,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

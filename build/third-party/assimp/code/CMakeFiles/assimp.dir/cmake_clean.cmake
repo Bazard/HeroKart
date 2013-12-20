@@ -129,7 +129,9 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj"
   "CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj"
   "libassimp.pdb"
-  "libassimp.a"
+  "libassimp.dll"
+  "libassimp.dll.a"
+  "libassimp.dll.manifest"
 )
 
 # Per-language clean rules from dependency scanning.

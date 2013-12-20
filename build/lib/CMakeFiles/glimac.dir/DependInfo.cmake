@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Cours/Synthese d'image/HeroKart/lib/src/Program.cpp" "C:/Cours/Synthese d'image/HeroKart/build/lib/CMakeFiles/glimac.dir/src/Program.cpp.obj"
-  "C:/Cours/Synthese d'image/HeroKart/lib/src/Shader.cpp" "C:/Cours/Synthese d'image/HeroKart/build/lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/lib/src/Program.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/lib/CMakeFiles/glimac.dir/src/Program.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/lib/src/Shader.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

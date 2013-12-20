@@ -1,8 +1,8 @@
-IF(NOT EXISTS "C:/Cours/Synthese d'image/HeroKart/build/third-party/assimp/install_manifest.txt")
-    MESSAGE(FATAL_ERROR "Cannot find install manifest: \"C:/Cours/Synthese d'image/HeroKart/build/third-party/assimp/install_manifest.txt\"")
+IF(NOT EXISTS "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/assimp/install_manifest.txt")
+    MESSAGE(FATAL_ERROR "Cannot find install manifest: \"C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/assimp/install_manifest.txt\"")
 ENDIF()
 
-FILE(READ "C:/Cours/Synthese d'image/HeroKart/build/third-party/assimp/install_manifest.txt" files)
+FILE(READ "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/assimp/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 
 FOREACH(file ${files})

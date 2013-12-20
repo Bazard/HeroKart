@@ -37,10 +37,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = "C:\Logiciels\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Cours\Synthese d'image\HeroKart"
+CMAKE_SOURCE_DIR = C:\Users\bruno\Documents\GitHub\HeroKart
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Cours\Synthese d'image\HeroKart\build"
+CMAKE_BINARY_DIR = C:\Users\bruno\Documents\GitHub\HeroKart\build
 
 # Utility rule file for uninstall.
 
@@ -48,7 +48,7 @@ CMAKE_BINARY_DIR = "C:\Cours\Synthese d'image\HeroKart\build"
 include third-party/assimp/CMakeFiles/uninstall.dir/progress.make
 
 third-party/assimp/CMakeFiles/uninstall:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\THIRD-~1\assimp && "C:\Logiciels\CMake 2.8\bin\cmake.exe" -P "C:/Cours/Synthese d'image/HeroKart/build/third-party/assimp/cmake_uninstall.cmake"
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp && "C:\Logiciels\CMake 2.8\bin\cmake.exe" -P C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/assimp/cmake_uninstall.cmake
 
 uninstall: third-party/assimp/CMakeFiles/uninstall
 uninstall: third-party/assimp/CMakeFiles/uninstall.dir/build.make
@@ -59,10 +59,10 @@ third-party/assimp/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : third-party/assimp/CMakeFiles/uninstall.dir/build
 
 third-party/assimp/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Cours\SYNTHE~1\HeroKart\build\THIRD-~1\assimp && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : third-party/assimp/CMakeFiles/uninstall.dir/clean
 
 third-party/assimp/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Cours\Synthese d'image\HeroKart" "C:\Cours\Synthese d'image\HeroKart\third-party\assimp" "C:\Cours\Synthese d'image\HeroKart\build" "C:\Cours\Synthese d'image\HeroKart\build\third-party\assimp" "C:\Cours\Synthese d'image\HeroKart\build\third-party\assimp\CMakeFiles\uninstall.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\bruno\Documents\GitHub\HeroKart C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp C:\Users\bruno\Documents\GitHub\HeroKart\build C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/assimp/CMakeFiles/uninstall.dir/depend
 
