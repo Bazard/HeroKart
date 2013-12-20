@@ -1,3 +1,0 @@
-C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/RocketControls.dir
-C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/RocketCore.dir
-C:/Cours/Synthese d'image/HeroKart/third-party/libRocket/Build/CMakeFiles/RocketDebugger.dir

@@ -22,10 +22,6 @@ set(CMAKE_CXX_FLAGS "-std=gnu++0x")
 include_directories(lib/include)
 add_subdirectory(lib)
 
-#LibRocket
-# include_directories(third-party/libRocket/Include)
-# add_subdirectory(third-party/libRocket/Build)
-
 # Assimp
 include_directories(third-party/assimp/include)
 add_subdirectory(third-party/assimp)
@@ -33,10 +29,8 @@ add_subdirectory(third-party/assimp)
 #SOIL
 include_directories(third-party/soil)
  
-
-# set(ROCKET_LIBRARIES RocketControls RocketCore RocketDebugger)
 set(ALL_LIBRARIES glew ${OPENGL_LIBRARIES} ${SDL_LIBRARY} glimac)
 
 file(GLOB_RECURSE source_files src/*)
 add_executable(HeroKart ${source_files})
-target_link_libraries(HeroKart assimp SOIL ${ALL_LIBRARIES}) #${ROCKET_LIBRARIES}
+target_link_libraries(HeroKart assimp SOIL ${ALL_LIBRARIES})
