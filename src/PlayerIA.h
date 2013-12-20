@@ -15,6 +15,6 @@ public:
 	~PlayerIA();
 	
 	void pickPower(const PowerObject& power);
-	void usePower();
+	void usePower(std::vector<Kart*>& vecKart, int idLanceur);
 };
 

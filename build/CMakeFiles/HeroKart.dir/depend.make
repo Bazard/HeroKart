@@ -432,6 +432,7 @@ CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/GL/g
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
+CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/Kart.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/Object3D.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/PowerObject.cpp
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/PowerObject.h

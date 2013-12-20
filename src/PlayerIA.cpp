@@ -14,9 +14,9 @@ void PlayerIA::pickPower(const PowerObject& power){
 	object=new PowerObject(power);
 }
 
-void PlayerIA::usePower(){
+void PlayerIA::usePower(std::vector<Kart*>& vecKart, int idLanceur){
 	if(object){
-		std::cout << "Pan" << std::endl;
+		object->power(vecKart,idLanceur);
 		delete(object);
 		object=NULL;
 		}

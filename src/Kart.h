@@ -19,5 +19,10 @@ public:
 	
 	void move(int);
 	void rotate(int);
+	float getSpeed(){return speed;}
+	float getSpeedMax(){return speedmax;}
+	
+	void setSpeed(float s){ speed=s;}
+	void setSpeedMax(float s){speedmax=s;}
 };
 

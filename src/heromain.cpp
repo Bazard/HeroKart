@@ -100,16 +100,24 @@ int main(int argc, char** argv) {
 		
 	TrackballCamera camera;
 	 
+	 //Rotation pour la caméra
 	std::queue<std::pair<float,Uint32>> anglefile;
 	anglefile.push(std::pair<float,Uint32>(0,0));
+	
+	//Vecteurs Players et Karts
+	std::vector<PlayerIA*> Players;
+	std::vector<Kart*> Karts;
 	
 	Character SuperBru;
 	PlayerIA brubru("Brubru", kart, SuperBru);
 	
+	Players.push_back(&brubru);
+	Karts.push_back(&kart);
+	
 	PowerObject boost(BOOST);
 	bool done=false;
 	while(!done) {
-		
+
 		Uint32 tStart = SDL_GetTicks();
 		
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -140,7 +148,7 @@ int main(int argc, char** argv) {
 		
 		//Sky
 		sky.getVAO().bind();		
-		sky.TransfoMatrix(ViewMatrix, kart.getPosition(), tStart* 0.001f, glm::vec3(30,30,30));
+		sky.TransfoMatrix(ViewMatrix, glm::vec3(0,0,0), tStart* 0.001f, glm::vec3(30,30,30));
 		sky.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 		sky.Draw(uTex);
 		
@@ -158,7 +166,7 @@ int main(int argc, char** argv) {
 							brubru.pickPower(boost);
 							break;
 						case SDLK_SPACE:
-							brubru.usePower();
+							brubru.usePower(Karts,0);
 							break;
 					}
 					break;
