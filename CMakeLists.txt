@@ -4,7 +4,7 @@ project(HeroKart)
 
 find_package(OpenGL REQUIRED)
 find_package(SDL REQUIRED)
-find_package(SDL_TTF REQUIRED)
+# find_package(SDL_TTF REQUIRED)
 
 include_directories(${OPENGL_INCLUDE_DIR} ${SDL_INCLUDE_DIR} third-party/glm)
 

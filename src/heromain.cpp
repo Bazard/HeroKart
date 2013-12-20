@@ -137,7 +137,7 @@ int main(int argc, char** argv) {
 		
 		//Sky
 		sky.getVAO().bind();		
-		sky.TransfoMatrix(ViewMatrix, glm::vec3(0,0,0), tStart* 0.001f, glm::vec3(30,30,30));
+		sky.TransfoMatrix(ViewMatrix, kart.getPosition(), tStart* 0.001f, glm::vec3(30,30,30));
 		sky.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 		sky.Draw(uTex);
 		
