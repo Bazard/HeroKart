@@ -1,7 +1,7 @@
 #include "PowerObject.h"
 
 
-PowerObject::PowerObject()
+PowerObject::PowerObject(typeEnum type):type(type)
 {
 }
 

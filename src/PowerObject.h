@@ -9,7 +9,7 @@ private:
 	typeEnum type;
 	bool disable; //L'objet n'est pas disponible s'il vient d'être pris, il reapparaitra apres un petit temps
 public:
-	PowerObject();
+	PowerObject(typeEnum type);
 	~PowerObject();
 };
 

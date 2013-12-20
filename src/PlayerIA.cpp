@@ -1,5 +1,5 @@
 #include "PlayerIA.h"
-
+#include <iostream>
 
 PlayerIA::PlayerIA(std::string name,Kart& kart, Character& character):playerName(name),kart(kart),character(character)
 {
@@ -15,5 +15,11 @@ void PlayerIA::pickPower(const PowerObject& power){
 }
 
 void PlayerIA::usePower(){
-	delete(object);
+	if(object){
+		std::cout << "Pan" << std::endl;
+		delete(object);
+		object=NULL;
+		}
+	else
+		std::cout << "Pas d'objet" << std::endl;
 }

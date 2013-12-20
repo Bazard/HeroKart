@@ -99,13 +99,14 @@ int main(int argc, char** argv) {
 	glm::mat4 ViewMatrix;
 		
 	TrackballCamera camera;
-	 //FreeflyCamera camera;
+	 
 	std::queue<std::pair<float,Uint32>> anglefile;
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	Character SuperBru;
 	PlayerIA brubru("Brubru", kart, SuperBru);
 	
+	PowerObject boost(BOOST);
 	bool done=false;
 	while(!done) {
 		
@@ -150,6 +151,16 @@ int main(int argc, char** argv) {
 			switch(e.type) {			
 				case SDL_QUIT:
 					done = true;
+					break;
+				case SDL_KEYDOWN:
+					switch(e.key.keysym.sym){
+						case 'p':
+							brubru.pickPower(boost);
+							break;
+						case SDLK_SPACE:
+							brubru.usePower();
+							break;
+					}
 					break;
 				default:
 					break;
