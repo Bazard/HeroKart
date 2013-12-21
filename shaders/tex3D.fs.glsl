@@ -11,5 +11,5 @@ uniform sampler2D uTexture;
 void main() {
 	vec4 colortex=texture(uTexture, vFragTexCoords);
     fFragColor = colortex.xyz;
-};
+}
                     
