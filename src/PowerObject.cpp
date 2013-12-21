@@ -1,7 +1,7 @@
 #include "PowerObject.h"
 
 
-PowerObject::PowerObject(typeEnum type, int duration):type(type), duration(duration), disable(true)
+PowerObject::PowerObject(typeEnum type, int duration):type(type), duration(duration), disable(true), launched(false)
 {
 }
 
@@ -10,7 +10,7 @@ PowerObject::~PowerObject()
 {
 }
 
-void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart){
+void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, std::vector<Object3D*> objs){
 		switch(type){
 			case BOOST:
 					stock=vecKart[idLanceur]->getSpeedMax();
@@ -18,8 +18,10 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart){
 					vecKart[idLanceur]->setSpeedMax(3*vecKart[idLanceur]->getSpeedMax());
 					break;
 			case ATK_FRONT:
+					
 					break;
 			case ATK_BACK:
+			
 					break;
 			case ATK_ALL:
 					break;
@@ -32,7 +34,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart){
 					break;
 		}
 		timeOfUse=tStart;
-		disable=false;
+		launched=true;
 	}
 	
 void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){

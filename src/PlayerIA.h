@@ -16,7 +16,7 @@ public:
 	
 	PowerObject* getPower();
 	void pickPower(const PowerObject& power);
-	void usePower(std::vector<Kart*>& vecKart, int idLanceur, int tStart);
+	void usePower(std::vector<Kart*>& vecKart, int idLanceur, int tStart, std::vector<Object3D*> objs);
 	void stopPower(std::vector<Kart*>& vecKart, int idLanceur);
 	void dropPower();
 };

@@ -110,11 +110,16 @@ int main(int argc, char** argv) {
 	std::vector<PlayerIA*> Players;
 	std::vector<Kart*> Karts;
 	
+	//Vecteurs des objets de la map
+	std::vector<Object3D*> mapObjects;
+	
 	Character SuperBru;
 	PlayerIA brubru("Brubru", kart, SuperBru);
 	
 	Players.push_back(&brubru);
 	Karts.push_back(&kart);
+	
+	mapObjects.push_back(&floor);
 	
 	PowerObject boost(BOOST,10000);
 	bool done=false;
@@ -136,7 +141,7 @@ int main(int argc, char** argv) {
 		//Pouvoirs (boucle sur tous les persos)
 		if(brubru.getPower()){
 				
-			if(!brubru.getPower()->isDisable() && brubru.getPower()->getDuration()+brubru.getPower()->getTimeOfUse() < tStart){
+			if(brubru.getPower()->isLaunched() && brubru.getPower()->getDuration()+brubru.getPower()->getTimeOfUse() < tStart){
 				brubru.stopPower(Karts,0);
 				brubru.dropPower();
 			}
@@ -148,11 +153,13 @@ int main(int argc, char** argv) {
 		kart.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
 		kart.Draw(uTex);	//Draw de l'objet
 
-		//Floor
-		floor.getVAO().bind();		
-		floor.TransfoMatrix(ViewMatrix, glm::vec3(0,0,-1), 0);
-		floor.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
-		floor.Draw(uTex);
+		//Dessin des objets de la map
+		for (std::vector<Object3D*>::iterator it = mapObjects.begin() ; it != mapObjects.end(); ++it){
+			(*it)->getVAO().bind();		
+			(*it)->TransfoMatrix(ViewMatrix, glm::vec3(0,0,0), 0);
+			(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
+			(*it)->Draw(uTex);
+		}
 		
 		//Sky
 		sky.getVAO().bind();		
@@ -175,7 +182,7 @@ int main(int argc, char** argv) {
 							brubru.pickPower(boost);
 							break;
 						case SDLK_SPACE:
-							brubru.usePower(Karts,0,tStart);
+							brubru.usePower(Karts,0,tStart,mapObjects);
 							break;
 					}
 					break;
