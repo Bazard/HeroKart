@@ -318,11 +318,9 @@ HeroKart.exe: CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/Race.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/Track.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/build.make
-HeroKart.exe: third-party/assimp/code/libassimp.dll.a
 HeroKart.exe: third-party/glew-1.10.0/libglew.a
 HeroKart.exe: C:/Logiciels/MinGW/lib/libSDL.dll.a
 HeroKart.exe: lib/libglimac.a
-HeroKart.exe: third-party/assimp/contrib/zlib/libzlib.a
 HeroKart.exe: CMakeFiles/HeroKart.dir/objects1.rsp
 HeroKart.exe: CMakeFiles/HeroKart.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable HeroKart.exe"

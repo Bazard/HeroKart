@@ -31,7 +31,6 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/glew-1.10.0/cmake_install.cmake")
   INCLUDE("C:/Users/bruno/Documents/GitHub/HeroKart/build/lib/cmake_install.cmake")
-  INCLUDE("C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/assimp/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
