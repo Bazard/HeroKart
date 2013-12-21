@@ -69,12 +69,14 @@ int main(int argc, char** argv) {
 	//Objet2
 	Object3D floor;
 	floor.LoadObjFromFile("../models/floor.obj");	
+	floor.setScale(glm::vec3(16,1,16));
 	floor.build();
 	floor.LoadTexture("../textures/MoonMap.png");
 
 	//Ciel
 	Object3D sky;
 	sky.sphere(1,32,16);
+	sky.setScale(glm::vec3(30,30,30));
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 	
@@ -114,7 +116,7 @@ int main(int argc, char** argv) {
 	Players.push_back(&brubru);
 	Karts.push_back(&kart);
 	
-	PowerObject boost(BOOST);
+	PowerObject boost(BOOST,10000);
 	bool done=false;
 	while(!done) {
 
@@ -123,7 +125,7 @@ int main(int argc, char** argv) {
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		
 		//Camera
-		// std::cout << tStart << std::endl;
+		
 		if(tStart-anglefile.front().second>330){
 			if(anglefile.size()>1)
 				anglefile.pop();
@@ -131,24 +133,30 @@ int main(int argc, char** argv) {
 		
 		ViewMatrix=camera.getViewMatrix(kart.getPosition(), anglefile.front().first,kart.back);
 	
-			
-		
+		//Pouvoirs (boucle sur tous les persos)
+		if(brubru.getPower()){
+				
+			if(!brubru.getPower()->isDisable() && brubru.getPower()->getDuration()+brubru.getPower()->getTimeOfUse() < tStart){
+				brubru.stopPower(Karts,0);
+				brubru.dropPower();
+			}
+		}
 		
 		//Kart
 		kart.getVAO().bind();		//Bind du VAO
-		kart.TransfoMatrix(ViewMatrix, kart.getPosition(), kart.getAngle(), glm::vec3(1,1,1)); //Transformations (View, Translation, anglerotation,scale)
+		kart.TransfoMatrix(ViewMatrix, kart.getPosition(), kart.getAngle()); //Transformations (View, Translation, anglerotation,scale)
 		kart.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
 		kart.Draw(uTex);	//Draw de l'objet
 
 		//Floor
 		floor.getVAO().bind();		
-		floor.TransfoMatrix(ViewMatrix, glm::vec3(0,0,-1), 0, glm::vec3(16, 1, 16));
+		floor.TransfoMatrix(ViewMatrix, glm::vec3(0,0,-1), 0);
 		floor.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 		floor.Draw(uTex);
 		
 		//Sky
 		sky.getVAO().bind();		
-		sky.TransfoMatrix(ViewMatrix, glm::vec3(0,0,0), tStart* 0.001f, glm::vec3(30,30,30));
+		sky.TransfoMatrix(ViewMatrix, glm::vec3(0,0,0), tStart* 0.001f);
 		sky.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 		sky.Draw(uTex);
 		
@@ -162,11 +170,12 @@ int main(int argc, char** argv) {
 					break;
 				case SDL_KEYDOWN:
 					switch(e.key.keysym.sym){
-						case 'p':
+						case 'b':
+							std::cout << "You pick a Boost" << std::endl;
 							brubru.pickPower(boost);
 							break;
 						case SDLK_SPACE:
-							brubru.usePower(Karts,0);
+							brubru.usePower(Karts,0,tStart);
 							break;
 					}
 					break;

@@ -3,6 +3,7 @@
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj
  C:/Logiciels/MinGW/include/_mingw.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/sys/types.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/ConvertUTF/ConvertUTF.c
@@ -40,6 +41,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj
  C:/Logiciels/MinGW/include/prsht.h
  C:/Logiciels/MinGW/include/pshpack2.h
  C:/Logiciels/MinGW/include/pshpack4.h
+ C:/Logiciels/MinGW/include/reason.h
  C:/Logiciels/MinGW/include/rpc.h
  C:/Logiciels/MinGW/include/rpcdce.h
  C:/Logiciels/MinGW/include/rpcdcep.h
@@ -47,6 +49,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj
  C:/Logiciels/MinGW/include/rpcnsi.h
  C:/Logiciels/MinGW/include/rpcnsip.h
  C:/Logiciels/MinGW/include/rpcnterr.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/shellapi.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -68,7 +71,6 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj
  C:/Logiciels/MinGW/include/winreg.h
  C:/Logiciels/MinGW/include/winresrc.h
  C:/Logiciels/MinGW/include/winsock.h
- C:/Logiciels/MinGW/include/winsock2.h
  C:/Logiciels/MinGW/include/winspool.h
  C:/Logiciels/MinGW/include/winsvc.h
  C:/Logiciels/MinGW/include/winuser.h
@@ -114,6 +116,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj
  C:/Logiciels/MinGW/include/prsht.h
  C:/Logiciels/MinGW/include/pshpack2.h
  C:/Logiciels/MinGW/include/pshpack4.h
+ C:/Logiciels/MinGW/include/reason.h
  C:/Logiciels/MinGW/include/rpc.h
  C:/Logiciels/MinGW/include/rpcdce.h
  C:/Logiciels/MinGW/include/rpcdcep.h
@@ -121,6 +124,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj
  C:/Logiciels/MinGW/include/rpcnsi.h
  C:/Logiciels/MinGW/include/rpcnsip.h
  C:/Logiciels/MinGW/include/rpcnterr.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/shellapi.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -142,7 +146,6 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj
  C:/Logiciels/MinGW/include/winreg.h
  C:/Logiciels/MinGW/include/winresrc.h
  C:/Logiciels/MinGW/include/winsock.h
- C:/Logiciels/MinGW/include/winsock2.h
  C:/Logiciels/MinGW/include/winspool.h
  C:/Logiciels/MinGW/include/winsvc.h
  C:/Logiciels/MinGW/include/winuser.h

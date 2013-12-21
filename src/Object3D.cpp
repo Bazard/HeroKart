@@ -283,7 +283,7 @@ void Object3D::cone(GLfloat height, GLfloat r, GLsizei discLat, GLsizei discHeig
     // par un Index Buffer Object, que nous verrons dans les prochains TDs
 }
 
-void Object3D::TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra, float angle, glm::vec3 sca){
+void Object3D::TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra, float angle){
 		MVMatrix = ViewMatrix;
 		MVMatrix = glm::translate(MVMatrix,tra);	
 		MVMatrix = glm::rotate(MVMatrix, angle,glm::vec3(0,1,0));	

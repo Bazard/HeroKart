@@ -24,8 +24,10 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
+  "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/assimp/code/CMakeFiles/assimp.dir/DependInfo.cmake"
   "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/glew-1.10.0/CMakeFiles/glew.dir/DependInfo.cmake"
   "C:/Users/bruno/Documents/GitHub/HeroKart/build/lib/CMakeFiles/glimac.dir/DependInfo.cmake"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/build/third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

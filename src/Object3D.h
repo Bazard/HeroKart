@@ -16,15 +16,16 @@ class Object3D {
 	glimac::VBO vbo;
 	
 protected:
-	glm::vec3 pos;
-	glm::vec3 dir;
+	glm::vec3 pos; //position
+	glm::vec3 dir; //direction
+	glm::vec3 sca; //scale
 	float angle;
 	
 public:
 	glm::mat4 MVMatrix;
 	
     // Constructeur: alloue le tableau de données et construit les attributs des vertex
-    Object3D():m_nVertexCount(0), angle(0){dir.z=1;};
+    Object3D():m_nVertexCount(0), angle(0){dir.z=1; sca=glm::vec3(1);};
 	
 	Object3D(const Object3D&);
 	
@@ -43,12 +44,14 @@ public:
 
 	glm::vec3 getPosition(){ return pos;}
 	glm::vec3 getDirection(){ return dir;}
+	glm::vec3 getScale(){ return sca;}
 	void setPosition(glm::vec3 vec){ pos=vec;}
 	void setDirection(glm::vec3 vec){ dir=vec;}
+	void setScale(glm::vec3 vec){ sca=vec;}
 	
 	float getAngle(){return angle;}
 	
-	void TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra, float angle, glm::vec3 sca);
+	void TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra, float angle);
 	
 	int LoadTexture();
 	int LoadTexture(const char* sFilePath);
