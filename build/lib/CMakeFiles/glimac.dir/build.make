@@ -56,15 +56,15 @@ lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: lib/CMakeFiles/glimac.dir/include
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: ../lib/src/Program.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/glimac.dir/src/Program.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Program.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Program.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Program.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Program.cpp
 
 lib/CMakeFiles/glimac.dir/src/Program.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Program.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Program.cpp > CMakeFiles\glimac.dir\src\Program.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Program.cpp > CMakeFiles\glimac.dir\src\Program.cpp.i
 
 lib/CMakeFiles/glimac.dir/src/Program.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Program.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Program.cpp -o CMakeFiles\glimac.dir\src\Program.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Program.cpp -o CMakeFiles\glimac.dir\src\Program.cpp.s
 
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj.requires:
 .PHONY : lib/CMakeFiles/glimac.dir/src/Program.cpp.obj.requires
@@ -80,15 +80,15 @@ lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: lib/CMakeFiles/glimac.dir/includes
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: ../lib/src/Shader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Shader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Shader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\glimac.dir\src\Shader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Shader.cpp
 
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glimac.dir/src/Shader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Shader.cpp > CMakeFiles\glimac.dir\src\Shader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Shader.cpp > CMakeFiles\glimac.dir\src\Shader.cpp.i
 
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glimac.dir/src/Shader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Shader.cpp -o CMakeFiles\glimac.dir\src\Shader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\lib && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\lib\src\Shader.cpp -o CMakeFiles\glimac.dir\src\Shader.cpp.s
 
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj.requires:
 .PHONY : lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj.requires

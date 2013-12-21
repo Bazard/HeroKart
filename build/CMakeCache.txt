@@ -59,7 +59,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler.
-CMAKE_CXX_COMPILER:FILEPATH=C:/Logiciels/MinGW/bin/g++.exe
+CMAKE_CXX_COMPILER:FILEPATH=C:/Logiciels/MinGW/bin/mingw32-g++.exe
 
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -82,7 +82,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //C compiler.
-CMAKE_C_COMPILER:FILEPATH=C:/Logiciels/MinGW/bin/gcc.exe
+CMAKE_C_COMPILER:FILEPATH=C:/Logiciels/MinGW/bin/mingw32-gcc.exe
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -279,12 +279,6 @@ SDL_INCLUDE_DIR:PATH=C:/Logiciels/MinGW/include
 //Where the SDL Library can be found
 SDL_LIBRARY:STRING=mingw32;C:/Logiciels/MinGW/lib/libSDL.dll.a;-lpthread
 
-//Path to a file.
-SDL_TTF_INCLUDE_DIR:PATH=C:/Logiciels/MinGW/include
-
-//Path to a library.
-SDL_TTF_LIBRARY:FILEPATH=C:/Logiciels/MinGW/lib/SDL_ttf.dll.a
-
 //Fix for VC10 Compiler regarding pstdint.h redefinition errors
 VC10_STDINT_FIX:BOOL=OFF
 
@@ -477,8 +471,6 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][v()]
 //Details about finding SDL
 FIND_PACKAGE_MESSAGE_DETAILS_SDL:INTERNAL=[mingw32;C:/Logiciels/MinGW/lib/libSDL.dll.a;-lpthread][C:/Logiciels/MinGW/include][v()]
-//Details about finding SDL_ttf
-FIND_PACKAGE_MESSAGE_DETAILS_SDL_ttf:INTERNAL=[C:/Logiciels/MinGW/lib/SDL_ttf.dll.a][C:/Logiciels/MinGW/include][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Have function fseeko
@@ -499,11 +491,7 @@ OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
-SDL_LIBRARY_TEMP:INTERNAL=mingw32;mingw32;mingw32;mingw32;mingw32;mingw32;mingw32;mingw32;mingw32;mingw32;C:/Logiciels/MinGW/lib/libSDLmain.a;mingw32;C:/Windows/System32/SDL.dll;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread
-//ADVANCED property for variable: SDL_TTF_INCLUDE_DIR
-SDL_TTF_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: SDL_TTF_LIBRARY
-SDL_TTF_LIBRARY-ADVANCED:INTERNAL=1
+SDL_LIBRARY_TEMP:INTERNAL=mingw32;mingw32;mingw32;C:/Logiciels/MinGW/lib/libSDLmain.a;mingw32;mingw32;C:/Windows/System32/SDL.dll;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread
 //ADVANCED property for variable: ZLIB_INCLUDE_DIR
 ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY

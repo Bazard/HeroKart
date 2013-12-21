@@ -52,14 +52,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "../include/assimp/ai_assert.h"
 
-//Ajout pour windows
-#if defined(_WIN32) || defined(_WIN64) 
-  #define snprintf _snprintf 
-  #define vsnprintf _vsnprintf 
-  #define strcasecmp strcmp 
-  #define strncasecmp strncmp 
-#endif
-
 #include <cstring>
 
 namespace Assimp	{

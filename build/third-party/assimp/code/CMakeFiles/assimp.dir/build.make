@@ -56,15 +56,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.obj: third-party/assimp
 third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.obj: ../third-party/assimp/code/Assimp.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Assimp.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Assimp.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Assimp.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Assimp.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Assimp.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Assimp.cpp > CMakeFiles\assimp.dir\Assimp.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Assimp.cpp > CMakeFiles\assimp.dir\Assimp.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Assimp.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Assimp.cpp -o CMakeFiles\assimp.dir\Assimp.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Assimp.cpp -o CMakeFiles\assimp.dir\Assimp.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.obj.requires
@@ -80,15 +80,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj: ../third-party/assimp/code/AssimpPCH.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\AssimpPCH.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpPCH.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\AssimpPCH.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpPCH.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/AssimpPCH.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpPCH.cpp > CMakeFiles\assimp.dir\AssimpPCH.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpPCH.cpp > CMakeFiles\assimp.dir\AssimpPCH.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/AssimpPCH.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpPCH.cpp -o CMakeFiles\assimp.dir\AssimpPCH.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpPCH.cpp -o CMakeFiles\assimp.dir\AssimpPCH.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj.requires
@@ -104,15 +104,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj: third-party/
 third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj: ../third-party/assimp/code/BaseImporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BaseImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseImporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BaseImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseImporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BaseImporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseImporter.cpp > CMakeFiles\assimp.dir\BaseImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseImporter.cpp > CMakeFiles\assimp.dir\BaseImporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BaseImporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseImporter.cpp -o CMakeFiles\assimp.dir\BaseImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseImporter.cpp -o CMakeFiles\assimp.dir\BaseImporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj.requires
@@ -128,15 +128,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj: ../third-party/assimp/code/BaseProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BaseProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BaseProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BaseProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseProcess.cpp > CMakeFiles\assimp.dir\BaseProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseProcess.cpp > CMakeFiles\assimp.dir\BaseProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BaseProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseProcess.cpp -o CMakeFiles\assimp.dir\BaseProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BaseProcess.cpp -o CMakeFiles\assimp.dir\BaseProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj.requires
@@ -152,15 +152,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj: third-pa
 third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj: ../third-party/assimp/code/PostStepRegistry.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PostStepRegistry.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PostStepRegistry.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PostStepRegistry.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PostStepRegistry.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PostStepRegistry.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PostStepRegistry.cpp > CMakeFiles\assimp.dir\PostStepRegistry.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PostStepRegistry.cpp > CMakeFiles\assimp.dir\PostStepRegistry.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PostStepRegistry.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PostStepRegistry.cpp -o CMakeFiles\assimp.dir\PostStepRegistry.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PostStepRegistry.cpp -o CMakeFiles\assimp.dir\PostStepRegistry.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj.requires
@@ -176,15 +176,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj: third-pa
 third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj: ../third-party/assimp/code/ImporterRegistry.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ImporterRegistry.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImporterRegistry.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ImporterRegistry.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImporterRegistry.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ImporterRegistry.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImporterRegistry.cpp > CMakeFiles\assimp.dir\ImporterRegistry.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImporterRegistry.cpp > CMakeFiles\assimp.dir\ImporterRegistry.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ImporterRegistry.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImporterRegistry.cpp -o CMakeFiles\assimp.dir\ImporterRegistry.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImporterRegistry.cpp -o CMakeFiles\assimp.dir\ImporterRegistry.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj.requires
@@ -200,15 +200,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj: ../third-party/assimp/code/DefaultIOStream.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultIOStream.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOStream.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultIOStream.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOStream.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DefaultIOStream.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOStream.cpp > CMakeFiles\assimp.dir\DefaultIOStream.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOStream.cpp > CMakeFiles\assimp.dir\DefaultIOStream.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DefaultIOStream.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOStream.cpp -o CMakeFiles\assimp.dir\DefaultIOStream.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOStream.cpp -o CMakeFiles\assimp.dir\DefaultIOStream.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj.requires
@@ -224,15 +224,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj: ../third-party/assimp/code/DefaultIOSystem.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultIOSystem.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOSystem.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultIOSystem.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOSystem.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DefaultIOSystem.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOSystem.cpp > CMakeFiles\assimp.dir\DefaultIOSystem.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOSystem.cpp > CMakeFiles\assimp.dir\DefaultIOSystem.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DefaultIOSystem.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOSystem.cpp -o CMakeFiles\assimp.dir\DefaultIOSystem.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultIOSystem.cpp -o CMakeFiles\assimp.dir\DefaultIOSystem.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj.requires
@@ -248,15 +248,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.obj: third-party/assi
 third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.obj: ../third-party/assimp/code/Importer.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Importer.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Importer.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Importer.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Importer.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Importer.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Importer.cpp > CMakeFiles\assimp.dir\Importer.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Importer.cpp > CMakeFiles\assimp.dir\Importer.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Importer.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Importer.cpp -o CMakeFiles\assimp.dir\Importer.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Importer.cpp -o CMakeFiles\assimp.dir\Importer.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.obj.requires
@@ -272,15 +272,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj: ../third-party/assimp/code/SGSpatialSort.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SGSpatialSort.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SGSpatialSort.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SGSpatialSort.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SGSpatialSort.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SGSpatialSort.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SGSpatialSort.cpp > CMakeFiles\assimp.dir\SGSpatialSort.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SGSpatialSort.cpp > CMakeFiles\assimp.dir\SGSpatialSort.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SGSpatialSort.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SGSpatialSort.cpp -o CMakeFiles\assimp.dir\SGSpatialSort.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SGSpatialSort.cpp -o CMakeFiles\assimp.dir\SGSpatialSort.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj.requires
@@ -296,15 +296,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj: t
 third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj: ../third-party/assimp/code/VertexTriangleAdjacency.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\VertexTriangleAdjacency.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\VertexTriangleAdjacency.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\VertexTriangleAdjacency.cpp > CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\VertexTriangleAdjacency.cpp > CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\VertexTriangleAdjacency.cpp -o CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\VertexTriangleAdjacency.cpp -o CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj.requires
@@ -320,15 +320,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj: ../third-party/assimp/code/SpatialSort.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SpatialSort.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SpatialSort.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SpatialSort.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SpatialSort.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SpatialSort.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SpatialSort.cpp > CMakeFiles\assimp.dir\SpatialSort.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SpatialSort.cpp > CMakeFiles\assimp.dir\SpatialSort.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SpatialSort.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SpatialSort.cpp -o CMakeFiles\assimp.dir\SpatialSort.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SpatialSort.cpp -o CMakeFiles\assimp.dir\SpatialSort.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj.requires
@@ -344,15 +344,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj: ../third-party/assimp/code/SceneCombiner.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SceneCombiner.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SceneCombiner.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SceneCombiner.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SceneCombiner.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SceneCombiner.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SceneCombiner.cpp > CMakeFiles\assimp.dir\SceneCombiner.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SceneCombiner.cpp > CMakeFiles\assimp.dir\SceneCombiner.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SceneCombiner.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SceneCombiner.cpp -o CMakeFiles\assimp.dir\SceneCombiner.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SceneCombiner.cpp -o CMakeFiles\assimp.dir\SceneCombiner.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj.requires
@@ -368,15 +368,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj: third-p
 third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj: ../third-party/assimp/code/ScenePreprocessor.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ScenePreprocessor.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ScenePreprocessor.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ScenePreprocessor.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ScenePreprocessor.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ScenePreprocessor.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ScenePreprocessor.cpp > CMakeFiles\assimp.dir\ScenePreprocessor.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ScenePreprocessor.cpp > CMakeFiles\assimp.dir\ScenePreprocessor.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ScenePreprocessor.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ScenePreprocessor.cpp -o CMakeFiles\assimp.dir\ScenePreprocessor.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ScenePreprocessor.cpp -o CMakeFiles\assimp.dir\ScenePreprocessor.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj.requires
@@ -392,15 +392,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj: third
 third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj: ../third-party/assimp/code/SkeletonMeshBuilder.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SkeletonMeshBuilder.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SkeletonMeshBuilder.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SkeletonMeshBuilder.cpp > CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SkeletonMeshBuilder.cpp > CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SkeletonMeshBuilder.cpp -o CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SkeletonMeshBuilder.cpp -o CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj.requires
@@ -416,15 +416,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj: t
 third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj: ../third-party/assimp/code/SplitByBoneCountProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitByBoneCountProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitByBoneCountProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitByBoneCountProcess.cpp > CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitByBoneCountProcess.cpp > CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitByBoneCountProcess.cpp -o CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitByBoneCountProcess.cpp -o CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj.requires
@@ -440,15 +440,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj: third-part
 third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj: ../third-party/assimp/code/StandardShapes.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\StandardShapes.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\StandardShapes.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\StandardShapes.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\StandardShapes.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/StandardShapes.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\StandardShapes.cpp > CMakeFiles\assimp.dir\StandardShapes.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\StandardShapes.cpp > CMakeFiles\assimp.dir\StandardShapes.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/StandardShapes.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\StandardShapes.cpp -o CMakeFiles\assimp.dir\StandardShapes.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\StandardShapes.cpp -o CMakeFiles\assimp.dir\StandardShapes.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj.requires
@@ -464,15 +464,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj: ../third-party/assimp/code/TargetAnimation.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TargetAnimation.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TargetAnimation.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TargetAnimation.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TargetAnimation.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/TargetAnimation.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TargetAnimation.cpp > CMakeFiles\assimp.dir\TargetAnimation.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TargetAnimation.cpp > CMakeFiles\assimp.dir\TargetAnimation.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/TargetAnimation.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TargetAnimation.cpp -o CMakeFiles\assimp.dir\TargetAnimation.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TargetAnimation.cpp -o CMakeFiles\assimp.dir\TargetAnimation.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj.requires
@@ -488,15 +488,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj: third-part
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj: ../third-party/assimp/code/RemoveComments.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveComments.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveComments.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveComments.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveComments.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/RemoveComments.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveComments.cpp > CMakeFiles\assimp.dir\RemoveComments.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveComments.cpp > CMakeFiles\assimp.dir\RemoveComments.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/RemoveComments.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveComments.cpp -o CMakeFiles\assimp.dir\RemoveComments.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveComments.cpp -o CMakeFiles\assimp.dir\RemoveComments.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj.requires
@@ -512,15 +512,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj: ../third-party/assimp/code/Subdivision.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Subdivision.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Subdivision.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Subdivision.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Subdivision.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Subdivision.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Subdivision.cpp > CMakeFiles\assimp.dir\Subdivision.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Subdivision.cpp > CMakeFiles\assimp.dir\Subdivision.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Subdivision.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Subdivision.cpp -o CMakeFiles\assimp.dir\Subdivision.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Subdivision.cpp -o CMakeFiles\assimp.dir\Subdivision.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj.requires
@@ -536,15 +536,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj: ../third-party/assimp/code/DefaultLogger.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultLogger.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultLogger.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultLogger.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultLogger.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DefaultLogger.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultLogger.cpp > CMakeFiles\assimp.dir\DefaultLogger.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultLogger.cpp > CMakeFiles\assimp.dir\DefaultLogger.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DefaultLogger.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultLogger.cpp -o CMakeFiles\assimp.dir\DefaultLogger.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DefaultLogger.cpp -o CMakeFiles\assimp.dir\DefaultLogger.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj.requires
@@ -560,15 +560,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.obj: third-party/assi
 third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.obj: ../third-party/assimp/code/Exporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Exporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Exporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Exporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Exporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Exporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Exporter.cpp > CMakeFiles\assimp.dir\Exporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Exporter.cpp > CMakeFiles\assimp.dir\Exporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Exporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Exporter.cpp -o CMakeFiles\assimp.dir\Exporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Exporter.cpp -o CMakeFiles\assimp.dir\Exporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.obj.requires
@@ -584,15 +584,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj: ../third-party/assimp/code/AssimpCExport.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\AssimpCExport.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpCExport.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\AssimpCExport.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpCExport.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/AssimpCExport.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpCExport.cpp > CMakeFiles\assimp.dir\AssimpCExport.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpCExport.cpp > CMakeFiles\assimp.dir\AssimpCExport.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/AssimpCExport.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpCExport.cpp -o CMakeFiles\assimp.dir\AssimpCExport.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\AssimpCExport.cpp -o CMakeFiles\assimp.dir\AssimpCExport.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj.requires
@@ -608,15 +608,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj: third
 third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj: ../third-party/assimp/code/CalcTangentsProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CalcTangentsProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CalcTangentsProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CalcTangentsProcess.cpp > CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CalcTangentsProcess.cpp > CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CalcTangentsProcess.cpp -o CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CalcTangentsProcess.cpp -o CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj.requires
@@ -632,15 +632,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj: t
 third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj: ../third-party/assimp/code/ComputeUVMappingProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ComputeUVMappingProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ComputeUVMappingProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ComputeUVMappingProcess.cpp > CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ComputeUVMappingProcess.cpp > CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ComputeUVMappingProcess.cpp -o CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ComputeUVMappingProcess.cpp -o CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj.requires
@@ -656,15 +656,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj: third-
 third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj: ../third-party/assimp/code/ConvertToLHProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ConvertToLHProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ConvertToLHProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ConvertToLHProcess.cpp > CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ConvertToLHProcess.cpp > CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ConvertToLHProcess.cpp -o CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ConvertToLHProcess.cpp -o CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj.requires
@@ -680,15 +680,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj: ../third-party/assimp/code/FindDegenerates.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindDegenerates.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindDegenerates.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindDegenerates.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindDegenerates.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/FindDegenerates.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindDegenerates.cpp > CMakeFiles\assimp.dir\FindDegenerates.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindDegenerates.cpp > CMakeFiles\assimp.dir\FindDegenerates.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/FindDegenerates.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindDegenerates.cpp -o CMakeFiles\assimp.dir\FindDegenerates.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindDegenerates.cpp -o CMakeFiles\assimp.dir\FindDegenerates.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj.requires
@@ -704,15 +704,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj: thir
 third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj: ../third-party/assimp/code/FindInstancesProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindInstancesProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInstancesProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindInstancesProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInstancesProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/FindInstancesProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInstancesProcess.cpp > CMakeFiles\assimp.dir\FindInstancesProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInstancesProcess.cpp > CMakeFiles\assimp.dir\FindInstancesProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/FindInstancesProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInstancesProcess.cpp -o CMakeFiles\assimp.dir\FindInstancesProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInstancesProcess.cpp -o CMakeFiles\assimp.dir\FindInstancesProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj.requires
@@ -728,15 +728,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj: th
 third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj: ../third-party/assimp/code/FindInvalidDataProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInvalidDataProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInvalidDataProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInvalidDataProcess.cpp > CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInvalidDataProcess.cpp > CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInvalidDataProcess.cpp -o CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FindInvalidDataProcess.cpp -o CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj.requires
@@ -752,15 +752,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj: third-part
 third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj: ../third-party/assimp/code/FixNormalsStep.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FixNormalsStep.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FixNormalsStep.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FixNormalsStep.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FixNormalsStep.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/FixNormalsStep.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FixNormalsStep.cpp > CMakeFiles\assimp.dir\FixNormalsStep.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FixNormalsStep.cpp > CMakeFiles\assimp.dir\FixNormalsStep.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/FixNormalsStep.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FixNormalsStep.cpp -o CMakeFiles\assimp.dir\FixNormalsStep.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\FixNormalsStep.cpp -o CMakeFiles\assimp.dir\FixNormalsStep.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj.requires
@@ -776,15 +776,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj: thi
 third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj: ../third-party/assimp/code/GenFaceNormalsProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenFaceNormalsProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenFaceNormalsProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenFaceNormalsProcess.cpp > CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenFaceNormalsProcess.cpp > CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenFaceNormalsProcess.cpp -o CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenFaceNormalsProcess.cpp -o CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj.requires
@@ -800,15 +800,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj: t
 third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj: ../third-party/assimp/code/GenVertexNormalsProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenVertexNormalsProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenVertexNormalsProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenVertexNormalsProcess.cpp > CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenVertexNormalsProcess.cpp > CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenVertexNormalsProcess.cpp -o CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\GenVertexNormalsProcess.cpp -o CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj.requires
@@ -824,15 +824,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj: thir
 third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj: ../third-party/assimp/code/PretransformVertices.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PretransformVertices.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PretransformVertices.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PretransformVertices.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PretransformVertices.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PretransformVertices.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PretransformVertices.cpp > CMakeFiles\assimp.dir\PretransformVertices.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PretransformVertices.cpp > CMakeFiles\assimp.dir\PretransformVertices.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PretransformVertices.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PretransformVertices.cpp -o CMakeFiles\assimp.dir\PretransformVertices.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PretransformVertices.cpp -o CMakeFiles\assimp.dir\PretransformVertices.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj.requires
@@ -848,15 +848,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj: thir
 third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj: ../third-party/assimp/code/ImproveCacheLocality.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImproveCacheLocality.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImproveCacheLocality.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImproveCacheLocality.cpp > CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImproveCacheLocality.cpp > CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImproveCacheLocality.cpp -o CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ImproveCacheLocality.cpp -o CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj.requires
@@ -872,15 +872,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj: third
 third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj: ../third-party/assimp/code/JoinVerticesProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\JoinVerticesProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\JoinVerticesProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\JoinVerticesProcess.cpp > CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\JoinVerticesProcess.cpp > CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\JoinVerticesProcess.cpp -o CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\JoinVerticesProcess.cpp -o CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj.requires
@@ -896,15 +896,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj: t
 third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj: ../third-party/assimp/code/LimitBoneWeightsProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LimitBoneWeightsProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LimitBoneWeightsProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LimitBoneWeightsProcess.cpp > CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LimitBoneWeightsProcess.cpp > CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LimitBoneWeightsProcess.cpp -o CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LimitBoneWeightsProcess.cpp -o CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj.requires
@@ -920,15 +920,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj: 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj: ../third-party/assimp/code/RemoveRedundantMaterials.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveRedundantMaterials.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveRedundantMaterials.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveRedundantMaterials.cpp > CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveRedundantMaterials.cpp > CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveRedundantMaterials.cpp -o CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveRedundantMaterials.cpp -o CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj.requires
@@ -944,15 +944,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj: ../third-party/assimp/code/RemoveVCProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveVCProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveVCProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveVCProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveVCProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/RemoveVCProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveVCProcess.cpp > CMakeFiles\assimp.dir\RemoveVCProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveVCProcess.cpp > CMakeFiles\assimp.dir\RemoveVCProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/RemoveVCProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveVCProcess.cpp -o CMakeFiles\assimp.dir\RemoveVCProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RemoveVCProcess.cpp -o CMakeFiles\assimp.dir\RemoveVCProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj.requires
@@ -968,15 +968,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj: third-
 third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj: ../third-party/assimp/code/SortByPTypeProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SortByPTypeProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SortByPTypeProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SortByPTypeProcess.cpp > CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SortByPTypeProcess.cpp > CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SortByPTypeProcess.cpp -o CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SortByPTypeProcess.cpp -o CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj.requires
@@ -992,15 +992,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj: third-pa
 third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj: ../third-party/assimp/code/SplitLargeMeshes.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitLargeMeshes.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitLargeMeshes.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitLargeMeshes.cpp > CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitLargeMeshes.cpp > CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitLargeMeshes.cpp -o CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SplitLargeMeshes.cpp -o CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj.requires
@@ -1016,15 +1016,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj: third-part
 third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj: ../third-party/assimp/code/TerragenLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TerragenLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TerragenLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TerragenLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TerragenLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/TerragenLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TerragenLoader.cpp > CMakeFiles\assimp.dir\TerragenLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TerragenLoader.cpp > CMakeFiles\assimp.dir\TerragenLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/TerragenLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TerragenLoader.cpp -o CMakeFiles\assimp.dir\TerragenLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TerragenLoader.cpp -o CMakeFiles\assimp.dir\TerragenLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj.requires
@@ -1040,15 +1040,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj: third-pa
 third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj: ../third-party/assimp/code/TextureTransform.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TextureTransform.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TextureTransform.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TextureTransform.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TextureTransform.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/TextureTransform.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TextureTransform.cpp > CMakeFiles\assimp.dir\TextureTransform.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TextureTransform.cpp > CMakeFiles\assimp.dir\TextureTransform.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/TextureTransform.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TextureTransform.cpp -o CMakeFiles\assimp.dir\TextureTransform.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TextureTransform.cpp -o CMakeFiles\assimp.dir\TextureTransform.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj.requires
@@ -1064,15 +1064,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj: third-
 third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj: ../third-party/assimp/code/TriangulateProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TriangulateProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TriangulateProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TriangulateProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TriangulateProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/TriangulateProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TriangulateProcess.cpp > CMakeFiles\assimp.dir\TriangulateProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TriangulateProcess.cpp > CMakeFiles\assimp.dir\TriangulateProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/TriangulateProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TriangulateProcess.cpp -o CMakeFiles\assimp.dir\TriangulateProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\TriangulateProcess.cpp -o CMakeFiles\assimp.dir\TriangulateProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj.requires
@@ -1088,15 +1088,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj: thi
 third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj: ../third-party/assimp/code/ValidateDataStructure.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ValidateDataStructure.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ValidateDataStructure.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ValidateDataStructure.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ValidateDataStructure.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ValidateDataStructure.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ValidateDataStructure.cpp > CMakeFiles\assimp.dir\ValidateDataStructure.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ValidateDataStructure.cpp > CMakeFiles\assimp.dir\ValidateDataStructure.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ValidateDataStructure.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ValidateDataStructure.cpp -o CMakeFiles\assimp.dir\ValidateDataStructure.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ValidateDataStructure.cpp -o CMakeFiles\assimp.dir\ValidateDataStructure.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj.requires
@@ -1112,15 +1112,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj: ../third-party/assimp/code/OptimizeGraph.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OptimizeGraph.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeGraph.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OptimizeGraph.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeGraph.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OptimizeGraph.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeGraph.cpp > CMakeFiles\assimp.dir\OptimizeGraph.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeGraph.cpp > CMakeFiles\assimp.dir\OptimizeGraph.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OptimizeGraph.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeGraph.cpp -o CMakeFiles\assimp.dir\OptimizeGraph.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeGraph.cpp -o CMakeFiles\assimp.dir\OptimizeGraph.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj.requires
@@ -1136,15 +1136,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj: third-part
 third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj: ../third-party/assimp/code/OptimizeMeshes.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OptimizeMeshes.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeMeshes.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OptimizeMeshes.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeMeshes.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OptimizeMeshes.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeMeshes.cpp > CMakeFiles\assimp.dir\OptimizeMeshes.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeMeshes.cpp > CMakeFiles\assimp.dir\OptimizeMeshes.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OptimizeMeshes.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeMeshes.cpp -o CMakeFiles\assimp.dir\OptimizeMeshes.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OptimizeMeshes.cpp -o CMakeFiles\assimp.dir\OptimizeMeshes.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj.requires
@@ -1160,15 +1160,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj: ../third-party/assimp/code/DeboneProcess.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DeboneProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DeboneProcess.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DeboneProcess.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DeboneProcess.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DeboneProcess.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DeboneProcess.cpp > CMakeFiles\assimp.dir\DeboneProcess.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DeboneProcess.cpp > CMakeFiles\assimp.dir\DeboneProcess.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DeboneProcess.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DeboneProcess.cpp -o CMakeFiles\assimp.dir\DeboneProcess.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DeboneProcess.cpp -o CMakeFiles\assimp.dir\DeboneProcess.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj.requires
@@ -1184,15 +1184,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj: ../third-party/assimp/code/ProcessHelper.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ProcessHelper.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ProcessHelper.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ProcessHelper.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ProcessHelper.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ProcessHelper.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ProcessHelper.cpp > CMakeFiles\assimp.dir\ProcessHelper.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ProcessHelper.cpp > CMakeFiles\assimp.dir\ProcessHelper.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ProcessHelper.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ProcessHelper.cpp -o CMakeFiles\assimp.dir\ProcessHelper.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ProcessHelper.cpp -o CMakeFiles\assimp.dir\ProcessHelper.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj.requires
@@ -1208,15 +1208,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj: third-p
 third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj: ../third-party/assimp/code/MakeVerboseFormat.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MakeVerboseFormat.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MakeVerboseFormat.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MakeVerboseFormat.cpp > CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MakeVerboseFormat.cpp > CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MakeVerboseFormat.cpp -o CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MakeVerboseFormat.cpp -o CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj.requires
@@ -1232,15 +1232,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj: third-party/
 third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj: ../third-party/assimp/code/3DSConverter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\3DSConverter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSConverter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\3DSConverter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSConverter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/3DSConverter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSConverter.cpp > CMakeFiles\assimp.dir\3DSConverter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSConverter.cpp > CMakeFiles\assimp.dir\3DSConverter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/3DSConverter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSConverter.cpp -o CMakeFiles\assimp.dir\3DSConverter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSConverter.cpp -o CMakeFiles\assimp.dir\3DSConverter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj.requires
@@ -1256,15 +1256,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj: ../third-party/assimp/code/3DSLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\3DSLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\3DSLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/3DSLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSLoader.cpp > CMakeFiles\assimp.dir\3DSLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSLoader.cpp > CMakeFiles\assimp.dir\3DSLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/3DSLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSLoader.cpp -o CMakeFiles\assimp.dir\3DSLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\3DSLoader.cpp -o CMakeFiles\assimp.dir\3DSLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj.requires
@@ -1280,15 +1280,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj: third-party/assi
 third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj: ../third-party/assimp/code/ACLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ACLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ACLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ACLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ACLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ACLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ACLoader.cpp > CMakeFiles\assimp.dir\ACLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ACLoader.cpp > CMakeFiles\assimp.dir\ACLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ACLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ACLoader.cpp -o CMakeFiles\assimp.dir\ACLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ACLoader.cpp -o CMakeFiles\assimp.dir\ACLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj.requires
@@ -1304,15 +1304,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj: ../third-party/assimp/code/ASELoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ASELoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASELoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ASELoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASELoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ASELoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASELoader.cpp > CMakeFiles\assimp.dir\ASELoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASELoader.cpp > CMakeFiles\assimp.dir\ASELoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ASELoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASELoader.cpp -o CMakeFiles\assimp.dir\ASELoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASELoader.cpp -o CMakeFiles\assimp.dir\ASELoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj.requires
@@ -1328,15 +1328,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj: ../third-party/assimp/code/ASEParser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ASEParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASEParser.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ASEParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASEParser.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ASEParser.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASEParser.cpp > CMakeFiles\assimp.dir\ASEParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASEParser.cpp > CMakeFiles\assimp.dir\ASEParser.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ASEParser.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASEParser.cpp -o CMakeFiles\assimp.dir\ASEParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ASEParser.cpp -o CMakeFiles\assimp.dir\ASEParser.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj.requires
@@ -1352,15 +1352,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj: ../third-party/assimp/code/B3DImporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\B3DImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\B3DImporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\B3DImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\B3DImporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/B3DImporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\B3DImporter.cpp > CMakeFiles\assimp.dir\B3DImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\B3DImporter.cpp > CMakeFiles\assimp.dir\B3DImporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/B3DImporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\B3DImporter.cpp -o CMakeFiles\assimp.dir\B3DImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\B3DImporter.cpp -o CMakeFiles\assimp.dir\B3DImporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj.requires
@@ -1376,15 +1376,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj: ../third-party/assimp/code/BVHLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BVHLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BVHLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BVHLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BVHLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BVHLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BVHLoader.cpp > CMakeFiles\assimp.dir\BVHLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BVHLoader.cpp > CMakeFiles\assimp.dir\BVHLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BVHLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BVHLoader.cpp -o CMakeFiles\assimp.dir\BVHLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BVHLoader.cpp -o CMakeFiles\assimp.dir\BVHLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj.requires
@@ -1400,15 +1400,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj: ../third-party/assimp/code/ColladaLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ColladaLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaLoader.cpp > CMakeFiles\assimp.dir\ColladaLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaLoader.cpp > CMakeFiles\assimp.dir\ColladaLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ColladaLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaLoader.cpp -o CMakeFiles\assimp.dir\ColladaLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaLoader.cpp -o CMakeFiles\assimp.dir\ColladaLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj.requires
@@ -1424,15 +1424,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj: ../third-party/assimp/code/ColladaParser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaParser.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaParser.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ColladaParser.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaParser.cpp > CMakeFiles\assimp.dir\ColladaParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaParser.cpp > CMakeFiles\assimp.dir\ColladaParser.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ColladaParser.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaParser.cpp -o CMakeFiles\assimp.dir\ColladaParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaParser.cpp -o CMakeFiles\assimp.dir\ColladaParser.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj.requires
@@ -1448,15 +1448,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj: ../third-party/assimp/code/ColladaExporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaExporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaExporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaExporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaExporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ColladaExporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaExporter.cpp > CMakeFiles\assimp.dir\ColladaExporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaExporter.cpp > CMakeFiles\assimp.dir\ColladaExporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ColladaExporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaExporter.cpp -o CMakeFiles\assimp.dir\ColladaExporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ColladaExporter.cpp -o CMakeFiles\assimp.dir\ColladaExporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj.requires
@@ -1472,15 +1472,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj: ../third-party/assimp/code/DXFLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DXFLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DXFLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DXFLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DXFLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DXFLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DXFLoader.cpp > CMakeFiles\assimp.dir\DXFLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DXFLoader.cpp > CMakeFiles\assimp.dir\DXFLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DXFLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DXFLoader.cpp -o CMakeFiles\assimp.dir\DXFLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\DXFLoader.cpp -o CMakeFiles\assimp.dir\DXFLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj.requires
@@ -1496,15 +1496,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj: ../third-party/assimp/code/CSMLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\CSMLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CSMLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\CSMLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CSMLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/CSMLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CSMLoader.cpp > CMakeFiles\assimp.dir\CSMLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CSMLoader.cpp > CMakeFiles\assimp.dir\CSMLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/CSMLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CSMLoader.cpp -o CMakeFiles\assimp.dir\CSMLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\CSMLoader.cpp -o CMakeFiles\assimp.dir\CSMLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj.requires
@@ -1520,15 +1520,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj: ../third-party/assimp/code/HMPLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\HMPLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\HMPLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\HMPLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\HMPLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/HMPLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\HMPLoader.cpp > CMakeFiles\assimp.dir\HMPLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\HMPLoader.cpp > CMakeFiles\assimp.dir\HMPLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/HMPLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\HMPLoader.cpp -o CMakeFiles\assimp.dir\HMPLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\HMPLoader.cpp -o CMakeFiles\assimp.dir\HMPLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj.requires
@@ -1544,15 +1544,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj: ../third-party/assimp/code/IRRLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IRRLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRLoader.cpp > CMakeFiles\assimp.dir\IRRLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRLoader.cpp > CMakeFiles\assimp.dir\IRRLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IRRLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRLoader.cpp -o CMakeFiles\assimp.dir\IRRLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRLoader.cpp -o CMakeFiles\assimp.dir\IRRLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj.requires
@@ -1568,15 +1568,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj: ../third-party/assimp/code/IRRMeshLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRMeshLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRMeshLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRMeshLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRMeshLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IRRMeshLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRMeshLoader.cpp > CMakeFiles\assimp.dir\IRRMeshLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRMeshLoader.cpp > CMakeFiles\assimp.dir\IRRMeshLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IRRMeshLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRMeshLoader.cpp -o CMakeFiles\assimp.dir\IRRMeshLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRMeshLoader.cpp -o CMakeFiles\assimp.dir\IRRMeshLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj.requires
@@ -1592,15 +1592,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj: ../third-party/assimp/code/IRRShared.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRShared.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRShared.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRShared.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRShared.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IRRShared.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRShared.cpp > CMakeFiles\assimp.dir\IRRShared.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRShared.cpp > CMakeFiles\assimp.dir\IRRShared.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IRRShared.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRShared.cpp -o CMakeFiles\assimp.dir\IRRShared.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IRRShared.cpp -o CMakeFiles\assimp.dir\IRRShared.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj.requires
@@ -1616,15 +1616,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj: third-party/
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj: ../third-party/assimp/code/LWOAnimation.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOAnimation.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOAnimation.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOAnimation.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOAnimation.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWOAnimation.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOAnimation.cpp > CMakeFiles\assimp.dir\LWOAnimation.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOAnimation.cpp > CMakeFiles\assimp.dir\LWOAnimation.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWOAnimation.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOAnimation.cpp -o CMakeFiles\assimp.dir\LWOAnimation.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOAnimation.cpp -o CMakeFiles\assimp.dir\LWOAnimation.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj.requires
@@ -1640,15 +1640,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj: third-party/as
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj: ../third-party/assimp/code/LWOBLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOBLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOBLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOBLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOBLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWOBLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOBLoader.cpp > CMakeFiles\assimp.dir\LWOBLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOBLoader.cpp > CMakeFiles\assimp.dir\LWOBLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWOBLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOBLoader.cpp -o CMakeFiles\assimp.dir\LWOBLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOBLoader.cpp -o CMakeFiles\assimp.dir\LWOBLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj.requires
@@ -1664,15 +1664,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj: ../third-party/assimp/code/LWOLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWOLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOLoader.cpp > CMakeFiles\assimp.dir\LWOLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOLoader.cpp > CMakeFiles\assimp.dir\LWOLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWOLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOLoader.cpp -o CMakeFiles\assimp.dir\LWOLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOLoader.cpp -o CMakeFiles\assimp.dir\LWOLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj.requires
@@ -1688,15 +1688,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj: ../third-party/assimp/code/LWOMaterial.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOMaterial.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOMaterial.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOMaterial.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOMaterial.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWOMaterial.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOMaterial.cpp > CMakeFiles\assimp.dir\LWOMaterial.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOMaterial.cpp > CMakeFiles\assimp.dir\LWOMaterial.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWOMaterial.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOMaterial.cpp -o CMakeFiles\assimp.dir\LWOMaterial.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWOMaterial.cpp -o CMakeFiles\assimp.dir\LWOMaterial.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj.requires
@@ -1712,15 +1712,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj: ../third-party/assimp/code/LWSLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWSLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWSLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWSLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWSLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWSLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWSLoader.cpp > CMakeFiles\assimp.dir\LWSLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWSLoader.cpp > CMakeFiles\assimp.dir\LWSLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWSLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWSLoader.cpp -o CMakeFiles\assimp.dir\LWSLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\LWSLoader.cpp -o CMakeFiles\assimp.dir\LWSLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj.requires
@@ -1736,15 +1736,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj: third-party/as
 third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj: ../third-party/assimp/code/M3Importer.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\M3Importer.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\M3Importer.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\M3Importer.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\M3Importer.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/M3Importer.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\M3Importer.cpp > CMakeFiles\assimp.dir\M3Importer.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\M3Importer.cpp > CMakeFiles\assimp.dir\M3Importer.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/M3Importer.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\M3Importer.cpp -o CMakeFiles\assimp.dir\M3Importer.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\M3Importer.cpp -o CMakeFiles\assimp.dir\M3Importer.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj.requires
@@ -1760,15 +1760,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj: ../third-party/assimp/code/MD2Loader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD2Loader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD2Loader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD2Loader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD2Loader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MD2Loader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD2Loader.cpp > CMakeFiles\assimp.dir\MD2Loader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD2Loader.cpp > CMakeFiles\assimp.dir\MD2Loader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MD2Loader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD2Loader.cpp -o CMakeFiles\assimp.dir\MD2Loader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD2Loader.cpp -o CMakeFiles\assimp.dir\MD2Loader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj.requires
@@ -1784,15 +1784,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj: ../third-party/assimp/code/MD3Loader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD3Loader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD3Loader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD3Loader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD3Loader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MD3Loader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD3Loader.cpp > CMakeFiles\assimp.dir\MD3Loader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD3Loader.cpp > CMakeFiles\assimp.dir\MD3Loader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MD3Loader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD3Loader.cpp -o CMakeFiles\assimp.dir\MD3Loader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD3Loader.cpp -o CMakeFiles\assimp.dir\MD3Loader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj.requires
@@ -1808,15 +1808,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj: ../third-party/assimp/code/MD5Loader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD5Loader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Loader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD5Loader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Loader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MD5Loader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Loader.cpp > CMakeFiles\assimp.dir\MD5Loader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Loader.cpp > CMakeFiles\assimp.dir\MD5Loader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MD5Loader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Loader.cpp -o CMakeFiles\assimp.dir\MD5Loader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Loader.cpp -o CMakeFiles\assimp.dir\MD5Loader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj.requires
@@ -1832,15 +1832,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj: ../third-party/assimp/code/MD5Parser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD5Parser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Parser.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD5Parser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Parser.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MD5Parser.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Parser.cpp > CMakeFiles\assimp.dir\MD5Parser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Parser.cpp > CMakeFiles\assimp.dir\MD5Parser.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MD5Parser.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Parser.cpp -o CMakeFiles\assimp.dir\MD5Parser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MD5Parser.cpp -o CMakeFiles\assimp.dir\MD5Parser.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj.requires
@@ -1856,15 +1856,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj: ../third-party/assimp/code/MDCLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDCLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDCLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDCLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDCLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MDCLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDCLoader.cpp > CMakeFiles\assimp.dir\MDCLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDCLoader.cpp > CMakeFiles\assimp.dir\MDCLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MDCLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDCLoader.cpp -o CMakeFiles\assimp.dir\MDCLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDCLoader.cpp -o CMakeFiles\assimp.dir\MDCLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj.requires
@@ -1880,15 +1880,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj: ../third-party/assimp/code/MDLLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDLLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDLLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MDLLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLLoader.cpp > CMakeFiles\assimp.dir\MDLLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLLoader.cpp > CMakeFiles\assimp.dir\MDLLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MDLLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLLoader.cpp -o CMakeFiles\assimp.dir\MDLLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLLoader.cpp -o CMakeFiles\assimp.dir\MDLLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj.requires
@@ -1904,15 +1904,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj: third-p
 third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj: ../third-party/assimp/code/MDLMaterialLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLMaterialLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLMaterialLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLMaterialLoader.cpp > CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLMaterialLoader.cpp > CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLMaterialLoader.cpp -o CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MDLMaterialLoader.cpp -o CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj.requires
@@ -1928,15 +1928,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj: third-part
 third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj: ../third-party/assimp/code/MaterialSystem.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MaterialSystem.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MaterialSystem.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MaterialSystem.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MaterialSystem.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MaterialSystem.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MaterialSystem.cpp > CMakeFiles\assimp.dir\MaterialSystem.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MaterialSystem.cpp > CMakeFiles\assimp.dir\MaterialSystem.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MaterialSystem.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MaterialSystem.cpp -o CMakeFiles\assimp.dir\MaterialSystem.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MaterialSystem.cpp -o CMakeFiles\assimp.dir\MaterialSystem.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj.requires
@@ -1952,15 +1952,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj: ../third-party/assimp/code/NFFLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\NFFLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NFFLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\NFFLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NFFLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/NFFLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NFFLoader.cpp > CMakeFiles\assimp.dir\NFFLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NFFLoader.cpp > CMakeFiles\assimp.dir\NFFLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/NFFLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NFFLoader.cpp -o CMakeFiles\assimp.dir\NFFLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NFFLoader.cpp -o CMakeFiles\assimp.dir\NFFLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj.requires
@@ -1976,15 +1976,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj: ../third-party/assimp/code/OFFLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OFFLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OFFLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OFFLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OFFLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OFFLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OFFLoader.cpp > CMakeFiles\assimp.dir\OFFLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OFFLoader.cpp > CMakeFiles\assimp.dir\OFFLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OFFLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OFFLoader.cpp -o CMakeFiles\assimp.dir\OFFLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OFFLoader.cpp -o CMakeFiles\assimp.dir\OFFLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj.requires
@@ -2000,15 +2000,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj: ../third-party/assimp/code/ObjFileImporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileImporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileImporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ObjFileImporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileImporter.cpp > CMakeFiles\assimp.dir\ObjFileImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileImporter.cpp > CMakeFiles\assimp.dir\ObjFileImporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ObjFileImporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileImporter.cpp -o CMakeFiles\assimp.dir\ObjFileImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileImporter.cpp -o CMakeFiles\assimp.dir\ObjFileImporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj.requires
@@ -2024,15 +2024,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj: third-
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj: ../third-party/assimp/code/ObjFileMtlImporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileMtlImporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileMtlImporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileMtlImporter.cpp > CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileMtlImporter.cpp > CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileMtlImporter.cpp -o CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileMtlImporter.cpp -o CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj.requires
@@ -2048,15 +2048,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj: ../third-party/assimp/code/ObjFileParser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileParser.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileParser.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ObjFileParser.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileParser.cpp > CMakeFiles\assimp.dir\ObjFileParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileParser.cpp > CMakeFiles\assimp.dir\ObjFileParser.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ObjFileParser.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileParser.cpp -o CMakeFiles\assimp.dir\ObjFileParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjFileParser.cpp -o CMakeFiles\assimp.dir\ObjFileParser.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj.requires
@@ -2072,15 +2072,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj: ../third-party/assimp/code/ObjExporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjExporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjExporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjExporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjExporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ObjExporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjExporter.cpp > CMakeFiles\assimp.dir\ObjExporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjExporter.cpp > CMakeFiles\assimp.dir\ObjExporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ObjExporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjExporter.cpp -o CMakeFiles\assimp.dir\ObjExporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\ObjExporter.cpp -o CMakeFiles\assimp.dir\ObjExporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj.requires
@@ -2096,15 +2096,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj: third-party/
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj: ../third-party/assimp/code/OgreImporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreImporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreImporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OgreImporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreImporter.cpp > CMakeFiles\assimp.dir\OgreImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreImporter.cpp > CMakeFiles\assimp.dir\OgreImporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OgreImporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreImporter.cpp -o CMakeFiles\assimp.dir\OgreImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreImporter.cpp -o CMakeFiles\assimp.dir\OgreImporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj.requires
@@ -2120,15 +2120,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj: third-party/
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj: ../third-party/assimp/code/OgreMaterial.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreMaterial.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMaterial.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreMaterial.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMaterial.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OgreMaterial.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMaterial.cpp > CMakeFiles\assimp.dir\OgreMaterial.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMaterial.cpp > CMakeFiles\assimp.dir\OgreMaterial.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OgreMaterial.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMaterial.cpp -o CMakeFiles\assimp.dir\OgreMaterial.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMaterial.cpp -o CMakeFiles\assimp.dir\OgreMaterial.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj.requires
@@ -2144,15 +2144,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj: third-party/assi
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj: ../third-party/assimp/code/OgreMesh.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreMesh.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMesh.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreMesh.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMesh.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OgreMesh.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMesh.cpp > CMakeFiles\assimp.dir\OgreMesh.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMesh.cpp > CMakeFiles\assimp.dir\OgreMesh.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OgreMesh.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMesh.cpp -o CMakeFiles\assimp.dir\OgreMesh.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreMesh.cpp -o CMakeFiles\assimp.dir\OgreMesh.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj.requires
@@ -2168,15 +2168,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj: third-party/
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj: ../third-party/assimp/code/OgreSkeleton.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreSkeleton.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreSkeleton.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreSkeleton.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreSkeleton.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OgreSkeleton.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreSkeleton.cpp > CMakeFiles\assimp.dir\OgreSkeleton.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreSkeleton.cpp > CMakeFiles\assimp.dir\OgreSkeleton.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OgreSkeleton.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreSkeleton.cpp -o CMakeFiles\assimp.dir\OgreSkeleton.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\OgreSkeleton.cpp -o CMakeFiles\assimp.dir\OgreSkeleton.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj.requires
@@ -2192,15 +2192,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj: ../third-party/assimp/code/PlyLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PlyLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyLoader.cpp > CMakeFiles\assimp.dir\PlyLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyLoader.cpp > CMakeFiles\assimp.dir\PlyLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PlyLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyLoader.cpp -o CMakeFiles\assimp.dir\PlyLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyLoader.cpp -o CMakeFiles\assimp.dir\PlyLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj.requires
@@ -2216,15 +2216,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj: ../third-party/assimp/code/PlyParser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyParser.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyParser.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PlyParser.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyParser.cpp > CMakeFiles\assimp.dir\PlyParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyParser.cpp > CMakeFiles\assimp.dir\PlyParser.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PlyParser.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyParser.cpp -o CMakeFiles\assimp.dir\PlyParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyParser.cpp -o CMakeFiles\assimp.dir\PlyParser.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj.requires
@@ -2240,15 +2240,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj: ../third-party/assimp/code/PlyExporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyExporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyExporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyExporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyExporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PlyExporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyExporter.cpp > CMakeFiles\assimp.dir\PlyExporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyExporter.cpp > CMakeFiles\assimp.dir\PlyExporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PlyExporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyExporter.cpp -o CMakeFiles\assimp.dir\PlyExporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\PlyExporter.cpp -o CMakeFiles\assimp.dir\PlyExporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj.requires
@@ -2264,15 +2264,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj: ../third-party/assimp/code/Q3DLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3DLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3DLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3DLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3DLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Q3DLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3DLoader.cpp > CMakeFiles\assimp.dir\Q3DLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3DLoader.cpp > CMakeFiles\assimp.dir\Q3DLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Q3DLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3DLoader.cpp -o CMakeFiles\assimp.dir\Q3DLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3DLoader.cpp -o CMakeFiles\assimp.dir\Q3DLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj.requires
@@ -2288,15 +2288,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj: ../third-party/assimp/code/Q3BSPFileParser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileParser.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileParser.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileParser.cpp > CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileParser.cpp > CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileParser.cpp -o CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileParser.cpp -o CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj.requires
@@ -2312,15 +2312,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj: third-p
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj: ../third-party/assimp/code/Q3BSPFileImporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileImporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileImporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileImporter.cpp > CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileImporter.cpp > CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileImporter.cpp -o CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPFileImporter.cpp -o CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj.requires
@@ -2336,15 +2336,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj: ../third-party/assimp/code/Q3BSPZipArchive.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPZipArchive.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPZipArchive.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPZipArchive.cpp > CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPZipArchive.cpp > CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPZipArchive.cpp -o CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\Q3BSPZipArchive.cpp -o CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj.requires
@@ -2360,15 +2360,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj: ../third-party/assimp/code/RawLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RawLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RawLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RawLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RawLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/RawLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RawLoader.cpp > CMakeFiles\assimp.dir\RawLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RawLoader.cpp > CMakeFiles\assimp.dir\RawLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/RawLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RawLoader.cpp -o CMakeFiles\assimp.dir\RawLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\RawLoader.cpp -o CMakeFiles\assimp.dir\RawLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj.requires
@@ -2384,15 +2384,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj: ../third-party/assimp/code/SMDLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SMDLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SMDLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SMDLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SMDLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SMDLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SMDLoader.cpp > CMakeFiles\assimp.dir\SMDLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SMDLoader.cpp > CMakeFiles\assimp.dir\SMDLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SMDLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SMDLoader.cpp -o CMakeFiles\assimp.dir\SMDLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\SMDLoader.cpp -o CMakeFiles\assimp.dir\SMDLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj.requires
@@ -2408,15 +2408,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj: ../third-party/assimp/code/STLLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STLLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STLLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/STLLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLLoader.cpp > CMakeFiles\assimp.dir\STLLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLLoader.cpp > CMakeFiles\assimp.dir\STLLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/STLLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLLoader.cpp -o CMakeFiles\assimp.dir\STLLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLLoader.cpp -o CMakeFiles\assimp.dir\STLLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj.requires
@@ -2432,15 +2432,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj: ../third-party/assimp/code/STLExporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STLExporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLExporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STLExporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLExporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/STLExporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLExporter.cpp > CMakeFiles\assimp.dir\STLExporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLExporter.cpp > CMakeFiles\assimp.dir\STLExporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/STLExporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLExporter.cpp -o CMakeFiles\assimp.dir\STLExporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STLExporter.cpp -o CMakeFiles\assimp.dir\STLExporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj.requires
@@ -2456,15 +2456,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj: third-party/
 third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj: ../third-party/assimp/code/UnrealLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_101)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\UnrealLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\UnrealLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\UnrealLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\UnrealLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/UnrealLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\UnrealLoader.cpp > CMakeFiles\assimp.dir\UnrealLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\UnrealLoader.cpp > CMakeFiles\assimp.dir\UnrealLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/UnrealLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\UnrealLoader.cpp -o CMakeFiles\assimp.dir\UnrealLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\UnrealLoader.cpp -o CMakeFiles\assimp.dir\UnrealLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj.requires
@@ -2480,15 +2480,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj: ../third-party/assimp/code/XFileImporter.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_102)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XFileImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileImporter.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XFileImporter.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileImporter.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/XFileImporter.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileImporter.cpp > CMakeFiles\assimp.dir\XFileImporter.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileImporter.cpp > CMakeFiles\assimp.dir\XFileImporter.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/XFileImporter.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileImporter.cpp -o CMakeFiles\assimp.dir\XFileImporter.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileImporter.cpp -o CMakeFiles\assimp.dir\XFileImporter.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj.requires
@@ -2504,15 +2504,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj: ../third-party/assimp/code/XFileParser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_103)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XFileParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileParser.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XFileParser.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileParser.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/XFileParser.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileParser.cpp > CMakeFiles\assimp.dir\XFileParser.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileParser.cpp > CMakeFiles\assimp.dir\XFileParser.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/XFileParser.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileParser.cpp -o CMakeFiles\assimp.dir\XFileParser.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XFileParser.cpp -o CMakeFiles\assimp.dir\XFileParser.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj.requires
@@ -2528,15 +2528,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj: third-party/as
 third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj: ../third-party/assimp/code/MS3DLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_104)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MS3DLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MS3DLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MS3DLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MS3DLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MS3DLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MS3DLoader.cpp > CMakeFiles\assimp.dir\MS3DLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MS3DLoader.cpp > CMakeFiles\assimp.dir\MS3DLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MS3DLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MS3DLoader.cpp -o CMakeFiles\assimp.dir\MS3DLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\MS3DLoader.cpp -o CMakeFiles\assimp.dir\MS3DLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj.requires
@@ -2552,15 +2552,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj: ../third-party/assimp/code/COBLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_105)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\COBLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\COBLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\COBLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\COBLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/COBLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\COBLoader.cpp > CMakeFiles\assimp.dir\COBLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\COBLoader.cpp > CMakeFiles\assimp.dir\COBLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/COBLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\COBLoader.cpp -o CMakeFiles\assimp.dir\COBLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\COBLoader.cpp -o CMakeFiles\assimp.dir\COBLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj.requires
@@ -2576,15 +2576,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj: third-party
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj: ../third-party/assimp/code/BlenderLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_106)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BlenderLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderLoader.cpp > CMakeFiles\assimp.dir\BlenderLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderLoader.cpp > CMakeFiles\assimp.dir\BlenderLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BlenderLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderLoader.cpp -o CMakeFiles\assimp.dir\BlenderLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderLoader.cpp -o CMakeFiles\assimp.dir\BlenderLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj.requires
@@ -2600,15 +2600,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj: third-party/as
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj: ../third-party/assimp/code/BlenderDNA.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderDNA.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderDNA.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderDNA.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderDNA.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BlenderDNA.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderDNA.cpp > CMakeFiles\assimp.dir\BlenderDNA.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderDNA.cpp > CMakeFiles\assimp.dir\BlenderDNA.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BlenderDNA.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderDNA.cpp -o CMakeFiles\assimp.dir\BlenderDNA.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderDNA.cpp -o CMakeFiles\assimp.dir\BlenderDNA.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj.requires
@@ -2624,15 +2624,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj: third-party/
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj: ../third-party/assimp/code/BlenderScene.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderScene.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderScene.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderScene.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderScene.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BlenderScene.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderScene.cpp > CMakeFiles\assimp.dir\BlenderScene.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderScene.cpp > CMakeFiles\assimp.dir\BlenderScene.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BlenderScene.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderScene.cpp -o CMakeFiles\assimp.dir\BlenderScene.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderScene.cpp -o CMakeFiles\assimp.dir\BlenderScene.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj.requires
@@ -2648,15 +2648,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj: third-par
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj: ../third-party/assimp/code/BlenderModifier.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderModifier.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderModifier.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderModifier.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderModifier.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BlenderModifier.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderModifier.cpp > CMakeFiles\assimp.dir\BlenderModifier.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderModifier.cpp > CMakeFiles\assimp.dir\BlenderModifier.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BlenderModifier.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderModifier.cpp -o CMakeFiles\assimp.dir\BlenderModifier.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\BlenderModifier.cpp -o CMakeFiles\assimp.dir\BlenderModifier.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj.requires
@@ -2672,15 +2672,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj: ../third-party/assimp/code/NDOLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\NDOLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NDOLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\NDOLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NDOLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/NDOLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NDOLoader.cpp > CMakeFiles\assimp.dir\NDOLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NDOLoader.cpp > CMakeFiles\assimp.dir\NDOLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/NDOLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NDOLoader.cpp -o CMakeFiles\assimp.dir\NDOLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\NDOLoader.cpp -o CMakeFiles\assimp.dir\NDOLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj.requires
@@ -2696,15 +2696,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj: ../third-party/assimp/code/IFCLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCLoader.cpp > CMakeFiles\assimp.dir\IFCLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCLoader.cpp > CMakeFiles\assimp.dir\IFCLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCLoader.cpp -o CMakeFiles\assimp.dir\IFCLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCLoader.cpp -o CMakeFiles\assimp.dir\IFCLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj.requires
@@ -2720,15 +2720,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj: third-party/
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj: ../third-party/assimp/code/IFCReaderGen.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCReaderGen.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCReaderGen.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCReaderGen.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCReaderGen.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCReaderGen.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCReaderGen.cpp > CMakeFiles\assimp.dir\IFCReaderGen.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCReaderGen.cpp > CMakeFiles\assimp.dir\IFCReaderGen.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCReaderGen.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCReaderGen.cpp -o CMakeFiles\assimp.dir\IFCReaderGen.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCReaderGen.cpp -o CMakeFiles\assimp.dir\IFCReaderGen.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj.requires
@@ -2744,15 +2744,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj: third-party/assim
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj: ../third-party/assimp/code/IFCUtil.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCUtil.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCUtil.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCUtil.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCUtil.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCUtil.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCUtil.cpp > CMakeFiles\assimp.dir\IFCUtil.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCUtil.cpp > CMakeFiles\assimp.dir\IFCUtil.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCUtil.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCUtil.cpp -o CMakeFiles\assimp.dir\IFCUtil.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCUtil.cpp -o CMakeFiles\assimp.dir\IFCUtil.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj.requires
@@ -2768,15 +2768,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj: ../third-party/assimp/code/IFCGeometry.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCGeometry.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCGeometry.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCGeometry.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCGeometry.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCGeometry.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCGeometry.cpp > CMakeFiles\assimp.dir\IFCGeometry.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCGeometry.cpp > CMakeFiles\assimp.dir\IFCGeometry.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCGeometry.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCGeometry.cpp -o CMakeFiles\assimp.dir\IFCGeometry.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCGeometry.cpp -o CMakeFiles\assimp.dir\IFCGeometry.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj.requires
@@ -2792,15 +2792,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj: third-party/a
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj: ../third-party/assimp/code/IFCMaterial.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCMaterial.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCMaterial.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCMaterial.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCMaterial.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCMaterial.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCMaterial.cpp > CMakeFiles\assimp.dir\IFCMaterial.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCMaterial.cpp > CMakeFiles\assimp.dir\IFCMaterial.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCMaterial.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCMaterial.cpp -o CMakeFiles\assimp.dir\IFCMaterial.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCMaterial.cpp -o CMakeFiles\assimp.dir\IFCMaterial.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj.requires
@@ -2816,15 +2816,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj: third-party/as
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj: ../third-party/assimp/code/IFCProfile.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_116)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCProfile.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCProfile.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCProfile.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCProfile.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCProfile.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCProfile.cpp > CMakeFiles\assimp.dir\IFCProfile.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCProfile.cpp > CMakeFiles\assimp.dir\IFCProfile.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCProfile.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCProfile.cpp -o CMakeFiles\assimp.dir\IFCProfile.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCProfile.cpp -o CMakeFiles\assimp.dir\IFCProfile.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj.requires
@@ -2840,15 +2840,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj: third-party/assi
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj: ../third-party/assimp/code/IFCCurve.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCCurve.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCCurve.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCCurve.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCCurve.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCCurve.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCCurve.cpp > CMakeFiles\assimp.dir\IFCCurve.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCCurve.cpp > CMakeFiles\assimp.dir\IFCCurve.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCCurve.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCCurve.cpp -o CMakeFiles\assimp.dir\IFCCurve.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\IFCCurve.cpp -o CMakeFiles\assimp.dir\IFCCurve.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj.requires
@@ -2864,15 +2864,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj: third-part
 third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj: ../third-party/assimp/code/STEPFileReader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STEPFileReader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STEPFileReader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STEPFileReader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STEPFileReader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/STEPFileReader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STEPFileReader.cpp > CMakeFiles\assimp.dir\STEPFileReader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STEPFileReader.cpp > CMakeFiles\assimp.dir\STEPFileReader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/STEPFileReader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STEPFileReader.cpp -o CMakeFiles\assimp.dir\STEPFileReader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\STEPFileReader.cpp -o CMakeFiles\assimp.dir\STEPFileReader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj.requires
@@ -2888,15 +2888,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj: third-party/ass
 third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj: ../third-party/assimp/code/XGLLoader.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XGLLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XGLLoader.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XGLLoader.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XGLLoader.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/XGLLoader.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XGLLoader.cpp > CMakeFiles\assimp.dir\XGLLoader.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XGLLoader.cpp > CMakeFiles\assimp.dir\XGLLoader.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/XGLLoader.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XGLLoader.cpp -o CMakeFiles\assimp.dir\XGLLoader.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\code\XGLLoader.cpp -o CMakeFiles\assimp.dir\XGLLoader.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj.requires
@@ -2912,15 +2912,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj: 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj: ../third-party/assimp/contrib/irrXML/irrXML.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\irrXML\irrXML.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\irrXML\irrXML.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\irrXML\irrXML.cpp > CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\irrXML\irrXML.cpp > CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\irrXML\irrXML.cpp -o CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\irrXML\irrXML.cpp -o CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj.requires
@@ -2936,15 +2936,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj: ../third-party/assimp/contrib/ConvertUTF/ConvertUTF.c
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\ConvertUTF\ConvertUTF.c
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\ConvertUTF\ConvertUTF.c
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\ConvertUTF\ConvertUTF.c > CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\ConvertUTF\ConvertUTF.c > CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\ConvertUTF\ConvertUTF.c -o CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\ConvertUTF\ConvertUTF.c -o CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj.requires
@@ -2960,15 +2960,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj: thir
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj: ../third-party/assimp/contrib/unzip/ioapi.c
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\ioapi.c
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\ioapi.c
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\ioapi.c > CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\ioapi.c > CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\ioapi.c -o CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\ioapi.c -o CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj.requires
@@ -2984,15 +2984,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj: thir
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj: ../third-party/assimp/contrib/unzip/unzip.c
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_123)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\unzip.c
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\unzip.c
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\unzip.c > CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\unzip.c > CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\unzip.c -o CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\unzip\unzip.c -o CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj.requires
@@ -3008,15 +3008,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/commo
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj: ../third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_124)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\common\shapes.cc
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\common\shapes.cc
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\common\shapes.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\common\shapes.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\common\shapes.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\common\shapes.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj.requires
@@ -3032,15 +3032,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj: ../third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_125)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj.requires
@@ -3056,15 +3056,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj: ../third-party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_126)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj.requires
@@ -3080,15 +3080,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj: ../third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_127)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj.requires
@@ -3104,15 +3104,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj: ../third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_128)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj.requires
@@ -3128,15 +3128,15 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj: ../third-party/assimp/contrib/clipper/clipper.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_129)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\clipper\clipper.cpp
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\clipper\clipper.cpp
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\clipper\clipper.cpp > CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\clipper\clipper.cpp > CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.i
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\clipper\clipper.cpp -o CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\assimp\code && C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\assimp\contrib\clipper\clipper.cpp -o CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.s
 
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj.requires:
 .PHONY : third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj.requires

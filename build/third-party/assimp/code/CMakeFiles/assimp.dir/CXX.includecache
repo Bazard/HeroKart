@@ -3054,24 +3054,6 @@ C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/code/qnan.h
 
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/ConvertUTF/ConvertUTF.h
 
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/clipper/clipper.cpp
-clipper.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/clipper/clipper.hpp
-cmath
--
-vector
--
-algorithm
--
-stdexcept
--
-cstring
--
-cstdlib
--
-ostream
--
-
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/clipper/clipper.hpp
 vector
 -
@@ -3560,12 +3542,6 @@ irrXML.h
 irrXML.h
 -
 
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.cc
-shapes.h
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
-iostream
--
-
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
 vector
 -
@@ -3578,30 +3554,16 @@ assert.h
 cmath
 -
 
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/utils.h
-exception
--
-math.h
--
-
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/poly2tri.h
 common/shapes.h
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
 sweep/cdt.h
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.h
 
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc
-advancing_front.h
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
-
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
 ../common/shapes.h
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
 
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.cc
-cdt.h
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.h
-
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.h
 advancing_front.h
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
@@ -3609,30 +3571,10 @@ sweep_context.h
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h
 sweep.h
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.h
-
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.cc
-stdexcept
--
-sweep.h
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.h
-sweep_context.h
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h
-advancing_front.h
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
-../common/utils.h
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/utils.h
 
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.h
 vector
 -
-
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cc
-sweep_context.h
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h
-algorithm
--
-advancing_front.h
-C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
 
 C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h
 list
