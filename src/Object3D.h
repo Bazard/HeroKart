@@ -23,9 +23,10 @@ protected:
 	
 public:
 	glm::mat4 MVMatrix;
+	bool visible; //L'objet est-il visible ? 
 	
     // Constructeur: alloue le tableau de données et construit les attributs des vertex
-    Object3D():m_nVertexCount(0), angle(0){dir.z=1; sca=glm::vec3(1);};
+    Object3D():m_nVertexCount(0), angle(0),visible(true){dir.z=1; sca=glm::vec3(1,1,1);};
 	
 	Object3D(const Object3D&);
 	
@@ -49,9 +50,10 @@ public:
 	void setDirection(glm::vec3 vec){ dir=vec;}
 	void setScale(glm::vec3 vec){ sca=vec;}
 	
+	bool isVisible(){ return visible;}
 	float getAngle(){return angle;}
 	
-	void TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra, float angle);
+	void TransfoMatrix(glm::mat4 ViewMatrix, float angle);
 	
 	int LoadTexture();
 	int LoadTexture(const char* sFilePath);

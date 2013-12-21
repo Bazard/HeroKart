@@ -122,6 +122,8 @@ int main(int argc, char** argv) {
 	mapObjects.push_back(&floor);
 	
 	PowerObject boost(BOOST,10000);
+	PowerObject atk_back(ATK_BACK,0);
+	PowerObject trap(TRAP,0);
 	bool done=false;
 	while(!done) {
 
@@ -138,32 +140,34 @@ int main(int argc, char** argv) {
 		
 		ViewMatrix=camera.getViewMatrix(kart.getPosition(), anglefile.front().first,kart.back);
 	
-		//Pouvoirs (boucle sur tous les persos)
+		//Pouvoirs (boucle sur tous les persos à faire)
 		if(brubru.getPower()){
 				
 			if(brubru.getPower()->isLaunched() && brubru.getPower()->getDuration()+brubru.getPower()->getTimeOfUse() < tStart){
 				brubru.stopPower(Karts,0);
-				brubru.dropPower();
 			}
 		}
 		
-		//Kart
+		//Kart (boucle sur tous les karts à faire)
 		kart.getVAO().bind();		//Bind du VAO
-		kart.TransfoMatrix(ViewMatrix, kart.getPosition(), kart.getAngle()); //Transformations (View, Translation, anglerotation,scale)
+		kart.TransfoMatrix(ViewMatrix, kart.getAngle()); //Transformations (View, Translation, anglerotation,scale)
 		kart.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
 		kart.Draw(uTex);	//Draw de l'objet
 
 		//Dessin des objets de la map
 		for (std::vector<Object3D*>::iterator it = mapObjects.begin() ; it != mapObjects.end(); ++it){
-			(*it)->getVAO().bind();		
-			(*it)->TransfoMatrix(ViewMatrix, glm::vec3(0,0,0), 0);
-			(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
-			(*it)->Draw(uTex);
+			if((*it)->isVisible()){
+				(*it)->getVAO().bind();		
+				(*it)->TransfoMatrix(ViewMatrix, 0);
+				(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
+				(*it)->Draw(uTex);
+				
+			}
 		}
 		
 		//Sky
 		sky.getVAO().bind();		
-		sky.TransfoMatrix(ViewMatrix, glm::vec3(0,0,0), tStart* 0.001f);
+		sky.TransfoMatrix(ViewMatrix, tStart* 0.001f);
 		sky.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 		sky.Draw(uTex);
 		
@@ -181,8 +185,17 @@ int main(int argc, char** argv) {
 							std::cout << "You pick a Boost" << std::endl;
 							brubru.pickPower(boost);
 							break;
+						case 'v':
+							std::cout << "You pick an Attack_back" << std::endl;
+							brubru.pickPower(atk_back);
+							break;
+						case 't':
+							std::cout << "You pick a Trap" << std::endl;
+							brubru.pickPower(trap);
+							break;
 						case SDLK_SPACE:
 							brubru.usePower(Karts,0,tStart,mapObjects);
+							
 							break;
 					}
 					break;

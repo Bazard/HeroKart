@@ -8,7 +8,7 @@ class PowerObject: public Object3D
 {
 private:
 	typeEnum type;
-	bool disable; //L'objet n'est pas disponible s'il vient d'être pris, il reapparaitra apres un petit temps
+	
 	bool launched;  // indique son etat (lancé ou pas)
 	int duration; //sa durée
 	int timeOfUse; //le moment quand le pouvoir est lancé
@@ -16,12 +16,12 @@ private:
 	
 public:
 	PowerObject(typeEnum type, int duration);
+	PowerObject(const PowerObject& obj);
 	~PowerObject();
 	int getDuration(){return duration;}
 	int getTimeOfUse(){return timeOfUse;}
-	bool isDisable(){return disable;}
 	bool isLaunched() {return launched;}
-	void power(std::vector<Kart*>& vecKart, int idLanceur,int tStart, std::vector<Object3D*> objs);
+	void power(std::vector<Kart*>& vecKart, int idLanceur,int tStart, std::vector<Object3D*>& objs);
 	void powerBack(std::vector<Kart*>& vecKart, int idLanceur);
 };
 
