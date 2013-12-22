@@ -7,6 +7,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp> 
+#include "Kart.h"
 
 using namespace glimac;
 
@@ -283,9 +284,9 @@ void Object3D::cone(GLfloat height, GLfloat r, GLsizei discLat, GLsizei discHeig
     // par un Index Buffer Object, que nous verrons dans les prochains TDs
 }
 
-void Object3D::TransfoMatrix(glm::mat4 ViewMatrix, float angle){
+void Object3D::TransfoMatrix(glm::mat4 ViewMatrix, float angle, glm::vec3 tra){
 		MVMatrix = ViewMatrix;
-		MVMatrix = glm::translate(MVMatrix,pos);	
+		MVMatrix = glm::translate(MVMatrix,tra);	
 		MVMatrix = glm::rotate(MVMatrix, angle,glm::vec3(0,1,0));	
 		MVMatrix = glm::scale(MVMatrix, sca);
 }

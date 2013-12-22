@@ -1,4 +1,5 @@
 #include "PowerObject.h"
+#include <glm/gtc/matrix_transform.hpp>
 #include <iostream>
 
 PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false) 
@@ -30,21 +31,35 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					build();
 					LoadTexture("../textures/EarthMap.jpg"); //A changer par une mine
 					pos=vecKart[idLanceur]->getPosition();
+					id=objs.size(); // Stock l'id du powerObject en cours
 					objs.push_back(this);
 					
 					break;
 			case ATK_ALL:
 					visible=false;
+					for(int i=0;i<vecKart.size();++i){
+						if(idLanceur!=i){
+							vecKart[i]->setSpeed(0.5*vecKart[idLanceur]->getSpeedMax());
+							vecKart[i]->setSpeedMax(0.5*vecKart[idLanceur]->getSpeedMax());
+							vecKart[i]->setScale(glm::vec3(0.5*vecKart[i]->getScale().x,0.5*vecKart[i]->getScale().y,0.5*vecKart[i]->getScale().z));
+						}
+					}
 					break;
 			case SHIELD:
 					visible=true;
+					sphere(1,32,16);
+					build();
+					LoadTexture("../textures/MoonMap.png"); //A changer par un bouclier
+					pos=vecKart[idLanceur]->getPosition();
+					vecKart[idLanceur]->invincible=true;
 					break;
 			case TRAP:
 					visible=true;
 					sphere(1,32,16);
 					build();
-					LoadTexture("../textures/triforce.png"); //A changer par un piege
+					LoadTexture("../textures/triforce.jpg"); //A changer par un piege
 					pos=vecKart[idLanceur]->getPosition();
+					id=objs.size(); // Stock l'id du powerObject en cours
 					objs.push_back(this);
 					break;
 			default:
@@ -67,8 +82,18 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 			case ATK_BACK:
 					break;
 			case ATK_ALL:
+					for(int i=0;i<vecKart.size();++i){
+						if(idLanceur!=i){
+							vecKart[i]->setSpeed(2*vecKart[idLanceur]->getSpeedMax());
+							vecKart[i]->setSpeedMax(2*vecKart[idLanceur]->getSpeedMax());
+							vecKart[i]->setScale(glm::vec3(2*vecKart[i]->getScale().x,2*vecKart[i]->getScale().y,2*vecKart[i]->getScale().z));
+						}
+					}
+					delete(this);
 					break;
 			case SHIELD:
+					vecKart[idLanceur]->invincible=true;
+					delete(this);
 					break;
 			case TRAP:
 					break;
@@ -76,4 +101,11 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 					//Cheat
 					break;
 		}
+		
 	}
+
+bool PowerObject::withKart(){
+	if(type==SHIELD)
+		return true;
+	return false;
+}

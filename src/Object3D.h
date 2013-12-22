@@ -7,6 +7,7 @@
 #include "VBO.hpp"
 #include "VAO.hpp"
 
+class Kart;
 class Object3D {
 
 	std::vector<glimac::ShapeVertex> m_Vertices;
@@ -24,6 +25,7 @@ protected:
 public:
 	glm::mat4 MVMatrix;
 	bool visible; //L'objet est-il visible ? 
+	int id; //S'il est contenu dans un tableau
 	
     // Constructeur: alloue le tableau de données et construit les attributs des vertex
     Object3D():m_nVertexCount(0), angle(0),visible(true){dir.z=1; sca=glm::vec3(1,1,1);};
@@ -53,7 +55,7 @@ public:
 	bool isVisible(){ return visible;}
 	float getAngle(){return angle;}
 	
-	void TransfoMatrix(glm::mat4 ViewMatrix, float angle);
+	void TransfoMatrix(glm::mat4 ViewMatrix, float angle, glm::vec3 tra); //Transformation
 	
 	int LoadTexture();
 	int LoadTexture(const char* sFilePath);

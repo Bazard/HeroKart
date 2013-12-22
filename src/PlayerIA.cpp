@@ -27,6 +27,8 @@ void PlayerIA::stopPower(std::vector<Kart*>& vecKart, int idLanceur){
 	if(object){
 		object->powerBack(vecKart,idLanceur);
 		object=NULL;
+		
+
 		}
 	else
 		std::cout << "Pas d'objet" << std::endl;

@@ -66,6 +66,20 @@ int main(int argc, char** argv) {
 	kart.buildVAO();
 	kart.LoadTexture("../textures/CCTex.jpg");
 	
+	Kart kart2(2,0.01,0.75,5);
+	kart2.setPosition(glm::vec3(10,0.5,-10));
+	kart2.LoadObjFromFile("../models/ACC/ACC2.obj");	
+	kart2.buildVBO();
+	kart2.buildVAO();
+	kart2.LoadTexture("../textures/EarthMap.jpg");
+	
+	Kart kart3(2,0.01,0.75,5);
+	kart3.setPosition(glm::vec3(10,0.5,10));
+	kart3.LoadObjFromFile("../models/ACC/ACC2.obj");	
+	kart3.buildVBO();
+	kart3.buildVAO();
+	kart3.LoadTexture("../textures/MoonMap.png");
+	
 	//Objet2
 	Object3D floor;
 	floor.LoadObjFromFile("../models/floor.obj");	
@@ -117,13 +131,19 @@ int main(int argc, char** argv) {
 	PlayerIA brubru("Brubru", kart, SuperBru);
 	
 	Players.push_back(&brubru);
+	
 	Karts.push_back(&kart);
+	Karts.push_back(&kart2);
+	Karts.push_back(&kart3);
 	
 	mapObjects.push_back(&floor);
 	
 	PowerObject boost(BOOST,10000);
 	PowerObject atk_back(ATK_BACK,0);
 	PowerObject trap(TRAP,0);
+	PowerObject shield(SHIELD, 10000);
+	PowerObject atk_all(ATK_ALL, 10000);
+	
 	bool done=false;
 	while(!done) {
 
@@ -142,32 +162,40 @@ int main(int argc, char** argv) {
 	
 		//Pouvoirs (boucle sur tous les persos à faire)
 		if(brubru.getPower()){
-				
+			if(brubru.getPower()->isLaunched() && brubru.getPower()->withKart()){
+				brubru.getPower()->getVAO().bind();		//Bind du VAO
+				brubru.getPower()->TransfoMatrix(ViewMatrix, kart.getAngle(),kart.getPosition()); //Transformations (View, Translation, anglerotation,scale)
+				brubru.getPower()->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
+				brubru.getPower()->Draw(uTex);	//Draw de l'objet
+			}
+			
 			if(brubru.getPower()->isLaunched() && brubru.getPower()->getDuration()+brubru.getPower()->getTimeOfUse() < tStart){
 				brubru.stopPower(Karts,0);
 			}
 		}
 		
-		//Kart (boucle sur tous les karts à faire)
-		kart.getVAO().bind();		//Bind du VAO
-		kart.TransfoMatrix(ViewMatrix, kart.getAngle()); //Transformations (View, Translation, anglerotation,scale)
-		kart.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
-		kart.Draw(uTex);	//Draw de l'objet
-
+		//Kart (boucle sur tous les karts)
+		for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
+			(*it)->getVAO().bind();		//Bind du VAO
+			(*it)->TransfoMatrix(ViewMatrix, (*it)->getAngle(),(*it)->getPosition()); //Transformations (View, Translation, anglerotation,scale)
+			(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
+			(*it)->Draw(uTex);	//Draw de l'objet
+		}
+		
 		//Dessin des objets de la map
 		for (std::vector<Object3D*>::iterator it = mapObjects.begin() ; it != mapObjects.end(); ++it){
 			if((*it)->isVisible()){
 				(*it)->getVAO().bind();		
-				(*it)->TransfoMatrix(ViewMatrix, 0);
+				(*it)->TransfoMatrix(ViewMatrix, 0, (*it)->getPosition());
 				(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 				(*it)->Draw(uTex);
-				
 			}
 		}
 		
+		
 		//Sky
 		sky.getVAO().bind();		
-		sky.TransfoMatrix(ViewMatrix, tStart* 0.001f);
+		sky.TransfoMatrix(ViewMatrix, tStart* 0.001f,sky.getPosition());
 		sky.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 		sky.Draw(uTex);
 		
@@ -189,9 +217,17 @@ int main(int argc, char** argv) {
 							std::cout << "You pick an Attack_back" << std::endl;
 							brubru.pickPower(atk_back);
 							break;
-						case 't':
+						case 'c':
 							std::cout << "You pick a Trap" << std::endl;
 							brubru.pickPower(trap);
+							break;
+						case 'x':
+							std::cout << "You pick a Shield" << std::endl;
+							brubru.pickPower(shield);
+							break;
+						case 'z':
+							std::cout << "You pick an Attack_All" << std::endl;
+							brubru.pickPower(atk_all);
 							break;
 						case SDLK_SPACE:
 							brubru.usePower(Karts,0,tStart,mapObjects);

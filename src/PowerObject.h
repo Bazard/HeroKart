@@ -23,5 +23,6 @@ public:
 	bool isLaunched() {return launched;}
 	void power(std::vector<Kart*>& vecKart, int idLanceur,int tStart, std::vector<Object3D*>& objs);
 	void powerBack(std::vector<Kart*>& vecKart, int idLanceur);
+	bool withKart();
 };
 

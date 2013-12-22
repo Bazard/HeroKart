@@ -280,6 +280,7 @@ CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/memory.
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/string.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/sys/types.h
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Kart.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.cpp
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.h
 
@@ -427,6 +428,8 @@ CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../third-party/glm/glm/./core/t
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../third-party/glm/glm/core/_fixes.hpp
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../third-party/glm/glm/core/setup.hpp
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../third-party/glm/glm/glm.hpp
+CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../third-party/glm/glm/gtc/matrix_transform.hpp
+CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../third-party/glm/glm/gtc/matrix_transform.inl
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h

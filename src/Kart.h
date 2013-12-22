@@ -10,9 +10,11 @@ private:
 	float speed;
 	float poids;
 	
+	
 public:
 	bool back;
-
+	bool invincible;
+	
 	Kart();
 	Kart(float tourne, float acceleration, float speedmax, float poids);
 	~Kart();
