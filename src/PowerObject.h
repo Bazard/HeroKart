@@ -24,5 +24,7 @@ public:
 	void power(std::vector<Kart*>& vecKart, int idLanceur,int tStart, std::vector<Object3D*>& objs);
 	void powerBack(std::vector<Kart*>& vecKart, int idLanceur);
 	bool withKart();
+	void movePower();
+	bool tooFar(); //Teste si l'objet est trop de loin de la scène
 };
 

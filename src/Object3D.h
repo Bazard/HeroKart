@@ -25,7 +25,6 @@ protected:
 public:
 	glm::mat4 MVMatrix;
 	bool visible; //L'objet est-il visible ? 
-	int id; //S'il est contenu dans un tableau
 	
     // Constructeur: alloue le tableau de données et construit les attributs des vertex
     Object3D():m_nVertexCount(0), angle(0),visible(true){dir.z=1; sca=glm::vec3(1,1,1);};
@@ -54,8 +53,9 @@ public:
 	
 	bool isVisible(){ return visible;}
 	float getAngle(){return angle;}
+	void setAngle(float a){angle=a;}
 	
-	void TransfoMatrix(glm::mat4 ViewMatrix, float angle, glm::vec3 tra); //Transformation
+	void TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra); //Transformation
 	
 	int LoadTexture();
 	int LoadTexture(const char* sFilePath);
@@ -67,6 +67,9 @@ public:
 	std::vector<glimac::ShapeVertex>& getVertices(){
 		return m_Vertices;
 	}
+	
+	virtual void movePower(){} //Fonction qui fait bouger l'objet, elle est utile seulement si l'objet est un powerObject
+	virtual bool tooFar(){return false;}; //Fonction qui teste si l'objet est trop loin. Ne marche que pour les powerObject
 	
 	void Draw(GLuint uTex);
 	void MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalMatrix, int WINDOW_WIDTH, int WINDOW_HEIGHT);

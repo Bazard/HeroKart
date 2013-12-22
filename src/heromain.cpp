@@ -143,6 +143,7 @@ int main(int argc, char** argv) {
 	PowerObject trap(TRAP,0);
 	PowerObject shield(SHIELD, 10000);
 	PowerObject atk_all(ATK_ALL, 10000);
+	PowerObject atk_front(ATK_FRONT, 0);
 	
 	bool done=false;
 	while(!done) {
@@ -164,7 +165,7 @@ int main(int argc, char** argv) {
 		if(brubru.getPower()){
 			if(brubru.getPower()->isLaunched() && brubru.getPower()->withKart()){
 				brubru.getPower()->getVAO().bind();		//Bind du VAO
-				brubru.getPower()->TransfoMatrix(ViewMatrix, kart.getAngle(),kart.getPosition()); //Transformations (View, Translation, anglerotation,scale)
+				brubru.getPower()->TransfoMatrix(ViewMatrix, kart.getPosition()); //Transformations (View, Translation, anglerotation,scale)
 				brubru.getPower()->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
 				brubru.getPower()->Draw(uTex);	//Draw de l'objet
 			}
@@ -177,7 +178,7 @@ int main(int argc, char** argv) {
 		//Kart (boucle sur tous les karts)
 		for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
 			(*it)->getVAO().bind();		//Bind du VAO
-			(*it)->TransfoMatrix(ViewMatrix, (*it)->getAngle(),(*it)->getPosition()); //Transformations (View, Translation, anglerotation,scale)
+			(*it)->TransfoMatrix(ViewMatrix,(*it)->getPosition()); //Transformations (View, Translation, anglerotation,scale)
 			(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
 			(*it)->Draw(uTex);	//Draw de l'objet
 		}
@@ -186,16 +187,23 @@ int main(int argc, char** argv) {
 		for (std::vector<Object3D*>::iterator it = mapObjects.begin() ; it != mapObjects.end(); ++it){
 			if((*it)->isVisible()){
 				(*it)->getVAO().bind();		
-				(*it)->TransfoMatrix(ViewMatrix, 0, (*it)->getPosition());
+				(*it)->movePower();
+				(*it)->TransfoMatrix(ViewMatrix, (*it)->getPosition());
 				(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 				(*it)->Draw(uTex);
+				if((*it)->tooFar()){
+					mapObjects.erase(it);	
+					delete(*it);
+					it--;
+				}
 			}
 		}
 		
 		
 		//Sky
 		sky.getVAO().bind();		
-		sky.TransfoMatrix(ViewMatrix, tStart* 0.001f,sky.getPosition());
+		sky.setAngle(tStart*0.001f);
+		sky.TransfoMatrix(ViewMatrix,sky.getPosition());
 		sky.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 		sky.Draw(uTex);
 		
@@ -209,6 +217,10 @@ int main(int argc, char** argv) {
 					break;
 				case SDL_KEYDOWN:
 					switch(e.key.keysym.sym){
+						case 'n':
+							std::cout << "You pick an Attack_Front" << std::endl;
+							brubru.pickPower(atk_front);
+							break;
 						case 'b':
 							std::cout << "You pick a Boost" << std::endl;
 							brubru.pickPower(boost);

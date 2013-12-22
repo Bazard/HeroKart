@@ -22,19 +22,27 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					vecKart[idLanceur]->setSpeed(2*vecKart[idLanceur]->getSpeedMax());
 					vecKart[idLanceur]->setSpeedMax(3*vecKart[idLanceur]->getSpeedMax());
 					break;
+					
 			case ATK_FRONT:
 					visible=true;
+					sphere(1,32,16);
+					build();
+					LoadTexture("../textures/sky.jpg"); //A changer par une mine
+					pos=vecKart[idLanceur]->getPosition();
+					dir=vecKart[idLanceur]->getDirection();
+					angle=vecKart[idLanceur]->getAngle();
+					objs.push_back(this);
 					break;
+					
 			case ATK_BACK:
 					visible=true;
 					sphere(1,32,16);
 					build();
 					LoadTexture("../textures/EarthMap.jpg"); //A changer par une mine
 					pos=vecKart[idLanceur]->getPosition();
-					id=objs.size(); // Stock l'id du powerObject en cours
 					objs.push_back(this);
-					
 					break;
+					
 			case ATK_ALL:
 					visible=false;
 					for(int i=0;i<vecKart.size();++i){
@@ -45,6 +53,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 						}
 					}
 					break;
+					
 			case SHIELD:
 					visible=true;
 					sphere(1,32,16);
@@ -53,15 +62,16 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					pos=vecKart[idLanceur]->getPosition();
 					vecKart[idLanceur]->invincible=true;
 					break;
+					
 			case TRAP:
 					visible=true;
 					sphere(1,32,16);
 					build();
 					LoadTexture("../textures/triforce.jpg"); //A changer par un piege
 					pos=vecKart[idLanceur]->getPosition();
-					id=objs.size(); // Stock l'id du powerObject en cours
 					objs.push_back(this);
 					break;
+					
 			default:
 					//Cheat
 					break;
@@ -77,10 +87,13 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 					vecKart[idLanceur]->setSpeedMax(stock);
 					delete(this);
 					break;
+					
 			case ATK_FRONT:
 					break;
+					
 			case ATK_BACK:
 					break;
+					
 			case ATK_ALL:
 					for(int i=0;i<vecKart.size();++i){
 						if(idLanceur!=i){
@@ -91,12 +104,15 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 					}
 					delete(this);
 					break;
+					
 			case SHIELD:
 					vecKart[idLanceur]->invincible=true;
 					delete(this);
 					break;
+					
 			case TRAP:
 					break;
+					
 			default:
 					//Cheat
 					break;
@@ -106,6 +122,28 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 
 bool PowerObject::withKart(){
 	if(type==SHIELD)
+		return true;
+	return false;
+}
+
+void PowerObject::movePower(){
+	switch(type){
+		case ATK_FRONT:
+			pos+=glm::vec3(2*dir.x,2*dir.y,2*dir.z);
+			break;
+			
+		case TRAP:
+			angle+=1;
+			break;
+			
+		case ATK_BACK:
+			angle+=1;
+			break;
+	}
+}
+
+bool PowerObject::tooFar(){
+	if(pos.x>1000 || pos.y>1000 || pos.z>1000 || pos.x<-1000 || pos.y<-1000 || pos.z<-1000)
 		return true;
 	return false;
 }
