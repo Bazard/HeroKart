@@ -26,5 +26,8 @@ public:
 	bool withKart();
 	void movePower();
 	bool tooFar(); //Teste si l'objet est trop de loin de la scène
+	bool isPerimed(int tStart);
+	void hitKart(Kart& kart,int id,int tStart);
+	void hitKartBack(std::vector<Kart*>& karts);
 };
 

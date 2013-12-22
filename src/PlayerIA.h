@@ -14,6 +14,8 @@ public:
 	PlayerIA(std::string,Kart&, Character&);
 	~PlayerIA();
 	
+	Kart& getKart(){return kart;}
+	Character& getCharacter(){return character;}
 	PowerObject* getPower();
 	void pickPower(const PowerObject& power);
 	void usePower(std::vector<Kart*>& vecKart, int idLanceur, int tStart, std::vector<Object3D*>& objs);

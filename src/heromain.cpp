@@ -33,6 +33,8 @@ static const Uint32 WINDOW_BPP = 32;
 
 using namespace glimac;
 
+void Clean(std::vector<Object3D*> objs, std::vector<PlayerIA*> players);
+
 int main(int argc, char** argv) {
 
 	if(-1 == SDL_Init(SDL_INIT_VIDEO)) {
@@ -139,12 +141,13 @@ int main(int argc, char** argv) {
 	mapObjects.push_back(&floor);
 	
 	PowerObject boost(BOOST,10000);
-	PowerObject atk_back(ATK_BACK,0);
-	PowerObject trap(TRAP,0);
+	PowerObject atk_back(ATK_BACK,10000);
+	PowerObject trap(TRAP,10000);
 	PowerObject shield(SHIELD, 10000);
 	PowerObject atk_all(ATK_ALL, 10000);
-	PowerObject atk_front(ATK_FRONT, 0);
+	PowerObject atk_front(ATK_FRONT, 10000);
 	
+	PowerObject *obj;
 	bool done=false;
 	while(!done) {
 
@@ -170,7 +173,7 @@ int main(int argc, char** argv) {
 				brubru.getPower()->Draw(uTex);	//Draw de l'objet
 			}
 			
-			if(brubru.getPower()->isLaunched() && brubru.getPower()->getDuration()+brubru.getPower()->getTimeOfUse() < tStart){
+			if(brubru.getPower()->isLaunched() && brubru.getPower()->isPerimed(tStart)){
 				brubru.stopPower(Karts,0);
 			}
 		}
@@ -191,14 +194,21 @@ int main(int argc, char** argv) {
 				(*it)->TransfoMatrix(ViewMatrix, (*it)->getPosition());
 				(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 				(*it)->Draw(uTex);
+				
 				if((*it)->tooFar()){
+					mapObjects.erase(it);	
+					delete(*it);
+					it--;
+				}
+				
+				else if((*it)->isPerimed(tStart)){
+					(*it)->hitKartBack(Karts);
 					mapObjects.erase(it);	
 					delete(*it);
 					it--;
 				}
 			}
 		}
-		
 		
 		//Sky
 		sky.getVAO().bind();		
@@ -208,6 +218,8 @@ int main(int argc, char** argv) {
 		sky.Draw(uTex);
 		
 		VAO::debind();
+		
+		//Teste collision Kart/Objets
 		
 		SDL_Event e;
 		while(SDL_PollEvent(&e)) {
@@ -220,6 +232,7 @@ int main(int argc, char** argv) {
 						case 'n':
 							std::cout << "You pick an Attack_Front" << std::endl;
 							brubru.pickPower(atk_front);
+							obj=brubru.getPower();
 							break;
 						case 'b':
 							std::cout << "You pick a Boost" << std::endl;
@@ -228,10 +241,12 @@ int main(int argc, char** argv) {
 						case 'v':
 							std::cout << "You pick an Attack_back" << std::endl;
 							brubru.pickPower(atk_back);
+							obj=brubru.getPower();
 							break;
 						case 'c':
 							std::cout << "You pick a Trap" << std::endl;
 							brubru.pickPower(trap);
+							obj=brubru.getPower();
 							break;
 						case 'x':
 							std::cout << "You pick a Shield" << std::endl;
@@ -240,6 +255,10 @@ int main(int argc, char** argv) {
 						case 'z':
 							std::cout << "You pick an Attack_All" << std::endl;
 							brubru.pickPower(atk_all);
+							break;
+						case 'm':
+							std::cout << "You have been hit" << std::endl;
+							obj->hitKart(kart, 0, tStart);
 							break;
 						case SDLK_SPACE:
 							brubru.usePower(Karts,0,tStart,mapObjects);
@@ -272,7 +291,22 @@ int main(int argc, char** argv) {
 		}
 	}
 	
+	Clean(mapObjects,Players);
 	SDL_Quit();
 
 	return EXIT_SUCCESS;
+}
+
+void Clean(std::vector<Object3D*> objs, std::vector<PlayerIA*> players){
+	for (std::vector<Object3D*>::iterator it = objs.begin() ; it != objs.end(); ++it){
+		delete(*it);
+		it--;
+	}
+	
+	for (std::vector<PlayerIA*>::iterator it = players.begin() ; it != players.end(); ++it){
+		delete(&(*it)->getKart());
+		delete(&(*it)->getCharacter());
+		delete(*it);
+		it--;
+	}
 }

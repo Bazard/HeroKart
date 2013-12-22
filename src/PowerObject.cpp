@@ -2,11 +2,11 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <iostream>
 
-PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false) 
+PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false), timeOfUse(-1)
 {
 }
 
-PowerObject::PowerObject(const PowerObject& obj):Object3D(), type(obj.type), duration(obj.duration), launched(false) 
+PowerObject::PowerObject(const PowerObject& obj):Object3D(), type(obj.type), duration(obj.duration), launched(false), timeOfUse(-1) 
 {
 }
 
@@ -21,6 +21,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					stock=vecKart[idLanceur]->getSpeedMax();
 					vecKart[idLanceur]->setSpeed(2*vecKart[idLanceur]->getSpeedMax());
 					vecKart[idLanceur]->setSpeedMax(3*vecKart[idLanceur]->getSpeedMax());
+					timeOfUse=tStart;
 					break;
 					
 			case ATK_FRONT:
@@ -28,7 +29,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					sphere(1,32,16);
 					build();
 					LoadTexture("../textures/sky.jpg"); //A changer par une mine
-					pos=vecKart[idLanceur]->getPosition();
+					pos=vecKart[idLanceur]->getPosition()+vecKart[idLanceur]->getDirection();
 					dir=vecKart[idLanceur]->getDirection();
 					angle=vecKart[idLanceur]->getAngle();
 					objs.push_back(this);
@@ -46,12 +47,13 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 			case ATK_ALL:
 					visible=false;
 					for(int i=0;i<vecKart.size();++i){
-						if(idLanceur!=i){
+						if(idLanceur!=i && !vecKart[i]->invincible){
 							vecKart[i]->setSpeed(0.5*vecKart[idLanceur]->getSpeedMax());
 							vecKart[i]->setSpeedMax(0.5*vecKart[idLanceur]->getSpeedMax());
 							vecKart[i]->setScale(glm::vec3(0.5*vecKart[i]->getScale().x,0.5*vecKart[i]->getScale().y,0.5*vecKart[i]->getScale().z));
 						}
 					}
+					timeOfUse=tStart;
 					break;
 					
 			case SHIELD:
@@ -61,6 +63,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					LoadTexture("../textures/MoonMap.png"); //A changer par un bouclier
 					pos=vecKart[idLanceur]->getPosition();
 					vecKart[idLanceur]->invincible=true;
+					timeOfUse=tStart;
 					break;
 					
 			case TRAP:
@@ -76,7 +79,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					//Cheat
 					break;
 		}
-		timeOfUse=tStart;
+		
 		launched=true;
 	}
 	
@@ -96,7 +99,7 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 					
 			case ATK_ALL:
 					for(int i=0;i<vecKart.size();++i){
-						if(idLanceur!=i){
+						if(idLanceur!=i && !vecKart[i]->invincible){
 							vecKart[i]->setSpeed(2*vecKart[idLanceur]->getSpeedMax());
 							vecKart[i]->setSpeedMax(2*vecKart[idLanceur]->getSpeedMax());
 							vecKart[i]->setScale(glm::vec3(2*vecKart[i]->getScale().x,2*vecKart[i]->getScale().y,2*vecKart[i]->getScale().z));
@@ -143,7 +146,65 @@ void PowerObject::movePower(){
 }
 
 bool PowerObject::tooFar(){
-	if(pos.x>1000 || pos.y>1000 || pos.z>1000 || pos.x<-1000 || pos.y<-1000 || pos.z<-1000)
+	if(pos.x>10000 || pos.y>10000 || pos.z>10000 || pos.x<-10000 || pos.y<-10000 || pos.z<-10000)
 		return true;
 	return false;
+}
+
+bool PowerObject::isPerimed(int tStart){
+	if(timeOfUse<=0)
+		return false;
+
+	if(duration+timeOfUse < tStart)
+		return true;
+	
+	return false;
+}
+
+void PowerObject::hitKart(Kart& kart, int id, int tStart){
+	if(kart.invincible){
+		return;
+	}
+		stock=id;
+		timeOfUse=tStart;
+		
+	switch(type){ //A varier si l'on veut
+		case ATK_FRONT:
+			kart.setSpeed(0.25*kart.getSpeedMax());
+			kart.setSpeedMax(0.25*kart.getSpeedMax());
+			break;
+		case ATK_BACK:
+			kart.setSpeed(0.5*kart.getSpeedMax());
+			kart.setSpeedMax(0.5*kart.getSpeedMax());
+			break;
+		case TRAP:
+			kart.setSpeed(0.5*kart.getSpeedMax());
+			kart.setSpeedMax(0.5*kart.getSpeedMax());
+			break;
+		default:
+			break;
+	}
+}
+
+void PowerObject::hitKartBack(std::vector<Kart*>& karts){
+	if(karts[stock]->invincible){
+		return;
+	}
+		
+	switch(type){ //A varier si l'on veut
+		case ATK_FRONT:
+			karts[stock]->setSpeed(4*karts[stock]->getSpeedMax());
+			karts[stock]->setSpeedMax(4*karts[stock]->getSpeedMax());
+			break;
+		case ATK_BACK:
+			karts[stock]->setSpeed(2*karts[stock]->getSpeedMax());
+			karts[stock]->setSpeedMax(2*karts[stock]->getSpeedMax());
+			break;
+		case TRAP:
+			karts[stock]->setSpeed(2*karts[stock]->getSpeedMax());
+			karts[stock]->setSpeedMax(2*karts[stock]->getSpeedMax());
+			break;
+		default:
+			break;
+	}
 }

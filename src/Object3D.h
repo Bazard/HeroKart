@@ -70,6 +70,8 @@ public:
 	
 	virtual void movePower(){} //Fonction qui fait bouger l'objet, elle est utile seulement si l'objet est un powerObject
 	virtual bool tooFar(){return false;}; //Fonction qui teste si l'objet est trop loin. Ne marche que pour les powerObject
+	virtual bool isPerimed(int tStart){return false;} // Fonction qui teste si le powerObject doit se finir
+	virtual void hitKartBack(std::vector<Kart*>& karts){} //Fonction qui permet de finir le powerObject et d'annuler ses effets
 	
 	void Draw(GLuint uTex);
 	void MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalMatrix, int WINDOW_WIDTH, int WINDOW_HEIGHT);
