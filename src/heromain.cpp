@@ -147,7 +147,7 @@ int main(int argc, char** argv) {
 	PowerObject atk_all(ATK_ALL, 10000);
 	PowerObject atk_front(ATK_FRONT, 10000);
 	
-	PowerObject *obj;
+	PowerObject *obj=NULL;
 	bool done=false;
 	while(!done) {
 
@@ -258,6 +258,7 @@ int main(int argc, char** argv) {
 							break;
 						case 'm':
 							std::cout << "You have been hit" << std::endl;
+							if(obj)
 							obj->hitKart(kart, 0, tStart);
 							break;
 						case SDLK_SPACE:
