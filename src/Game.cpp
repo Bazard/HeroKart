@@ -37,9 +37,12 @@ int Game::playChampionShip(){
 		res=playTrack(**it);
 		if(res!=0)
 			break;
+		std::cout << "Next Track" << std::endl;
 	}
+	
 	std::cout << "End Championship" << std::endl;
-	CleanAll();
+	// CleanAll();
+	
 }
 
 int Game::playTrack(Track& track){
@@ -64,6 +67,7 @@ int Game::playTrack(Track& track){
 	std::queue<std::pair<float,Uint32>> anglefile;
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
+	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans mapObject
 	PowerObject boost(BOOST,10000);
 	PowerObject atk_back(ATK_BACK,10000);
 	PowerObject trap(TRAP,10000);
@@ -79,10 +83,18 @@ int Game::playTrack(Track& track){
 	sky.LoadTexture("../textures/sky.jpg");
 	
 	//Lecture du fichier Map
+	//Objet2
+	Object3D floor;
+	floor.LoadObjFromFile("../models/floor.obj");	
+	floor.setScale(glm::vec3(16,1,16));
+	floor.build();
+	floor.LoadTexture("../textures/MoonMap.png");
+	track.push_back(floor);
 	
 	PowerObject *obj=NULL;
 	bool done=false;
 	int sortie=0;
+	
 	while(!done) {
 
 		Uint32 tStart = SDL_GetTicks();
@@ -122,7 +134,6 @@ int Game::playTrack(Track& track){
 			(*it)->Draw(uTex);	//Draw de l'objet
 		}
 		
-		// std::cout << "Track" << std::endl;
 		//Dessin des objets de la map
 		for (std::vector<Object3D*>::iterator it = track.getMapObjects().begin() ; it != track.getMapObjects().end(); ++it){
 			if((*it)->isVisible()){
@@ -207,6 +218,9 @@ int Game::playTrack(Track& track){
 							sortie=0;
 							done=true;
 							break;
+						case 'a':
+							Players[0]->getCharacter().useSuperPower(tStart);
+							break;
 					}
 					break;
 				default:
@@ -240,12 +254,12 @@ int Game::playTrack(Track& track){
 
 void Game::CleanObjects(Track& track){
 	
-	Object3D *obj;
-	while(!track.getMapObjects().empty()){
-		obj=track.getMapObjects().back();
-		track.getMapObjects().pop_back();
-		delete(obj);
-	}
+	// Object3D *obj;
+	// while(!track.getMapObjects().empty()){
+		// obj=track.getMapObjects().back();
+		// track.getMapObjects().pop_back();
+		// delete(obj);
+	// }
 }
 
 void Game::CleanAll(){

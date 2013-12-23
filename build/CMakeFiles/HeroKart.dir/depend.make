@@ -120,6 +120,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/malloc.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/memory.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/process.h
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/stdio.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/stdlib.h
@@ -814,6 +815,7 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/inttype
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/malloc.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/memory.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/process.h
+CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/stdio.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/stdlib.h

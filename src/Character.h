@@ -5,9 +5,13 @@ private:
 	int idCharacter;
 	char* characterName;
 	//Power power;
-	//SDL_image icon
+	int timeOfUse;
+	int reloadtime;
 public:
 	Character();
 	~Character();
+	
+	bool isPowerReady(int tStart);
+	void useSuperPower(int tStart);
 };
 

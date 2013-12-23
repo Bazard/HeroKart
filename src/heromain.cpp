@@ -69,18 +69,7 @@ int main(int argc, char** argv) {
 	kart3.build();
 	kart3.LoadTexture("../textures/MoonMap.png");
 
-	//Objet2
-	Object3D floor;
-	floor.LoadObjFromFile("../models/floor.obj");	
-	floor.setScale(glm::vec3(16,1,16));
-	floor.build();
-	floor.LoadTexture("../textures/MoonMap.png");
 
-	Object3D floor2;
-	floor2.LoadObjFromFile("../models/floor.obj");	
-	floor2.setScale(glm::vec3(16,1,16));
-	floor2.build();
-	floor2.LoadTexture("../textures/MoonMap.png");
 
 	//Vecteur des Players
 	std::vector<PlayerIA*> Players;
@@ -115,8 +104,6 @@ int main(int argc, char** argv) {
 	Race race;
 	Track track1("../map/track1.map");
 	Track track2("../map/track2.map");
-	track1.push_back(floor);
-	track2.push_back(floor2);
 	
 	race.push_back(track1);
 	race.push_back(track2);
