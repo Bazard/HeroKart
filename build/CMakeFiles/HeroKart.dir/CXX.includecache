@@ -986,12 +986,6 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
 VAO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
 
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.cpp
-PlayerIA.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
-iostream
--
-
 C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
 Character.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
@@ -999,14 +993,6 @@ Kart.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
 PowerObject.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
-
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.cpp
-PowerObject.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
-glm/gtc/matrix_transform.hpp
--
-iostream
--
 
 C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
 Object3D.h
@@ -1021,38 +1007,10 @@ vector
 -
 
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
-
-C:/Users/bruno/Documents/GitHub/HeroKart/src/heromain.cpp
-iostream
--
-cstdlib
--
-cmath
--
-VBO.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
-VAO.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
+Object3D.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 vector
 -
-ctime
--
-PlayerIA.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
-Race.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.h
-Game.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.h
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
-glm/gtc/type_ptr.hpp
--
-Program.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Program.hpp
-SDL/SDL.h
--
-GL/glew.h
+string
 -
 

@@ -20,7 +20,7 @@ static const Uint32 WINDOW_BPP = 32;
 
 using namespace glimac;
 
-Game::Game(Race & race, std::vector<PlayerIA*>& players,std::vector<Kart*>& karts,std::vector<Object3D*>& mapObjects):race(race),Players(players), Karts(karts), mapObjects(mapObjects)
+Game::Game(Race & race, std::vector<PlayerIA*>& players,std::vector<Kart*>& karts):race(race),Players(players), Karts(karts)
 {
 }
 
@@ -30,18 +30,23 @@ Game::~Game()
 }
 
 int Game::playChampionShip(){
+	std::cout << "Begin Championship" << std::endl;
+	int res;
 	for(std::vector<Track*>::iterator it = race.getTracks().begin() ; it != race.getTracks().end(); ++it){
-		if(playTrack(**it)!=0)
+			
+		res=playTrack(**it);
+		if(res!=0)
 			break;
-		
 	}
+	std::cout << "End Championship" << std::endl;
+	CleanAll();
 }
 
 int Game::playTrack(Track& track){
 
-		Program prog;
-		prog=loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
-		prog.use();
+	Program prog;
+	prog=loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
+	prog.use();
 	
 	
 	GLuint uMVPMatrix=glGetUniformLocation(prog.getGLId(),"uMVPMatrix");
@@ -73,8 +78,11 @@ int Game::playTrack(Track& track){
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 	
+	//Lecture du fichier Map
+	
 	PowerObject *obj=NULL;
 	bool done=false;
+	int sortie=0;
 	while(!done) {
 
 		Uint32 tStart = SDL_GetTicks();
@@ -114,8 +122,9 @@ int Game::playTrack(Track& track){
 			(*it)->Draw(uTex);	//Draw de l'objet
 		}
 		
+		// std::cout << "Track" << std::endl;
 		//Dessin des objets de la map
-		for (std::vector<Object3D*>::iterator it = mapObjects.begin() ; it != mapObjects.end(); ++it){
+		for (std::vector<Object3D*>::iterator it = track.getMapObjects().begin() ; it != track.getMapObjects().end(); ++it){
 			if((*it)->isVisible()){
 				(*it)->getVAO().bind();		
 				(*it)->movePower();
@@ -124,14 +133,14 @@ int Game::playTrack(Track& track){
 				(*it)->Draw(uTex);
 				
 				if((*it)->tooFar()){
-					mapObjects.erase(it);	
+					track.getMapObjects().erase(it);	
 					delete(*it);
 					it--;
 				}
 				
 				else if((*it)->isPerimed(tStart)){
 					(*it)->hitKartBack(Karts);
-					mapObjects.erase(it);	
+					track.getMapObjects().erase(it);	
 					delete(*it);
 					it--;
 				}
@@ -154,6 +163,7 @@ int Game::playTrack(Track& track){
 			switch(e.type) {			
 				case SDL_QUIT:
 					done = true;
+					sortie=-1;
 					break;
 				case SDL_KEYDOWN:
 					switch(e.key.keysym.sym){
@@ -190,10 +200,12 @@ int Game::playTrack(Track& track){
 							obj->hitKart(*Karts[0], 0, tStart);
 							break;
 						case SDLK_SPACE:
-							Players[0]->usePower(Karts,0,tStart,mapObjects);
+							Players[0]->usePower(Karts,0,tStart,track.getMapObjects());
 							break;
 						case SDLK_ESCAPE:
 							std::cout << "Pause" << std::endl;
+							sortie=0;
+							done=true;
 							break;
 					}
 					break;
@@ -222,22 +234,33 @@ int Game::playTrack(Track& track){
 		}
 	}
 	
-	Clean(mapObjects,Players);
-	
-
-	return EXIT_SUCCESS;
+	CleanObjects(track);
+	return sortie;
 }
 
-void Game::Clean(std::vector<Object3D*> objs, std::vector<PlayerIA*> players){
-	for (std::vector<Object3D*>::iterator it = objs.begin() ; it != objs.end(); ++it){
-		delete(*it);
-		it--;
+void Game::CleanObjects(Track& track){
+	
+	Object3D *obj;
+	while(!track.getMapObjects().empty()){
+		obj=track.getMapObjects().back();
+		track.getMapObjects().pop_back();
+		delete(obj);
+	}
+}
+
+void Game::CleanAll(){
+
+	PlayerIA *play;
+	while(!Players.empty()){
+		play=Players.back();
+		Players.pop_back();
+		delete(play);
 	}
 	
-	for (std::vector<PlayerIA*>::iterator it = players.begin() ; it != players.end(); ++it){
-		delete(&(*it)->getKart());
-		delete(&(*it)->getCharacter());
-		delete(*it);
-		it--;
+	Kart *kart;
+	while(!Karts.empty()){
+		kart=Karts.back();
+		Karts.pop_back();
+		delete(kart);
 	}
 }

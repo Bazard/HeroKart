@@ -9,7 +9,7 @@ private:
 	std::string playerName;
 	Character &character;
 	Kart &kart;
-	PowerObject *object=NULL;
+	PowerObject *object;
 public:
 	PlayerIA(std::string,Kart&, Character&);
 	~PlayerIA();

@@ -10,12 +10,13 @@ private:
 	Race race;
 	std::vector<PlayerIA*> Players;
 	std::vector<Kart*> Karts;
-	std::vector<Object3D*> mapObjects;
+
 public:
-	Game(Race& race, std::vector<PlayerIA*>&,std::vector<Kart*>&,std::vector<Object3D*>&);
+	Game(Race& race, std::vector<PlayerIA*>&,std::vector<Kart*>&);
 	~Game();
 	int playChampionShip();
 	int playTrack(Track& track);
-	void Clean(std::vector<Object3D*> objs, std::vector<PlayerIA*> players);
+	void CleanObjects(Track& track);
+	void CleanAll();
 };
 

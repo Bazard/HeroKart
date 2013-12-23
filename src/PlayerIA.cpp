@@ -1,7 +1,7 @@
 #include "PlayerIA.h"
 #include <iostream>
 
-PlayerIA::PlayerIA(std::string name,Kart& kart, Character& character):playerName(name),kart(kart),character(character)
+PlayerIA::PlayerIA(std::string name,Kart& kart, Character& character):playerName(name),kart(kart),character(character), object(NULL)
 {
 }
 

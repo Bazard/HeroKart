@@ -77,15 +77,17 @@ int main(int argc, char** argv) {
 	floor.build();
 	floor.LoadTexture("../textures/MoonMap.png");
 
+	Object3D floor2;
+	floor2.LoadObjFromFile("../models/floor.obj");	
+	floor2.setScale(glm::vec3(16,1,16));
+	floor2.build();
+	floor2.LoadTexture("../textures/MoonMap.png");
 
 	//Vecteur des Players
 	std::vector<PlayerIA*> Players;
 	
 	//Vecteur des Karts
 	std::vector<Kart*> Karts;
-	
-	//Vecteur des objets de la map
-	std::vector<Object3D*> mapObjects;
 	
 	//La boucle du menu doit commencer ici ! Et il faut créer les joueurs en fonction des choix de l'utilisateur.
 	// L'utilisateur doit etre le premier joueur dans le vecteur
@@ -110,15 +112,18 @@ int main(int argc, char** argv) {
 	Players.push_back(&marie);
 	Karts.push_back(&kart3);
 	
-	mapObjects.push_back(&floor);
-	
 	//Creation du championnat (plusieurs circuits)
 	Race race;
-	Track track1;
+	Track track1("../map/track1.map");
+	Track track2("../map/track2.map");
+	track1.push_back(floor);
+	track2.push_back(floor2);
 	
 	race.push_back(track1);
+	race.push_back(track2);
+	
 	//Creation du jeu
-	Game game(race,Players,Karts,mapObjects);
+	Game game(race,Players,Karts);
 	
 	//Et on lance la partie
 	game.playChampionShip();
