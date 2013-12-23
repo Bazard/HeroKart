@@ -14,6 +14,7 @@ private:
 public:
 	bool back;
 	bool invincible;
+	bool intouchable;
 	
 	Kart();
 	Kart(float tourne, float acceleration, float speedmax, float poids);
@@ -26,5 +27,6 @@ public:
 	
 	void setSpeed(float s){ speed=s;}
 	void setSpeedMax(float s){speedmax=s;}
+	
 };
 

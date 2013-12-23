@@ -48,6 +48,8 @@ public:
 	glm::vec3 getDirection(){ return dir;}
 	glm::vec3 getScale(){ return sca;}
 	void setPosition(glm::vec3 vec){ pos=vec;}
+	void setPosition(float x,float y,float z){pos=glm::vec3(x,y,z);}
+	
 	void setDirection(glm::vec3 vec){ dir=vec;}
 	void setScale(glm::vec3 vec){ sca=vec;}
 	

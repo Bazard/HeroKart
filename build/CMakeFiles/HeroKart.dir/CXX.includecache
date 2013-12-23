@@ -938,7 +938,15 @@ _mingw.h
 stddef.h
 -
 
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.cpp
+Character.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
+iostream
+-
+
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
+Kart.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
 
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.cpp
 Game.h
@@ -980,6 +988,16 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
 Object3D.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Menu.h
+GL/glew.h
+-
+VBO.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
+VAO.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
+cstring
+-
+
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 vector
 -
@@ -993,6 +1011,12 @@ VBO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
 VAO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
+
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.cpp
+PlayerIA.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
+iostream
+-
 
 C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
 Character.h
@@ -1021,4 +1045,40 @@ vector
 -
 string
 -
+
+C:/Users/bruno/Documents/GitHub/HeroKart/src/heromain.cpp
+iostream
+-
+cstdlib
+-
+cmath
+-
+VBO.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
+VAO.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
+vector
+-
+ctime
+-
+PlayerIA.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
+Race.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.h
+Game.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.h
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+Program.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Program.hpp
+SDL/SDL.h
+-
+GL/glew.h
+-
+Menu.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Menu.h
 

@@ -81,9 +81,9 @@ int main(int argc, char** argv) {
 	// L'utilisateur doit etre le premier joueur dans le vecteur
 	
 	//Creation des personnages
-	Character SuperBru;
-	Character CaptainCyriuk;
-	Character SuperCali;
+	Character SuperBru(CANADA,10000);
+	Character CaptainCyriuk(JOHN,1000);
+	Character SuperCali(DOUG,1000);
 	
 	//Creation des joueurs
 	PlayerIA brubru("Brubru", kart, SuperBru);

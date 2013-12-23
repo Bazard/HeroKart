@@ -83,7 +83,7 @@ int Game::playTrack(Track& track){
 	sky.LoadTexture("../textures/sky.jpg");
 	
 	//Lecture du fichier Map
-	//Objet2
+	//Objet temporaire
 	Object3D floor;
 	floor.LoadObjFromFile("../models/floor.obj");	
 	floor.setScale(glm::vec3(16,1,16));
@@ -110,8 +110,9 @@ int Game::playTrack(Track& track){
 		
 		ViewMatrix=camera.getViewMatrix(Karts[0]->getPosition(), anglefile.front().first,Karts[0]->back);
 	
-		//Pouvoirs (boucle sur tous les persos)
+		//Pouvoirs  (boucle sur tous les persos)
 		for (std::vector<PlayerIA*>::iterator it = Players.begin() ; it != Players.end(); ++it){
+			//Pouvoirs Classiques
 			if((*it)->getPower()){
 				if((*it)->getPower()->isLaunched() && (*it)->getPower()->withKart()){
 					(*it)->getPower()->getVAO().bind();		//Bind du VAO
@@ -122,9 +123,17 @@ int Game::playTrack(Track& track){
 				
 				if((*it)->getPower()->isLaunched() && (*it)->getPower()->isPerimed(tStart)){
 					(*it)->stopPower(Karts,0);
+				}			
+			}
+			//Pouvoirs Speciaux
+			if((*it)->getCharacter().isLaunched()){
+				if((*it)->getCharacter().isPerimed(tStart)){
+					(*it)->getCharacter().useSuperPowerBack((*it)->getKart());
 				}
 			}
 		}
+		
+		
 		
 		//Kart (boucle sur tous les karts)
 		for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
@@ -218,8 +227,8 @@ int Game::playTrack(Track& track){
 							sortie=0;
 							done=true;
 							break;
-						case 'a':
-							Players[0]->getCharacter().useSuperPower(tStart);
+						case 'q':
+							Players[0]->getCharacter().useSuperPower(tStart,*Karts[0]);
 							break;
 					}
 					break;
