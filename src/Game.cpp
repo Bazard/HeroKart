@@ -29,7 +29,15 @@ Game::~Game()
 {
 }
 
-int Game::play(){
+int Game::playChampionShip(){
+	for(std::vector<Track*>::iterator it = race.getTracks().begin() ; it != race.getTracks().end(); ++it){
+		if(playTrack(**it)!=0)
+			break;
+		
+	}
+}
+
+int Game::playTrack(Track& track){
 
 		Program prog;
 		prog=loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
@@ -183,7 +191,9 @@ int Game::play(){
 							break;
 						case SDLK_SPACE:
 							Players[0]->usePower(Karts,0,tStart,mapObjects);
-							
+							break;
+						case SDLK_ESCAPE:
+							std::cout << "Pause" << std::endl;
 							break;
 					}
 					break;

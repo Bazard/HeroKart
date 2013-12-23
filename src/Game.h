@@ -14,7 +14,8 @@ private:
 public:
 	Game(Race& race, std::vector<PlayerIA*>&,std::vector<Kart*>&,std::vector<Object3D*>&);
 	~Game();
-	int play();
+	int playChampionShip();
+	int playTrack(Track& track);
 	void Clean(std::vector<Object3D*> objs, std::vector<PlayerIA*> players);
 };
 

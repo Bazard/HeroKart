@@ -114,12 +114,14 @@ int main(int argc, char** argv) {
 	
 	//Creation du championnat (plusieurs circuits)
 	Race race;
+	Track track1;
 	
+	race.push_back(track1);
 	//Creation du jeu
 	Game game(race,Players,Karts,mapObjects);
 	
 	//Et on lance la partie
-	game.play();
+	game.playChampionShip();
 	
 	
 	SDL_Quit();

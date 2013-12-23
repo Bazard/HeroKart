@@ -1,12 +1,15 @@
 #pragma once
 #include "Track.h"
+#include <vector>
+
 class Race
 {
 private:
-	Track *track;
-	int nbTracks;
+	std::vector<Track*> Tracks;
 public:
 	Race();
 	~Race();
+	std::vector<Track*>& getTracks(){ return Tracks;}
+	void push_back(Track& track);
 };
 

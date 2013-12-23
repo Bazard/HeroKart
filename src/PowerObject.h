@@ -12,7 +12,7 @@ private:
 	bool launched;  // indique son etat (lancé ou pas)
 	int duration; //sa durée
 	int timeOfUse; //le moment quand le pouvoir est lancé
-	float stock=0; //stockage de donnée du kart si besoin
+	float stock; //stockage de donnée du kart si besoin
 	
 public:
 	PowerObject(typeEnum type, int duration);

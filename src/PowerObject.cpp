@@ -2,11 +2,11 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <iostream>
 
-PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false), timeOfUse(-1)
+PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false), timeOfUse(-1), stock(0)
 {
 }
 
-PowerObject::PowerObject(const PowerObject& obj):Object3D(), type(obj.type), duration(obj.duration), launched(false), timeOfUse(-1) 
+PowerObject::PowerObject(const PowerObject& obj):Object3D(), type(obj.type), duration(obj.duration), launched(false), timeOfUse(-1), stock(0)
 {
 }
 
