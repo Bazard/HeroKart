@@ -14,6 +14,7 @@
 #include "Program.hpp"
 #include <SDL/SDL.h>
 #include <GL/glew.h>
+#include "Menu.h"
 
 #undef main
 
@@ -47,9 +48,7 @@ int main(int argc, char** argv) {
 			return EXIT_FAILURE;
 		}
 		
-	// Program prog;
-	// prog=loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
-	// prog.use();
+	menuPrincipal();
 	
 	//Creation des karts
 	Kart kart(2,0.01,0.75,5);

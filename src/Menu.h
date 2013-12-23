@@ -1,16 +1,11 @@
-// #pragma once
-// #include <Rocket/Core.h>
+#pragma once
+
+#include <GL/glew.h>
+#include "VBO.hpp"
+#include "VAO.hpp"
+#include <cstring>
 
 
-// class Menu
-// {
-// private:
-	// Rocket::Core::Context* context;
-// public:
-	// Menu();
-	// ~Menu();
-	// void RocketInitialisation();
-	// void RocketShow();
-	// void RocketShutDown();
-// };
+void menuPrincipal();
+
 

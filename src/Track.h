@@ -7,9 +7,9 @@ class Track
 {
 private:
 	int nblaps;
-	std::vector<Object3D*> mapObjects;
-	std::string file;
-	//Modelisation 3D
+	std::vector<Object3D*> mapObjects; //Les objets qui composent ce circuit
+	std::string file; //Son fichier .map
+	
 public:
 	Track(std::string);
 	~Track();

@@ -14,9 +14,11 @@ private:
 public:
 	Game(Race& race, std::vector<PlayerIA*>&,std::vector<Kart*>&);
 	~Game();
-	int playChampionShip();
-	int playTrack(Track& track);
-	void CleanObjects(Track& track);
-	void CleanAll();
+	
+	int playChampionShip(); //Joue tout le championnat
+	int playTrack(Track& track); //Joue une course du championnat
+	
+	void CleanObjects(Track& track); //Nettoie les objets de la map qui vient d'être utilisé
+	void CleanAll(); //Nettoie tout le reste (Perso, Kart)
 };
 
