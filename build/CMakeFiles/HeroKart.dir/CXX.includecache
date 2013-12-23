@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../lib/include/FreeflyCamera.hpp
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
-cmath
--
-iostream
--
-
 ../lib/include/Program.hpp
 GL/glew.h
 -
@@ -28,12 +18,6 @@ GL/glew.h
 string
 -
 
-../lib/include/TrackballCamera.hpp
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
-
 ../lib/include/VAO.hpp
 GL/glew.h
 -
@@ -41,8 +25,6 @@ GL/glew.h
 ../lib/include/VBO.hpp
 GL/glew.h
 -
-
-../lib/include/Vertex3DRGB.hpp
 
 ../lib/include/common.hpp
 GL/glew.h
@@ -468,20 +450,6 @@ quaternion.inl
 limits
 -
 
-../third-party/glm/glm/gtc/random.hpp
-../glm.hpp
-../third-party/glm/glm/glm.hpp
-../gtc/half_float.hpp
-../third-party/glm/glm/gtc/half_float.hpp
-random.inl
-../third-party/glm/glm/gtc/random.inl
-
-../third-party/glm/glm/gtc/random.inl
-ctime
--
-cassert
--
-
 ../third-party/glm/glm/gtc/type_ptr.hpp
 ../glm.hpp
 ../third-party/glm/glm/glm.hpp
@@ -830,8 +798,6 @@ C:/Logiciels/MinGW/include/SDL/begin_code.h
 
 C:/Logiciels/MinGW/include/SDL/close_code.h
 
-C:/Logiciels/MinGW/include/SOIL/SOIL.h
-
 C:/Logiciels/MinGW/include/_mingw.h
 
 C:/Logiciels/MinGW/include/ctype.h
@@ -960,6 +926,16 @@ stddef.h
 
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
 
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.h
+Race.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.h
+PlayerIA.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
+vector
+-
+Kart.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
+
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
 Object3D.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
@@ -992,11 +968,13 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 Kart.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
 
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.h
+Track.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
+
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
+
 C:/Users/bruno/Documents/GitHub/HeroKart/src/heromain.cpp
-SDL/SDL.h
--
-GL/glew.h
--
 iostream
 -
 cstdlib
@@ -1007,32 +985,26 @@ VBO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
 VAO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
-Vertex3DRGB.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Vertex3DRGB.hpp
-Program.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Program.hpp
 vector
 -
 ctime
 -
-SOIL/SOIL.h
--
+PlayerIA.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
+Race.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.h
+Game.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
 -
-common.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/common.hpp
-glm/gtc/random.hpp
+Program.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Program.hpp
+SDL/SDL.h
 -
-TrackballCamera.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/TrackballCamera.hpp
-FreeflyCamera.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/FreeflyCamera.hpp
-PlayerIA.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
-queue
+GL/glew.h
 -
 
