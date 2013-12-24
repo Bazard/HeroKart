@@ -110,6 +110,15 @@ int Game::playTrack(Track& track){
 		
 		ViewMatrix=camera.getViewMatrix(Karts[0]->getPosition(), anglefile.front().first,Karts[0]->back);
 	
+
+		//Kart (boucle sur tous les karts)
+		for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
+			(*it)->getVAO().bind();		//Bind du VAO
+			(*it)->TransfoMatrix(ViewMatrix,(*it)->getPosition()); //Transformations (View, Translation, anglerotation,scale)
+			(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
+			(*it)->Draw(uTex);	//Draw de l'objet
+		}
+		
 		//Pouvoirs  (boucle sur tous les persos)
 		for (std::vector<PlayerIA*>::iterator it = Players.begin() ; it != Players.end(); ++it){
 			//Pouvoirs Classiques
@@ -130,19 +139,11 @@ int Game::playTrack(Track& track){
 				if((*it)->getCharacter().isPerimed(tStart)){
 					(*it)->getCharacter().useSuperPowerBack((*it)->getKart());
 				}
+				else {
+				
+				}
 			}
 		}
-		
-		
-		
-		//Kart (boucle sur tous les karts)
-		for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
-			(*it)->getVAO().bind();		//Bind du VAO
-			(*it)->TransfoMatrix(ViewMatrix,(*it)->getPosition()); //Transformations (View, Translation, anglerotation,scale)
-			(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
-			(*it)->Draw(uTex);	//Draw de l'objet
-		}
-		
 		
 		//Dessin des objets de la map
 		for (std::vector<Object3D*>::iterator it = track.getMapObjects().begin() ; it != track.getMapObjects().end(); ++it){

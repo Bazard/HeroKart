@@ -22,11 +22,12 @@ public:
 	~Character();
 	
 	bool isPowerReady(int tStart);
-	void useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& mapObjects);
-	void useSuperPowerBack(Kart& kart);
-	bool isPerimed(int tStart);
-	bool isLaunched(){return launched;}
-	void hitSuperPower(int tStart,Kart& kart);
-	void hitSuperPowerBack(Kart& kart);
+	void useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& mapObjects); //Effet lorsque l'on active le pouvoir
+	void useSuperPowerBack(Kart& kart); //Effet retour lorsque le pouvoir est epuisé
+	bool isPerimed(int tStart); //Est-ce que le pouvoir est epuisé ?
+	bool isLaunched(){return launched;} //Est-ce que le pouvoir est activé ?
+	void hitSuperPower(int tStart,Kart& kart); //Effet lorsque l'on touche un adversaire avec le pouvoir. Une attaque physique
+	void hitSuperPowerBack(Kart& kart); //Effet retour
+	// void continuousHitSuperPower(Kart& kartHit, Kart& KartFrom); //Effet continue
 };
 

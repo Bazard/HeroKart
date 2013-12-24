@@ -17,6 +17,7 @@ bool Character::isPowerReady(int tStart){
 	return false;
 }
 
+
 void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& mapObjects){
 	if(isPowerReady(tStart)){
 		timeOfUse=tStart;
@@ -46,6 +47,9 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 				obj->sphere(1,32,16); //A changer par une flaque
 				obj->build();
 				obj->LoadTexture("../textures/sky.jpg"); //A changer par une texture d'acide
+				obj->setPosition(kart.getPosition());
+				obj->setDirection(kart.getDirection());
+				obj->setAngle(kart.getAngle());
 				mapObjects.push_back(obj);
 				break;
 			case MCKORMACK:
@@ -57,7 +61,7 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 				obj->sphere(1,32,16);
 				obj->build();
 				obj->LoadTexture("../textures/sky.jpg"); //A changer par une boule de feu
-				obj->setPosition(kart.getPosition()*kart.getDirection());
+				obj->setPosition(kart.getPosition());
 				obj->setDirection(kart.getDirection());
 				obj->setAngle(kart.getAngle());
 				mapObjects.push_back(obj);
@@ -125,10 +129,6 @@ void Character::hitSuperPower(int tStart,Kart& kart){ //kart touché
 				kart.setSpeedMax(0.5*kart.getSpeedMax());
 				//Defonce tout
 				break;
-			case BURT:
-				break;
-			case STEVE:
-				break;
 			case STAN:
 				//Deplacement du kart dependant de celui de Stan
 				break;
@@ -151,10 +151,6 @@ void Character::hitSuperPowerBack(Kart& kart){
 				kart.setSpeed(2*kart.getSpeedMax());
 				kart.setSpeedMax(2*kart.getSpeedMax());
 				//Defonce tout
-				break;
-			case BURT:
-				break;
-			case STEVE:
 				break;
 			case STAN:
 				//Deplacement du kart dependant de celui de Stan

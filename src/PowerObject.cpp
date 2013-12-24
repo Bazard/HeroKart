@@ -29,7 +29,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					sphere(1,32,16);
 					build();
 					LoadTexture("../textures/sky.jpg"); //A changer par une mine
-					pos=vecKart[idLanceur]->getPosition()+vecKart[idLanceur]->getDirection();
+					pos=vecKart[idLanceur]->getPosition();
 					dir=vecKart[idLanceur]->getDirection();
 					angle=vecKart[idLanceur]->getAngle();
 					objs.push_back(this);
