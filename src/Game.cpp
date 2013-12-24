@@ -143,6 +143,7 @@ int Game::playTrack(Track& track){
 			(*it)->Draw(uTex);	//Draw de l'objet
 		}
 		
+		
 		//Dessin des objets de la map
 		for (std::vector<Object3D*>::iterator it = track.getMapObjects().begin() ; it != track.getMapObjects().end(); ++it){
 			if((*it)->isVisible()){
@@ -228,7 +229,7 @@ int Game::playTrack(Track& track){
 							done=true;
 							break;
 						case 'q':
-							Players[0]->getCharacter().useSuperPower(tStart,*Karts[0]);
+							Players[0]->getCharacter().useSuperPower(tStart,*Karts[0],track.getMapObjects());
 							break;
 					}
 					break;

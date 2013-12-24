@@ -28,5 +28,10 @@ public:
 	void setSpeed(float s){ speed=s;}
 	void setSpeedMax(float s){speedmax=s;}
 	
+	void setTourne(float t){ tourne=t;}
+	float getTourne(){ return tourne;}
+	
+	void setAcceleration(float a){ 	acceleration=a;}
+	float getAcceleration(){ return acceleration;}
 };
 

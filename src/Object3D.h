@@ -51,7 +51,10 @@ public:
 	void setPosition(float x,float y,float z){pos=glm::vec3(x,y,z);}
 	
 	void setDirection(glm::vec3 vec){ dir=vec;}
+	void setDirection(float x,float y,float z){dir=glm::vec3(x,y,z);}
+	
 	void setScale(glm::vec3 vec){ sca=vec;}
+	
 	
 	bool isVisible(){ return visible;}
 	float getAngle(){return angle;}

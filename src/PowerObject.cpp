@@ -163,6 +163,7 @@ bool PowerObject::isPerimed(int tStart){
 
 void PowerObject::hitKart(Kart& kart, int id, int tStart){
 	if(kart.invincible){
+		stock==-1;
 		return;
 	}
 		stock=id;
@@ -187,7 +188,7 @@ void PowerObject::hitKart(Kart& kart, int id, int tStart){
 }
 
 void PowerObject::hitKartBack(std::vector<Kart*>& karts){
-	if(karts[stock]->invincible){
+	if(stock==-1){
 		return;
 	}
 		

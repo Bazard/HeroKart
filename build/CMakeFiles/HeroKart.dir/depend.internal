@@ -78,6 +78,7 @@ CMakeFiles/HeroKart.dir/src/Character.cpp.obj
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj
  ../lib/include/Program.hpp
  ../lib/include/Shader.hpp

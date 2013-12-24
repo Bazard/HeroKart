@@ -59,13 +59,7 @@ void Kart::rotate(int sens){
 		float coeff=1/((sqrt(speed*speed))/speedmax)*0.5; //Rotation en fonction de la vitesse
 		if(coeff>5) coeff=3;
 		
-		// std::cout << "tourne" << tourne << std::endl;
-		// std::cout << "coeff" << coeff << std::endl;
-		// std::cout << "speed" << speed << std::endl;
-		// std::cout << std::endl;
 	
-		
-		
 	if(sens>=0){
 		if(speed>0){
 			dir=glm::normalize(glm::rotate(dir,tourne*coeff,glm::vec3(0,1,0)));
