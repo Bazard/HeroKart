@@ -21,7 +21,7 @@ public:
 	int getDuration(){return duration;}
 	int getTimeOfUse(){return timeOfUse;}
 	bool isLaunched() {return launched;}
-	void power(std::vector<Kart*>& vecKart, int idLanceur,int tStart, std::vector<Object3D*>& objs);
+	int power(std::vector<Kart*>& vecKart, int idLanceur,int tStart, std::vector<Object3D*>& objs);
 	void powerBack(std::vector<Kart*>& vecKart, int idLanceur);
 	bool withKart();
 	void movePower();

@@ -17,7 +17,8 @@ void PlayerIA::pickPower(const PowerObject& power){
 
 void PlayerIA::usePower(std::vector<Kart*>& vecKart, int idLanceur, int tStart, std::vector<Object3D*>& objs){
 	if(object){
-		object->power(vecKart,idLanceur,tStart, objs);
+		if(object->power(vecKart,idLanceur,tStart, objs)==1)
+			object=NULL;
 		}
 	else
 		std::cout << "Pas d'objet" << std::endl;
@@ -27,8 +28,6 @@ void PlayerIA::stopPower(std::vector<Kart*>& vecKart, int idLanceur){
 	if(object){
 		object->powerBack(vecKart,idLanceur);
 		object=NULL;
-		
-
 		}
 	else
 		std::cout << "Pas d'objet" << std::endl;

@@ -14,7 +14,8 @@ PowerObject::~PowerObject()
 {
 }
 
-void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, std::vector<Object3D*>& objs){
+int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, std::vector<Object3D*>& objs){
+		int retour;
 		switch(type){
 			case BOOST:
 					visible=false; //Car ce n'est pas un objet visible
@@ -22,6 +23,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					vecKart[idLanceur]->setSpeed(2*vecKart[idLanceur]->getSpeedMax());
 					vecKart[idLanceur]->setSpeedMax(3*vecKart[idLanceur]->getSpeedMax());
 					timeOfUse=tStart;
+					retour=0;
 					break;
 					
 			case ATK_FRONT:
@@ -33,6 +35,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					dir=vecKart[idLanceur]->getDirection();
 					angle=vecKart[idLanceur]->getAngle();
 					objs.push_back(this);
+					retour=1;
 					break;
 					
 			case ATK_BACK:
@@ -42,6 +45,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					LoadTexture("../textures/EarthMap.jpg"); //A changer par une mine
 					pos=vecKart[idLanceur]->getPosition();
 					objs.push_back(this);
+					retour=1;
 					break;
 					
 			case ATK_ALL:
@@ -54,6 +58,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 						}
 					}
 					timeOfUse=tStart;
+					retour=0;
 					break;
 					
 			case SHIELD:
@@ -64,6 +69,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					pos=vecKart[idLanceur]->getPosition();
 					vecKart[idLanceur]->invincible=true;
 					timeOfUse=tStart;
+					retour=0;
 					break;
 					
 			case TRAP:
@@ -73,6 +79,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 					LoadTexture("../textures/triforce.jpg"); //A changer par un piege
 					pos=vecKart[idLanceur]->getPosition();
 					objs.push_back(this);
+					retour=1;
 					break;
 					
 			default:
@@ -81,6 +88,7 @@ void PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 		}
 		
 		launched=true;
+		return retour;
 	}
 	
 void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){

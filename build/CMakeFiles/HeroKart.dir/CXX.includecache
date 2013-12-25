@@ -18,6 +18,12 @@ GL/glew.h
 string
 -
 
+../lib/include/TrackballCamera.hpp
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+
 ../lib/include/VAO.hpp
 GL/glew.h
 -
@@ -946,6 +952,32 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
 vector
 -
 
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.cpp
+Game.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.h
+Program.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Program.hpp
+SDL/SDL.h
+-
+GL/glew.h
+-
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+TrackballCamera.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/TrackballCamera.hpp
+iostream
+-
+VAO.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
+queue
+-
+cstdlib
+-
+
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.h
 Race.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.h
@@ -983,6 +1015,12 @@ VBO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
 VAO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
+
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.cpp
+PlayerIA.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
+iostream
+-
 
 C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
 Character.h
