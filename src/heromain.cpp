@@ -81,7 +81,7 @@ int main(int argc, char** argv) {
 	// L'utilisateur doit etre le premier joueur dans le vecteur
 	
 	//Creation des personnages
-	Character SuperBru(STEVE,1000);
+	Character SuperBru(JENNIFER,1000);
 	Character CaptainCyriuk(JOHN,1000);
 	Character SuperCali(DOUG,1000);
 	
