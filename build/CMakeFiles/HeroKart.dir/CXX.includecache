@@ -932,14 +932,6 @@ _mingw.h
 stddef.h
 -
 
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.cpp
-Character.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
-PowerObject.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
-iostream
--
-
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
 Kart.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
@@ -963,12 +955,14 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Menu.h
 GL/glew.h
 -
-VBO.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
-VAO.hpp
-C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
-cstring
+vector
 -
+cstdlib
+-
+Character.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
+Race.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.h
 
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 vector

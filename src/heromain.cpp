@@ -48,14 +48,14 @@ int main(int argc, char** argv) {
 			return EXIT_FAILURE;
 		}
 		
-	menuPrincipal();
+	
 	
 	//Creation des karts
 	Kart kart(2,0.01,0.75,5);
 	kart.setPosition(glm::vec3(0,0.5,0));
 	kart.LoadObjFromFile("../models/ACC/ACC2.obj");	
-	kart.build();
 	kart.LoadTexture("../textures/CCTex.jpg");
+	kart.build();
 
 	Kart kart2(2,0.01,0.75,5);
 	kart2.setPosition(glm::vec3(10,0.5,-10));
@@ -69,36 +69,56 @@ int main(int argc, char** argv) {
 	kart3.build();
 	kart3.LoadTexture("../textures/MoonMap.png");
 
-
-
+	Kart kart4(2,0.01,0.75,5);
+	kart4.setPosition(glm::vec3(10,0.5,10));
+	kart4.LoadObjFromFile("../models/ACC/ACC2.obj");	
+	kart4.build();
+	kart4.LoadTexture("../textures/MoonMap.png");
+	
+	Kart kart5(2,0.01,0.75,5);
+	kart5.setPosition(glm::vec3(10,0.5,10));
+	kart5.LoadObjFromFile("../models/ACC/ACC2.obj");	
+	kart5.build();
+	kart5.LoadTexture("../textures/MoonMap.png");
+	
+	Kart kart6(2,0.01,0.75,5);
+	kart6.setPosition(glm::vec3(10,0.5,10));
+	kart6.LoadObjFromFile("../models/ACC/ACC2.obj");	
+	kart6.build();
+	kart6.LoadTexture("../textures/MoonMap.png");
+	
+	Kart kart7(2,0.01,0.75,5);
+	kart7.setPosition(glm::vec3(10,0.5,10));
+	kart7.LoadObjFromFile("../models/ACC/ACC2.obj");	
+	kart7.build();
+	kart7.LoadTexture("../textures/MoonMap.png");
+	
+	Kart kart8(2,0.01,0.75,5);
+	kart8.setPosition(glm::vec3(10,0.5,10));
+	kart8.LoadObjFromFile("../models/ACC/ACC2.obj");	
+	kart8.build();
+	kart8.LoadTexture("../textures/MoonMap.png");
+	
+	//Vecteur des Characters
+	std::vector<Character*> Characters;
+	
 	//Vecteur des Players
 	std::vector<PlayerIA*> Players;
 	
 	//Vecteur des Karts
 	std::vector<Kart*> Karts;
 	
+	Karts.push_back(&kart);
+	Karts.push_back(&kart2);
+	Karts.push_back(&kart3);
+	Karts.push_back(&kart4);
+	Karts.push_back(&kart5);
+	Karts.push_back(&kart6);
+	Karts.push_back(&kart7);
+	Karts.push_back(&kart8);
+	
 	//La boucle du menu doit commencer ici ! Et il faut créer les joueurs en fonction des choix de l'utilisateur.
 	// L'utilisateur doit etre le premier joueur dans le vecteur
-	
-	//Creation des personnages
-	Character SuperBru(JENNIFER,1000);
-	Character CaptainCyriuk(JOHN,1000);
-	Character SuperCali(DOUG,1000);
-	
-	//Creation des joueurs
-	PlayerIA brubru("Brubru", kart, SuperBru);
-	PlayerIA cyril("Cyril", kart2, CaptainCyriuk);
-	PlayerIA marie("Marie", kart3, SuperCali);
-	
-	//On les met dans les vecteurs (dans l'ORDRE !)
-	Players.push_back(&brubru);
-	Karts.push_back(&kart);
-	
-	Players.push_back(&cyril);
-	Karts.push_back(&kart2);
-	
-	Players.push_back(&marie);
-	Karts.push_back(&kart3);
 	
 	//Creation du championnat (plusieurs circuits)
 	Race race;
@@ -108,12 +128,17 @@ int main(int argc, char** argv) {
 	race.push_back(track1);
 	race.push_back(track2);
 	
+	int sortie=menuPrincipal(Characters,Karts,race.getTracks());
+	
+	for (int i=0;i<8;++i){
+		PlayerIA* play=new PlayerIA("Player",*Karts[i],*Characters[i]);
+		Players.push_back(play);
+	}
 	//Creation du jeu
-	Game game(race,Players,Karts);
-	
-	//Et on lance la partie
-	game.playChampionShip();
-	
+	if(sortie!=-1){
+		Game game(race,Players,Karts);
+		game.playChampionShip();
+	}
 	
 	SDL_Quit();
 	return EXIT_SUCCESS;

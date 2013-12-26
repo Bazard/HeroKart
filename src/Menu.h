@@ -1,11 +1,12 @@
 #pragma once
 
 #include <GL/glew.h>
-#include "VBO.hpp"
-#include "VAO.hpp"
-#include <cstring>
+#include <vector>
+#include <cstdlib>
+#include "Character.h"
+#include "Race.h"
 
-
-void menuPrincipal();
-
-
+int menuCircuit(std::vector<Character*>&,std::vector<Kart*>&,std::vector<Track*>&);
+int menuPersonnage(std::vector<Character*>&,std::vector<Kart*>&,std::vector<Track*>&);
+void lancerJeuRandom();
+int menuPrincipal(std::vector<Character*>&,std::vector<Kart*>&,std::vector<Track*>&);
