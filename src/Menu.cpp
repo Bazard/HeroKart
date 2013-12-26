@@ -77,6 +77,10 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
 	glBindTexture(GL_TEXTURE_2D,0);
 
+	Track* circuit1=new Track("village");
+	Track* circuit2=new Track("montreal");
+	Track* circuit3=new Track("forteresse");
+		
 	bool done = false;
 	while (!done) {
 		Uint32 tStart = SDL_GetTicks();
@@ -118,6 +122,10 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 							sortie=2;
 							done=true;
 						}
+						else if (xClicked>=68 && xClicked <=148 && yClicked>=38 && yClicked<=88){
+							sortie=-1;
+							done = true;
+						}
 					}
 					break;
 				case SDL_QUIT:
@@ -145,12 +153,21 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 			break;
 		case 0:
 			std::cout << "bonjour" << std::endl;
+			track.push_back(circuit1);
+			track.push_back(circuit2);
+			track.push_back(circuit3);
 			break;
 		case 1:
 			std::cout << "bonjour2" << std::endl;
+			track.push_back(circuit2);
+			track.push_back(circuit1);
+			track.push_back(circuit3);
 			break;
 		case 2:
 			std::cout << "bonjour3" << std::endl;
+			track.push_back(circuit3);
+			track.push_back(circuit2);
+			track.push_back(circuit1);
 			break;
 	}
 	
@@ -301,19 +318,6 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							done=true;
 						}
 						else if (xClicked>=86 && xClicked <=229 && yClicked>=338 && yClicked<=527){
-							std::cout << "Vous avez choisi Burt" << std::endl;
-							sortie=0;
-							character.push_back(burt);
-							character.push_back(john);
-							character.push_back(klaus);
-							character.push_back(doug);
-							character.push_back(stan);
-							character.push_back(steve);
-							character.push_back(mckormack);
-							character.push_back(jennifer);
-							done=true;
-						}
-						else if (xClicked>=248 && xClicked <=389 && yClicked>=338 && yClicked<=527){
 							std::cout << "Vous avez choisi Steve" << std::endl;
 							sortie=0;
 							character.push_back(steve);
@@ -322,6 +326,19 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							character.push_back(doug);
 							character.push_back(stan);
 							character.push_back(burt);
+							character.push_back(mckormack);
+							character.push_back(jennifer);
+							done=true;
+						}
+						else if (xClicked>=248 && xClicked <=389 && yClicked>=338 && yClicked<=527){
+							std::cout << "Vous avez choisi Burt" << std::endl;
+							sortie=0;
+							character.push_back(burt);
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(doug);
+							character.push_back(stan);
+							character.push_back(steve);
 							character.push_back(mckormack);
 							character.push_back(jennifer);
 							done=true;
@@ -351,6 +368,10 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							character.push_back(steve);
 							character.push_back(mckormack);
 							done=true;
+						}
+						if (xClicked>=68 && xClicked <=148 && yClicked>=38 && yClicked<=88){
+							sortie=-1;
+							done = true;
 						}
 					}
 					break;
