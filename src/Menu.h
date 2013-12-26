@@ -8,6 +8,6 @@
 
 int menuCircuit(std::vector<Character*>&,std::vector<Track*>&);
 int menuPersonnage(std::vector<Character*>&,std::vector<Track*>&);
-void lancerJeuRandom();
+int lancerJeuRandom();
 int menuPrincipal(std::vector<Character*>&,std::vector<Track*>&);
 std::vector<Kart*>& KartWithChar(std::vector<Character*>&);

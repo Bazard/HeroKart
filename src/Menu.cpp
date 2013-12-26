@@ -504,10 +504,10 @@ int menuPrincipal(std::vector<Character*>& character,std::vector<Track*>& track)
 		case -1:
 			break;
 		case 0:
-			menuPersonnage(character,track);
+			sortie=menuPersonnage(character,track);
 			break;
 		case 1:
-			lancerJeuRandom();
+			sortie=lancerJeuRandom();
 			break;
 		case 2:
 			std::cout << "Options" << std::endl;
@@ -519,8 +519,8 @@ int menuPrincipal(std::vector<Character*>& character,std::vector<Track*>& track)
 	return sortie;
 }
 
-void lancerJeuRandom(){
-
+int lancerJeuRandom(){
+	return -1;
 }
 
 std::vector<Kart*>& KartWithChar(std::vector<Character*>& Characters){
