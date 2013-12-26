@@ -6,7 +6,8 @@
 #include "Character.h"
 #include "Race.h"
 
-int menuCircuit(std::vector<Character*>&,std::vector<Kart*>&,std::vector<Track*>&);
-int menuPersonnage(std::vector<Character*>&,std::vector<Kart*>&,std::vector<Track*>&);
+int menuCircuit(std::vector<Character*>&,std::vector<Track*>&);
+int menuPersonnage(std::vector<Character*>&,std::vector<Track*>&);
 void lancerJeuRandom();
-int menuPrincipal(std::vector<Character*>&,std::vector<Kart*>&,std::vector<Track*>&);
+int menuPrincipal(std::vector<Character*>&,std::vector<Track*>&);
+std::vector<Kart*>& KartWithChar(std::vector<Character*>&);

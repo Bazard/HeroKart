@@ -29,5 +29,7 @@ public:
 	void hitSuperPower(int tStart,Kart& kart); //Effet lorsque l'on touche un adversaire avec le pouvoir. Une attaque physique
 	void hitSuperPowerBack(Kart& kart); //Effet retour
 	// void continuousHitSuperPower(Kart& kartHit, Kart& KartFrom); //Effet continue
+	
+	Hero getHero(){ return hero;}
 };
 

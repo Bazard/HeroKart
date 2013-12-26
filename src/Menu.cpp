@@ -23,7 +23,7 @@ static const Uint32 FRAME_DURATION = 1000.f / FPS;
 
 using namespace glimac;
 
-int menuCircuit(std::vector<Character*>& character,std::vector<Kart*>& kart,std::vector<Track*>& track){
+int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 	int sortie=-1;
 	VBO vbo;
 	vbo.bind(GL_ARRAY_BUFFER);
@@ -157,7 +157,7 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Kart*>& kart,std:
 	return sortie;
 }
 
-int menuPersonnage(std::vector<Character*>& character,std::vector<Kart*>& kart,std::vector<Track*>& track){
+int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& track){
 	int sortie=-1;
 	VBO vbo;
 	vbo.bind(GL_ARRAY_BUFFER);
@@ -373,14 +373,14 @@ int menuPersonnage(std::vector<Character*>& character,std::vector<Kart*>& kart,s
 	}
 
 	if(sortie==0)
-		sortie=menuCircuit(character,kart,track);
+		sortie=menuCircuit(character,track);
 		
 	glDeleteTextures(1,&idMenu);
 	
 	return sortie;
 }
 
-int menuPrincipal(std::vector<Character*>& character,std::vector<Kart*>& kart,std::vector<Track*>& track){
+int menuPrincipal(std::vector<Character*>& character,std::vector<Track*>& track){
 	int sortie=-1;
 	VBO vbo;
 	vbo.bind(GL_ARRAY_BUFFER);
@@ -504,7 +504,7 @@ int menuPrincipal(std::vector<Character*>& character,std::vector<Kart*>& kart,st
 		case -1:
 			break;
 		case 0:
-			menuPersonnage(character,kart,track);
+			menuPersonnage(character,track);
 			break;
 		case 1:
 			lancerJeuRandom();
@@ -521,4 +521,79 @@ int menuPrincipal(std::vector<Character*>& character,std::vector<Kart*>& kart,st
 
 void lancerJeuRandom(){
 
+}
+
+std::vector<Kart*>& KartWithChar(std::vector<Character*>& Characters){
+	std::vector<Kart*> Karts;
+	
+	for (std::vector<Character*>::iterator it = Characters.begin() ; it != Characters.end(); ++it){
+		Kart* kart;
+		
+		switch((*it)->getHero()){
+			case JOHN:
+				kart=new Kart(2,0.01,0.75,5);
+				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->build();
+				break;
+			case KLAUS:
+				kart=new Kart(2,0.01,0.75,5);
+				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->build();
+				break;
+			case DOUG:
+				kart=new Kart(2,0.01,0.75,5);
+				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->build();
+				break;
+			case CANADA:
+				kart=new Kart(2,0.01,0.75,5);
+				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->build();
+				break;
+			case BURT:
+				kart=new Kart(2,0.01,0.75,5);
+				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->build();
+				break;
+			case MCKORMACK:
+				kart=new Kart(2,0.01,0.75,5);
+				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->build();
+				break;
+			case STEVE:
+				kart=new Kart(2,0.01,0.75,5);
+				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->build();
+				break;
+			case STAN:
+				kart=new Kart(2,0.01,0.75,5);
+				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->build();
+				break;
+			case JENNIFER:
+				kart=new Kart(2,0.01,0.75,5);
+				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->build();
+				break;
+		}
+		Karts.push_back(kart);
+	}
 }
