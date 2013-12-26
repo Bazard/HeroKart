@@ -511,6 +511,7 @@ int menuPrincipal(std::vector<Character*>& character,std::vector<Track*>& track)
 			break;
 		case 2:
 			std::cout << "Options" << std::endl;
+			sortie=-1;
 			break;
 		default:
 			break;

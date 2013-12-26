@@ -67,8 +67,10 @@ int main(int argc, char** argv) {
 	
 	int sortie=menuPrincipal(Characters,race.getTracks());
 	
-	if(sortie==-1)
+	if(sortie==-1){
+		std::cout << "Coucou" << std::endl;
 		return EXIT_SUCCESS;
+	}
 	
 	//Recuperation des Karts associés aux personnages
 	Karts=KartWithChar(Characters);
