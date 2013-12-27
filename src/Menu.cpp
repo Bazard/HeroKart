@@ -110,20 +110,20 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 					if (e.button.button==SDL_BUTTON_LEFT){
 						xClicked=(float)(e.button.x);
 						yClicked=(float)(e.button.y);
-						if (xClicked>=86 && xClicked <=229 && yClicked>=136 && yClicked<=324){
+						if (xClicked>=88 && xClicked <=277 && yClicked>=226 && yClicked<=416){
 							sortie=0;
 							done=true;
 						}
-						else if (xClicked>=248 && xClicked <=389 && yClicked>=136 && yClicked<=324){
+						else if (xClicked>=298 && xClicked <=492 && yClicked>=226 && yClicked<=416){
 							sortie=1;
 							done=true;
 						}
-						else if (xClicked>=406 && xClicked <=550 && yClicked>=136 && yClicked<=324){
+						else if (xClicked>=512 && xClicked <=705 && yClicked>=226 && yClicked<=416){
 							sortie=2;
 							done=true;
 						}
 						else if (xClicked>=68 && xClicked <=148 && yClicked>=38 && yClicked<=88){
-							sortie=-1;
+							sortie=3;
 							done = true;
 						}
 					}
@@ -168,6 +168,11 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 			track.push_back(circuit3);
 			track.push_back(circuit2);
 			track.push_back(circuit1);
+			break;
+		case 3:
+			track.clear();
+			character.clear();
+			sortie=menuPersonnage(character,track);
 			break;
 	}
 	
@@ -370,7 +375,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							done=true;
 						}
 						if (xClicked>=68 && xClicked <=148 && yClicked>=38 && yClicked<=88){
-							sortie=-1;
+							sortie=1;
 							done = true;
 						}
 					}
@@ -392,10 +397,17 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 			SDL_Delay(FRAME_DURATION - d);
 		}
 	}
-
-	if(sortie==0)
-		sortie=menuCircuit(character,track);
-		
+	switch(sortie){
+		case -1:
+			break;
+		case 0:
+			sortie=menuCircuit(character,track);
+			break;
+		case 1:
+			sortie=menuPrincipal(character,track);
+			break;
+	}
+	
 	glDeleteTextures(1,&idMenu);
 	
 	return sortie;
