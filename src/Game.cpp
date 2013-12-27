@@ -96,6 +96,7 @@ int Game::playTrack(Track& track){
 	int sortie=0;
 	
 	while(!done) {
+		(Karts[0])->isInCollision(*Karts[1]);
 
 		Uint32 tStart = SDL_GetTicks();
 		
@@ -168,6 +169,22 @@ int Game::playTrack(Track& track){
 				}
 			}
 		}
+
+
+		//Gestion des collisions
+		for (std::vector<Kart*>::iterator it_karts = Karts.begin() ; it_karts != Karts.end(); ++it_karts){	// Boucle sur tous les karts
+			//Collision avec les autres objets de la map
+			for (std::vector<Object3D*>::iterator it_mapObjects = track.getMapObjects().begin() ; it_mapObjects != track.getMapObjects().end(); ++it_mapObjects){	// Boucle sur tous les objets de la map
+				(*it_karts)->isInCollision( **it_mapObjects );
+			}
+
+			//Collision avec les autres Karts
+			for (std::vector<Kart*>::iterator it_otherKarts = it_karts+1 ; it_otherKarts != Karts.end(); ++it_otherKarts){	// Boucle sur le reste des karts
+				(*it_karts)->isInCollision( **it_otherKarts );
+			}
+		}
+
+
 		
 		//Sky
 		sky.getVAO().bind();		

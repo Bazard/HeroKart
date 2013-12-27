@@ -307,3 +307,53 @@ Object3D::Object3D(const Object3D& obj){
 	m_nVertexCount=obj.m_nVertexCount;
 	build();
 }
+
+
+
+
+
+
+
+// Teste si l'objet entre en collision avec un autre objet
+bool Object3D::isInCollision(Object3D other){
+    // Variables de collision selon les différents axes
+    bool collision_x = false;
+    bool collision_y = false;
+    bool collision_z = false;
+
+    // Position de l'objet sur lequel est appelé la fonction
+    float x1 = this->getPosition().x;
+    float y1 = this->getPosition().y;
+    float z1 = this->getPosition().z;
+    float h1 = this->hitboxSize;
+
+    // Position de l'autre objet 
+    float x2 = other.getPosition().x;
+    float y2 = other.getPosition().y;
+    float z2 = other.getPosition().z;
+    float h2 = other.hitboxSize;
+
+    // Teste si les 2 objets sont en collision sur l'axe x
+    if( ((x2-h2 <= x1+h1) && (x1+h1 <= x2+h2)) || ((x2-h2 <= x1-h1) && (x1-h1 <= x2+h2)) ){
+        collision_x = true;
+    }
+
+    // Teste si les 2 objets sont en collision sur l'axe y
+    if( ((y2-h2 <= y1+h1) && (y1+h1 <= y2+h2)) || ((y2-h2 <= y1-h1) && (y1-h1 <= y2+h2)) ){
+        collision_y = true;
+    }
+
+    // Teste si les 2 objets sont en collision sur l'axe z
+    if( ((z2-h2 <= z1+h1) && (z1+h1 <= z2+h2)) || ((z2-h2 <= z1-h1) && (z1-h1 <= z2+h2)) ){
+        collision_z = true;
+    }
+
+
+    if(collision_x==true && collision_y==true && collision_z==true){
+        std::cout << "collision !" << std::endl;
+        return true;
+    }else{
+        std::cout << "pas collision..." << std::endl;
+        return false;
+    }
+}

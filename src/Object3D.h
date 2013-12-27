@@ -15,6 +15,7 @@ class Object3D {
 	GLuint idTexture;
 	glimac::VAO vao;
 	glimac::VBO vbo;
+	float hitboxSize = 1;
 	
 protected:
 	glm::vec3 pos; //position
@@ -84,5 +85,8 @@ public:
     GLsizei getVertexCount() const {
         return m_nVertexCount;
     }
+
+	// Teste si l'objet entre en collision avec un autre objet
+    bool isInCollision(Object3D other);
 
 };
