@@ -175,6 +175,7 @@ void Character::continuousHitSuperPower(std::vector<Kart*>& karts, Kart& kart){
 			case STAN:
 				//Deplacement du kart dependant de celui de Stan
 				karts[stock[0]]->setPosition(kart.getPosition().x+stock[1],kart.getPosition().y+stock[2],kart.getPosition().z+stock[3]);
+				karts[stock[0]]->setAngle(kart.getAngle());
 				break;
 			default:
 				break;
