@@ -130,7 +130,7 @@ int Game::playTrack(Track& track){
 					(*it)->getPower()->Draw(uTex);	//Draw de l'objet
 				}
 				
-				if((*it)->getPower()->isLaunched() && (*it)->getPower()->isPerimed(tStart)){
+				else if((*it)->getPower()->isLaunched() && (*it)->getPower()->isPerimed(tStart)){
 					(*it)->stopPower(Karts,0);
 				}			
 			}
@@ -140,7 +140,7 @@ int Game::playTrack(Track& track){
 					(*it)->getCharacter().useSuperPowerBack((*it)->getKart());
 				}
 				else {
-				
+					(*it)->getCharacter().continuousHitSuperPower(Karts,(*it)->getKart());
 				}
 			}
 		}
@@ -231,6 +231,9 @@ int Game::playTrack(Track& track){
 							break;
 						case 'q':
 							Players[0]->getCharacter().useSuperPower(tStart,*Karts[0],track.getMapObjects());
+							break;
+						case 'w':
+							Players[0]->getCharacter().hitSuperPower(tStart,Karts,1,Players[0]->getKart());
 							break;
 					}
 					break;

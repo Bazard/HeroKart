@@ -255,7 +255,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 		Character *john=new Character(JOHN,1000);
 		Character *klaus=new Character(KLAUS,1000);
 		Character *doug=new Character(DOUG,1000);
-		Character *stan=new Character(STAN,1000);
+		Character *stan=new Character(STAN,10000);
 		Character *steve=new Character(STEVE,1000);
 		Character *burt=new Character(BURT,1000);
 		Character *mckormack=new Character(MCKORMACK,1000);
@@ -312,10 +312,10 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 						else if (xClicked>=565 && xClicked <=710 && yClicked>=136 && yClicked<=324){
 							std::cout << "Vous avez choisi Stan" << std::endl;
 							sortie=0;
+							character.push_back(stan);
 							character.push_back(john);
 							character.push_back(klaus);
 							character.push_back(doug);
-							character.push_back(stan);
 							character.push_back(burt);
 							character.push_back(steve);
 							character.push_back(mckormack);
