@@ -109,7 +109,7 @@ bool Character::isPerimed(int tStart){
 
 void Character::hitSuperPower(int tStart,std::vector<Kart*>& karts, int idTouche, Kart& kartFrom){ //kart touché
 	
-	if(karts[idTouche]->invincible){
+	if(karts[idTouche]->invincible || !launched){
 		stock.push_back(-1);
 		return;
 	}

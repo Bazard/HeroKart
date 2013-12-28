@@ -60,11 +60,6 @@ int main(int argc, char** argv) {
 	
 	//Creation du championnat (plusieurs circuits)
 	Race race;
-	Track track1("../map/track1.map");
-	Track track2("../map/track2.map");
-	
-	race.push_back(track1);
-	race.push_back(track2);
 	
 	int sortie=menuPrincipal(Characters,race.getTracks());
 	

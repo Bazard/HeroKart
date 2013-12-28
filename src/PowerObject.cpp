@@ -94,7 +94,7 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 		switch(type){
 			case BOOST:
-					vecKart[idLanceur]->setSpeed(stock);
+					// vecKart[idLanceur]->setSpeed(stock);
 					vecKart[idLanceur]->setSpeedMax(stock);
 					delete(this);
 					break;

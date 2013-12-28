@@ -68,12 +68,12 @@ int Game::playTrack(Track& track){
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans mapObject
-	PowerObject boost(BOOST,10000);
-	PowerObject atk_back(ATK_BACK,10000);
-	PowerObject trap(TRAP,10000);
-	PowerObject shield(SHIELD, 10000);
-	PowerObject atk_all(ATK_ALL, 10000);
-	PowerObject atk_front(ATK_FRONT, 10000);
+	PowerObject boost(BOOST,1000);
+	PowerObject atk_back(ATK_BACK,1000);
+	PowerObject trap(TRAP,1000);
+	PowerObject shield(SHIELD, 1000);
+	PowerObject atk_all(ATK_ALL, 1000);
+	PowerObject atk_front(ATK_FRONT, 1000);
 	
 	//Ciel
 	Object3D sky;
@@ -130,7 +130,7 @@ int Game::playTrack(Track& track){
 					(*it)->getPower()->Draw(uTex);	//Draw de l'objet
 				}
 				
-				else if((*it)->getPower()->isLaunched() && (*it)->getPower()->isPerimed(tStart)){
+				if((*it)->getPower()->isLaunched() && (*it)->getPower()->isPerimed(tStart)){
 					(*it)->stopPower(Karts,0);
 				}			
 			}
