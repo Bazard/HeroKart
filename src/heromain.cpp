@@ -40,6 +40,7 @@ int main(int argc, char** argv) {
 			return EXIT_FAILURE;
 		}
 
+		
 		SDL_WM_SetCaption("OpenGL4Imacs", NULL);
 
 		GLenum glewCode = glewInit();
