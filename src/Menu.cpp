@@ -152,19 +152,19 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 		case -1:
 			break;
 		case 0:
-			std::cout << "bonjour" << std::endl;
+			std::cout << "Vous avez choisi le circuit 1" << std::endl;
 			track.push_back(circuit1);
 			track.push_back(circuit2);
 			track.push_back(circuit3);
 			break;
 		case 1:
-			std::cout << "bonjour2" << std::endl;
+			std::cout << "Vous avez choisi le circuit 2" << std::endl;
 			track.push_back(circuit2);
 			track.push_back(circuit1);
 			track.push_back(circuit3);
 			break;
 		case 2:
-			std::cout << "bonjour3" << std::endl;
+			std::cout << "Vous avez choisi le circuit 3" << std::endl;
 			track.push_back(circuit3);
 			track.push_back(circuit2);
 			track.push_back(circuit1);
@@ -270,7 +270,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 					if (e.button.button==SDL_BUTTON_LEFT){
 						xClicked=(float)(e.button.x);
 						yClicked=(float)(e.button.y);
-						if (xClicked>=86 && xClicked <=229 && yClicked>=136 && yClicked<=324){
+						if (xClicked>=64 && xClicked <=221 && yClicked>=126 && yClicked<=340){
 							sortie=0;
 							std::cout << "Vous avez choisi John" << std::endl;
 							character.push_back(john);
@@ -283,7 +283,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							character.push_back(jennifer);							
 							done=true;
 						}
-						else if (xClicked>=248 && xClicked <=389 && yClicked>=136 && yClicked<=324){
+						else if (xClicked>=234 && xClicked <=391 && yClicked>=126 && yClicked<=340){
 							std::cout << "Vous avez choisi Klaus" << std::endl;
 							sortie=0;
 							character.push_back(klaus);
@@ -296,7 +296,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							character.push_back(jennifer);
 							done=true;
 						}
-						else if (xClicked>=406 && xClicked <=550 && yClicked>=136 && yClicked<=324){
+						else if (xClicked>=403 && xClicked <=559 && yClicked>=126 && yClicked<=340){
 							std::cout << "Vous avez choisi Doug" << std::endl;
 							sortie=0;
 							character.push_back(doug);
@@ -309,7 +309,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							character.push_back(jennifer);
 							done=true;
 						}
-						else if (xClicked>=565 && xClicked <=710 && yClicked>=136 && yClicked<=324){
+						else if (xClicked>=572 && xClicked <=728 && yClicked>=126 && yClicked<=340){
 							std::cout << "Vous avez choisi Stan" << std::endl;
 							sortie=0;
 							character.push_back(stan);
@@ -322,7 +322,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							character.push_back(jennifer);
 							done=true;
 						}
-						else if (xClicked>=86 && xClicked <=229 && yClicked>=338 && yClicked<=527){
+						else if (xClicked>=64 && xClicked <=221 && yClicked>=346 && yClicked<=558){
 							std::cout << "Vous avez choisi Steve" << std::endl;
 							sortie=0;
 							character.push_back(steve);
@@ -335,7 +335,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							character.push_back(jennifer);
 							done=true;
 						}
-						else if (xClicked>=248 && xClicked <=389 && yClicked>=338 && yClicked<=527){
+						else if (xClicked>=234 && xClicked <=391 && yClicked>=346 && yClicked<=558){
 							std::cout << "Vous avez choisi Burt" << std::endl;
 							sortie=0;
 							character.push_back(burt);
@@ -348,7 +348,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							character.push_back(jennifer);
 							done=true;
 						}
-						else if (xClicked>=406 && xClicked <=550 && yClicked>=338 && yClicked<=527){
+						else if (xClicked>=403 && xClicked <=559 && yClicked>=346 && yClicked<=558){
 							std::cout << "Vous avez choisi McKormack" << std::endl;
 							sortie=0;
 							character.push_back(mckormack);
@@ -361,7 +361,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							character.push_back(jennifer);
 							done=true;
 						}
-						else if (xClicked>=566 && xClicked <=710 && yClicked>=338 && yClicked<=527){
+						else if (xClicked>=572 && xClicked <=728 && yClicked>=346 && yClicked<=558){
 							std::cout << "Vous avez choisi Jennifer" << std::endl;
 							sortie=0;
 							character.push_back(jennifer);
