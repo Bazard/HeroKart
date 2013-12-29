@@ -11,11 +11,13 @@
 #include <queue>
 #include <cstdlib>
 
+#include "Menu.h"
+
 static const Uint32 FPS = 30;
 static const Uint32 FRAME_DURATION = 1000.f / FPS;
 
-static const Uint32 WINDOW_WIDTH = 800;
-static const Uint32 WINDOW_HEIGHT = 600;
+// static const Uint32 WINDOW_WIDTH = 800;
+// static const Uint32 WINDOW_HEIGHT = 600;
 static const Uint32 WINDOW_BPP = 32;
 
 using namespace glimac;
@@ -68,12 +70,12 @@ int Game::playTrack(Track& track){
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans mapObject
-	PowerObject boost(BOOST,10000);
-	PowerObject atk_back(ATK_BACK,10000);
-	PowerObject trap(TRAP,10000);
-	PowerObject shield(SHIELD, 10000);
-	PowerObject atk_all(ATK_ALL, 10000);
-	PowerObject atk_front(ATK_FRONT, 10000);
+	PowerObject boost(BOOST,1000);
+	PowerObject atk_back(ATK_BACK,1000);
+	PowerObject trap(TRAP,1000);
+	PowerObject shield(SHIELD, 1000);
+	PowerObject atk_all(ATK_ALL, 1000);
+	PowerObject atk_front(ATK_FRONT, 1000);
 	
 	//Ciel
 	Object3D sky;
@@ -141,7 +143,7 @@ int Game::playTrack(Track& track){
 					(*it)->getCharacter().useSuperPowerBack((*it)->getKart());
 				}
 				else {
-				
+					(*it)->getCharacter().continuousHitSuperPower(Karts,(*it)->getKart());
 				}
 			}
 		}
@@ -252,6 +254,9 @@ int Game::playTrack(Track& track){
 							break;
 						case 'q':
 							Players[0]->getCharacter().useSuperPower(tStart,*Karts[0],track.getMapObjects());
+							break;
+						case 'w':
+							Players[0]->getCharacter().hitSuperPower(tStart,Karts,1,Players[0]->getKart());
 							break;
 					}
 					break;

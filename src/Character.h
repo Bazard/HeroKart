@@ -4,7 +4,7 @@
 
 class Object3D;
 
-enum Hero { JOHN=0, KLAUS=1, DOUG=2, CANADA=3, BURT=4, MCKORMACK=5, STEVE=6, STAN=7 };
+enum Hero { JOHN=0, KLAUS=1, DOUG=2, CANADA=3, BURT=4, MCKORMACK=5, STEVE=6, STAN=7, JENNIFER=8 };
 
 class Character
 {
@@ -16,7 +16,7 @@ private:
 	int reloadtime;
 	int duration;
 	bool launched;
-	float stock; //Stockage de données
+	std::vector<float> stock; //Stockage de données
 public:
 	Character(Hero,int);
 	~Character();
@@ -26,8 +26,10 @@ public:
 	void useSuperPowerBack(Kart& kart); //Effet retour lorsque le pouvoir est epuisé
 	bool isPerimed(int tStart); //Est-ce que le pouvoir est epuisé ?
 	bool isLaunched(){return launched;} //Est-ce que le pouvoir est activé ?
-	void hitSuperPower(int tStart,Kart& kart); //Effet lorsque l'on touche un adversaire avec le pouvoir. Une attaque physique
-	void hitSuperPowerBack(Kart& kart); //Effet retour
-	// void continuousHitSuperPower(Kart& kartHit, Kart& KartFrom); //Effet continue
+	void hitSuperPower(int tStart,std::vector<Kart*>& karts, int idTouche, Kart& kartFrom);//Effet lorsque l'on touche un adversaire avec le pouvoir. Une attaque physique
+	void hitSuperPowerBack(std::vector<Kart*>& karts); //Effet retour
+	void continuousHitSuperPower(std::vector<Kart*>& karts, Kart& kart); //Effet continue
+	
+	Hero getHero(){ return hero;}
 };
 

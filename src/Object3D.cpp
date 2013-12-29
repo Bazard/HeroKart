@@ -291,8 +291,8 @@ void Object3D::TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra){
 		MVMatrix = glm::scale(MVMatrix, sca);
 }
 
-void Object3D::MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalMatrix,int WINDOW_WIDTH, int WINDOW_HEIGHT){
-		glm::mat4 ProjMatrix=glm::perspective(70.f,(float)WINDOW_WIDTH/(float)WINDOW_HEIGHT,0.1f,100.f); //angle vertical, ratio largeur/hauteur, near, far
+void Object3D::MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalMatrix,int WIDTH, int HEIGHT){
+		glm::mat4 ProjMatrix=glm::perspective(70.f,(float)WIDTH/(float)HEIGHT,0.1f,100.f); //angle vertical, ratio largeur/hauteur, near, far
 		glUniformMatrix4fv(uMVMatrix, 1, false, glm::value_ptr(MVMatrix));
 		glUniformMatrix4fv(uMVPMatrix, 1, false, glm::value_ptr(ProjMatrix*MVMatrix));			
 		glUniformMatrix4fv(uNormalMatrix, 1, false, glm::value_ptr(glm::transpose(glm::inverse(MVMatrix))));

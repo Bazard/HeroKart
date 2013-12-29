@@ -34,8 +34,7 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 			case DOUG:
 				kart.setSpeed(kart.getSpeedMax());
 				kart.setTourne(kart.getTourne()/10);
-				stock=kart.getAcceleration();
-				kart.setAcceleration(0.f);
+				kart.setAcceleration(kart.getAcceleration()/10);
 				break;
 			case CANADA:
 				kart.intouchable=true;
@@ -66,12 +65,9 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 				obj->setAngle(kart.getAngle());
 				mapObjects.push_back(obj);
 				break;
-			case STAN:
-				break;
 			default:
 				break;
 		}
-		
 	}
 	else{
 		std::cout << "Reloading" << std::endl;
@@ -88,7 +84,7 @@ void Character::useSuperPowerBack(Kart& kart){
 				break;
 			case DOUG:
 				kart.setTourne(kart.getTourne()*10);
-				kart.setAcceleration(stock);
+				kart.setAcceleration(kart.getAcceleration()*10);
 				break;
 			case CANADA:
 				kart.intouchable=false;
@@ -111,49 +107,75 @@ bool Character::isPerimed(int tStart){
 	return false;
 }
 
-void Character::hitSuperPower(int tStart,Kart& kart){ //kart touché
-	stock=0;
-	if(kart.invincible){
-		stock=-1;
+void Character::hitSuperPower(int tStart,std::vector<Kart*>& karts, int idTouche, Kart& kartFrom){ //kart touché
+	
+	if(karts[idTouche]->invincible || !launched){
+		stock.push_back(-1);
 		return;
 	}
-		
+	stock.push_back(idTouche);
+	
 	switch(hero){
 			case KLAUS:
 				//Defonce tout
-				kart.setSpeed(0.25*kart.getSpeedMax());
-				kart.setSpeedMax(0.25*kart.getSpeedMax());
+				karts[idTouche]->setSpeed(0.25*karts[idTouche]->getSpeedMax());
+				karts[idTouche]->setSpeedMax(0.25*karts[idTouche]->getSpeedMax());
 				break;
 			case DOUG:
-				kart.setSpeed(0.5*kart.getSpeedMax());
-				kart.setSpeedMax(0.5*kart.getSpeedMax());
+				karts[idTouche]->setSpeed(0.5*karts[idTouche]->getSpeedMax());
+				karts[idTouche]->setSpeedMax(0.5*karts[idTouche]->getSpeedMax());
 				//Defonce tout
 				break;
 			case STAN:
-				//Deplacement du kart dependant de celui de Stan
+				karts[idTouche]->setTourne(karts[idTouche]->getTourne()/10);
+				karts[idTouche]->setAcceleration(karts[idTouche]->getAcceleration()/10);
+				
+				stock.push_back(karts[stock[0]]->getPosition().x-kartFrom.getPosition().x);
+				stock.push_back(karts[stock[0]]->getPosition().y-kartFrom.getPosition().y);
+				stock.push_back(karts[stock[0]]->getPosition().z-kartFrom.getPosition().z);
 				break;
 			default:
 				break;
 		}
 }
 
-void Character::hitSuperPowerBack(Kart& kart){
-	if(stock==-1)
+void Character::hitSuperPowerBack(std::vector<Kart*>& karts){
+	if(stock[0]==-1){
+		stock.clear();
 		return;
+	}
 		
 		switch(hero){
 			case KLAUS:
-				//Defonce tout
-				kart.setSpeed(4*kart.getSpeedMax());
-				kart.setSpeedMax(4*kart.getSpeedMax());
+				karts[stock[0]]->setSpeed(4*karts[stock[0]]->getSpeedMax());
+				karts[stock[0]]->setSpeedMax(4*karts[stock[0]]->getSpeedMax());
 				break;
 			case DOUG:
-				kart.setSpeed(2*kart.getSpeedMax());
-				kart.setSpeedMax(2*kart.getSpeedMax());
-				//Defonce tout
+				karts[stock[0]]->setSpeed(2*karts[stock[0]]->getSpeedMax());
+				karts[stock[0]]->setSpeedMax(2*karts[stock[0]]->getSpeedMax());
 				break;
 			case STAN:
+				karts[stock[0]]->setTourne(karts[stock[0]]->getTourne()*10);
+				karts[stock[0]]->setAcceleration(karts[stock[0]]->getAcceleration()*10);
+				break;
+			default:
+				break;
+		}
+	stock.clear();
+}
+
+void Character::continuousHitSuperPower(std::vector<Kart*>& karts, Kart& kart){
+	if(stock.empty())
+		return;
+		
+	if(stock[0]==-1)
+		return;
+		
+		switch(hero){
+			case STAN:
 				//Deplacement du kart dependant de celui de Stan
+				karts[stock[0]]->setPosition(kart.getPosition().x+stock[1],kart.getPosition().y+stock[2],kart.getPosition().z+stock[3]);
+				karts[stock[0]]->setAngle(kart.getAngle());
 				break;
 			default:
 				break;
