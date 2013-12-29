@@ -15,20 +15,20 @@ class Object3D {
 	GLuint idTexture;
 	glimac::VAO vao;
 	glimac::VBO vbo;
-	float hitboxSize = 1;
 	
 protected:
 	glm::vec3 pos; //position
 	glm::vec3 dir; //direction
 	glm::vec3 sca; //scale
 	float angle;
+	float hitboxSize=1;
 	
 public:
 	glm::mat4 MVMatrix;
 	bool visible; //L'objet est-il visible ? 
 	
     // Constructeur: alloue le tableau de données et construit les attributs des vertex
-    Object3D():m_nVertexCount(0), angle(0),visible(true){dir.z=1; sca=glm::vec3(1,1,1);};
+    Object3D():m_nVertexCount(0), angle(0), hitboxSize(1),visible(true){dir.z=1; sca=glm::vec3(1,1,1);};
 	
 	Object3D(const Object3D&);
 	
@@ -48,6 +48,8 @@ public:
 	glm::vec3 getPosition(){ return pos;}
 	glm::vec3 getDirection(){ return dir;}
 	glm::vec3 getScale(){ return sca;}
+	float getHitboxSize(){ return hitboxSize;}
+
 	void setPosition(glm::vec3 vec){ pos=vec;}
 	void setPosition(float x,float y,float z){pos=glm::vec3(x,y,z);}
 	
@@ -55,6 +57,9 @@ public:
 	void setDirection(float x,float y,float z){dir=glm::vec3(x,y,z);}
 	
 	void setScale(glm::vec3 vec){ sca=vec;}
+
+	void setHitboxSize(float size){ hitboxSize=size;}
+
 	
 	
 	bool isVisible(){ return visible;}
@@ -88,5 +93,8 @@ public:
 
 	// Teste si l'objet entre en collision avec un autre objet
     bool isInCollision(Object3D other);
+
+    // Empêche les collisions entre objets
+    void avoidCollision(Object3D other);
 
 };
