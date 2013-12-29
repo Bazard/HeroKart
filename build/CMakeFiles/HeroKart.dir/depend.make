@@ -394,6 +394,7 @@ CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_key
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_keysym.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_loadso.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_main.h
+CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_mixer.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_mouse.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_mutex.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_platform.h
@@ -402,6 +403,7 @@ CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_rwo
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_stdinc.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_thread.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_timer.h
+CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_types.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_version.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_video.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: C:/Logiciels/MinGW/include/SDL/begin_code.h
@@ -967,7 +969,6 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_stdinc.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_thread.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_timer.h
-CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_ttf.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_types.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_version.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_video.h

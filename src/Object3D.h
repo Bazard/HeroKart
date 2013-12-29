@@ -21,7 +21,7 @@ protected:
 	glm::vec3 dir; //direction
 	glm::vec3 sca; //scale
 	float angle;
-	float hitboxSize=1;
+	float hitboxSize;
 	
 public:
 	glm::mat4 MVMatrix;

@@ -190,7 +190,6 @@ int Game::playTrack(Track& track){
 			}
 		}
 
-
 		
 		//Sky
 		sky.getVAO().bind();		
@@ -201,7 +200,6 @@ int Game::playTrack(Track& track){
 		
 		VAO::debind();
 		
-		//Teste collision Kart/Objets
 		
 		SDL_Event e;
 		while(SDL_PollEvent(&e)) {
@@ -256,7 +254,8 @@ int Game::playTrack(Track& track){
 							Players[0]->getCharacter().useSuperPower(tStart,*Karts[0],track.getMapObjects());
 							break;
 						case 'w':
-							Players[0]->getCharacter().hitSuperPower(tStart,Karts,1,Players[0]->getKart());
+							// Players[0]->getCharacter().hitSuperPower(tStart,Karts,1,Players[0]->getKart());
+							Karts[0]->setHitboxSize(2);
 							break;
 					}
 					break;

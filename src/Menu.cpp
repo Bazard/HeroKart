@@ -5,6 +5,7 @@
 #include "VAO.hpp"
 #include <vector>
 #include <ctime>
+#include <cstring>
 #include "PlayerIA.h"
 #include "Character.h"
 #include "Race.h"
@@ -13,6 +14,7 @@
 #include <glm/gtc/type_ptr.hpp> 
 #include "Program.hpp"
 #include <SDL/SDL.h>
+#include <SDL/SDL_mixer.h>
 #include <GL/glew.h>
 #include "Vertex2DUV.hpp"
 #include <SOIL/SOIL.h>
@@ -21,11 +23,12 @@
 static const Uint32 FPS = 30;
 static const Uint32 FRAME_DURATION = 1000.f / FPS;
 
-// Uint32 WINDOW_WIDTH = 800;
-// Uint32 WINDOW_HEIGHT = 600;
 static const Uint32 WINDOW_BPP = 32;
 
+Mix_Music *musique;
+
 using namespace glimac;
+
 
 int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 	int sortie=-1;
@@ -530,7 +533,7 @@ int menuOptions(std::vector<Character*>& character, std::vector<Track*>& track){
 		vao.debind();
 
 		// Application code goes here
-	
+
 		SDL_Event e;
 		int xClicked, yClicked;
 		while (SDL_PollEvent(&e)) {
@@ -569,12 +572,18 @@ int menuOptions(std::vector<Character*>& character, std::vector<Track*>& track){
 						}
 						else if (xClicked>=(151.0/800.0)*WINDOW_WIDTH  && xClicked <=(275.0/800.0)*WINDOW_WIDTH  && yClicked>=(445.0/600.0)*WINDOW_HEIGHT && yClicked<=(553.0/600.0)*WINDOW_HEIGHT){
 							std::cout << "Musique 1" << std::endl;
+							musique = Mix_LoadMUS("../sounds/musique1.mp3");
+							Mix_PlayMusic(musique, -1);
 						}
 						else if (xClicked>=(343.0/800.0)*WINDOW_WIDTH && xClicked <=(465.0/800.0)*WINDOW_WIDTH && yClicked>=(445.0/600.0)*WINDOW_HEIGHT && yClicked<=(553.0/600.0)*WINDOW_HEIGHT){
 							std::cout << "Musique 2" << std::endl;
+							musique = Mix_LoadMUS("../sounds/musique2.mp3");
+							Mix_PlayMusic(musique, -1);
 						}
 						else if (xClicked>=(512.0/800.0)*WINDOW_WIDTH && xClicked <=(635.0/800.0)*WINDOW_WIDTH && yClicked>=(445.0/600.0)*WINDOW_HEIGHT && yClicked<=(553.0/600.0)*WINDOW_HEIGHT){
 							std::cout << "Musique 3" << std::endl;
+							musique = Mix_LoadMUS("../sounds/musique3.mp3");
+							Mix_PlayMusic(musique, -1);
 						}
 						if (xClicked>=(68.0/800.0)*WINDOW_WIDTH && xClicked <=(148.0/800.0)*WINDOW_WIDTH && yClicked>=(38.0/600.0)*WINDOW_HEIGHT && yClicked<=(88.0/600.0)*WINDOW_HEIGHT){
 							sortie=1;
@@ -783,63 +792,63 @@ std::vector<Kart*>& KartWithChar(std::vector<Character*>& Characters){
 		switch((*it)->getHero()){
 			case JOHN:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->setPosition(glm::vec3(-13,0.5,0));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case KLAUS:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->setPosition(glm::vec3(-10,0.5,0));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case DOUG:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->setPosition(glm::vec3(-7,0.5,0));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case CANADA:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->setPosition(glm::vec3(-4,0.5,0));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case BURT:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->setPosition(glm::vec3(-1,0.5,0));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case MCKORMACK:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->setPosition(glm::vec3(2,0.5,0));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case STEVE:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->setPosition(glm::vec3(5,0.5,0));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case STAN:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->setPosition(glm::vec3(8,0.5,0));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case JENNIFER:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(0,0.5,0));
+				kart->setPosition(glm::vec3(11,0.5,0));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
@@ -850,9 +859,16 @@ std::vector<Kart*>& KartWithChar(std::vector<Character*>& Characters){
 }
 
 void restartSDL(){
+			Mix_FreeMusic(musique);
+    		Mix_CloseAudio();
 			SDL_Quit();
 			SDL_Init(SDL_INIT_VIDEO);
 			SDL_SetVideoMode(WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_BPP, SDL_OPENGL);
-			SDL_WM_SetCaption("OpenGL4Imacs", NULL);
+			SDL_WM_SetCaption("Hero Kaaaaart", NULL);
 			glewInit();
+			Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024);
+			musique = Mix_LoadMUS("../sounds/musique3.mp3");
+			Mix_PlayMusic(musique, -1);
 }
+
+
