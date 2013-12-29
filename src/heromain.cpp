@@ -15,7 +15,8 @@
 #include <SDL/SDL.h>
 #include <GL/glew.h>
 #include "Menu.h"
-
+#include <SDL/SDL_mixer.h>
+#include <SDL/SDL_ttf.h>
 #undef main
 
 static const Uint32 FPS = 30;
@@ -45,7 +46,13 @@ int main(int argc, char** argv) {
 			std::cerr << "Unable to initialize GLEW : " << glewGetErrorString(glewCode) << std::endl;
 			return EXIT_FAILURE;
 		}
+
+		TTF_Init();
 		
+		// Initialisation de SDL_Mixer
+		if(Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024) == -1){
+	      std::cout << Mix_GetError() << std::endl;
+	    }
 	//Vecteur des Characters
 	std::vector<Character*> Characters;
 	

@@ -56,15 +56,15 @@ CMakeFiles/HeroKart.dir/src/Character.cpp.obj: CMakeFiles/HeroKart.dir/includes_
 CMakeFiles/HeroKart.dir/src/Character.cpp.obj: ../src/Character.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Character.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Character.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Character.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Character.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Character.cpp
 
 CMakeFiles/HeroKart.dir/src/Character.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/Character.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Character.cpp > CMakeFiles\HeroKart.dir\src\Character.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Character.cpp > CMakeFiles\HeroKart.dir\src\Character.cpp.i
 
 CMakeFiles/HeroKart.dir/src/Character.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/Character.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Character.cpp -o CMakeFiles\HeroKart.dir\src\Character.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Character.cpp -o CMakeFiles\HeroKart.dir\src\Character.cpp.s
 
 CMakeFiles/HeroKart.dir/src/Character.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/Character.cpp.obj.requires
@@ -80,15 +80,15 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.r
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Game.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Game.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Game.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Game.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Game.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Game.cpp
 
 CMakeFiles/HeroKart.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/Game.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Game.cpp > CMakeFiles\HeroKart.dir\src\Game.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Game.cpp > CMakeFiles\HeroKart.dir\src\Game.cpp.i
 
 CMakeFiles/HeroKart.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/Game.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Game.cpp -o CMakeFiles\HeroKart.dir\src\Game.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Game.cpp -o CMakeFiles\HeroKart.dir\src\Game.cpp.s
 
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/Game.cpp.obj.requires
@@ -104,15 +104,15 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: CMakeFiles/HeroKart.dir/includes_C
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../src/heromain.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/heromain.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\heromain.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\heromain.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\heromain.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\heromain.cpp
 
 CMakeFiles/HeroKart.dir/src/heromain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/heromain.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\heromain.cpp > CMakeFiles\HeroKart.dir\src\heromain.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\heromain.cpp > CMakeFiles\HeroKart.dir\src\heromain.cpp.i
 
 CMakeFiles/HeroKart.dir/src/heromain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/heromain.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\heromain.cpp -o CMakeFiles\HeroKart.dir\src\heromain.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\heromain.cpp -o CMakeFiles\HeroKart.dir\src\heromain.cpp.s
 
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/heromain.cpp.obj.requires
@@ -128,15 +128,15 @@ CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.r
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Kart.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Kart.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Kart.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Kart.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Kart.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Kart.cpp
 
 CMakeFiles/HeroKart.dir/src/Kart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/Kart.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Kart.cpp > CMakeFiles\HeroKart.dir\src\Kart.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Kart.cpp > CMakeFiles\HeroKart.dir\src\Kart.cpp.i
 
 CMakeFiles/HeroKart.dir/src/Kart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/Kart.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Kart.cpp -o CMakeFiles\HeroKart.dir\src\Kart.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Kart.cpp -o CMakeFiles\HeroKart.dir\src\Kart.cpp.s
 
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/Kart.cpp.obj.requires
@@ -152,15 +152,15 @@ CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.r
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: ../src/Menu.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Menu.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Menu.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Menu.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Menu.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Menu.cpp
 
 CMakeFiles/HeroKart.dir/src/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/Menu.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Menu.cpp > CMakeFiles\HeroKart.dir\src\Menu.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Menu.cpp > CMakeFiles\HeroKart.dir\src\Menu.cpp.i
 
 CMakeFiles/HeroKart.dir/src/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/Menu.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Menu.cpp -o CMakeFiles\HeroKart.dir\src\Menu.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Menu.cpp -o CMakeFiles\HeroKart.dir\src\Menu.cpp.s
 
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/Menu.cpp.obj.requires
@@ -176,15 +176,15 @@ CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: CMakeFiles/HeroKart.dir/includes_C
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Object3D.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Object3D.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Object3D.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Object3D.cpp
 
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/Object3D.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Object3D.cpp > CMakeFiles\HeroKart.dir\src\Object3D.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Object3D.cpp > CMakeFiles\HeroKart.dir\src\Object3D.cpp.i
 
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/Object3D.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Object3D.cpp -o CMakeFiles\HeroKart.dir\src\Object3D.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Object3D.cpp -o CMakeFiles\HeroKart.dir\src\Object3D.cpp.s
 
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj.requires
@@ -200,15 +200,15 @@ CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: CMakeFiles/HeroKart.dir/includes_C
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/PlayerIA.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\PlayerIA.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\PlayerIA.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\PlayerIA.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\PlayerIA.cpp
 
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\PlayerIA.cpp > CMakeFiles\HeroKart.dir\src\PlayerIA.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\PlayerIA.cpp > CMakeFiles\HeroKart.dir\src\PlayerIA.cpp.i
 
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\PlayerIA.cpp -o CMakeFiles\HeroKart.dir\src\PlayerIA.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\PlayerIA.cpp -o CMakeFiles\HeroKart.dir\src\PlayerIA.cpp.s
 
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj.requires
@@ -224,15 +224,15 @@ CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: CMakeFiles/HeroKart.dir/include
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/PowerObject.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\PowerObject.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\PowerObject.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\PowerObject.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\PowerObject.cpp
 
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/PowerObject.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\PowerObject.cpp > CMakeFiles\HeroKart.dir\src\PowerObject.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\PowerObject.cpp > CMakeFiles\HeroKart.dir\src\PowerObject.cpp.i
 
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/PowerObject.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\PowerObject.cpp -o CMakeFiles\HeroKart.dir\src\PowerObject.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\PowerObject.cpp -o CMakeFiles\HeroKart.dir\src\PowerObject.cpp.s
 
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj.requires
@@ -248,15 +248,15 @@ CMakeFiles/HeroKart.dir/src/Race.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.r
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: ../src/Race.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Race.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Race.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Race.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Race.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Race.cpp
 
 CMakeFiles/HeroKart.dir/src/Race.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/Race.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Race.cpp > CMakeFiles\HeroKart.dir\src\Race.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Race.cpp > CMakeFiles\HeroKart.dir\src\Race.cpp.i
 
 CMakeFiles/HeroKart.dir/src/Race.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/Race.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Race.cpp -o CMakeFiles\HeroKart.dir\src\Race.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Race.cpp -o CMakeFiles\HeroKart.dir\src\Race.cpp.s
 
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/Race.cpp.obj.requires
@@ -272,15 +272,15 @@ CMakeFiles/HeroKart.dir/src/Track.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Track.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Track.cpp.obj"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Track.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Track.cpp
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Track.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Track.cpp
 
 CMakeFiles/HeroKart.dir/src/Track.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/Track.cpp.i"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Track.cpp > CMakeFiles\HeroKart.dir\src\Track.cpp.i
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Track.cpp > CMakeFiles\HeroKart.dir\src\Track.cpp.i
 
 CMakeFiles/HeroKart.dir/src/Track.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/Track.cpp.s"
-	C:\Logiciels\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Track.cpp -o CMakeFiles\HeroKart.dir\src\Track.cpp.s
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Track.cpp -o CMakeFiles\HeroKart.dir\src\Track.cpp.s
 
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj.requires:
 .PHONY : CMakeFiles/HeroKart.dir/src/Track.cpp.obj.requires
@@ -319,10 +319,15 @@ HeroKart.exe: CMakeFiles/HeroKart.dir/src/Race.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/Track.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/build.make
 HeroKart.exe: third-party/assimp/code/libassimp.dll.a
+HeroKart.exe: C:/Logiciels/MinGW/lib/libSDL_ttf.a
 HeroKart.exe: third-party/glew-1.10.0/libglew.a
+HeroKart.exe: C:/Logiciels/MinGW/lib/libSDL_ttf.a
+HeroKart.exe: C:/Logiciels/MinGW/lib/libSDL_mixer.a
 HeroKart.exe: C:/Logiciels/MinGW/lib/libSDL.dll.a
 HeroKart.exe: lib/libglimac.a
 HeroKart.exe: third-party/assimp/contrib/zlib/libzlib.a
+HeroKart.exe: C:/Logiciels/MinGW/lib/libSDL_mixer.a
+HeroKart.exe: C:/Logiciels/MinGW/lib/libSDL.dll.a
 HeroKart.exe: CMakeFiles/HeroKart.dir/objects1.rsp
 HeroKart.exe: CMakeFiles/HeroKart.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable HeroKart.exe"

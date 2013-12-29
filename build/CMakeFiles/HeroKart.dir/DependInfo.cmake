@@ -38,6 +38,8 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "../lib/include"
   "../third-party/assimp/include"
   "../third-party/soil"
+  "../third-party/freetype/include"
+  "../third-party/freetype/include/freetype2"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

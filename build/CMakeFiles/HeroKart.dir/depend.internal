@@ -959,6 +959,7 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj
  C:/Logiciels/MinGW/include/SDL/SDL_keysym.h
  C:/Logiciels/MinGW/include/SDL/SDL_loadso.h
  C:/Logiciels/MinGW/include/SDL/SDL_main.h
+ C:/Logiciels/MinGW/include/SDL/SDL_mixer.h
  C:/Logiciels/MinGW/include/SDL/SDL_mouse.h
  C:/Logiciels/MinGW/include/SDL/SDL_mutex.h
  C:/Logiciels/MinGW/include/SDL/SDL_platform.h
@@ -967,6 +968,8 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj
  C:/Logiciels/MinGW/include/SDL/SDL_stdinc.h
  C:/Logiciels/MinGW/include/SDL/SDL_thread.h
  C:/Logiciels/MinGW/include/SDL/SDL_timer.h
+ C:/Logiciels/MinGW/include/SDL/SDL_ttf.h
+ C:/Logiciels/MinGW/include/SDL/SDL_types.h
  C:/Logiciels/MinGW/include/SDL/SDL_version.h
  C:/Logiciels/MinGW/include/SDL/SDL_video.h
  C:/Logiciels/MinGW/include/SDL/begin_code.h

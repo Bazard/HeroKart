@@ -56,15 +56,15 @@ third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: third-party/glew-1.1
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj: ../third-party/glew-1.10.0/src/glew.c
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\glew.dir\src\glew.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glew.c
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\glew.dir\src\glew.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glew.c
 
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/glew.c.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glew.c > CMakeFiles\glew.dir\src\glew.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glew.c > CMakeFiles\glew.dir\src\glew.c.i
 
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/glew.c.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glew.c -o CMakeFiles\glew.dir\src\glew.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glew.c -o CMakeFiles\glew.dir\src\glew.c.s
 
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj.requires:
 .PHONY : third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glew.c.obj.requires
@@ -80,15 +80,15 @@ third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: third-party/glew
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj: ../third-party/glew-1.10.0/src/glewinfo.c
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\glew.dir\src\glewinfo.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glewinfo.c
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles\glew.dir\src\glewinfo.c.obj   -c C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glewinfo.c
 
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/glewinfo.c.i"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glewinfo.c > CMakeFiles\glew.dir\src\glewinfo.c.i
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glewinfo.c > CMakeFiles\glew.dir\src\glewinfo.c.i
 
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/glewinfo.c.s"
-	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\mingw32-gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glewinfo.c -o CMakeFiles\glew.dir\src\glewinfo.c.s
+	cd /d C:\Users\bruno\Documents\GitHub\HeroKart\build\third-party\glew-1.10.0 && C:\Logiciels\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\third-party\glew-1.10.0\src\glewinfo.c -o CMakeFiles\glew.dir\src\glewinfo.c.s
 
 third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj.requires:
 .PHONY : third-party/glew-1.10.0/CMakeFiles/glew.dir/src/glewinfo.c.obj.requires
