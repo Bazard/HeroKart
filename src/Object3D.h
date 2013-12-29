@@ -79,7 +79,7 @@ public:
 	virtual void hitKartBack(std::vector<Kart*>& karts){} //Fonction qui permet de finir le powerObject et d'annuler ses effets
 	
 	void Draw(GLuint uTex);
-	void MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalMatrix, int WINDOW_WIDTH, int WINDOW_HEIGHT);
+	void MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalMatrix, int, int);
     // Renvoit le nombre de vertex
     GLsizei getVertexCount() const {
         return m_nVertexCount;

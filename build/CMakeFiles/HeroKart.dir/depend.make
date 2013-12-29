@@ -209,6 +209,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Character.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Game.cpp
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Game.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Kart.h
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Menu.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/Object3D.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/PlayerIA.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../src/PowerObject.h

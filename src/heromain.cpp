@@ -21,14 +21,11 @@
 static const Uint32 FPS = 30;
 static const Uint32 FRAME_DURATION = 1000.f / FPS;
 
-static const Uint32 WINDOW_WIDTH = 800;
-static const Uint32 WINDOW_HEIGHT = 600;
 static const Uint32 WINDOW_BPP = 32;
 
 using namespace glimac;
 
 int main(int argc, char** argv) {
-
 
 		if(-1 == SDL_Init(SDL_INIT_VIDEO)) {
 			std::cerr << "Unable to initialize SDL" << std::endl;
@@ -64,7 +61,7 @@ int main(int argc, char** argv) {
 	int sortie=menuPrincipal(Characters,race.getTracks());
 	
 	if(sortie==-1){
-		std::cout << "Coucou" << std::endl;
+		std::cout << "Sortie" << std::endl;
 		return EXIT_SUCCESS;
 	}
 
@@ -75,6 +72,7 @@ int main(int argc, char** argv) {
 		PlayerIA* play=new PlayerIA("Player",*Karts[i],*Characters[i]);
 		Players.push_back(play);
 	}
+	
 	//Creation du jeu
 	Game game(race,Players,Karts);
 	game.playChampionShip();

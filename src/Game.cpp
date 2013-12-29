@@ -11,11 +11,13 @@
 #include <queue>
 #include <cstdlib>
 
+#include "Menu.h"
+
 static const Uint32 FPS = 30;
 static const Uint32 FRAME_DURATION = 1000.f / FPS;
 
-static const Uint32 WINDOW_WIDTH = 800;
-static const Uint32 WINDOW_HEIGHT = 600;
+// static const Uint32 WINDOW_WIDTH = 800;
+// static const Uint32 WINDOW_HEIGHT = 600;
 static const Uint32 WINDOW_BPP = 32;
 
 using namespace glimac;
