@@ -174,18 +174,21 @@ int Game::playTrack(Track& track){
 
 
 		//Gestion des collisions
-		for (std::vector<Kart*>::iterator it_karts = Karts.begin() ; it_karts != Karts.end(); ++it_karts){	// Boucle sur tous les karts
+		for (int idkart=0;idkart<8;++idkart){	// Boucle sur tous les karts
 			//Collision avec les autres objets de la map
 			for (std::vector<Object3D*>::iterator it_mapObjects = track.getMapObjects().begin() ; it_mapObjects != track.getMapObjects().end(); ++it_mapObjects){	// Boucle sur tous les objets de la map
-				if((*it_karts)->isInCollision( **it_mapObjects )){
-					(*it_karts)->avoidCollision( **it_mapObjects );
+				if(Karts[idkart]->isInCollision( **it_mapObjects )){
+					Karts[idkart]->avoidCollision( **it_mapObjects );
+					(*it_mapObjects)->hitKart(*Karts[idkart],idkart, tStart);
 				}
 			}
 
 			//Collision avec les autres Karts
-			for (std::vector<Kart*>::iterator it_otherKarts = it_karts+1 ; it_otherKarts != Karts.end(); ++it_otherKarts){	// Boucle sur le reste des karts
-				if((*it_karts)->isInCollision( **it_otherKarts )){
-					(*it_karts)->avoidCollision( **it_otherKarts );
+			for (int idotherkart=idkart+1;idotherkart<8;++idotherkart){	// Boucle sur le reste des karts
+				if(Karts[idkart]->isInCollision( *Karts[idotherkart] )){
+					Karts[idkart]->avoidCollision( *Karts[idotherkart] );
+					Players[idkart]->getCharacter().hitSuperPower(tStart, Karts, idotherkart, *Karts[idkart]);
+					Players[idotherkart]->getCharacter().hitSuperPower(tStart, Karts, idkart, *Karts[idotherkart]);
 				}
 			}
 		}
