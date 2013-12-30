@@ -316,7 +316,7 @@ Object3D::Object3D(const Object3D& obj){
 
 
 // Teste si l'objet entre en collision avec un autre objet
-bool Object3D::isInCollision(Object3D other){
+bool Object3D::isInCollision(Object3D &other){
     // Variables de collision selon les différents axes
     bool collision_x = false;
     bool collision_y = false;
@@ -363,7 +363,7 @@ bool Object3D::isInCollision(Object3D other){
 
 
 // Empêche les collisions entre objets
-void Object3D::avoidCollision(Object3D other){
+void Object3D::avoidCollision(Object3D &other){
     // Position de l'objet sur lequel est appelé la fonction
 	float x1 = pos.x;
     float y1 = pos.y;

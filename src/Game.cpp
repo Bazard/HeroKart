@@ -184,11 +184,14 @@ int Game::playTrack(Track& track){
 			}
 
 			//Collision avec les autres Karts
-			for (int idotherkart=idkart+1;idotherkart<8;++idotherkart){	// Boucle sur le reste des karts
-				if(Karts[idkart]->isInCollision( *Karts[idotherkart] )){
+			for (int idotherkart=0;idotherkart<8;++idotherkart){	// Boucle sur le reste des karts
+				if(idotherkart==idkart){
+					
+				}
+				else if(Karts[idkart]->isInCollision( *Karts[idotherkart] )){
 					Karts[idkart]->avoidCollision( *Karts[idotherkart] );
 					Players[idkart]->getCharacter().hitSuperPower(tStart, Karts, idotherkart, *Karts[idkart]);
-					Players[idotherkart]->getCharacter().hitSuperPower(tStart, Karts, idkart, *Karts[idotherkart]);
+					// //Players[idotherkart]->getCharacter().hitSuperPower(tStart, Karts, idkart, *Karts[idotherkart]);
 				}
 			}
 		}

@@ -93,9 +93,9 @@ public:
     }
 
 	// Teste si l'objet entre en collision avec un autre objet
-    bool isInCollision(Object3D other);
+    bool isInCollision(Object3D &other);
 
     // Empêche les collisions entre objets
-    void avoidCollision(Object3D other);
+    void avoidCollision(Object3D &other);
 
 };
