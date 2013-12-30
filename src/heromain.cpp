@@ -77,7 +77,7 @@ int main(int argc, char** argv) {
 	}
 
 	//Recuperation des Karts associés aux personnages
-	Karts=KartWithChar(Characters);
+	KartWithChar(Characters,Karts);
 	//Remplissage de Players
 	for (int i=0;i<8;++i){
 		PlayerIA* play=new PlayerIA("Player",*Karts[i],*Characters[i]);

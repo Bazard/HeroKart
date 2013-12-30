@@ -783,8 +783,8 @@ int lancerJeuRandom(){
 	return -1;
 }
 
-std::vector<Kart*>& KartWithChar(std::vector<Character*>& Characters){
-	std::vector<Kart*> Karts;
+void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts){
+	Karts.clear();
 	
 	for (std::vector<Character*>::iterator it = Characters.begin() ; it != Characters.end(); ++it){
 		Kart* kart;
@@ -856,6 +856,7 @@ std::vector<Kart*>& KartWithChar(std::vector<Character*>& Characters){
 		}
 		Karts.push_back(kart);
 	}
+
 }
 
 void restartSDL(){
