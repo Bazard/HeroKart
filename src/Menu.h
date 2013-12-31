@@ -15,4 +15,5 @@ int lancerJeuRandom();
 int menuOptions(std::vector<Character*>&,std::vector<Track*>&);
 int menuPrincipal(std::vector<Character*>&,std::vector<Track*>&);
 void KartWithChar(std::vector<Character*>&,std::vector<Kart*>&);
+
 void restartSDL();

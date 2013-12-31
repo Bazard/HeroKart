@@ -89,10 +89,22 @@ int Game::playTrack(Track& track){
 	Object3D floor;
 	floor.LoadObjFromFile("../models/floor.obj");	
 	floor.setScale(glm::vec3(16,1,16));
-	floor.setHitboxSize(0);
+	floor.setHitbox(glm::vec3(0, 0, 0));
 	floor.build();
 	floor.LoadTexture("../textures/MoonMap.png");
-	//track.push_back(floor);
+	track.push_back(floor);
+
+
+	//Element de décor test
+	Object3D elementDecor;
+	elementDecor.sphere(1,32,16);
+	elementDecor.setScale(glm::vec3(3,3,3));
+	elementDecor.setPosition(glm::vec3(5,0,5));
+	elementDecor.setHitbox(glm::vec3(2.5, 2.5, 2.5));
+	elementDecor.build();
+	elementDecor.LoadTexture("../textures/EarthMap.jpg");
+	track.push_back(elementDecor);
+
 	
 	PowerObject *obj=NULL;
 	bool done=false;
@@ -180,23 +192,34 @@ int Game::playTrack(Track& track){
 			for (std::vector<Object3D*>::iterator it_mapObjects = track.getMapObjects().begin() ; it_mapObjects != track.getMapObjects().end(); ++it_mapObjects){	// Boucle sur tous les objets de la map
 				if(Karts[idkart]->isInCollision( **it_mapObjects )){
 					Karts[idkart]->avoidCollision( **it_mapObjects );
+					Karts[idkart]->move(-1); // Fais ralentir le kart quand il est en collision
 					(*it_mapObjects)->hitKart(*Karts[idkart],idkart, tStart);
 				}
 			}
-
+		
 			//Collision avec les autres Karts
-			for (int idotherkart=0;idotherkart<8;++idotherkart){	// Boucle sur le reste des karts
+			//>>>>>>>>>>>>>>>>>>>>> Boucle sur le reste des karts, permet d'éviter de tester 2 fois la même collision (kart1/kart2 et kart2/kart1 par exemple)
+			for (int idotherkart = idkart+1 ; idotherkart <8; ++idotherkart){  // Boucle sur le reste des karts
+		        if(Karts[idkart]->isInCollision( *Karts[idotherkart] )){
+		        	Karts[idkart]->avoidCollision( *Karts[idotherkart] );
+					Karts[idkart]->move(-1); // Fais ralentir le kart quand il est en collision
+				}
+			}
+
+			/*for (int idotherkart=0;idotherkart<8;++idotherkart){	// Boucle sur le reste des karts
 				if(idotherkart==idkart){
 					
 				}
 				else if(Karts[idkart]->isInCollision( *Karts[idotherkart] )){
 					Karts[idkart]->avoidCollision( *Karts[idotherkart] );
+					Karts[idkart]->move(-1); // Fais ralentir le kart quand il est en collision
 					Players[idkart]->getCharacter().hitSuperPower(tStart, Karts, idotherkart, *Karts[idkart]);
 					// //Players[idotherkart]->getCharacter().hitSuperPower(tStart, Karts, idkart, *Karts[idotherkart]);
 				}
-			}
+			}*/
+		
 		}
-
+	
 		
 		//Sky
 		sky.getVAO().bind();		
