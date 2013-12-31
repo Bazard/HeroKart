@@ -141,6 +141,7 @@ int Game::playTrack(Track& track){
 			if((*it)->getCharacter().isLaunched()){
 				if((*it)->getCharacter().isPerimed(tStart)){
 					(*it)->getCharacter().useSuperPowerBack((*it)->getKart());
+					(*it)->getCharacter().hitSuperPowerBack(Karts);
 				}
 				else {
 					(*it)->getCharacter().continuousHitSuperPower(Karts,(*it)->getKart());
@@ -258,10 +259,6 @@ int Game::playTrack(Track& track){
 							break;
 						case 'q':
 							Players[0]->getCharacter().useSuperPower(tStart,*Karts[0],track.getMapObjects());
-							break;
-						case 'w':
-							// Players[0]->getCharacter().hitSuperPower(tStart,Karts,1,Players[0]->getKart());
-							Karts[0]->setHitboxSize(2);
 							break;
 					}
 					break;

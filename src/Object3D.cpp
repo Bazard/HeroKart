@@ -353,7 +353,7 @@ bool Object3D::isInCollision(Object3D &other){
 
 
     if(collision_x==true && collision_y==true && collision_z==true){
-        std::cout << "collision !" << std::endl;
+        // std::cout << "collision !" << std::endl;
         return true;
     }else{
         // std::cout << "pas collision..." << std::endl;

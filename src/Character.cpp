@@ -108,11 +108,11 @@ bool Character::isPerimed(int tStart){
 }
 
 void Character::hitSuperPower(int tStart,std::vector<Kart*>& karts, int idTouche, Kart& kartFrom){ //kart touché
-	
-	if(karts[idTouche]->invincible || !launched){
-		stock.push_back(-1);
+		
+	if(karts[idTouche]->invincible || !launched || !stock.empty()){
 		return;
 	}
+	
 	stock.push_back(idTouche);
 	
 	switch(hero){
@@ -140,8 +140,8 @@ void Character::hitSuperPower(int tStart,std::vector<Kart*>& karts, int idTouche
 }
 
 void Character::hitSuperPowerBack(std::vector<Kart*>& karts){
-	if(stock[0]==-1){
-		stock.clear();
+
+	if(stock.empty()){
 		return;
 	}
 		
@@ -161,14 +161,12 @@ void Character::hitSuperPowerBack(std::vector<Kart*>& karts){
 			default:
 				break;
 		}
+	
 	stock.clear();
 }
 
 void Character::continuousHitSuperPower(std::vector<Kart*>& karts, Kart& kart){
 	if(stock.empty())
-		return;
-		
-	if(stock[0]==-1)
 		return;
 		
 		switch(hero){
