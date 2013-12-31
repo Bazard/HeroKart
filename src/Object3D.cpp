@@ -317,6 +317,9 @@ Object3D::Object3D(const Object3D& obj){
 
 // Teste si l'objet entre en collision avec un autre objet
 bool Object3D::isInCollision(Object3D &other){
+    if(!other.isVisible())
+        return false;
+
     // Si on est en dehors de la hitbox, il n'y a pas collision
     if( (pos.x+hitbox.x <= other.pos.x-other.hitbox.x)  // Trop à gauche sur x
      || (pos.x-hitbox.x >= other.pos.x+other.hitbox.x)  // Trop à droite sur x
