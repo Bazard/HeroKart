@@ -317,6 +317,8 @@ Object3D::Object3D(const Object3D& obj){
 
 // Teste si l'objet entre en collision avec un autre objet
 bool Object3D::isInCollision(Object3D &other){
+	if(!other.isVisible())
+		return false;
     // Variables de collision selon les différents axes
     bool collision_x = false;
     bool collision_y = false;

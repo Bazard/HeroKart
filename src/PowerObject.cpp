@@ -170,6 +170,7 @@ bool PowerObject::isPerimed(int tStart){
 }
 
 void PowerObject::hitKart(Kart& kart, int id, int tStart){
+	visible=false;
 	if(kart.invincible){
 		stock==-1;
 		return;
