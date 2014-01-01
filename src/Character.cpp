@@ -130,10 +130,17 @@ void Character::hitSuperPower(int tStart,std::vector<Kart*>& karts, int idTouche
 			case STAN:
 				karts[idTouche]->setTourne(karts[idTouche]->getTourne()/10);
 				karts[idTouche]->setAcceleration(karts[idTouche]->getAcceleration()/10);
+				float var;
+				var=karts[stock[0]]->getPosition().x-kartFrom.getPosition().x;
+				if(var<0) stock.push_back(var-1);
+				else stock.push_back(var+1);
 				
-				stock.push_back(karts[stock[0]]->getPosition().x-kartFrom.getPosition().x);
 				stock.push_back(karts[stock[0]]->getPosition().y-kartFrom.getPosition().y);
-				stock.push_back(karts[stock[0]]->getPosition().z-kartFrom.getPosition().z);
+				
+				var=karts[stock[0]]->getPosition().z-kartFrom.getPosition().z;
+				if(var<0) stock.push_back(var-1);
+				else stock.push_back(var+1);
+				
 				break;
 			default:
 				break;

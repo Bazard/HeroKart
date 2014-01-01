@@ -1,0 +1,2 @@
+C:\Logiciels\MinGW\bin\ar.exe cr libglimac.a  CMakeFiles/glimac.dir/src/Program.cpp.obj CMakeFiles/glimac.dir/src/Shader.cpp.obj
+C:\Logiciels\MinGW\bin\ranlib.exe libglimac.a
