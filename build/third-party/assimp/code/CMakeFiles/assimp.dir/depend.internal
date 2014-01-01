@@ -174,9 +174,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -256,9 +256,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -337,9 +337,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -414,9 +414,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -501,9 +501,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -592,9 +592,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Assimp.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -672,9 +672,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -748,9 +748,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -823,9 +823,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -903,9 +903,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -979,9 +979,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1058,9 +1058,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1137,9 +1137,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1244,6 +1244,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj
  C:/Logiciels/MinGW/include/prsht.h
  C:/Logiciels/MinGW/include/pshpack2.h
  C:/Logiciels/MinGW/include/pshpack4.h
+ C:/Logiciels/MinGW/include/reason.h
  C:/Logiciels/MinGW/include/rpc.h
  C:/Logiciels/MinGW/include/rpcdce.h
  C:/Logiciels/MinGW/include/rpcdcep.h
@@ -1251,10 +1252,10 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj
  C:/Logiciels/MinGW/include/rpcnsi.h
  C:/Logiciels/MinGW/include/rpcnsip.h
  C:/Logiciels/MinGW/include/rpcnterr.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/shellapi.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1275,7 +1276,6 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj
  C:/Logiciels/MinGW/include/winreg.h
  C:/Logiciels/MinGW/include/winresrc.h
  C:/Logiciels/MinGW/include/winsock.h
- C:/Logiciels/MinGW/include/winsock2.h
  C:/Logiciels/MinGW/include/winspool.h
  C:/Logiciels/MinGW/include/winsvc.h
  C:/Logiciels/MinGW/include/winuser.h
@@ -1359,9 +1359,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1443,9 +1443,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1521,9 +1521,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1600,9 +1600,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1677,9 +1677,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1759,9 +1759,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -1833,6 +1833,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -1916,6 +1917,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -1996,9 +1998,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -2077,9 +2079,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -2155,9 +2157,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -2239,9 +2241,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -2320,6 +2322,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -2395,6 +2398,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -2498,6 +2502,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj
  C:/Logiciels/MinGW/include/prsht.h
  C:/Logiciels/MinGW/include/pshpack2.h
  C:/Logiciels/MinGW/include/pshpack4.h
+ C:/Logiciels/MinGW/include/reason.h
  C:/Logiciels/MinGW/include/rpc.h
  C:/Logiciels/MinGW/include/rpcdce.h
  C:/Logiciels/MinGW/include/rpcdcep.h
@@ -2505,10 +2510,10 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj
  C:/Logiciels/MinGW/include/rpcnsi.h
  C:/Logiciels/MinGW/include/rpcnsip.h
  C:/Logiciels/MinGW/include/rpcnterr.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/shellapi.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -2528,7 +2533,6 @@ third-party/assimp/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj
  C:/Logiciels/MinGW/include/winreg.h
  C:/Logiciels/MinGW/include/winresrc.h
  C:/Logiciels/MinGW/include/winsock.h
- C:/Logiciels/MinGW/include/winsock2.h
  C:/Logiciels/MinGW/include/winspool.h
  C:/Logiciels/MinGW/include/winsvc.h
  C:/Logiciels/MinGW/include/winuser.h
@@ -2603,9 +2607,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Exporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -2686,9 +2690,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -2767,9 +2771,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -2848,9 +2852,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -2929,9 +2933,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3007,9 +3011,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3085,9 +3089,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3166,9 +3170,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3248,9 +3252,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3330,9 +3334,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3427,9 +3431,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3511,9 +3515,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3593,9 +3597,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3675,9 +3679,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3753,9 +3757,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -3841,6 +3845,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -3927,6 +3932,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -4007,6 +4013,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -4087,6 +4094,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Importer.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -4178,6 +4186,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -4321,9 +4330,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -4400,9 +4409,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -4483,9 +4492,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -4561,9 +4570,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -4640,9 +4649,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -4728,9 +4737,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -4807,9 +4816,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -4896,9 +4905,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -4974,9 +4983,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5048,9 +5057,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5126,9 +5135,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5210,9 +5219,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5289,9 +5298,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5367,9 +5376,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5446,9 +5455,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5526,9 +5535,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5605,9 +5614,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5679,9 +5688,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5757,9 +5766,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5834,9 +5843,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5908,9 +5917,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -5986,9 +5995,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -6062,9 +6071,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -6137,9 +6146,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -6214,9 +6223,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -6291,9 +6300,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -6371,6 +6380,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -6451,6 +6461,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -6531,6 +6542,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -6611,6 +6623,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -6691,9 +6704,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -6773,9 +6786,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -6855,9 +6868,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -6930,9 +6943,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7006,9 +7019,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7083,9 +7096,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7187,9 +7200,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7269,9 +7282,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7379,6 +7392,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj
  C:/Logiciels/MinGW/include/prsht.h
  C:/Logiciels/MinGW/include/pshpack2.h
  C:/Logiciels/MinGW/include/pshpack4.h
+ C:/Logiciels/MinGW/include/reason.h
  C:/Logiciels/MinGW/include/rpc.h
  C:/Logiciels/MinGW/include/rpcdce.h
  C:/Logiciels/MinGW/include/rpcdcep.h
@@ -7386,10 +7400,10 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj
  C:/Logiciels/MinGW/include/rpcnsi.h
  C:/Logiciels/MinGW/include/rpcnsip.h
  C:/Logiciels/MinGW/include/rpcnterr.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/shellapi.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7410,7 +7424,6 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj
  C:/Logiciels/MinGW/include/winreg.h
  C:/Logiciels/MinGW/include/winresrc.h
  C:/Logiciels/MinGW/include/winsock.h
- C:/Logiciels/MinGW/include/winsock2.h
  C:/Logiciels/MinGW/include/winspool.h
  C:/Logiciels/MinGW/include/winsvc.h
  C:/Logiciels/MinGW/include/winuser.h
@@ -7521,6 +7534,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj
  C:/Logiciels/MinGW/include/prsht.h
  C:/Logiciels/MinGW/include/pshpack2.h
  C:/Logiciels/MinGW/include/pshpack4.h
+ C:/Logiciels/MinGW/include/reason.h
  C:/Logiciels/MinGW/include/rpc.h
  C:/Logiciels/MinGW/include/rpcdce.h
  C:/Logiciels/MinGW/include/rpcdcep.h
@@ -7528,10 +7542,10 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj
  C:/Logiciels/MinGW/include/rpcnsi.h
  C:/Logiciels/MinGW/include/rpcnsip.h
  C:/Logiciels/MinGW/include/rpcnterr.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/shellapi.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7552,7 +7566,6 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj
  C:/Logiciels/MinGW/include/winreg.h
  C:/Logiciels/MinGW/include/winresrc.h
  C:/Logiciels/MinGW/include/winsock.h
- C:/Logiciels/MinGW/include/winsock2.h
  C:/Logiciels/MinGW/include/winspool.h
  C:/Logiciels/MinGW/include/winsvc.h
  C:/Logiciels/MinGW/include/winuser.h
@@ -7662,6 +7675,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj
  C:/Logiciels/MinGW/include/prsht.h
  C:/Logiciels/MinGW/include/pshpack2.h
  C:/Logiciels/MinGW/include/pshpack4.h
+ C:/Logiciels/MinGW/include/reason.h
  C:/Logiciels/MinGW/include/rpc.h
  C:/Logiciels/MinGW/include/rpcdce.h
  C:/Logiciels/MinGW/include/rpcdcep.h
@@ -7669,10 +7683,10 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj
  C:/Logiciels/MinGW/include/rpcnsi.h
  C:/Logiciels/MinGW/include/rpcnsip.h
  C:/Logiciels/MinGW/include/rpcnterr.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/shellapi.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7693,7 +7707,6 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj
  C:/Logiciels/MinGW/include/winreg.h
  C:/Logiciels/MinGW/include/winresrc.h
  C:/Logiciels/MinGW/include/winsock.h
- C:/Logiciels/MinGW/include/winsock2.h
  C:/Logiciels/MinGW/include/winspool.h
  C:/Logiciels/MinGW/include/winsvc.h
  C:/Logiciels/MinGW/include/winuser.h
@@ -7770,9 +7783,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7845,9 +7858,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7921,9 +7934,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -7996,9 +8009,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8078,9 +8091,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8156,9 +8169,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8230,9 +8243,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8308,9 +8321,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8387,9 +8400,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8462,9 +8475,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8538,9 +8551,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8615,9 +8628,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8689,9 +8702,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8763,9 +8776,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8844,9 +8857,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8918,9 +8931,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -8996,9 +9009,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9077,9 +9090,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9151,9 +9164,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9234,9 +9247,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9308,9 +9321,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9382,9 +9395,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9460,9 +9473,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9542,9 +9555,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9623,9 +9636,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9705,9 +9718,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9783,9 +9796,9 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9894,6 +9907,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj
  C:/Logiciels/MinGW/include/prsht.h
  C:/Logiciels/MinGW/include/pshpack2.h
  C:/Logiciels/MinGW/include/pshpack4.h
+ C:/Logiciels/MinGW/include/reason.h
  C:/Logiciels/MinGW/include/rpc.h
  C:/Logiciels/MinGW/include/rpcdce.h
  C:/Logiciels/MinGW/include/rpcdcep.h
@@ -9901,10 +9915,10 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj
  C:/Logiciels/MinGW/include/rpcnsi.h
  C:/Logiciels/MinGW/include/rpcnsip.h
  C:/Logiciels/MinGW/include/rpcnterr.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/shellapi.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
- C:/Logiciels/MinGW/include/stdio.h
  C:/Logiciels/MinGW/include/stdlib.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
@@ -9925,7 +9939,6 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj
  C:/Logiciels/MinGW/include/winreg.h
  C:/Logiciels/MinGW/include/winresrc.h
  C:/Logiciels/MinGW/include/winsock.h
- C:/Logiciels/MinGW/include/winsock2.h
  C:/Logiciels/MinGW/include/winspool.h
  C:/Logiciels/MinGW/include/winsvc.h
  C:/Logiciels/MinGW/include/winuser.h
@@ -10032,6 +10045,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj
  C:/Logiciels/MinGW/include/prsht.h
  C:/Logiciels/MinGW/include/pshpack2.h
  C:/Logiciels/MinGW/include/pshpack4.h
+ C:/Logiciels/MinGW/include/reason.h
  C:/Logiciels/MinGW/include/rpc.h
  C:/Logiciels/MinGW/include/rpcdce.h
  C:/Logiciels/MinGW/include/rpcdcep.h
@@ -10039,6 +10053,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj
  C:/Logiciels/MinGW/include/rpcnsi.h
  C:/Logiciels/MinGW/include/rpcnsip.h
  C:/Logiciels/MinGW/include/rpcnterr.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/shellapi.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
@@ -10063,7 +10078,6 @@ third-party/assimp/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj
  C:/Logiciels/MinGW/include/winreg.h
  C:/Logiciels/MinGW/include/winresrc.h
  C:/Logiciels/MinGW/include/winsock.h
- C:/Logiciels/MinGW/include/winsock2.h
  C:/Logiciels/MinGW/include/winspool.h
  C:/Logiciels/MinGW/include/winsvc.h
  C:/Logiciels/MinGW/include/winuser.h
@@ -10149,6 +10163,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj
  C:/Logiciels/MinGW/include/limits.h
  C:/Logiciels/MinGW/include/math.h
  C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/signal.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/stdio.h
@@ -10215,17 +10230,20 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj
  C:/Logiciels/MinGW/include/_mingw.h
  C:/Logiciels/MinGW/include/assert.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.cc
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj
  C:/Logiciels/MinGW/include/_mingw.h
  C:/Logiciels/MinGW/include/assert.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj
  C:/Logiciels/MinGW/include/_mingw.h
  C:/Logiciels/MinGW/include/assert.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.cc
@@ -10236,6 +10254,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep
  C:/Logiciels/MinGW/include/_mingw.h
  C:/Logiciels/MinGW/include/assert.h
  C:/Logiciels/MinGW/include/math.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/utils.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
@@ -10245,6 +10264,7 @@ third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep
 third-party/assimp/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj
  C:/Logiciels/MinGW/include/_mingw.h
  C:/Logiciels/MinGW/include/assert.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/common/shapes.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h
  C:/Users/bruno/Documents/GitHub/HeroKart/third-party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cc

@@ -46,7 +46,7 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 				obj->sphere(1,32,16); //A changer par une flaque
 				obj->build();
 				obj->LoadTexture("../textures/sky.jpg"); //A changer par une texture d'acide
-				obj->setHitboxSize(1);
+				obj->setHitbox(glm::vec3(1,1,1));
 				obj->setPosition(kart.getPosition()-glm::vec3(3*kart.getDirection().x,3*kart.getDirection().y,3*kart.getDirection().z));
 				obj->setDirection(kart.getDirection());
 				obj->setAngle(kart.getAngle());

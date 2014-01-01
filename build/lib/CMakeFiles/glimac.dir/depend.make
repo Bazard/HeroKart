@@ -8,6 +8,7 @@ lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
+lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 lib/CMakeFiles/glimac.dir/src/Program.cpp.obj: ../lib/src/Program.cpp
 
@@ -17,6 +18,7 @@ lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: C:/Logiciels/MinGW/include/GL/gl.h
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: C:/Logiciels/MinGW/include/GL/glu.h
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
+lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj: ../lib/src/Shader.cpp
 

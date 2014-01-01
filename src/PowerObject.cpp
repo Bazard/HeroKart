@@ -160,6 +160,7 @@ bool PowerObject::tooFar(){
 }
 
 bool PowerObject::isPerimed(int tStart){
+
 	if(timeOfUse<=0)
 		return false;
 
@@ -175,6 +176,7 @@ void PowerObject::hitKart(Kart& kart, int id, int tStart){
 		stock==-1;
 		return;
 	}
+		std::cout << "Hit" << std::endl;
 		stock=id;
 		timeOfUse=tStart;
 		
@@ -197,6 +199,7 @@ void PowerObject::hitKart(Kart& kart, int id, int tStart){
 }
 
 void PowerObject::hitKartBack(std::vector<Kart*>& karts){
+
 	if(stock==-1){
 		return;
 	}

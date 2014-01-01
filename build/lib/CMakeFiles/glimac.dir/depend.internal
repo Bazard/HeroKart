@@ -9,6 +9,7 @@ lib/CMakeFiles/glimac.dir/src/Program.cpp.obj
  C:/Logiciels/MinGW/include/GL/glu.h
  C:/Logiciels/MinGW/include/_mingw.h
  C:/Logiciels/MinGW/include/inttypes.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Users/bruno/Documents/GitHub/HeroKart/lib/src/Program.cpp
 lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj
@@ -18,5 +19,6 @@ lib/CMakeFiles/glimac.dir/src/Shader.cpp.obj
  C:/Logiciels/MinGW/include/GL/glu.h
  C:/Logiciels/MinGW/include/_mingw.h
  C:/Logiciels/MinGW/include/inttypes.h
+ C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Users/bruno/Documents/GitHub/HeroKart/lib/src/Shader.cpp

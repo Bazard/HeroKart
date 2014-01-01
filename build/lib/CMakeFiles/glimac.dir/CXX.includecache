@@ -41,6 +41,8 @@ GL/gl.h
 -
 
 C:/Logiciels/MinGW/include/_mingw.h
+sdkddkver.h
+-
 
 C:/Logiciels/MinGW/include/inttypes.h
 _mingw.h
@@ -50,7 +52,13 @@ stdint.h
 stddef.h
 -
 
+C:/Logiciels/MinGW/include/sdkddkver.h
+_mingw.h
+-
+
 C:/Logiciels/MinGW/include/stdint.h
+_mingw.h
+-
 stddef.h
 -
 

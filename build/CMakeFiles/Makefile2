@@ -58,10 +58,10 @@ CMAKE_BINARY_DIR = C:\Users\bruno\Documents\GitHub\HeroKart\build
 # Target rules for target CMakeFiles/HeroKart.dir
 
 # All Build rule for target.
+CMakeFiles/HeroKart.dir/all: third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/all
 CMakeFiles/HeroKart.dir/all: third-party/glew-1.10.0/CMakeFiles/glew.dir/all
 CMakeFiles/HeroKart.dir/all: lib/CMakeFiles/glimac.dir/all
 CMakeFiles/HeroKart.dir/all: third-party/assimp/code/CMakeFiles/assimp.dir/all
-CMakeFiles/HeroKart.dir/all: third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/all
 	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/depend
 	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\build\CMakeFiles  1 2 3 4 5 6 7

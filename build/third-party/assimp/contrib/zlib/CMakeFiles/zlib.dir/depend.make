@@ -33,6 +33,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/prsht.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/pshpack2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/pshpack4.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/reason.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/rpc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/rpcdce.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/rpcdcep.h
@@ -40,6 +41,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/rpcnsi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/rpcnsip.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/rpcnterr.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/shellapi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/stdint.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/stdio.h
@@ -61,7 +63,6 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/winreg.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/winresrc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/winsock.h
-third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/winsock2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/winspool.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/winsvc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: C:/Logiciels/MinGW/include/winuser.h
@@ -103,6 +104,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/prsht.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/pshpack2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/pshpack4.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/reason.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/rpc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/rpcdce.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/rpcdcep.h
@@ -110,6 +112,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/rpcnsi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/rpcnsip.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/rpcnterr.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/shellapi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/stdint.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/stdlib.h
@@ -130,7 +133,6 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/winreg.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/winresrc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/winsock.h
-third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/winsock2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/winspool.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/winsvc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: C:/Logiciels/MinGW/include/winuser.h
@@ -173,6 +175,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/Mi
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/prsht.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/pshpack2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/pshpack4.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/reason.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/rpc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/rpcdce.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/rpcdcep.h
@@ -180,6 +183,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/Mi
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/rpcnsi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/rpcnsip.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/rpcnterr.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/shellapi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/stdint.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/stdio.h
@@ -201,7 +205,6 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/Mi
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/winreg.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/winresrc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/winsock.h
-third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/winsock2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/winspool.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/winsvc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: C:/Logiciels/MinGW/include/winuser.h
@@ -245,6 +248,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/prsht.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/pshpack2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/pshpack4.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/reason.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/rpc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/rpcdce.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/rpcdcep.h
@@ -252,6 +256,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/rpcnsi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/rpcnsip.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/rpcnterr.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/shellapi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/stdint.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/stdio.h
@@ -273,7 +278,6 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/winreg.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/winresrc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/winsock.h
-third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/winsock2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/winspool.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/winsvc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: C:/Logiciels/MinGW/include/winuser.h
@@ -317,6 +321,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/prsht.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/pshpack2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/pshpack4.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/reason.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/rpc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/rpcdce.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/rpcdcep.h
@@ -324,6 +329,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/rpcnsi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/rpcnsip.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/rpcnterr.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/shellapi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/stdint.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/stdio.h
@@ -345,7 +351,6 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/winreg.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/winresrc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/winsock.h
-third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/winsock2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/winspool.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/winsvc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: C:/Logiciels/MinGW/include/winuser.h
@@ -391,6 +396,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/prsht.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/pshpack2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/pshpack4.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/reason.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/rpc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/rpcdce.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/rpcdcep.h
@@ -398,6 +404,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/rpcnsi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/rpcnsip.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/rpcnterr.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/shellapi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/stdint.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/stdio.h
@@ -419,7 +426,6 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/winreg.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/winresrc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/winsock.h
-third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/winsock2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/winspool.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/winsvc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: C:/Logiciels/MinGW/include/winuser.h
@@ -466,6 +472,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/prsht.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/pshpack2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/pshpack4.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/reason.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/rpc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/rpcdce.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/rpcdcep.h
@@ -473,6 +480,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/rpcnsi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/rpcnsip.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/rpcnterr.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/shellapi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/stdint.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/stdio.h
@@ -494,7 +502,6 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/winreg.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/winresrc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/winsock.h
-third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/winsock2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/winspool.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/winsvc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: C:/Logiciels/MinGW/include/winuser.h
@@ -539,6 +546,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/Mi
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/prsht.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/pshpack2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/pshpack4.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/reason.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/rpc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/rpcdce.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/rpcdcep.h
@@ -546,6 +554,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/Mi
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/rpcnsi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/rpcnsip.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/rpcnterr.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/shellapi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/stdint.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/stdio.h
@@ -567,7 +576,6 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/Mi
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/winreg.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/winresrc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/winsock.h
-third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/winsock2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/winspool.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/winsvc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: C:/Logiciels/MinGW/include/winuser.h
@@ -612,6 +620,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/Mi
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/prsht.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/pshpack2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/pshpack4.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/reason.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/rpc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/rpcdce.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/rpcdcep.h
@@ -619,6 +628,7 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/Mi
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/rpcnsi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/rpcnsip.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/rpcnterr.h
+third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/shellapi.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/stdint.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/stdio.h
@@ -640,7 +650,6 @@ third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/Mi
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/winreg.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/winresrc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/winsock.h
-third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/winsock2.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/winspool.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/winsvc.h
 third-party/assimp/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: C:/Logiciels/MinGW/include/winuser.h

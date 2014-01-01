@@ -305,7 +305,7 @@ Object3D::Object3D(const Object3D& obj){
 	angle=obj.angle;
 	m_Vertices=obj.m_Vertices;
 	m_nVertexCount=obj.m_nVertexCount;
-	hitboxSize=obj.hitboxSize;
+	hitbox=obj.hitbox;
 	build();
 }
 
@@ -317,94 +317,54 @@ Object3D::Object3D(const Object3D& obj){
 
 // Teste si l'objet entre en collision avec un autre objet
 bool Object3D::isInCollision(Object3D &other){
-	if(!other.isVisible())
-		return false;
-    // Variables de collision selon les différents axes
-    bool collision_x = false;
-    bool collision_y = false;
-    bool collision_z = false;
+    if(!other.isVisible())
+        return false;
 
-    // Position de l'objet sur lequel est appelé la fonction
-    float x1 = pos.x;
-    float y1 = pos.y;
-    float z1 = pos.z;
-    float h1 = hitboxSize;
-//std::cout << h1 << std::endl;
-    // Position de l'autre objet 
-    float x2 = other.pos.x;
-    float y2 = other.pos.y;
-    float z2 = other.pos.z;
-    float h2 = other.hitboxSize;
-//std::cout << x2 << std::endl;
-//std::cout << h2 << std::endl;
-
-    // Teste si les 2 objets sont en collision sur l'axe x
-    if( ((x2-h2 <= x1+h1) && (x1+h1 <= x2+h2)) || ((x2-h2 <= x1-h1) && (x1-h1 <= x2+h2)) ){
-        collision_x = true;
-    }
-
-    // Teste si les 2 objets sont en collision sur l'axe y
-    if( ((y2-h2 <= y1+h1) && (y1+h1 <= y2+h2)) || ((y2-h2 <= y1-h1) && (y1-h1 <= y2+h2)) ){
-        collision_y = true;
-    }
-
-    // Teste si les 2 objets sont en collision sur l'axe z
-    if( ((z2-h2 <= z1+h1) && (z1+h1 <= z2+h2)) || ((z2-h2 <= z1-h1) && (z1-h1 <= z2+h2)) ){
-        collision_z = true;
-    }
-
-
-    if(collision_x==true && collision_y==true && collision_z==true){
-        // std::cout << "collision !" << std::endl;
-        return true;
-    }else{
-        // std::cout << "pas collision..." << std::endl;
+    // Si on est en dehors de la hitbox, il n'y a pas collision
+    if( (pos.x+hitbox.x <= other.pos.x-other.hitbox.x)  // Trop à gauche sur x
+     || (pos.x-hitbox.x >= other.pos.x+other.hitbox.x)  // Trop à droite sur x
+    // || (pos.y+hitbox.y <= other.pos.y-other.hitbox.y)  // Trop en haut sur y
+    // || (pos.y-hitbox.y >= other.pos.y+other.hitbox.y)  // Trop en bas sur y
+     || (pos.z+hitbox.z <= other.pos.z-other.hitbox.z)  // Trop au dessus sur z
+     || (pos.z-hitbox.z >= other.pos.z+other.hitbox.z)){ // Trop en dessous sur z
+    //    std::cout << "pas collision..." << std::endl;
         return false;
     }
+    else{
+    //    std::cout << "collision !" << std::endl;
+        return true;}
 }
 
 
 // Empêche les collisions entre objets
 void Object3D::avoidCollision(Object3D &other){
-    // Position de l'objet sur lequel est appelé la fonction
-	float x1 = pos.x;
-    float y1 = pos.y;
-    float z1 = pos.z;
-    float h1 = hitboxSize;
-
-    // Position de l'autre objet 
-    float x2 = other.pos.x;
-    float y2 = other.pos.y;
-    float z2 = other.pos.z;
-    float h2 = other.hitboxSize;
-
     // Si les 2 objets sont en collision sur l'axe x à gauche
-    if( (x2-h2 <= x1+h1) && (x1+h1 <= x2) ){
-        pos=glm::vec3(x2-h2-h1, y1, z1);        
+    if( (other.pos.x-other.hitbox.x <= pos.x+hitbox.x) && (pos.x+hitbox.x <= other.pos.x) ){
+        pos=glm::vec3(other.pos.x-other.hitbox.x-hitbox.x, pos.y, pos.z);        
     }
 
     // Si les 2 objets sont en collision sur l'axe x à droite
-    if( (x2 <= x1-h1) && (x1-h1 <= x2+h2) ){
-        pos=glm::vec3(x2+h2+h1, y1, z1);        
+    if( (other.pos.x <= pos.x-hitbox.x) && (pos.x-hitbox.x <= other.pos.x+other.hitbox.x) ){
+        pos=glm::vec3(other.pos.x+other.hitbox.x+hitbox.x, pos.y, pos.z);        
     }
 
-    // Si les 2 objets sont en collision sur l'axe y à gauche
-    if( (y2-h2 <= y1+h1) && (y1+h1 <= y2) ){
-       pos=glm::vec3(x1, y2-h2-h1, z1);        
+/*    // Si les 2 objets sont en collision sur l'axe y à gauche
+    if( (other.pos.y-other.hitbox.y <= pos.y+hitbox.y) && (pos.y+hitbox.y <= other.pos.y) ){
+       pos=glm::vec3(pos.x, other.pos.y-other.hitbox.y-hitbox.y, pos.z);        
     }
 
     // Si les 2 objets sont en collision sur l'axe y à droite
-    if( (y2 <= y1-h1) && (y1-h1 <= y2+h2) ){
-        pos=glm::vec3(x1, y2-h2-h1, z1);        
+    if( (other.pos.y <= pos.y-hitbox.y) && (pos.y-hitbox.y <= other.pos.y+other.hitbox.y) ){
+        pos=glm::vec3(pos.x, other.pos.y-other.hitbox.y-hitbox.y, pos.z);        
     }
-
+*/
     // Si les 2 objets sont en collision sur l'axe z à gauche
-    if( (z2-h2 <= z1+h1) && (z1+h1 <= z2) ){
-        pos=glm::vec3(x1, y1, z2-h2-h1);        
+    if( (other.pos.z-other.hitbox.z <= pos.z+hitbox.z) && (pos.z+hitbox.z <= other.pos.z) ){
+        pos=glm::vec3(pos.x, pos.y, other.pos.z-other.hitbox.z-hitbox.z);        
     }
 
     // Si les 2 objets sont en collision sur l'axe z à droite
-    if( (z2 <= z1-h1) && (z1-h1 <= z2+h2) ){
-        pos=glm::vec3(x1, y1, z2+h2+h1);        
+    if( (other.pos.z <= pos.z-hitbox.z) && (pos.z-hitbox.z <= other.pos.z+other.hitbox.z) ){
+        pos=glm::vec3(pos.x, pos.y, other.pos.z+other.hitbox.z+hitbox.z);        
     }
 }
