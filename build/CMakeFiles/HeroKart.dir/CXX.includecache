@@ -428,23 +428,9 @@ _mingw.h
 stddef.h
 -
 
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.cpp
-Character.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
-PowerObject.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
-iostream
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
+glm/glm.hpp
 -
-
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
-Kart.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
-vector
--
-
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
-Object3D.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 vector
@@ -460,9 +446,17 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
 VAO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
 
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.cpp
+Track.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
+
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
 Object3D.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
-Kart.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
+vector
+-
+string
+-
+Node.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
 

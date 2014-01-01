@@ -315,6 +315,30 @@ src/Menu.cpp.s:
 	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Menu.cpp.s
 .PHONY : src/Menu.cpp.s
 
+src/Node.obj: src/Node.cpp.obj
+.PHONY : src/Node.obj
+
+# target to build an object file
+src/Node.cpp.obj:
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Node.cpp.obj
+.PHONY : src/Node.cpp.obj
+
+src/Node.i: src/Node.cpp.i
+.PHONY : src/Node.i
+
+# target to preprocess a source file
+src/Node.cpp.i:
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Node.cpp.i
+.PHONY : src/Node.cpp.i
+
+src/Node.s: src/Node.cpp.s
+.PHONY : src/Node.s
+
+# target to generate assembly for a file
+src/Node.cpp.s:
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Node.cpp.s
+.PHONY : src/Node.cpp.s
+
 src/Object3D.obj: src/Object3D.cpp.obj
 .PHONY : src/Object3D.obj
 
@@ -489,6 +513,9 @@ help:
 	@echo ... src/Menu.obj
 	@echo ... src/Menu.i
 	@echo ... src/Menu.s
+	@echo ... src/Node.obj
+	@echo ... src/Node.i
+	@echo ... src/Node.s
 	@echo ... src/Object3D.obj
 	@echo ... src/Object3D.i
 	@echo ... src/Object3D.s

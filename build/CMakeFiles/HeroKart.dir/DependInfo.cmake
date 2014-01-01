@@ -8,6 +8,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Game.cpp.obj"
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Kart.cpp.obj"
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/Menu.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Menu.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Node.cpp.obj"
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj"
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj"
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/build/CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj"

@@ -31,7 +31,7 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 					sphere(1,32,16);
 					build();
 					LoadTexture("../textures/sky.jpg"); //A changer par une mine
-					pos=vecKart[idLanceur]->getPosition();
+					pos=vecKart[idLanceur]->getPosition()+glm::vec3(3*vecKart[idLanceur]->getDirection().x,3*vecKart[idLanceur]->getDirection().y,3*vecKart[idLanceur]->getDirection().z);
 					dir=vecKart[idLanceur]->getDirection();
 					angle=vecKart[idLanceur]->getAngle();
 					objs.push_back(this);
@@ -43,7 +43,7 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 					sphere(1,32,16);
 					build();
 					LoadTexture("../textures/EarthMap.jpg"); //A changer par une mine
-					pos=vecKart[idLanceur]->getPosition();
+					pos=vecKart[idLanceur]->getPosition()-glm::vec3(3*vecKart[idLanceur]->getDirection().x,3*vecKart[idLanceur]->getDirection().y,3*vecKart[idLanceur]->getDirection().z);
 					objs.push_back(this);
 					retour=1;
 					break;
@@ -77,7 +77,7 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 					sphere(1,32,16);
 					build();
 					LoadTexture("../textures/triforce.jpg"); //A changer par un piege
-					pos=vecKart[idLanceur]->getPosition();
+					pos=vecKart[idLanceur]->getPosition()-glm::vec3(3*vecKart[idLanceur]->getDirection().x,3*vecKart[idLanceur]->getDirection().y,3*vecKart[idLanceur]->getDirection().z);
 					objs.push_back(this);
 					retour=1;
 					break;
