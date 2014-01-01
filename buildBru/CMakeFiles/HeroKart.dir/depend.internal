@@ -77,6 +77,7 @@ CMakeFiles/HeroKart.dir/src/Character.cpp.obj
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj
@@ -298,6 +299,7 @@ CMakeFiles/HeroKart.dir/src/Kart.cpp.obj
  C:/Logiciels/MinGW/include/stdint.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj
  ../lib/include/Program.hpp
@@ -619,6 +621,7 @@ CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj
@@ -696,6 +699,7 @@ CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj
  C:/Logiciels/MinGW/include/stdint.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
@@ -776,6 +780,7 @@ CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj
  C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/stdint.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h

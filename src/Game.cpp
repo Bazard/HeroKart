@@ -98,13 +98,17 @@ int Game::playTrack(Track& track){
 	//Element de décor test
 	Object3D elementDecor;
 	elementDecor.sphere(1,32,16);
-	elementDecor.setScale(glm::vec3(3,3,3));
-	elementDecor.setPosition(glm::vec3(5,0,5));
-	elementDecor.setHitbox(glm::vec3(2.5, 2.5, 2.5));
+	elementDecor.setScale(glm::vec3(1,1,1));
+	elementDecor.setPosition(glm::vec3(-10,0,10));
+	elementDecor.setHitbox(glm::vec3(0));
 	elementDecor.build();
 	elementDecor.LoadTexture("../textures/EarthMap.jpg");
 	track.push_back(elementDecor);
 
+	//On donne le prochain noeud pour que les IA s'y dirigent
+	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
+		(*it)->setNodeTo(track.getNodeStart()->next);
+	}
 	
 	PowerObject *obj=NULL;
 	bool done=false;
@@ -127,11 +131,16 @@ int Game::playTrack(Track& track){
 	
 
 		//Kart (boucle sur tous les karts)
-		for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
-			(*it)->getVAO().bind();		//Bind du VAO
-			(*it)->TransfoMatrix(ViewMatrix,(*it)->getPosition()); //Transformations (View, Translation, anglerotation,scale)
-			(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
-			(*it)->Draw(uTex);	//Draw de l'objet
+		for (int id=0;id<8;++id){
+			if(id==1){
+				//Deplacement IA
+				Karts[id]->moveIA();
+			}
+				
+			Karts[id]->getVAO().bind();		//Bind du VAO
+			Karts[id]->TransfoMatrix(ViewMatrix,Karts[id]->getPosition()); //Transformations (View, Translation, anglerotation,scale)
+			Karts[id]->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
+			Karts[id]->Draw(uTex);	//Draw de l'objet
 		}
 		
 		//Pouvoirs  (boucle sur tous les persos)

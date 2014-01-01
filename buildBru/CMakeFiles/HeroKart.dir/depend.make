@@ -76,6 +76,7 @@ CMakeFiles/HeroKart.dir/src/Character.cpp.obj: C:/Logiciels/MinGW/include/stdint
 CMakeFiles/HeroKart.dir/src/Character.cpp.obj: ../src/Character.cpp
 CMakeFiles/HeroKart.dir/src/Character.cpp.obj: ../src/Character.h
 CMakeFiles/HeroKart.dir/src/Character.cpp.obj: ../src/Kart.h
+CMakeFiles/HeroKart.dir/src/Character.cpp.obj: ../src/Node.h
 CMakeFiles/HeroKart.dir/src/Character.cpp.obj: ../src/Object3D.h
 CMakeFiles/HeroKart.dir/src/Character.cpp.obj: ../src/PowerObject.h
 
@@ -297,6 +298,7 @@ CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Kart.cpp
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Kart.h
+CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Node.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Object3D.h
 
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: ../lib/include/Program.hpp
@@ -618,6 +620,7 @@ CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/stdint.
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/string.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/sys/types.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Kart.h
+CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Node.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.cpp
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.h
 
@@ -695,6 +698,7 @@ CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/sdkddkv
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/Character.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/Kart.h
+CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/Node.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/Object3D.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/PlayerIA.cpp
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/PlayerIA.h
@@ -775,6 +779,7 @@ CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/intt
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/Kart.h
+CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/Node.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/Object3D.h
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/PowerObject.cpp
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/PowerObject.h

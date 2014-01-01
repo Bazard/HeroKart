@@ -1,5 +1,6 @@
 #pragma once
 #include "Object3D.h"
+#include "Node.h"
 
 class Kart: public Object3D
 {
@@ -9,7 +10,7 @@ private:
 	float speedmax;
 	float speed;
 	float poids;
-	
+	Node* nodeTo;
 	
 public:
 	bool back;
@@ -33,5 +34,9 @@ public:
 	
 	void setAcceleration(float a){ 	acceleration=a;}
 	float getAcceleration(){ return acceleration;}
+	
+	void setNodeTo(Node* node){nodeTo=node;}
+	
+	void moveIA();
 };
 

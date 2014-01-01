@@ -17,5 +17,6 @@ public:
 	~Track();
 	std::vector<Object3D*>& getMapObjects() {return mapObjects;}
 	void push_back(Object3D& obj);
+	Node* getNodeStart(){return nodeStart;}
 };
 

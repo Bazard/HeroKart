@@ -4,11 +4,11 @@
 
 #define EPSILON 0.00001
 
-Kart::Kart():tourne(2.f), acceleration(0.1f), speed(0),speedmax(0.5), back(false), poids(5),invincible(false),intouchable(false){
+Kart::Kart():tourne(2.f), acceleration(0.1f), speed(0),speedmax(0.5), back(false), poids(5),invincible(false),intouchable(false),nodeTo(NULL){
 	dir.z=1;
 }
 
-Kart::Kart(float tourne, float acceleration, float speedmax, float poids) :tourne(tourne), acceleration(acceleration), speedmax(speedmax), speed(0), back(false), poids(poids),invincible(false),intouchable(false)
+Kart::Kart(float tourne, float acceleration, float speedmax, float poids) :tourne(tourne), acceleration(acceleration), speedmax(speedmax), speed(0), back(false), poids(poids),invincible(false),intouchable(false),nodeTo(NULL)
 {
 	dir.z=1;
 }
@@ -80,4 +80,8 @@ void Kart::rotate(int sens){
 			angle+=tourne*coeff;
 		}
 	}
+}
+
+void Kart::moveIA(){
+	move(1);
 }

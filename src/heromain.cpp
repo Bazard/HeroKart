@@ -69,7 +69,7 @@ int main(int argc, char** argv) {
 	//Creation du championnat (plusieurs circuits)
 	Race race;
 	
-	int sortie=menuPrincipal(Characters,race.getTracks());
+	int sortie=redirection(Characters,race.getTracks());
 	
 	if(sortie==-1){
 		std::cout << "Sortie" << std::endl;
