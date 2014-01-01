@@ -49,10 +49,64 @@ int Game::playChampionShip(){
 
 int Game::playTrack(Track& track){
 
-	Program prog;
-	prog=loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
-	prog.use();
+	//Interface
+	Program prog2D;
+	prog2D = loadProgram("../shaders/tex2D.vs.glsl", "../shaders/tex2D.fs.glsl");
+	prog2D.use();
 	
+	VBO vbo;
+	vbo.bind(GL_ARRAY_BUFFER);
+	
+	Vertex2DUV vertices[] = {
+		Vertex2DUV(-0.5, -0.5, 0.0, 1.0),
+		Vertex2DUV(-0.5, 0.5, 0.0, 0.0),
+		Vertex2DUV(0.5, 0.5, 1.0, 0.0),
+		Vertex2DUV(0.5, -0.5, 1.0, 1.0),
+	};
+	//on remplit les donnees du bateau
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+
+	//on remet le bateau à la mer
+	vbo.debind(GL_ARRAY_BUFFER);
+
+	//Création du VAO
+	VAO vao;
+	//on binde le vao
+	vao.bind();
+	//on attribue une position 2D qui aura pour id 0
+	glEnableVertexAttribArray(0);
+	//on attribue une texture qui aura pour id 1
+	glEnableVertexAttribArray(1);
+	//on remet le bateau au port
+	vbo.bind(GL_ARRAY_BUFFER);
+	//on définit les paramètres des attributs (position 2D)
+	glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex2DUV), (const GLvoid*)(offsetof(Vertex2DUV, x)));
+	//on définit les paramètres des attributs (textures)
+	glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex2DUV), (const GLvoid*)(offsetof(Vertex2DUV, u)));
+	//on débinde le VBO
+	vbo.debind(GL_ARRAY_BUFFER);
+	//on débinde le VAO
+	vao.debind();
+	
+	GLint locVarTexture;
+	locVarTexture= glGetUniformLocation(prog2D.getGLId(), "uTexture");
+	
+	//On loade l'image
+	int img_width=0, img_height=0;
+	unsigned char* img;
+	img=SOIL_load_image("../textures/menuCircuit800.jpg", &img_width, &img_height, NULL, 0);
+	
+	//On créé la texture
+	GLuint idMenu;
+	glGenTextures(1, &idMenu);
+	glBindTexture(GL_TEXTURE_2D, idMenu);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	
+	Program prog;
+	prog = loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
+	prog.use();
 	
 	GLuint uMVPMatrix=glGetUniformLocation(prog.getGLId(),"uMVPMatrix");
 	GLuint uMVMatrix=glGetUniformLocation(prog.getGLId(),"uMVMatrix");
@@ -119,14 +173,24 @@ int Game::playTrack(Track& track){
 		Uint32 tStart = SDL_GetTicks();
 		
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+			//A decommenter (Marie)
+		// prog2D.use();
+		// vao.bind();
+		// glUniform1i(locVarTexture,0);
+		// glBindTexture(GL_TEXTURE_2D,idMenu);
+		// glUniform1i(locVarTexture,0);
+		// glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+		// glBindTexture(GL_TEXTURE_2D,0);
 		
-		//Camera
+		// prog.use();
 		
+		//Decalage camera
 		if(tStart-anglefile.front().second>330){
 			if(anglefile.size()>1)
 				anglefile.pop();
 		}
-		
+		//Camera
 		ViewMatrix=camera.getViewMatrix(Karts[0]->getPosition(), anglefile.front().first,Karts[0]->back);
 	
 

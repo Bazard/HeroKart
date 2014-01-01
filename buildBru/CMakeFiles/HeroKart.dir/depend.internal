@@ -86,6 +86,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj
  ../lib/include/TrackballCamera.hpp
  ../lib/include/VAO.hpp
  ../lib/include/VBO.hpp
+ ../lib/include/Vertex2DUV.hpp
  ../lib/include/common.hpp
  ../third-party/glew-1.10.0/include/GL/glew.h
  ../third-party/glm/glm/./core/_detail.hpp
@@ -189,6 +190,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj
  C:/Logiciels/MinGW/include/SDL/SDL_video.h
  C:/Logiciels/MinGW/include/SDL/begin_code.h
  C:/Logiciels/MinGW/include/SDL/close_code.h
+ C:/Logiciels/MinGW/include/SOIL/SOIL.h
  C:/Logiciels/MinGW/include/_mingw.h
  C:/Logiciels/MinGW/include/ctype.h
  C:/Logiciels/MinGW/include/errno.h
@@ -944,6 +946,7 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj
  ../lib/include/Shader.hpp
  ../lib/include/VAO.hpp
  ../lib/include/VBO.hpp
+ ../lib/include/Vertex2DUV.hpp
  ../lib/include/common.hpp
  ../third-party/glew-1.10.0/include/GL/glew.h
  ../third-party/glm/glm/./core/_detail.hpp
@@ -1049,6 +1052,7 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj
  C:/Logiciels/MinGW/include/SDL/SDL_video.h
  C:/Logiciels/MinGW/include/SDL/begin_code.h
  C:/Logiciels/MinGW/include/SDL/close_code.h
+ C:/Logiciels/MinGW/include/SOIL/SOIL.h
  C:/Logiciels/MinGW/include/_mingw.h
  C:/Logiciels/MinGW/include/ctype.h
  C:/Logiciels/MinGW/include/errno.h

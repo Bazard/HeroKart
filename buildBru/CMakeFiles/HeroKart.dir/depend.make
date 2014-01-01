@@ -85,6 +85,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../lib/include/Shader.hpp
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../lib/include/TrackballCamera.hpp
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../lib/include/VAO.hpp
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../lib/include/VBO.hpp
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../lib/include/Vertex2DUV.hpp
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../lib/include/common.hpp
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../third-party/glew-1.10.0/include/GL/glew.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: ../third-party/glm/glm/./core/_detail.hpp
@@ -188,6 +189,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_ver
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_video.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/begin_code.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/close_code.h
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SOIL/SOIL.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/ctype.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/errno.h
@@ -943,6 +945,7 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/Program.hpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/Shader.hpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/VAO.hpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/VBO.hpp
+CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/Vertex2DUV.hpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/common.hpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../third-party/glew-1.10.0/include/GL/glew.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../third-party/glm/glm/./core/_detail.hpp
@@ -1048,6 +1051,7 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_video.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/begin_code.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/close_code.h
+CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SOIL/SOIL.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/ctype.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/errno.h

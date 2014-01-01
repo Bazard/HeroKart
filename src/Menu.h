@@ -5,6 +5,8 @@
 #include <cstdlib>
 #include "Character.h"
 #include "Race.h"
+#include "Vertex2DUV.hpp"
+#include <SOIL/SOIL.h>
 
 static Uint32 WINDOW_WIDTH=800;
 static Uint32 WINDOW_HEIGHT=600;

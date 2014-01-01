@@ -16,8 +16,6 @@
 #include <SDL/SDL.h>
 #include <SDL/SDL_mixer.h>
 #include <GL/glew.h>
-#include "Vertex2DUV.hpp"
-#include <SOIL/SOIL.h>
 #include "Menu.h"
 
 static const Uint32 FPS = 30;
