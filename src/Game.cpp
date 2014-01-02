@@ -124,7 +124,7 @@ int Game::playTrack(Track& track){
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans powObject
-	PowerObject boost(BOOST,1000);
+	PowerObject boost(ATK_ALL,1000);
 	boost.sphere(1,32,16);
 	boost.setScale(glm::vec3(1,1,1));
 	boost.setPosition(glm::vec3(-10,0,10));
@@ -234,40 +234,39 @@ int Game::playTrack(Track& track){
 			if(id!=0){
 				//Deplacement IA
 				Karts[id]->moveIA();
+				Players[id]->usePower(Karts,id,tStart,track.getMapObjects());
 			}
 				
 			Karts[id]->getVAO().bind();		//Bind du VAO
 			Karts[id]->TransfoMatrix(ViewMatrix,Karts[id]->getPosition()); //Transformations (View, Translation, anglerotation,scale)
 			Karts[id]->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
 			Karts[id]->Draw(uTex);	//Draw de l'objet
-		}
-		
-		//Pouvoirs  (boucle sur tous les persos)
-		for (std::vector<PlayerIA*>::iterator it = Players.begin() ; it != Players.end(); ++it){
+			
 			//Pouvoirs Classiques
-			if((*it)->getPower()){
-				if((*it)->getPower()->isLaunched() && (*it)->getPower()->withKart()){
-					(*it)->getPower()->getVAO().bind();		//Bind du VAO
-					(*it)->getPower()->TransfoMatrix(ViewMatrix, (*it)->getKart().getPosition()); //Transformations (View, Translation, anglerotation,scale)
-					(*it)->getPower()->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
-					(*it)->getPower()->Draw(uTex);	//Draw de l'objet
+			if(Players[id]->getPower()){
+				if(Players[id]->getPower()->isLaunched() && Players[id]->getPower()->withKart()){
+					Players[id]->getPower()->getVAO().bind();		//Bind du VAO
+					Players[id]->getPower()->TransfoMatrix(ViewMatrix, Players[id]->getKart().getPosition()); //Transformations (View, Translation, anglerotation,scale)
+					Players[id]->getPower()->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT); //Envoi des matrices au shader
+					Players[id]->getPower()->Draw(uTex);	//Draw de l'objet
 				}
 				
-				if((*it)->getPower()->isLaunched() && (*it)->getPower()->isPerimed(tStart)){
-					(*it)->stopPower(Karts,0);
+				if(Players[id]->getPower()->isLaunched() && Players[id]->getPower()->isPerimed(tStart)){
+					Players[id]->stopPower(Karts,id);
 				}			
 			}
 			//Pouvoirs Speciaux
-			if((*it)->getCharacter().isLaunched()){
-				if((*it)->getCharacter().isPerimed(tStart)){
-					(*it)->getCharacter().useSuperPowerBack((*it)->getKart());
-					(*it)->getCharacter().hitSuperPowerBack(Karts);
+			if(Players[id]->getCharacter().isLaunched()){
+				if(Players[id]->getCharacter().isPerimed(tStart)){
+					Players[id]->getCharacter().useSuperPowerBack(Players[id]->getKart());
+					Players[id]->getCharacter().hitSuperPowerBack(Karts);
 				}
 				else {
-					(*it)->getCharacter().continuousHitSuperPower(Karts,(*it)->getKart());
+					Players[id]->getCharacter().continuousHitSuperPower(Karts,Players[id]->getKart());
 				}
 			}
 		}
+		
 		
 		//Dessin des objets de la map
 		for (std::vector<Object3D*>::iterator it = track.getMapObjects().begin() ; it != track.getMapObjects().end(); ++it){

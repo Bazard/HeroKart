@@ -21,9 +21,8 @@ void PlayerIA::usePower(std::vector<Kart*>& vecKart, int idLanceur, int tStart, 
 	if(object){
 		if(object->power(vecKart,idLanceur,tStart, objs)==1)
 			object=NULL;
-		}
-	else
-		std::cout << "Pas d'objet" << std::endl;
+	}
+
 }
 
 void PlayerIA::stopPower(std::vector<Kart*>& vecKart, int idLanceur){

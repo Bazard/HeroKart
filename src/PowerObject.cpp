@@ -16,12 +16,15 @@ PowerObject::~PowerObject()
 
 int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, std::vector<Object3D*>& objs){
 		int retour;
+		if(launched)
+			return 0;
+			
 		switch(type){
 			case BOOST:
 					visible=false; //Car ce n'est pas un objet visible
 					stock=vecKart[idLanceur]->getSpeedMax();
-					vecKart[idLanceur]->setSpeed(2*vecKart[idLanceur]->getSpeedMax());
-					vecKart[idLanceur]->setSpeedMax(3*vecKart[idLanceur]->getSpeedMax());
+					vecKart[idLanceur]->setSpeed(1.5*vecKart[idLanceur]->getSpeedMax());
+					vecKart[idLanceur]->setSpeedMax(2*vecKart[idLanceur]->getSpeedMax());
 					timeOfUse=tStart;
 					retour=0;
 					break;
@@ -94,7 +97,6 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 		switch(type){
 			case BOOST:
-					// vecKart[idLanceur]->setSpeed(stock);
 					vecKart[idLanceur]->setSpeedMax(stock);
 					delete(this);
 					break;
@@ -108,8 +110,8 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 			case ATK_ALL:
 					for(int i=0;i<vecKart.size();++i){
 						if(idLanceur!=i && !vecKart[i]->invincible){
-							vecKart[i]->setSpeed(vecKart[idLanceur]->getSpeedMax()/2);
-							vecKart[i]->setSpeedMax(2*vecKart[idLanceur]->getSpeedMax());
+							vecKart[i]->setSpeed(vecKart[i]->getSpeedMax());
+							vecKart[i]->setSpeedMax(2*vecKart[i]->getSpeedMax());
 							vecKart[i]->setScale(glm::vec3(2*vecKart[i]->getScale().x,2*vecKart[i]->getScale().y,2*vecKart[i]->getScale().z));
 						}
 					}
