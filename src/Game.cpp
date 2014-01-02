@@ -134,7 +134,7 @@ int Game::playTrack(Track& track){
 	//Ciel
 	Object3D sky;
 	sky.sphere(1,32,16);
-	sky.setScale(glm::vec3(30,30,30));
+	sky.setScale(glm::vec3(70,70,70));
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 	
@@ -153,12 +153,39 @@ int Game::playTrack(Track& track){
 	Object3D elementDecor;
 	elementDecor.sphere(1,32,16);
 	elementDecor.setScale(glm::vec3(1,1,1));
-	elementDecor.setPosition(glm::vec3(-10,0,10));
+	elementDecor.setPosition(glm::vec3(-30,0,30));
 	elementDecor.setHitbox(glm::vec3(0));
 	elementDecor.build();
 	elementDecor.LoadTexture("../textures/EarthMap.jpg");
 	track.push_back(elementDecor);
 
+	Object3D elementDecor2;
+	elementDecor2.sphere(1,32,16);
+	elementDecor2.setScale(glm::vec3(1,1,1));
+	elementDecor2.setPosition(glm::vec3(30,0,30));
+	elementDecor2.setHitbox(glm::vec3(0));
+	elementDecor2.build();
+	elementDecor2.LoadTexture("../textures/EarthMap.jpg");
+	track.push_back(elementDecor2);
+	
+	Object3D elementDecor3;
+	elementDecor3.sphere(1,32,16);
+	elementDecor3.setScale(glm::vec3(1,1,1));
+	elementDecor3.setPosition(glm::vec3(30,0,-30));
+	elementDecor3.setHitbox(glm::vec3(0));
+	elementDecor3.build();
+	elementDecor3.LoadTexture("../textures/EarthMap.jpg");
+	track.push_back(elementDecor3);
+	
+	Object3D elementDecor4;
+	elementDecor4.sphere(1,32,16);
+	elementDecor4.setScale(glm::vec3(1,1,1));
+	elementDecor4.setPosition(glm::vec3(-30,0,-30));
+	elementDecor4.setHitbox(glm::vec3(0));
+	elementDecor4.build();
+	elementDecor4.LoadTexture("../textures/EarthMap.jpg");
+	track.push_back(elementDecor4);
+	
 	//On donne le prochain noeud pour que les IA s'y dirigent
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
 		(*it)->setNodeTo(track.getNodeStart()->next);
@@ -196,7 +223,7 @@ int Game::playTrack(Track& track){
 
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
-			if(id==1){
+			if(id!=0){
 				//Deplacement IA
 				Karts[id]->moveIA();
 			}

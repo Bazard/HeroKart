@@ -108,7 +108,7 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 			case ATK_ALL:
 					for(int i=0;i<vecKart.size();++i){
 						if(idLanceur!=i && !vecKart[i]->invincible){
-							vecKart[i]->setSpeed(2*vecKart[idLanceur]->getSpeedMax());
+							vecKart[i]->setSpeed(vecKart[idLanceur]->getSpeedMax()/2);
 							vecKart[i]->setSpeedMax(2*vecKart[idLanceur]->getSpeedMax());
 							vecKart[i]->setScale(glm::vec3(2*vecKart[i]->getScale().x,2*vecKart[i]->getScale().y,2*vecKart[i]->getScale().z));
 						}
@@ -176,7 +176,7 @@ void PowerObject::hitKart(Kart& kart, int id, int tStart){
 		stock==-1;
 		return;
 	}
-		std::cout << "Hit" << std::endl;
+
 		stock=id;
 		timeOfUse=tStart;
 		

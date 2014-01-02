@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
 			return EXIT_FAILURE;
 		}
 
-		SDL_WM_SetCaption("OpenGL4Imacs", NULL);
+		SDL_WM_SetCaption("Hero Kaaaaart", NULL);
 
 		// Initialisation de OpenGL
 		GLenum glewCode = glewInit();
@@ -54,7 +54,7 @@ int main(int argc, char** argv) {
 	    }
 
 	    Mix_Music *musique; //Création du pointeur de type Mix_Music
-		musique = Mix_LoadMUS("../sounds/musique3.mp3"); //Chargement de la musique
+		musique = Mix_LoadMUS("../sounds/musique1.mp3"); //Chargement de la musique
 		Mix_PlayMusic(musique, -1); //Jouer infiniment la musique
 		
 	//Vecteur des Characters

@@ -10,6 +10,7 @@ public:
 	Node* next;
 	Node(int,glm::vec3);
 	Node(int,float,float,float);
+	glm::vec3 getPosition();
 	~Node();
 	
 };

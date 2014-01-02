@@ -80,8 +80,44 @@ void Kart::rotate(int sens){
 			angle+=tourne*coeff;
 		}
 	}
+	// angle=fmod(angle,360);
+	// if(angle>180) angle-=360;
+	// else if(angle<-180) angle+=360;
 }
 
 void Kart::moveIA(){
-	move(1);
+	float idle=0.05;
+	float angleNode,x,z;
+	
+	x=nodeTo->getPosition().x-pos.x;
+	z=nodeTo->getPosition().z-pos.z;
+	angleNode=atan(x/z)*180/M_PI-angle;
+	if(z<0){ 
+		if(angleNode<0) angleNode+=180;
+		else angleNode-=180;
+	}
+	
+	while(angleNode>180) angleNode-=360;
+	while(angleNode<-180) angleNode+=360;
+	
+	if(angleNode<5){
+		rotate(-1);
+	}
+	else if (angleNode>5){
+		rotate(1);
+	}
+	
+	if(speed > idle){
+		if(angleNode > -20 && angleNode < 20) move(1);
+		else if(angleNode > -100 && angleNode < 100) move(0);
+		else move(-1);
+	}
+	else {
+		move(1);
+	}
+	
+	if(nodeTo->getPosition().x-pos.x < 5 && nodeTo->getPosition().x-pos.x > -5 && nodeTo->getPosition().z-pos.z < 5 && nodeTo->getPosition().z-pos.z > -5){
+		nodeTo=nodeTo->next;
+	}
+	
 }

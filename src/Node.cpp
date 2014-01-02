@@ -9,6 +9,10 @@ Node::Node(int id,float x,float y ,float z):id(id){
 	position=glm::vec3(x,y,z);
 }
 
+glm::vec3 Node::getPosition(){
+	return position;
+}
+
 Node::~Node()
 {
 }

@@ -3,10 +3,10 @@
 
 Track::Track(std::string s):file(s)
 {
-Node* node1=new Node(0,-10,2,-10);
-Node* node2=new Node(0,-10,2,10);
-Node* node3=new Node(0,10,2,10);
-Node* node4=new Node(0,10,2,-10);
+Node* node1=new Node(0,-30,2,-30);
+Node* node2=new Node(0,-30,2,30);
+Node* node3=new Node(0,30,2,30);
+Node* node4=new Node(0,30,2,-30);
 
 nodeStart=node1;
 node1->next=node2;
