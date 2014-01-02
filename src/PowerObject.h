@@ -13,13 +13,14 @@ private:
 	int duration; //sa durée
 	int timeOfUse; //le moment quand le pouvoir est lancé
 	float stock; //stockage de donnée du kart si besoin
-	
+	bool pick; //Est-ce que l'objet est ramassable
 public:
 	PowerObject(typeEnum type, int duration);
 	PowerObject(const PowerObject& obj);
 	~PowerObject();
 	int getDuration(){return duration;}
 	int getTimeOfUse(){return timeOfUse;}
+	void setTimeOfUse(int t){timeOfUse=t;}
 	bool isLaunched() {return launched;}
 	int power(std::vector<Kart*>& vecKart, int idLanceur,int tStart, std::vector<Object3D*>& objs);
 	void powerBack(std::vector<Kart*>& vecKart, int idLanceur);

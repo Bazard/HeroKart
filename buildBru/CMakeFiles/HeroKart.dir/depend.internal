@@ -859,8 +859,10 @@ CMakeFiles/HeroKart.dir/src/Race.cpp.obj
  C:/Logiciels/MinGW/include/inttypes.h
  C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/stdint.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
@@ -937,8 +939,10 @@ CMakeFiles/HeroKart.dir/src/Track.cpp.obj
  C:/Logiciels/MinGW/include/inttypes.h
  C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/stdint.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj

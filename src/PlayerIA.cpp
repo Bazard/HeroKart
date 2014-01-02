@@ -10,9 +10,11 @@ PlayerIA::~PlayerIA()
 {
 }
 
-void PlayerIA::pickPower(const PowerObject& power){
-	if(!object)
+void PlayerIA::pickPower(PowerObject& power, int tStart){
+	if(!object){
 		object=new PowerObject(power);
+		power.setTimeOfUse(tStart);
+	}
 }
 
 void PlayerIA::usePower(std::vector<Kart*>& vecKart, int idLanceur, int tStart, std::vector<Object3D*>& objs){

@@ -17,7 +17,7 @@ public:
 	Kart& getKart(){return kart;}
 	Character& getCharacter(){return character;}
 	PowerObject* getPower();
-	void pickPower(const PowerObject& power);
+	void pickPower(PowerObject& power, int);
 	void usePower(std::vector<Kart*>& vecKart, int idLanceur, int tStart, std::vector<Object3D*>& objs);
 	void stopPower(std::vector<Kart*>& vecKart, int idLanceur);
 };

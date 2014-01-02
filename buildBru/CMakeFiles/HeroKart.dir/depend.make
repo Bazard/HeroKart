@@ -858,8 +858,10 @@ CMakeFiles/HeroKart.dir/src/Race.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
+CMakeFiles/HeroKart.dir/src/Race.cpp.obj: ../src/Kart.h
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: ../src/Node.h
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: ../src/Object3D.h
+CMakeFiles/HeroKart.dir/src/Race.cpp.obj: ../src/PowerObject.h
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: ../src/Race.cpp
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: ../src/Race.h
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: ../src/Track.h
@@ -936,8 +938,10 @@ CMakeFiles/HeroKart.dir/src/Track.cpp.obj: C:/Logiciels/MinGW/include/_mingw.h
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: C:/Logiciels/MinGW/include/inttypes.h
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: C:/Logiciels/MinGW/include/sdkddkver.h
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
+CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Kart.h
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Node.h
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Object3D.h
+CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/PowerObject.h
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Track.cpp
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Track.h
 

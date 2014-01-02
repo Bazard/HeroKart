@@ -2,11 +2,11 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <iostream>
 
-PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false), timeOfUse(-1), stock(0)
+PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false), timeOfUse(-1), stock(0),pick(true)
 {
 }
 
-PowerObject::PowerObject(const PowerObject& obj):Object3D(), type(obj.type), duration(obj.duration), launched(false), timeOfUse(-1), stock(0)
+PowerObject::PowerObject(const PowerObject& obj):Object3D(), type(obj.type), duration(obj.duration), launched(false), timeOfUse(-1), stock(0),pick(false)
 {
 }
 
@@ -171,6 +171,11 @@ bool PowerObject::isPerimed(int tStart){
 }
 
 void PowerObject::hitKart(Kart& kart, int id, int tStart){
+	if(pick){
+		stock=-1;
+		return;
+	}
+	
 	visible=false;
 	if(kart.invincible){
 		stock==-1;

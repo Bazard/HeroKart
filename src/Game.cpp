@@ -123,8 +123,16 @@ int Game::playTrack(Track& track){
 	std::queue<std::pair<float,Uint32>> anglefile;
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
-	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans mapObject
+	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans powObject
 	PowerObject boost(BOOST,1000);
+	boost.sphere(1,32,16);
+	boost.setScale(glm::vec3(1,1,1));
+	boost.setPosition(glm::vec3(-10,0,10));
+	boost.setHitbox(glm::vec3(1));
+	boost.build();
+	boost.LoadTexture("../textures/CCTex.jpg");
+	track.push_back_pow(boost);
+	
 	PowerObject atk_back(ATK_BACK,1000);
 	PowerObject trap(TRAP,1000);
 	PowerObject shield(SHIELD, 1000);
@@ -283,6 +291,19 @@ int Game::playTrack(Track& track){
 					it--;
 			}
 		}
+		
+		//Dessin des pouvoirs de la map
+		for (std::vector<PowerObject*>::iterator it = track.getPowObjects().begin() ; it != track.getPowObjects().end(); ++it){
+			if((*it)->isVisible()){
+				(*it)->getVAO().bind();		
+				(*it)->TransfoMatrix(ViewMatrix, (*it)->getPosition());
+				(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
+				(*it)->Draw(uTex);
+			}
+			if((*it)->isPerimed(tStart)){
+					(*it)->visible=true;
+			}
+		}
 
 
 		//Gestion des collisions
@@ -296,6 +317,14 @@ int Game::playTrack(Track& track){
 				}
 			}
 		
+			//Collision avec les pouvoirs ramassables de la map
+			for (std::vector<PowerObject*>::iterator it_powObjects = track.getPowObjects().begin() ; it_powObjects != track.getPowObjects().end(); ++it_powObjects){	// Boucle sur tous les objets de la map
+				if(Karts[idkart]->isInCollision( **it_powObjects )){
+					Players[idkart]->pickPower(**it_powObjects,tStart);
+					(*it_powObjects)->visible=false;
+				}
+			}
+			
 			//Collision avec les autres Karts
 			//>>>>>>>>>>>>>>>>>>>>> Boucle sur le reste des karts, permet d'éviter de tester 2 fois la même collision (kart1/kart2 et kart2/kart1 par exemple)
 			for (int idotherkart = idkart+1 ; idotherkart <8; ++idotherkart){  // Boucle sur le reste des karts
@@ -307,18 +336,6 @@ int Game::playTrack(Track& track){
 					Players[idotherkart]->getCharacter().hitSuperPower(tStart, Karts, idkart, *Karts[idotherkart]); //Pouvoir spécial kart2 sur kart1
 				}
 			}
-
-			/*for (int idotherkart=0;idotherkart<8;++idotherkart){	// Boucle sur le reste des karts
-				if(idotherkart==idkart){
-					
-				}
-				else if(Karts[idkart]->isInCollision( *Karts[idotherkart] )){
-					Karts[idkart]->avoidCollision( *Karts[idotherkart] );
-					Karts[idkart]->move(-1); // Fais ralentir le kart quand il est en collision
-					Players[idkart]->getCharacter().hitSuperPower(tStart, Karts, idotherkart, *Karts[idkart]);
-					// //Players[idotherkart]->getCharacter().hitSuperPower(tStart, Karts, idkart, *Karts[idotherkart]);
-				}
-			}*/
 		
 		}
 	
@@ -344,30 +361,30 @@ int Game::playTrack(Track& track){
 					switch(e.key.keysym.sym){
 						case 'n':
 							std::cout << "You pick an Attack_Front" << std::endl;
-							Players[0]->pickPower(atk_front);
+							Players[0]->pickPower(atk_front,tStart);
 							obj=Players[0]->getPower();
 							break;
 						case 'b':
 							std::cout << "You pick a Boost" << std::endl;
-							Players[0]->pickPower(boost);
+							Players[0]->pickPower(boost,tStart);
 							break;
 						case 'v':
 							std::cout << "You pick an Attack_back" << std::endl;
-							Players[0]->pickPower(atk_back);
+							Players[0]->pickPower(atk_back,tStart);
 							obj=Players[0]->getPower();
 							break;
 						case 'c':
 							std::cout << "You pick a Trap" << std::endl;
-							Players[0]->pickPower(trap);
+							Players[0]->pickPower(trap,tStart);
 							obj=Players[0]->getPower();
 							break;
 						case 'x':
 							std::cout << "You pick a Shield" << std::endl;
-							Players[0]->pickPower(shield);
+							Players[0]->pickPower(shield,tStart);
 							break;
 						case 'z':
 							std::cout << "You pick an Attack_All" << std::endl;
-							Players[0]->pickPower(atk_all);
+							Players[0]->pickPower(atk_all,tStart);
 							break;
 						case 'm':
 							std::cout << "You have been hit" << std::endl;

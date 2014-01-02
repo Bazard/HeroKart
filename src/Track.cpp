@@ -23,3 +23,7 @@ Track::~Track()
 void Track::push_back(Object3D& obj){
 	mapObjects.push_back(&obj);
 }
+
+void Track::push_back_pow(PowerObject& pow){
+	powObjects.push_back(&pow);
+}
