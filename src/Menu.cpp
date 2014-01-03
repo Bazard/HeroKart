@@ -997,5 +997,3 @@ void restartSDL(){
 			musique = Mix_LoadMUS("../sounds/musique3.mp3");
 			Mix_PlayMusic(musique, -1);
 }
-
-

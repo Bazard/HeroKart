@@ -124,7 +124,7 @@ int Game::playTrack(Track& track){
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans powObject
-	PowerObject boost(ATK_ALL,1000);
+	PowerObject boost(BOOST,1000);
 	boost.sphere(1,32,16);
 	boost.setScale(glm::vec3(1,1,1));
 	boost.setPosition(glm::vec3(-10,0,10));
