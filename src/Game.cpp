@@ -49,6 +49,16 @@ int Game::playChampionShip(){
 
 int Game::playTrack(Track& track){
 
+	//Lecture du fichier Map
+	//Objet temporaire
+	Object3D floor;
+	floor.LoadObjFromFile("../models/floor.obj");	
+	floor.setScale(glm::vec3(16,1,16));
+	floor.setHitbox(glm::vec3(0, 0, 0));
+	floor.build();
+	floor.LoadTexture("../textures/MoonMap.png");
+	track.push_back(floor);
+	
 	//Interface
 	Program prog2D;
 	prog2D = loadProgram("../shaders/tex2D.vs.glsl", "../shaders/tex2D.fs.glsl");
@@ -146,62 +156,17 @@ int Game::playTrack(Track& track){
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 	
-	//Lecture du fichier Map
-	//Objet temporaire
-	Object3D floor;
-	floor.LoadObjFromFile("../models/floor.obj");	
-	floor.setScale(glm::vec3(16,1,16));
-	floor.setHitbox(glm::vec3(0, 0, 0));
-	floor.build();
-	floor.LoadTexture("../textures/MoonMap.png");
-	track.push_back(floor);
-
 
 	//Element de décor test
-	Object3D elementDecor;
-	elementDecor.sphere(1,32,16);
-	elementDecor.setScale(glm::vec3(1,1,1));
-	elementDecor.setPosition(glm::vec3(-30,0,30));
-	elementDecor.setHitbox(glm::vec3(0));
-	elementDecor.build();
-	elementDecor.LoadTexture("../textures/EarthMap.jpg");
-	track.push_back(elementDecor);
-
-	Object3D elementDecor2;
-	elementDecor2.sphere(1,32,16);
-	elementDecor2.setScale(glm::vec3(1,1,1));
-	elementDecor2.setPosition(glm::vec3(30,0,30));
-	elementDecor2.setHitbox(glm::vec3(0));
-	elementDecor2.build();
-	elementDecor2.LoadTexture("../textures/EarthMap.jpg");
-	track.push_back(elementDecor2);
 	
-	Object3D elementDecor3;
-	elementDecor3.sphere(1,32,16);
-	elementDecor3.setScale(glm::vec3(1,1,1));
-	elementDecor3.setPosition(glm::vec3(30,0,-30));
-	elementDecor3.setHitbox(glm::vec3(0));
-	elementDecor3.build();
-	elementDecor3.LoadTexture("../textures/EarthMap.jpg");
-	track.push_back(elementDecor3);
-	
-	Object3D elementDecor4;
-	elementDecor4.sphere(1,32,16);
-	elementDecor4.setScale(glm::vec3(1,1,1));
-	elementDecor4.setPosition(glm::vec3(-30,0,-30));
-	elementDecor4.setHitbox(glm::vec3(0));
-	elementDecor4.build();
-	elementDecor4.LoadTexture("../textures/EarthMap.jpg");
-	track.push_back(elementDecor4);
-	
-	Object3D elementDecor5;
-	elementDecor5.sphere(1,32,16);
-	elementDecor5.setScale(glm::vec3(1,1,1));
-	elementDecor5.setPosition(glm::vec3(0,0,50));
-	elementDecor5.setHitbox(glm::vec3(2));
-	elementDecor5.build();
-	elementDecor5.LoadTexture("../textures/MoonMap.png");
-	track.push_back(elementDecor5);
+	// Object3D elementDecor5;
+	// elementDecor5.sphere(1,32,16);
+	// elementDecor5.setScale(glm::vec3(1,1,1));
+	// elementDecor5.setPosition(glm::vec3(-39,0,0));
+	// elementDecor5.setHitbox(glm::vec3(2));
+	// elementDecor5.build();
+	// elementDecor5.LoadTexture("../textures/MoonMap.png");
+	// track.push_back(elementDecor5);
 	
 	//On donne le prochain noeud pour que les IA s'y dirigent
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){

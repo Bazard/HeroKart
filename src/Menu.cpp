@@ -960,8 +960,8 @@ void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts)
 				kart=new Kart(2,0.01,0.75,5);
 				kart->setPosition(glm::vec3(5,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC.obj");	
-				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->LoadObjFromFile("../models/Steve.obj");	
+				kart->LoadTexture("../textures/TexSteve.jpg");
 				kart->build();
 				break;
 			case STAN:
