@@ -31,5 +31,6 @@ public:
 	bool isPerimed(int tStart);
 	void hitKart(Kart& kart,int id,int tStart);
 	void hitKartBack(std::vector<Kart*>& karts);
+	typeEnum getType(){ return type;}
 };
 

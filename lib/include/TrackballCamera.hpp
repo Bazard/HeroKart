@@ -28,7 +28,7 @@ namespace glimac {
 			glm::mat4 VMatrix=glm::mat4(1);
 			
 			if(!back){
-				VMatrix=glm::translate(VMatrix, glm::vec3(0,-1,-m_fDistance));
+				VMatrix=glm::translate(VMatrix, glm::vec3(0,-1.5,-m_fDistance));
 				VMatrix=glm::rotate(VMatrix, m_fAngleX, glm::vec3(1,0,0));
 				VMatrix=glm::rotate(VMatrix, m_fAngleY-angle, glm::vec3(0,1,0));
 				VMatrix=glm::translate(VMatrix,-glm::vec3(pos.x,pos.y,pos.z));

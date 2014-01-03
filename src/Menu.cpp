@@ -910,75 +910,74 @@ void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts)
 		switch((*it)->getHero()){
 			case JOHN:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(-13,0.5,0));
+				kart->setPosition(glm::vec3(-13,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadObjFromFile("../models/ACC.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case KLAUS:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(-10,0.5,0));
+				kart->setPosition(glm::vec3(-10,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadObjFromFile("../models/ACC.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case DOUG:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(-7,0.5,0));
+				kart->setPosition(glm::vec3(-7,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->setScale(glm::vec3(0.3,0.3,0.3));
 				kart->LoadObjFromFile("../models/Doug.obj");	
-				kart->LoadTexture("../models/TexDoug.jpg");
+				kart->LoadTexture("../textures/TexDoug.jpg");
 				kart->build();
 				break;
 			case CANADA:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(-4,0.5,0));
+				kart->setPosition(glm::vec3(-4,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadObjFromFile("../models/ACC.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case BURT:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(-1,0.5,0));
+				kart->setPosition(glm::vec3(-1,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
-				kart->LoadTexture("../models/ACC/CCTex.jpg");
+				kart->LoadObjFromFile("../models/ACC.obj");	
+				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case MCKORMACK:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(2,0.5,0));
+				kart->setPosition(glm::vec3(2,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
-				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->LoadObjFromFile("../models/MacKormack.obj");	
+				kart->LoadTexture("../textures/TexMac.jpg");
 				kart->build();
 				break;
 			case STEVE:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(5,0.5,0));
+				kart->setPosition(glm::vec3(5,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadObjFromFile("../models/ACC.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case STAN:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(8,0.5,0));
+				kart->setPosition(glm::vec3(8,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
+				kart->LoadObjFromFile("../models/ACC.obj");	
 				kart->LoadTexture("../textures/CCTex.jpg");
 				kart->build();
 				break;
 			case JENNIFER:
 				kart=new Kart(2,0.01,0.75,5);
-				kart->setPosition(glm::vec3(11,0.5,0));
+				kart->setPosition(glm::vec3(11,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
-				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->LoadObjFromFile("../models/Jennifer.obj");	
+				kart->LoadTexture("../textures/TexJennifer.jpg");
 				kart->build();
 				break;
 		}
