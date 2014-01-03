@@ -1,6 +1,7 @@
 #pragma once
 #include "Object3D.h"
 #include "Kart.h"
+#include <vector>
 
 enum typeEnum { BOOST=0, ATK_FRONT=1, ATK_BACK=2, ATK_ALL=3, SHIELD=4, TRAP=5 };
 
@@ -12,7 +13,7 @@ private:
 	bool launched;  // indique son etat (lancé ou pas)
 	int duration; //sa durée
 	int timeOfUse; //le moment quand le pouvoir est lancé
-	float stock; //stockage de donnée du kart si besoin
+	std::vector<float> stock; //stockage de donnée du kart si besoin
 	bool pick; //Est-ce que l'objet est ramassable
 public:
 	PowerObject(typeEnum type, int duration);

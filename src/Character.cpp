@@ -119,6 +119,8 @@ void Character::hitSuperPower(int tStart,std::vector<Kart*>& karts, int idTouche
 	switch(hero){
 			case KLAUS:
 				//Defonce tout
+				karts[idTouche]->setAngle(karts[idTouche]->getAngle()-180);
+				karts[idTouche]->setDirection(-karts[idTouche]->getDirection().x,0,-karts[idTouche]->getDirection().z);
 				karts[idTouche]->setSpeed(0.25*karts[idTouche]->getSpeedMax());
 				karts[idTouche]->setSpeedMax(0.25*karts[idTouche]->getSpeedMax());
 				break;

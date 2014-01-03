@@ -142,7 +142,7 @@ int Game::playTrack(Track& track){
 	//Ciel
 	Object3D sky;
 	sky.sphere(1,32,16);
-	sky.setScale(glm::vec3(70,70,70));
+	sky.setScale(glm::vec3(80,80,80));
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 	
@@ -233,7 +233,7 @@ int Game::playTrack(Track& track){
 		for (int id=0;id<8;++id){
 			if(id!=0){
 				//Deplacement IA
-				Karts[id]->moveIA();
+				Karts[id]->moveIA(track.getMapObjects());
 				Players[id]->usePower(Karts,id,tStart,track.getMapObjects());
 			}
 				
@@ -342,7 +342,7 @@ int Game::playTrack(Track& track){
 		//Sky
 		sky.getVAO().bind();		
 		sky.setAngle(tStart*0.001f);
-		sky.TransfoMatrix(ViewMatrix,sky.getPosition());
+		sky.TransfoMatrix(ViewMatrix,Karts[0]->getPosition());
 		sky.MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 		sky.Draw(uTex);
 		

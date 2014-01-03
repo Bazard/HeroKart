@@ -43,17 +43,17 @@ bool Object3D::LoadObjFromFile(std::string sFilePath)
 			vertex.position.y=mesh->mVertices[face.mIndices[k]].y;
 			vertex.position.z=mesh->mVertices[face.mIndices[k]].z;
 			// std::cout << "Position done" << std::endl;
-			// if (mesh->HasTextureCoords(0)) {
-				// vertex.texCoords.x=mesh->mTextureCoords[0][face.mIndices[k]].x;
-				// vertex.texCoords.y=mesh->mTextureCoords[0][face.mIndices[k]].y;
-				// if(!t){
-				// std::cout << "Textures reperees" << std::endl;
-				// t=true;
-				// }
-			// }else {
+			if (mesh->HasTextureCoords(0)) {
+				 vertex.texCoords.x=mesh->mTextureCoords[0][face.mIndices[k]].x;
+				 vertex.texCoords.y=1-mesh->mTextureCoords[0][face.mIndices[k]].y;
+				 if(!t){
+				 std::cout << "Coordonnes de Textures reperees" << std::endl;
+				 t=true;
+				 }
+			 }else {
 				vertex.texCoords.x=mesh->mVertices[face.mIndices[k]].x;
 				vertex.texCoords.y=mesh->mVertices[face.mIndices[k]].y;
-			// }
+			 }
 			
 			vertex.normal.x= mesh->HasNormals() ? mesh->mNormals[face.mIndices[k]].x : vertex.normal.x=1.0f;
 			vertex.normal.y= mesh->HasNormals() ? mesh->mNormals[face.mIndices[k]].y : vertex.normal.y=1.0f;

@@ -85,10 +85,16 @@ void Kart::rotate(int sens){
 	// else if(angle<-180) angle+=360;
 }
 
-void Kart::moveIA(){
+void Kart::moveIA(std::vector<Object3D*>& mapObjects){
 	float idle=0.05;
 	float angleNode,x,z;
 	
+	//Repere obstacle
+	for (std::vector<Object3D*>::iterator it = mapObjects.begin() ; it != mapObjects.end(); ++it){
+		
+	}
+	
+	//Direction le prochain noeud
 	x=nodeTo->getPosition().x-pos.x;
 	z=nodeTo->getPosition().z-pos.z;
 	angleNode=atan(x/z)*180/M_PI-angle;
@@ -116,6 +122,8 @@ void Kart::moveIA(){
 		move(1);
 	}
 	
+	
+	//Changement de noeud
 	if(nodeTo->getPosition().x-pos.x < 5 && nodeTo->getPosition().x-pos.x > -5 && nodeTo->getPosition().z-pos.z < 5 && nodeTo->getPosition().z-pos.z > -5){
 		nodeTo=nodeTo->next;
 	}

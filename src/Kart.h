@@ -37,6 +37,6 @@ public:
 	
 	void setNodeTo(Node* node){nodeTo=node;}
 	
-	void moveIA();
+	void moveIA(std::vector<Object3D*>& mapObjects);
 };
 

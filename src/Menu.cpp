@@ -270,7 +270,8 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 						else if (xClicked>=(68.0/800.0)*WINDOW_WIDTH && xClicked<=(148.0/800.0)*WINDOW_WIDTH && yClicked>=(38.0/600.0)*WINDOW_HEIGHT && yClicked<=(88.0/600.0)*WINDOW_HEIGHT){
 							track.clear();
 							character.clear();
-							sortie=2;
+							sortie=1;
+							done=true;
 						}
 					}
 					break;
@@ -872,8 +873,9 @@ void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts)
 				kart=new Kart(2,0.01,0.75,5);
 				kart->setPosition(glm::vec3(-7,0.5,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
-				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->setScale(glm::vec3(0.3,0.3,0.3));
+				kart->LoadObjFromFile("../models/Doug.obj");	
+				kart->LoadTexture("../models/TexDoug.jpg");
 				kart->build();
 				break;
 			case CANADA:
@@ -889,7 +891,7 @@ void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts)
 				kart->setPosition(glm::vec3(-1,0.5,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
 				kart->LoadObjFromFile("../models/ACC/ACC2.obj");	
-				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->LoadTexture("../models/ACC/CCTex.jpg");
 				kart->build();
 				break;
 			case MCKORMACK:

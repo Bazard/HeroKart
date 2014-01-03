@@ -2,11 +2,11 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <iostream>
 
-PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false), timeOfUse(-1), stock(0),pick(true)
+PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false), timeOfUse(-1), pick(true)
 {
 }
 
-PowerObject::PowerObject(const PowerObject& obj):Object3D(), type(obj.type), duration(obj.duration), launched(false), timeOfUse(-1), stock(0),pick(false)
+PowerObject::PowerObject(const PowerObject& obj):Object3D(), type(obj.type), duration(obj.duration), launched(false), timeOfUse(-1), pick(false)
 {
 }
 
@@ -19,10 +19,11 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 		if(launched)
 			return 0;
 			
+		
 		switch(type){
 			case BOOST:
 					visible=false; //Car ce n'est pas un objet visible
-					stock=vecKart[idLanceur]->getSpeedMax();
+					stock.push_back(vecKart[idLanceur]->getSpeedMax());
 					vecKart[idLanceur]->setSpeed(1.5*vecKart[idLanceur]->getSpeedMax());
 					vecKart[idLanceur]->setSpeedMax(2*vecKart[idLanceur]->getSpeedMax());
 					timeOfUse=tStart;
@@ -58,6 +59,9 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 							vecKart[i]->setSpeed(0.5*vecKart[idLanceur]->getSpeedMax());
 							vecKart[i]->setSpeedMax(0.5*vecKart[idLanceur]->getSpeedMax());
 							vecKart[i]->setScale(glm::vec3(0.5*vecKart[i]->getScale().x,0.5*vecKart[i]->getScale().y,0.5*vecKart[i]->getScale().z));
+						}
+						else if(vecKart[i]->invincible){
+							stock.push_back(i);
 						}
 					}
 					timeOfUse=tStart;
@@ -97,7 +101,7 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 		switch(type){
 			case BOOST:
-					vecKart[idLanceur]->setSpeedMax(stock);
+					vecKart[idLanceur]->setSpeedMax(stock[0]);
 					delete(this);
 					break;
 					
@@ -108,13 +112,23 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 					break;
 					
 			case ATK_ALL:
+				bool inv;
 					for(int i=0;i<vecKart.size();++i){
 						if(idLanceur!=i && !vecKart[i]->invincible){
-							vecKart[i]->setSpeed(vecKart[i]->getSpeedMax());
-							vecKart[i]->setSpeedMax(2*vecKart[i]->getSpeedMax());
-							vecKart[i]->setScale(glm::vec3(2*vecKart[i]->getScale().x,2*vecKart[i]->getScale().y,2*vecKart[i]->getScale().z));
+							inv=false;
+							for(int j=0;j<stock.size();++j){
+								if(j==i) inv=true;
+							}
+							if(!inv){
+								vecKart[i]->setSpeed(2*vecKart[i]->getSpeed());
+								vecKart[i]->setSpeedMax(2*vecKart[i]->getSpeedMax());
+								vecKart[i]->setScale(glm::vec3(2*vecKart[i]->getScale().x,2*vecKart[i]->getScale().y,2*vecKart[i]->getScale().z));
+							}
 						}
 					}
+					
+					
+					
 					delete(this);
 					break;
 					
@@ -130,7 +144,7 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 					//Cheat
 					break;
 		}
-		
+		stock.clear();
 	}
 
 bool PowerObject::withKart(){
@@ -174,17 +188,17 @@ bool PowerObject::isPerimed(int tStart){
 
 void PowerObject::hitKart(Kart& kart, int id, int tStart){
 	if(pick){
-		stock=-1;
+		stock.push_back(-1);
 		return;
 	}
 	
 	visible=false;
 	if(kart.invincible){
-		stock==-1;
+		stock.push_back(-1);
 		return;
 	}
 
-		stock=id;
+		stock.push_back(id);
 		timeOfUse=tStart;
 		
 	switch(type){ //A varier si l'on veut
@@ -207,24 +221,26 @@ void PowerObject::hitKart(Kart& kart, int id, int tStart){
 
 void PowerObject::hitKartBack(std::vector<Kart*>& karts){
 
-	if(stock==-1){
+	if(stock[0]==-1){
+		stock.clear();
 		return;
 	}
 		
 	switch(type){ //A varier si l'on veut
 		case ATK_FRONT:
-			karts[stock]->setSpeed(4*karts[stock]->getSpeedMax());
-			karts[stock]->setSpeedMax(4*karts[stock]->getSpeedMax());
+			karts[stock[0]]->setSpeed(4*karts[stock[0]]->getSpeedMax());
+			karts[stock[0]]->setSpeedMax(4*karts[stock[0]]->getSpeedMax());
 			break;
 		case ATK_BACK:
-			karts[stock]->setSpeed(2*karts[stock]->getSpeedMax());
-			karts[stock]->setSpeedMax(2*karts[stock]->getSpeedMax());
+			karts[stock[0]]->setSpeed(2*karts[stock[0]]->getSpeedMax());
+			karts[stock[0]]->setSpeedMax(2*karts[stock[0]]->getSpeedMax());
 			break;
 		case TRAP:
-			karts[stock]->setSpeed(2*karts[stock]->getSpeedMax());
-			karts[stock]->setSpeedMax(2*karts[stock]->getSpeedMax());
+			karts[stock[0]]->setSpeed(2*karts[stock[0]]->getSpeedMax());
+			karts[stock[0]]->setSpeedMax(2*karts[stock[0]]->getSpeedMax());
 			break;
 		default:
 			break;
 	}
+	stock.clear();
 }
