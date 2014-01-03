@@ -89,10 +89,6 @@ void Kart::moveIA(std::vector<Object3D*>& mapObjects){
 	float idle=0.05;
 	float angleNode,x,z;
 	
-	//Repere obstacle
-	for (std::vector<Object3D*>::iterator it = mapObjects.begin() ; it != mapObjects.end(); ++it){
-		
-	}
 	
 	//Direction le prochain noeud
 	x=nodeTo->getPosition().x-pos.x;

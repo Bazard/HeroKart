@@ -299,6 +299,8 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 }
 
 int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& track){
+	std::vector<int> konami;
+
 	int sortie=-1;
 	VBO vbo;
 	vbo.bind(GL_ARRAY_BUFFER);
@@ -393,7 +395,8 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 		Character *burt=new Character(BURT,1000);
 		Character *mckormack=new Character(MCKORMACK,1000);
 		Character *jennifer=new Character(JENNIFER,1000);
-
+		Character *canada=new Character(CANADA,1000);
+		
 		SDL_Event e;
 		int xClicked, yClicked;
 		while (SDL_PollEvent(&e)) {
@@ -512,6 +515,58 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 							done = true;
 						}
 					}
+					break;
+				case SDL_KEYDOWN:
+					if(konami.size()>=10)
+						break;
+					konami.push_back(e.key.keysym.sym);
+					
+					switch(konami.size()){
+						case 1:
+							if(konami[konami.size()-1]!=273) konami.clear();
+							break;
+						case 2:
+							if(konami[konami.size()-1]!=273) konami.clear();
+							break;
+						case 3:
+							if(konami[konami.size()-1]!=274) konami.clear();
+							break;
+						case 4:
+							if(konami[konami.size()-1]!=274) konami.clear();
+							break;
+						case 5:
+							if(konami[konami.size()-1]!=276) konami.clear();
+							break;
+						case 6:
+							if(konami[konami.size()-1]!=275) konami.clear();
+							break;
+						case 7:
+							if(konami[konami.size()-1]!=276) konami.clear();
+							break;
+						case 8:
+							if(konami[konami.size()-1]!=275) konami.clear();
+							break;
+						case 9:
+							if(konami[konami.size()-1]!=98) konami.clear();
+							break;
+						case 10:
+							if(konami[konami.size()-1]!=113) konami.clear();
+							else {
+							std::cout << "Vous avez choisi Captain Canada, tabernaque, ca va chier !" << std::endl;
+							sortie=4;
+							character.push_back(canada);
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(doug);
+							character.push_back(stan);
+							character.push_back(burt);
+							character.push_back(steve);
+							character.push_back(mckormack);
+							done=true;
+							}
+							break;
+					}
+					
 					break;
 				case SDL_QUIT:
 					done = true;

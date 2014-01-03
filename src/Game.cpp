@@ -194,6 +194,15 @@ int Game::playTrack(Track& track){
 	elementDecor4.LoadTexture("../textures/EarthMap.jpg");
 	track.push_back(elementDecor4);
 	
+	Object3D elementDecor5;
+	elementDecor5.sphere(1,32,16);
+	elementDecor5.setScale(glm::vec3(1,1,1));
+	elementDecor5.setPosition(glm::vec3(0,0,50));
+	elementDecor5.setHitbox(glm::vec3(2));
+	elementDecor5.build();
+	elementDecor5.LoadTexture("../textures/MoonMap.png");
+	track.push_back(elementDecor5);
+	
 	//On donne le prochain noeud pour que les IA s'y dirigent
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
 		(*it)->setNodeTo(track.getNodeStart()->next);
@@ -327,6 +336,8 @@ int Game::playTrack(Track& track){
 			//Collision avec les autres Karts
 			//>>>>>>>>>>>>>>>>>>>>> Boucle sur le reste des karts, permet d'éviter de tester 2 fois la même collision (kart1/kart2 et kart2/kart1 par exemple)
 			for (int idotherkart = idkart+1 ; idotherkart <8; ++idotherkart){  // Boucle sur le reste des karts
+				if(Karts[idkart]->intouchable)
+					continue;
 		        if(Karts[idkart]->isInCollision( *Karts[idotherkart] )){
 		        	Karts[idkart]->avoidCollision( *Karts[idotherkart] );
 					Karts[idkart]->move(-1); // Fais ralentir le kart quand il est en collision

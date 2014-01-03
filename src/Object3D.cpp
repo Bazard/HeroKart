@@ -323,8 +323,6 @@ bool Object3D::isInCollision(Object3D &other){
     // Si on est en dehors de la hitbox, il n'y a pas collision
     if( (pos.x+hitbox.x <= other.pos.x-other.hitbox.x)  // Trop à gauche sur x
      || (pos.x-hitbox.x >= other.pos.x+other.hitbox.x)  // Trop à droite sur x
-    // || (pos.y+hitbox.y <= other.pos.y-other.hitbox.y)  // Trop en haut sur y
-    // || (pos.y-hitbox.y >= other.pos.y+other.hitbox.y)  // Trop en bas sur y
      || (pos.z+hitbox.z <= other.pos.z-other.hitbox.z)  // Trop au dessus sur z
      || (pos.z-hitbox.z >= other.pos.z+other.hitbox.z)){ // Trop en dessous sur z
     //    std::cout << "pas collision..." << std::endl;
