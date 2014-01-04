@@ -268,8 +268,14 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 							done=true;
 						}
 						else if (xClicked>=(68.0/800.0)*WINDOW_WIDTH && xClicked<=(148.0/800.0)*WINDOW_WIDTH && yClicked>=(38.0/600.0)*WINDOW_HEIGHT && yClicked<=(88.0/600.0)*WINDOW_HEIGHT){
+							for (std::vector<Track*>::iterator it = track.begin() ; it != track.end(); ++it)
+								delete(*it);
 							track.clear();
+							
+							for (std::vector<Character*>::iterator it = character.begin() ; it != character.end(); ++it)
+								delete(*it);
 							character.clear();
+							
 							sortie=1;
 							done=true;
 						}
@@ -899,108 +905,98 @@ int menuPrincipal(std::vector<Character*>& character,std::vector<Track*>& track)
 
 int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& track){
 	srand(time(NULL));
-	int r=rand()%9-1;
-	
-	Character *john=new Character(JOHN,10000);
-	Character *klaus=new Character(KLAUS,10000);
-	Character *doug=new Character(DOUG,10000);
-	Character *stan=new Character(STAN,10000);
-	Character *steve=new Character(STEVE,10000);
-	Character *burt=new Character(BURT,10000);
-	Character *mckormack=new Character(MCKORMACK,10000);
-	Character *jennifer=new Character(JENNIFER,10000);
-	Character *canada=new Character(CANADA,10000);
-	
+	int r=rand()%9;
+	std::cout << r << std::endl;
 	switch(r){
 					case 0:
-							character.push_back(john);
-							character.push_back(klaus);
-							character.push_back(doug);
-							character.push_back(stan);
-							character.push_back(burt);
-							character.push_back(steve);
-							character.push_back(mckormack);
-							character.push_back(jennifer);							
+							character.push_back(new Character(JOHN,10000));
+							character.push_back(new Character(KLAUS,10000));
+							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(STAN,10000));
+							character.push_back(new Character(BURT,10000));
+							character.push_back(new Character(STEVE,10000));
+							character.push_back(new Character(MCKORMACK,10000));
+							character.push_back(new Character(JENNIFER,10000));
 							break;
 					case 1:
-							character.push_back(klaus);
-							character.push_back(john);
-							character.push_back(doug);
-							character.push_back(stan);
-							character.push_back(burt);
-							character.push_back(steve);
-							character.push_back(mckormack);
-							character.push_back(jennifer);
+							character.push_back(new Character(KLAUS,10000));
+							character.push_back(new Character(JOHN,10000));
+							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(STAN,10000));
+							character.push_back(new Character(BURT,10000));
+							character.push_back(new Character(STEVE,10000));
+							character.push_back(new Character(MCKORMACK,10000));
+							character.push_back(new Character(JENNIFER,10000));
 							break;
 					case 2:
-							character.push_back(doug);
-							character.push_back(john);
-							character.push_back(klaus);
-							character.push_back(stan);
-							character.push_back(burt);
-							character.push_back(steve);
-							character.push_back(mckormack);
-							character.push_back(jennifer);
+							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(JOHN,10000));
+							character.push_back(new Character(KLAUS,10000));
+							character.push_back(new Character(STAN,10000));
+							character.push_back(new Character(BURT,10000));
+							character.push_back(new Character(STEVE,10000));
+							character.push_back(new Character(MCKORMACK,10000));
+							character.push_back(new Character(JENNIFER,10000));
 							break;
 					case 3:
-							character.push_back(stan);
-							character.push_back(john);
-							character.push_back(klaus);
-							character.push_back(doug);
-							character.push_back(burt);
-							character.push_back(steve);
-							character.push_back(mckormack);
-							character.push_back(jennifer);
+							character.push_back(new Character(STAN,10000));
+							character.push_back(new Character(JOHN,10000));
+							character.push_back(new Character(KLAUS,10000));
+							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(BURT,10000));
+							character.push_back(new Character(STEVE,10000));
+							character.push_back(new Character(MCKORMACK,10000));
+							character.push_back(new Character(JENNIFER,10000));
 							break;
 					case 4:
-							character.push_back(steve);
-							character.push_back(john);
-							character.push_back(klaus);
-							character.push_back(doug);
-							character.push_back(stan);
-							character.push_back(burt);
-							character.push_back(mckormack);
-							character.push_back(jennifer);
+							character.push_back(new Character(BURT,10000));
+							character.push_back(new Character(JOHN,10000));
+							character.push_back(new Character(KLAUS,10000));
+							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(STAN,10000));
+							character.push_back(new Character(STEVE,10000));
+							character.push_back(new Character(MCKORMACK,10000));
+							character.push_back(new Character(JENNIFER,10000));
 							break;
 					case 5:
-							character.push_back(burt);
-							character.push_back(john);
-							character.push_back(klaus);
-							character.push_back(doug);
-							character.push_back(stan);
-							character.push_back(steve);
-							character.push_back(mckormack);
-							character.push_back(jennifer);
+							character.push_back(new Character(STEVE,10000));
+							character.push_back(new Character(JOHN,10000));
+							character.push_back(new Character(KLAUS,10000));
+							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(STAN,10000));
+							character.push_back(new Character(BURT,10000));
+							character.push_back(new Character(MCKORMACK,10000));
+							character.push_back(new Character(JENNIFER,10000));
 							break;
 					case 6:
-							character.push_back(mckormack);
-							character.push_back(john);
-							character.push_back(klaus);
-							character.push_back(doug);
-							character.push_back(stan);
-							character.push_back(burt);
-							character.push_back(steve);							
-							character.push_back(jennifer);
+							character.push_back(new Character(MCKORMACK,10000));
+							character.push_back(new Character(JOHN,10000));
+							character.push_back(new Character(KLAUS,10000));
+							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(STAN,10000));
+							character.push_back(new Character(BURT,10000));
+							character.push_back(new Character(STEVE,10000));
+							character.push_back(new Character(JENNIFER,10000));
 							break;
 					case 7:
-							character.push_back(jennifer);
-							character.push_back(john);
-							character.push_back(klaus);
-							character.push_back(doug);
-							character.push_back(stan);
-							character.push_back(burt);
-							character.push_back(steve);
-							character.push_back(mckormack);
+							character.push_back(new Character(JENNIFER,10000));
+							character.push_back(new Character(JOHN,10000));
+							character.push_back(new Character(KLAUS,10000));
+							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(STAN,10000));
+							character.push_back(new Character(BURT,10000));
+							character.push_back(new Character(STEVE,10000));
+							character.push_back(new Character(MCKORMACK,10000));
 							break;
 					case 8:
-							character.push_back(canada);
-							character.push_back(john);
-							character.push_back(klaus);
-							character.push_back(doug);
-							character.push_back(stan);
-							character.push_back(burt);
-							character.push_back(steve);
-							character.push_back(mckormack);
+							character.push_back(new Character(CANADA,10000));
+							character.push_back(new Character(JOHN,10000));
+							character.push_back(new Character(KLAUS,10000));
+							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(STAN,10000));
+							character.push_back(new Character(BURT,10000));
+							character.push_back(new Character(STEVE,10000));
+							character.push_back(new Character(MCKORMACK,10000));
 							break;
 					default:
 							return -1;

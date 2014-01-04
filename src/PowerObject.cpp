@@ -61,7 +61,8 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 							vecKart[i]->setSpeedMax(0.5*vecKart[idLanceur]->getSpeedMax());
 							vecKart[i]->setScale(glm::vec3(0.5*vecKart[i]->getScale().x,0.5*vecKart[i]->getScale().y,0.5*vecKart[i]->getScale().z));
 						}
-						else if(vecKart[i]->invincible){
+						else if(idLanceur!=i && vecKart[i]->invincible){
+							std::cout << "John" << i << std::endl;
 							stock.push_back(i);
 						}
 					}
@@ -115,13 +116,13 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 			case ATK_ALL:
 				bool inv;
 					for(int i=0;i<vecKart.size();++i){
-						if(idLanceur!=i && !vecKart[i]->invincible){
+						if(idLanceur!=i){
 							inv=false;
 							for(int j=0;j<stock.size();++j){
-								if(j==i) inv=true;
+								if(stock[j]==i) inv=true;
 							}
+							std::cout << inv << std::endl;
 							if(!inv){
-								vecKart[i]->setSpeed(2*vecKart[i]->getSpeed());
 								vecKart[i]->setSpeedMax(2*vecKart[i]->getSpeedMax());
 								vecKart[i]->setScale(glm::vec3(2*vecKart[i]->getScale().x,2*vecKart[i]->getScale().y,2*vecKart[i]->getScale().z));
 							}
@@ -159,10 +160,6 @@ void PowerObject::movePower(){
 			break;
 			
 		case TRAP:
-			angle+=1;
-			break;
-			
-		case ATK_BACK:
 			angle+=1;
 			break;
 	}

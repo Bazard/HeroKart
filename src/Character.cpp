@@ -44,11 +44,12 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 				obj=new PowerObject(ATK_BACK, 10000);
 				obj->visible=true;
 				obj->setPick(false);
-				obj->sphere(1,32,16); //A changer par une flaque
+				obj->LoadObjFromFile("../models/Flaque.obj");
 				obj->build();
-				obj->LoadTexture("../textures/sky.jpg"); //A changer par une texture d'acide
-				obj->setHitbox(glm::vec3(1,1,1));
-				obj->setPosition(kart.getPosition()-glm::vec3(3*kart.getDirection().x,3*kart.getDirection().y,3*kart.getDirection().z));
+				obj->LoadTexture("../textures/TexFlaque.jpg");
+				obj->setHitbox(glm::vec3(3));
+				obj->setScale(glm::vec3(3));
+				obj->setPosition(kart.getPosition()-glm::vec3(6*kart.getDirection().x,6*kart.getDirection().y,6*kart.getDirection().z));
 				obj->setDirection(kart.getDirection());
 				obj->setAngle(kart.getAngle());
 				mapObjects.push_back(obj);
@@ -60,10 +61,11 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 				obj=new PowerObject(ATK_FRONT, 10000);
 				obj->visible=true;
 				obj->setPick(false);
-				obj->sphere(1,32,16);
+				obj->LoadObjFromFile("../models/Boule.obj");
 				obj->build();
-				obj->setHitbox(glm::vec3(1,1,1));
-				obj->LoadTexture("../textures/sky.jpg"); //A changer par une boule de feu
+				obj->setHitbox(glm::vec3(3));
+				obj->setScale(glm::vec3(10));
+				obj->LoadTexture("../textures/TexBoule.jpg");
 				obj->setPosition(kart.getPosition()+glm::vec3(3*kart.getDirection().x,3*kart.getDirection().y,3*kart.getDirection().z));
 				obj->setDirection(kart.getDirection());
 				obj->setAngle(kart.getAngle());

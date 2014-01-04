@@ -43,7 +43,8 @@ int Game::playChampionShip(){
 	}
 	
 	std::cout << "End Championship" << std::endl;
-	// CleanAll();
+	CleanAll();
+	std::cout << "Yeah" << std::endl;
 	
 }
 
@@ -433,17 +434,11 @@ void Game::CleanObjects(Track& track){
 
 void Game::CleanAll(){
 
-	PlayerIA *play;
-	while(!Players.empty()){
-		play=Players.back();
-		Players.pop_back();
-		delete(play);
-	}
-	
-	Kart *kart;
-	while(!Karts.empty()){
-		kart=Karts.back();
-		Karts.pop_back();
-		delete(kart);
-	}
+for (std::vector<PlayerIA*>::iterator it = Players.begin() ; it != Players.end(); ++it)
+	delete(*it);
+Players.clear();
+
+for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it)
+	delete(*it);
+Karts.clear();
 }
