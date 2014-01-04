@@ -4,6 +4,8 @@
 
 class PowerObject;
 
+enum Hero { JOHN=0, KLAUS=1, DOUG=2, CANADA=3, BURT=4, MCKORMACK=5, STEVE=6, STAN=7, JENNIFER=8 };
+
 class Kart: public Object3D
 {
 private:
@@ -39,7 +41,7 @@ public:
 	
 	void setNodeTo(Node* node){nodeTo=node;}
 	
-	int moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts,PowerObject* power); //power = Le pouvoir du kart
+	int moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts,PowerObject* power, Hero hero, bool powerReady); //power = Le pouvoir du kart
 	float getAngle2Vec(glm::vec3 vec2, glm::vec3 vec1);
 	float getAngle2Vec(float x, float z);
 };

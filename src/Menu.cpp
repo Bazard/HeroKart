@@ -387,15 +387,15 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 		vao.debind();
 
 		// Application code goes here
-		Character *john=new Character(JOHN,1000);
-		Character *klaus=new Character(KLAUS,1000);
-		Character *doug=new Character(DOUG,1000);
+		Character *john=new Character(JOHN,10000);
+		Character *klaus=new Character(KLAUS,10000);
+		Character *doug=new Character(DOUG,10000);
 		Character *stan=new Character(STAN,10000);
-		Character *steve=new Character(STEVE,1000);
-		Character *burt=new Character(BURT,1000);
-		Character *mckormack=new Character(MCKORMACK,1000);
-		Character *jennifer=new Character(JENNIFER,1000);
-		Character *canada=new Character(CANADA,1000);
+		Character *steve=new Character(STEVE,10000);
+		Character *burt=new Character(BURT,10000);
+		Character *mckormack=new Character(MCKORMACK,10000);
+		Character *jennifer=new Character(JENNIFER,10000);
+		Character *canada=new Character(CANADA,10000);
 		
 		SDL_Event e;
 		int xClicked, yClicked;

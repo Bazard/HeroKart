@@ -86,12 +86,12 @@ void Kart::rotate(int sens){
 	// else if(angle<-180) angle+=360;
 }
 
-int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts, PowerObject* power){
+int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts, PowerObject* power, Hero hero, bool powerReady){
 	float idle=0.05;
 	float angleNode,x,z;
 	bool marchearriere=false, droite=false, gauche=false, obstacle=false;
 	int sortie=0;
-	
+
 	//Repere les obstacles
 	for (std::vector<Object3D*>::iterator it = mapObjects.begin()+1 ; it != mapObjects.end(); ++it){
 		x=(*it)->getPosition().x-pos.x;
@@ -111,7 +111,35 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			}
 		}
 	}
-	if(!obstacle && !power){
+		//Utilise le super pouvoir du personnage
+	if(!obstacle && powerReady){
+		for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
+			x=(*it)->getPosition().x-pos.x;
+			z=(*it)->getPosition().z-pos.z;		
+			angleNode=getAngle2Vec(x,z);
+			
+			
+			if(hero==STEVE){
+				if(x < 30 && x > -30 && z < 30 &&  z > -30 && angleNode<5 && angleNode>-5){
+						sortie=2;
+				}
+			}
+			else if(hero==BURT){
+				if(x < 30 && x > -30 && z < 30 &&  z > -30 && (angleNode<-175 || angleNode>175)){
+						sortie=2;
+				}
+			}
+			else if(hero == KLAUS || hero == DOUG || hero == STAN){
+				if(x < 6 && x > -6 && z < 6 &&  z > -6){
+					sortie=2;
+				}
+			}
+			else{
+				sortie=2;
+			}
+		}
+	}
+	else if(!obstacle && !power){
 		//Cherche un pouvoir sur la route
 		for (std::vector<PowerObject*>::iterator it = powObjects.begin() ; it != powObjects.end(); ++it){
 			x=(*it)->getPosition().x-pos.x;
@@ -158,9 +186,7 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			}
 		}
 	}
-	// else if(!obstacle || superPower){
-	
-	// }
+
 
 	//Marche arriere si obstacle
 	if(marchearriere){

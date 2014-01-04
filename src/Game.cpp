@@ -124,7 +124,7 @@ int Game::playTrack(Track& track){
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans powObject
-	PowerObject boost(ATK_FRONT,1000);
+	PowerObject boost(ATK_FRONT,10000);
 	boost.sphere(1,32,16);
 	boost.setScale(glm::vec3(1,1,1));
 	boost.setPosition(glm::vec3(-39,0,0));
@@ -133,11 +133,11 @@ int Game::playTrack(Track& track){
 	boost.LoadTexture("../textures/CCTex.jpg");
 	track.push_back_pow(boost);
 	
-	PowerObject atk_back(ATK_BACK,3000);
-	PowerObject trap(TRAP,1000);
-	PowerObject shield(SHIELD, 1000);
-	PowerObject atk_all(ATK_ALL, 1000);
-	PowerObject atk_front(ATK_FRONT, 1000);
+	PowerObject atk_back(ATK_BACK,10000);
+	PowerObject trap(TRAP,10000);
+	PowerObject shield(SHIELD, 10000);
+	PowerObject atk_all(ATK_ALL, 10000);
+	PowerObject atk_front(ATK_FRONT, 10000);
 	
 	//Ciel
 	Object3D sky;
@@ -213,11 +213,15 @@ int Game::playTrack(Track& track){
 	
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
-			if(id!=0){
+			// if(id!=0){
 				//Deplacement IA
-				if(Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower())==1)	
-					Players[id]->usePower(Karts,id,tStart,track.getMapObjects());
-			}
+				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
+				Players[id]->getCharacter().getHero(), Players[id]->getCharacter().isPowerReady(tStart));
+					if(sortie==1)
+						Players[id]->usePower(Karts,id,tStart,track.getMapObjects());
+					else if(sortie==2)
+						Players[id]->getCharacter().useSuperPower(tStart,*Karts[id],track.getMapObjects());
+			// }
 				
 			Karts[id]->getVAO().bind();		//Bind du VAO
 			Karts[id]->TransfoMatrix(ViewMatrix,Karts[id]->getPosition()); //Transformations (View, Translation, anglerotation,scale)

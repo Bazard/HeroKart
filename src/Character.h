@@ -4,7 +4,7 @@
 
 class Object3D;
 
-enum Hero { JOHN=0, KLAUS=1, DOUG=2, CANADA=3, BURT=4, MCKORMACK=5, STEVE=6, STAN=7, JENNIFER=8 };
+// enum Hero { JOHN=0, KLAUS=1, DOUG=2, CANADA=3, BURT=4, MCKORMACK=5, STEVE=6, STAN=7, JENNIFER=8 };
 
 class Character
 {
