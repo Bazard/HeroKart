@@ -997,3 +997,86 @@ void restartSDL(){
 			musique = Mix_LoadMUS("../sounds/musique3.mp3");
 			Mix_PlayMusic(musique, -1);
 }
+
+GLuint* loadTexture(){
+	GLuint* tabTexture=new GLuint[7];
+	// Power boost
+	int img_width, img_height;
+	unsigned char* img=SOIL_load_image("../textures/powerboost.jpg", &img_width, &img_height, NULL, 0);
+	
+	GLuint id1;
+	glGenTextures(1, &id1);
+	glBindTexture(GL_TEXTURE_2D, id1);
+	glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[0]=id1;
+
+	// Power front
+	img=SOIL_load_image("../textures/powerfront.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id2;
+	glGenTextures(1, &id2);
+	glBindTexture(GL_TEXTURE_2D, id2);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[1]=id2;
+
+	// Power back
+	img=SOIL_load_image("../textures/powerback.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id3;
+	glGenTextures(1, &id3);
+	glBindTexture(GL_TEXTURE_2D, id3);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[2]=id3;
+
+	// Power all
+	img=SOIL_load_image("../textures/powerall.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id4;
+	glGenTextures(1, &id4);
+	glBindTexture(GL_TEXTURE_2D, id4);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[3]=id4;
+
+	// Power shield
+	img=SOIL_load_image("../textures/powershield.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id5;
+	glGenTextures(1, &id5);
+	glBindTexture(GL_TEXTURE_2D, id5);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[4]=id5;
+
+	// Power trap
+	img=SOIL_load_image("../textures/powertrap.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id6;
+	glGenTextures(1, &id6);
+	glBindTexture(GL_TEXTURE_2D, id6);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[5]=id6;
+
+	// Icone vide
+	img=SOIL_load_image("../textures/vide.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id7;
+	glGenTextures(1, &id7);
+	glBindTexture(GL_TEXTURE_2D, id7);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[6]=id7;
+
+	return tabTexture;
+}

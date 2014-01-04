@@ -303,6 +303,7 @@ CMakeFiles/HeroKart.dir/src/Kart.cpp.obj
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
+ C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj
  ../lib/include/Program.hpp
  ../lib/include/Shader.hpp
@@ -1051,6 +1052,7 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj
  C:/Logiciels/MinGW/include/SDL/SDL_stdinc.h
  C:/Logiciels/MinGW/include/SDL/SDL_thread.h
  C:/Logiciels/MinGW/include/SDL/SDL_timer.h
+ C:/Logiciels/MinGW/include/SDL/SDL_ttf.h
  C:/Logiciels/MinGW/include/SDL/SDL_types.h
  C:/Logiciels/MinGW/include/SDL/SDL_version.h
  C:/Logiciels/MinGW/include/SDL/SDL_video.h

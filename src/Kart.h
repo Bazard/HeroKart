@@ -2,6 +2,8 @@
 #include "Object3D.h"
 #include "Node.h"
 
+class PowerObject;
+
 class Kart: public Object3D
 {
 private:
@@ -37,6 +39,6 @@ public:
 	
 	void setNodeTo(Node* node){nodeTo=node;}
 	
-	void moveIA(std::vector<Object3D*>& mapObjects);
+	void moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts,PowerObject* power); //power = Le pouvoir du kart
 };
 

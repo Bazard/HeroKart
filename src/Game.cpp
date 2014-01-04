@@ -68,10 +68,10 @@ int Game::playTrack(Track& track){
 	vbo.bind(GL_ARRAY_BUFFER);
 	
 	Vertex2DUV vertices[] = {
-		Vertex2DUV(-0.5, -0.5, 0.0, 1.0),
-		Vertex2DUV(-0.5, 0.5, 0.0, 0.0),
-		Vertex2DUV(0.5, 0.5, 1.0, 0.0),
-		Vertex2DUV(0.5, -0.5, 1.0, 1.0),
+		Vertex2DUV(0.7, -0.9, 0.0, 1.0),
+		Vertex2DUV(0.7, -0.64, 0.0, 0.0),
+		Vertex2DUV(0.9, -0.64, 1.0, 0.0),
+		Vertex2DUV(0.9, -0.9, 1.0, 1.0),
 	};
 	//on remplit les donnees du bateau
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
@@ -101,18 +101,8 @@ int Game::playTrack(Track& track){
 	GLint locVarTexture;
 	locVarTexture= glGetUniformLocation(prog2D.getGLId(), "uTexture");
 	
-	//On loade l'image
-	int img_width=0, img_height=0;
-	unsigned char* img;
-	img=SOIL_load_image("../textures/menuCircuit800.jpg", &img_width, &img_height, NULL, 0);
-	
-	//On créé la texture
-	GLuint idMenu;
-	glGenTextures(1, &idMenu);
-	glBindTexture(GL_TEXTURE_2D, idMenu);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
-	glBindTexture(GL_TEXTURE_2D,0);
+	//On loade les textures
+	GLuint* texture=loadTexture();
 	
 	Program prog;
 	prog = loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
@@ -137,7 +127,7 @@ int Game::playTrack(Track& track){
 	PowerObject boost(BOOST,1000);
 	boost.sphere(1,32,16);
 	boost.setScale(glm::vec3(1,1,1));
-	boost.setPosition(glm::vec3(-10,0,10));
+	boost.setPosition(glm::vec3(-39,0,0));
 	boost.setHitbox(glm::vec3(1));
 	boost.build();
 	boost.LoadTexture("../textures/CCTex.jpg");
@@ -159,15 +149,6 @@ int Game::playTrack(Track& track){
 
 	//Element de décor test
 	
-	// Object3D elementDecor5;
-	// elementDecor5.sphere(1,32,16);
-	// elementDecor5.setScale(glm::vec3(1,1,1));
-	// elementDecor5.setPosition(glm::vec3(-39,0,0));
-	// elementDecor5.setHitbox(glm::vec3(2));
-	// elementDecor5.build();
-	// elementDecor5.LoadTexture("../textures/MoonMap.png");
-	// track.push_back(elementDecor5);
-	
 	//On donne le prochain noeud pour que les IA s'y dirigent
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
 		(*it)->setNodeTo(track.getNodeStart()->next);
@@ -184,15 +165,36 @@ int Game::playTrack(Track& track){
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 			//A decommenter (Marie)
-		// prog2D.use();
-		// vao.bind();
-		// glUniform1i(locVarTexture,0);
-		// glBindTexture(GL_TEXTURE_2D,idMenu);
-		// glUniform1i(locVarTexture,0);
-		// glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
-		// glBindTexture(GL_TEXTURE_2D,0);
+		prog2D.use();
+		vao.bind();
+		glUniform1i(locVarTexture,0);
+		if (Players[0]->getPower()==NULL){
+			glBindTexture(GL_TEXTURE_2D,texture[6]);
+		}
+		else{
+			switch(Players[0]->getPower()->getType()){
+				case BOOST: glBindTexture(GL_TEXTURE_2D,texture[0]);
+				break;
+				case ATK_FRONT: glBindTexture(GL_TEXTURE_2D,texture[1]);
+				break;
+				case ATK_BACK: glBindTexture(GL_TEXTURE_2D,texture[2]);
+				break;
+				case ATK_ALL: glBindTexture(GL_TEXTURE_2D,texture[3]);
+				break;
+				case SHIELD: glBindTexture(GL_TEXTURE_2D,texture[4]);
+				break;
+				case TRAP: glBindTexture(GL_TEXTURE_2D,texture[5]);
+				break;
+			}
+		}
+		glUniform1i(locVarTexture,0);
+		glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+		glBindTexture(GL_TEXTURE_2D,0);
+
+        /*RenderText(police, 255, 255, 255, -1, 0,"bonjour");*/
+
+		prog.use();
 		
-		// prog.use();
 		
 		//Decalage camera
 		if(tStart-anglefile.front().second>330){
@@ -206,7 +208,7 @@ int Game::playTrack(Track& track){
 		for (int id=0;id<8;++id){
 			if(id!=0){
 				//Deplacement IA
-				Karts[id]->moveIA(track.getMapObjects());
+				Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower());	
 				Players[id]->usePower(Karts,id,tStart,track.getMapObjects());
 			}
 				

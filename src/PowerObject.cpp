@@ -32,9 +32,9 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 					
 			case ATK_FRONT:
 					visible=true;
-					sphere(1,32,16);
+					LoadObjFromFile("../models/Missile.obj");	
 					build();
-					LoadTexture("../textures/sky.jpg"); //A changer par une mine
+					LoadTexture("../textures/TexMissile.jpg"); //A changer par une mine
 					pos=vecKart[idLanceur]->getPosition()+glm::vec3(3*vecKart[idLanceur]->getDirection().x,3*vecKart[idLanceur]->getDirection().y,3*vecKart[idLanceur]->getDirection().z);
 					dir=vecKart[idLanceur]->getDirection();
 					angle=vecKart[idLanceur]->getAngle();

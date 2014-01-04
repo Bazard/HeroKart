@@ -302,6 +302,7 @@ CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Kart.cpp
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Kart.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Node.h
 CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/Object3D.h
+CMakeFiles/HeroKart.dir/src/Kart.cpp.obj: ../src/PowerObject.h
 
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: ../lib/include/Program.hpp
 CMakeFiles/HeroKart.dir/src/Menu.cpp.obj: ../lib/include/Shader.hpp
@@ -1050,6 +1051,7 @@ CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_stdinc.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_thread.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_timer.h
+CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_ttf.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_types.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_version.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_video.h
