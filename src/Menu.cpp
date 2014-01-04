@@ -38,7 +38,7 @@ int redirection(std::vector<Character*>& character,std::vector<Track*>& track){
 			sortie=menuPersonnage(character,track);
 		}
 		else if(sortie==2){
-			sortie=lancerJeuRandom();
+			sortie=lancerJeuRandom(character,track);
 		}
 		else if(sortie==3){
 			sortie=menuOptions(character,track);
@@ -867,9 +867,10 @@ int menuPrincipal(std::vector<Character*>& character,std::vector<Track*>& track)
 							sortie=3;
 							done = true;
 						}
-						else if (xClicked>=(459.0/800.0)*WINDOW_WIDTH && xClicked <=(610.0/800.0)*WINDOW_WIDTH && yClicked>=(371.0/600.0)*WINDOW_HEIGHT && yClicked<=(412.0/600.0)*WINDOW_HEIGHT)
+						else if (xClicked>=(459.0/800.0)*WINDOW_WIDTH && xClicked <=(610.0/800.0)*WINDOW_WIDTH && yClicked>=(371.0/600.0)*WINDOW_HEIGHT && yClicked<=(412.0/600.0)*WINDOW_HEIGHT){
 							sortie=-1;
 							done = true;
+						}	
 					}
 					break;
 				case SDL_QUIT:
@@ -896,8 +897,141 @@ int menuPrincipal(std::vector<Character*>& character,std::vector<Track*>& track)
 	return sortie;
 }
 
-int lancerJeuRandom(){
-	return -1;
+int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& track){
+	srand(time(NULL));
+	int r=rand()%9-1;
+	
+	Character *john=new Character(JOHN,10000);
+	Character *klaus=new Character(KLAUS,10000);
+	Character *doug=new Character(DOUG,10000);
+	Character *stan=new Character(STAN,10000);
+	Character *steve=new Character(STEVE,10000);
+	Character *burt=new Character(BURT,10000);
+	Character *mckormack=new Character(MCKORMACK,10000);
+	Character *jennifer=new Character(JENNIFER,10000);
+	Character *canada=new Character(CANADA,10000);
+	
+	switch(r){
+					case 0:
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(doug);
+							character.push_back(stan);
+							character.push_back(burt);
+							character.push_back(steve);
+							character.push_back(mckormack);
+							character.push_back(jennifer);							
+							break;
+					case 1:
+							character.push_back(klaus);
+							character.push_back(john);
+							character.push_back(doug);
+							character.push_back(stan);
+							character.push_back(burt);
+							character.push_back(steve);
+							character.push_back(mckormack);
+							character.push_back(jennifer);
+							break;
+					case 2:
+							character.push_back(doug);
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(stan);
+							character.push_back(burt);
+							character.push_back(steve);
+							character.push_back(mckormack);
+							character.push_back(jennifer);
+							break;
+					case 3:
+							character.push_back(stan);
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(doug);
+							character.push_back(burt);
+							character.push_back(steve);
+							character.push_back(mckormack);
+							character.push_back(jennifer);
+							break;
+					case 4:
+							character.push_back(steve);
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(doug);
+							character.push_back(stan);
+							character.push_back(burt);
+							character.push_back(mckormack);
+							character.push_back(jennifer);
+							break;
+					case 5:
+							character.push_back(burt);
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(doug);
+							character.push_back(stan);
+							character.push_back(steve);
+							character.push_back(mckormack);
+							character.push_back(jennifer);
+							break;
+					case 6:
+							character.push_back(mckormack);
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(doug);
+							character.push_back(stan);
+							character.push_back(burt);
+							character.push_back(steve);							
+							character.push_back(jennifer);
+							break;
+					case 7:
+							character.push_back(jennifer);
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(doug);
+							character.push_back(stan);
+							character.push_back(burt);
+							character.push_back(steve);
+							character.push_back(mckormack);
+							break;
+					case 8:
+							character.push_back(canada);
+							character.push_back(john);
+							character.push_back(klaus);
+							character.push_back(doug);
+							character.push_back(stan);
+							character.push_back(burt);
+							character.push_back(steve);
+							character.push_back(mckormack);
+							break;
+					default:
+							return -1;
+							break;
+					}
+	
+					r=rand()%4;
+					
+					Track* circuit1=new Track("village");
+					Track* circuit2=new Track("montreal");
+					Track* circuit3=new Track("forteresse");				
+	
+					switch(r){
+						case 1:
+							track.push_back(circuit1);
+							track.push_back(circuit2);
+							track.push_back(circuit3);
+							break;
+						case 2:
+							track.push_back(circuit2);
+							track.push_back(circuit1);
+							track.push_back(circuit3);
+							break;
+						case 3:
+							track.push_back(circuit3);
+							track.push_back(circuit1);
+							track.push_back(circuit2);
+							break;
+					}
+
+	return 5;
 }
 
 

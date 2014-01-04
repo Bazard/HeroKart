@@ -185,17 +185,17 @@ bool PowerObject::isPerimed(int tStart){
 	return false;
 }
 
-void PowerObject::hitKart(Kart& kart, int id, int tStart){
-	
+int PowerObject::hitKart(Kart& kart, int id, int tStart){
+		
 	if(pick){
 		stock.push_back(-1);
-		return;
+		return 1;
 	}
 	
 	visible=false;
 	if(kart.invincible){
 		stock.push_back(-1);
-		return;
+		return 1;
 	}
 		stock.push_back(id);
 		timeOfUse=tStart;
@@ -216,6 +216,8 @@ void PowerObject::hitKart(Kart& kart, int id, int tStart){
 		default:
 			break;
 	}
+	
+	return 1;
 }
 
 void PowerObject::hitKartBack(std::vector<Kart*>& karts){

@@ -15,7 +15,7 @@ int redirection(std::vector<Character*>&,std::vector<Track*>&);
 void menuChargement();
 int menuCircuit(std::vector<Character*>&,std::vector<Track*>&);
 int menuPersonnage(std::vector<Character*>&,std::vector<Track*>&);
-int lancerJeuRandom();
+int lancerJeuRandom(std::vector<Character*>&,std::vector<Track*>&);
 int menuOptions(std::vector<Character*>&,std::vector<Track*>&);
 int menuPrincipal(std::vector<Character*>&,std::vector<Track*>&);
 void KartWithChar(std::vector<Character*>&,std::vector<Kart*>&);

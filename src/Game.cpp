@@ -124,7 +124,7 @@ int Game::playTrack(Track& track){
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans powObject
-	PowerObject boost(ATK_FRONT,10000);
+	PowerObject boost(BOOST,10000);
 	boost.sphere(1,32,16);
 	boost.setScale(glm::vec3(1,1,1));
 	boost.setPosition(glm::vec3(-39,0,0));
@@ -213,7 +213,7 @@ int Game::playTrack(Track& track){
 	
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
-			// if(id!=0){
+			 if(id!=0){
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
 				Players[id]->getCharacter().getHero(), Players[id]->getCharacter().isPowerReady(tStart));
@@ -221,7 +221,7 @@ int Game::playTrack(Track& track){
 						Players[id]->usePower(Karts,id,tStart,track.getMapObjects());
 					else if(sortie==2)
 						Players[id]->getCharacter().useSuperPower(tStart,*Karts[id],track.getMapObjects());
-			// }
+			 }
 				
 			Karts[id]->getVAO().bind();		//Bind du VAO
 			Karts[id]->TransfoMatrix(ViewMatrix,Karts[id]->getPosition()); //Transformations (View, Translation, anglerotation,scale)
@@ -294,9 +294,11 @@ int Game::playTrack(Track& track){
 			//Collision avec les autres objets de la map
 			for (std::vector<Object3D*>::iterator it_mapObjects = track.getMapObjects().begin() ; it_mapObjects != track.getMapObjects().end(); ++it_mapObjects){	// Boucle sur tous les objets de la map
 				if(Karts[idkart]->isInCollision( **it_mapObjects )){
-					Karts[idkart]->avoidCollision( **it_mapObjects );
-					Karts[idkart]->move(-1); // Fais ralentir le kart quand il est en collision
-					(*it_mapObjects)->hitKart(*Karts[idkart],idkart, tStart);
+					
+					if(((*it_mapObjects)->hitKart(*Karts[idkart],idkart, tStart))==0){
+						Karts[idkart]->avoidCollision( **it_mapObjects );
+						Karts[idkart]->move(-1); // Fais ralentir le kart quand il est en collision
+					}
 				}
 			}
 		
@@ -311,8 +313,9 @@ int Game::playTrack(Track& track){
 			//Collision avec les autres Karts
 			//>>>>>>>>>>>>>>>>>>>>> Boucle sur le reste des karts, permet d'éviter de tester 2 fois la même collision (kart1/kart2 et kart2/kart1 par exemple)
 			for (int idotherkart = idkart+1 ; idotherkart <8; ++idotherkart){  // Boucle sur le reste des karts
-				if(Karts[idkart]->intouchable)
+				if(Karts[idkart]->intouchable || Karts[idotherkart]->intouchable)
 					continue;
+					
 		        if(Karts[idkart]->isInCollision( *Karts[idotherkart] )){
 		        	Karts[idkart]->avoidCollision( *Karts[idotherkart] );
 					Karts[idkart]->move(-1); // Fais ralentir le kart quand il est en collision

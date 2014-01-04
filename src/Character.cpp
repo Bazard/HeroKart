@@ -43,6 +43,7 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 			case BURT:
 				obj=new PowerObject(ATK_BACK, 10000);
 				obj->visible=true;
+				obj->setPick(false);
 				obj->sphere(1,32,16); //A changer par une flaque
 				obj->build();
 				obj->LoadTexture("../textures/sky.jpg"); //A changer par une texture d'acide
@@ -58,8 +59,10 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 			case STEVE:
 				obj=new PowerObject(ATK_FRONT, 10000);
 				obj->visible=true;
+				obj->setPick(false);
 				obj->sphere(1,32,16);
 				obj->build();
+				obj->setHitbox(glm::vec3(1,1,1));
 				obj->LoadTexture("../textures/sky.jpg"); //A changer par une boule de feu
 				obj->setPosition(kart.getPosition()+glm::vec3(3*kart.getDirection().x,3*kart.getDirection().y,3*kart.getDirection().z));
 				obj->setDirection(kart.getDirection());
@@ -182,6 +185,7 @@ void Character::continuousHitSuperPower(std::vector<Kart*>& karts, Kart& kart){
 				//Deplacement du kart dependant de celui de Stan
 				karts[stock[0]]->setPosition(kart.getPosition().x+stock[1],kart.getPosition().y+stock[2],kart.getPosition().z+stock[3]);
 				karts[stock[0]]->setAngle(kart.getAngle());
+				karts[stock[0]]->setDirection(kart.getDirection());
 				break;
 			default:
 				break;

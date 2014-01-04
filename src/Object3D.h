@@ -58,9 +58,7 @@ public:
 	
 	void setScale(glm::vec3 vec){ sca=vec;}
 
-	void setHitbox(glm::vec3 size){ hitbox=size;}
-
-	
+	void setHitbox(glm::vec3 size){ hitbox=size;}	
 	
 	bool isVisible(){ return visible;}
 	float getAngle(){return angle;}
@@ -82,7 +80,7 @@ public:
 	virtual void movePower(){} //Fonction qui fait bouger l'objet, elle est utile seulement si l'objet est un powerObject
 	virtual bool tooFar(){return false;}; //Fonction qui teste si l'objet est trop loin. Ne marche que pour les powerObject
 	virtual bool isPerimed(int tStart){return false;} // Fonction qui teste si le powerObject doit se finir
-	virtual void hitKart(Kart& kart, int id, int tStart){} //Fonction qui permet d'appliquer les pouvoirs du powerObjects
+	virtual int hitKart(Kart& kart, int id, int tStart){return 0;} //Fonction qui permet d'appliquer les pouvoirs du powerObjects
 	virtual void hitKartBack(std::vector<Kart*>& karts){} //Fonction qui permet de finir le powerObject et d'annuler ses effets
 	
 	void Draw(GLuint uTex);

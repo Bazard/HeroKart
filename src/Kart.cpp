@@ -94,6 +94,9 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 
 	//Repere les obstacles
 	for (std::vector<Object3D*>::iterator it = mapObjects.begin()+1 ; it != mapObjects.end(); ++it){
+		if(!(*it)->isVisible())
+			continue;
+			
 		x=(*it)->getPosition().x-pos.x;
 		z=(*it)->getPosition().z-pos.z;		
 		angleNode=getAngle2Vec(x,z);
@@ -102,6 +105,8 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 				obstacle=true;
 			if(x < 10 && x > -10 && z < 10 &&  z > -10 && angleNode>-5 && angleNode<5){
 					marchearriere=true;
+					// if(this==Karts[0])
+						// std::cout << x << " " << z << std::endl;
 			}
 			if(x < 20 && x > -20 && z < 20 &&  z > -20 && angleNode>20 && angleNode<30){
 					gauche=true;
@@ -142,6 +147,9 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 	else if(!obstacle && !power){
 		//Cherche un pouvoir sur la route
 		for (std::vector<PowerObject*>::iterator it = powObjects.begin() ; it != powObjects.end(); ++it){
+			if(!(*it)->isVisible())
+				continue;
+				
 			x=(*it)->getPosition().x-pos.x;
 			z=(*it)->getPosition().z-pos.z;		
 			angleNode=getAngle2Vec(x,z);
