@@ -143,7 +143,7 @@ int Game::playTrack(Track& track){
 	boost.LoadTexture("../textures/CCTex.jpg");
 	track.push_back_pow(boost);
 	
-	PowerObject atk_back(ATK_BACK,1000);
+	PowerObject atk_back(ATK_BACK,3000);
 	PowerObject trap(TRAP,1000);
 	PowerObject shield(SHIELD, 1000);
 	PowerObject atk_all(ATK_ALL, 1000);
@@ -202,7 +202,6 @@ int Game::playTrack(Track& track){
 		//Camera
 		ViewMatrix=camera.getViewMatrix(Karts[0]->getPosition(), anglefile.front().first,Karts[0]->back);
 	
-
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
 			if(id!=0){
@@ -241,27 +240,26 @@ int Game::playTrack(Track& track){
 			}
 		}
 		
-		
 		//Dessin des objets de la map
-		for (std::vector<Object3D*>::iterator it = track.getMapObjects().begin() ; it != track.getMapObjects().end(); ++it){
-			if((*it)->isVisible()){
-				(*it)->getVAO().bind();		
-				(*it)->movePower();
-				(*it)->TransfoMatrix(ViewMatrix, (*it)->getPosition());
-				(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
-				(*it)->Draw(uTex);
+		for(int id=0;id<track.getMapObjects().size();++id){
+			if(track.getMapObjects()[id]->isVisible()){
+				track.getMapObjects()[id]->getVAO().bind();	
+				track.getMapObjects()[id]->movePower();
+				track.getMapObjects()[id]->TransfoMatrix(ViewMatrix, track.getMapObjects()[id]->getPosition());
+				track.getMapObjects()[id]->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
+				track.getMapObjects()[id]->Draw(uTex);
 				
-				if((*it)->tooFar()){
-					track.getMapObjects().erase(it);	
-					delete(*it);
-					it--;
-				}
 			}
-			if((*it)->isPerimed(tStart)){
-					(*it)->hitKartBack(Karts);
-					track.getMapObjects().erase(it);	
-					delete(*it);
-					it--;
+			if(track.getMapObjects()[id]->tooFar()){
+					delete(track.getMapObjects()[id]);
+					track.getMapObjects().erase(track.getMapObjects().begin()+id);	
+					id--;
+			}
+			else if(track.getMapObjects()[id]->isPerimed(tStart)){
+					track.getMapObjects()[id]->hitKartBack(Karts);
+					delete(track.getMapObjects()[id]);
+					track.getMapObjects().erase(track.getMapObjects().begin()+id);	
+					id--;
 			}
 		}
 		
@@ -277,7 +275,6 @@ int Game::playTrack(Track& track){
 					(*it)->visible=true;
 			}
 		}
-
 
 		//Gestion des collisions
 		for (int idkart=0;idkart<8;++idkart){	// Boucle sur tous les karts

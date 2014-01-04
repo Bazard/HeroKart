@@ -157,11 +157,9 @@ void Character::hitSuperPowerBack(std::vector<Kart*>& karts){
 		
 		switch(hero){
 			case KLAUS:
-				karts[stock[0]]->setSpeed(4*karts[stock[0]]->getSpeedMax());
 				karts[stock[0]]->setSpeedMax(4*karts[stock[0]]->getSpeedMax());
 				break;
 			case DOUG:
-				karts[stock[0]]->setSpeed(2*karts[stock[0]]->getSpeedMax());
 				karts[stock[0]]->setSpeedMax(2*karts[stock[0]]->getSpeedMax());
 				break;
 			case STAN:

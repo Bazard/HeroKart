@@ -127,8 +127,6 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 						}
 					}
 					
-					
-					
 					delete(this);
 					break;
 					
@@ -220,23 +218,20 @@ void PowerObject::hitKart(Kart& kart, int id, int tStart){
 }
 
 void PowerObject::hitKartBack(std::vector<Kart*>& karts){
-
+	
 	if(stock[0]==-1){
 		stock.clear();
 		return;
 	}
-		
+	
 	switch(type){ //A varier si l'on veut
 		case ATK_FRONT:
-			karts[stock[0]]->setSpeed(4*karts[stock[0]]->getSpeedMax());
 			karts[stock[0]]->setSpeedMax(4*karts[stock[0]]->getSpeedMax());
 			break;
 		case ATK_BACK:
-			karts[stock[0]]->setSpeed(2*karts[stock[0]]->getSpeedMax());
 			karts[stock[0]]->setSpeedMax(2*karts[stock[0]]->getSpeedMax());
 			break;
 		case TRAP:
-			karts[stock[0]]->setSpeed(2*karts[stock[0]]->getSpeedMax());
 			karts[stock[0]]->setSpeedMax(2*karts[stock[0]]->getSpeedMax());
 			break;
 		default:

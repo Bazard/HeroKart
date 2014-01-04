@@ -552,7 +552,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 						case 10:
 							if(konami[konami.size()-1]!=113) konami.clear();
 							else {
-							std::cout << "Vous avez choisi Captain Canada, tabernaque, ca va chier !" << std::endl;
+							std::cout << "Vous avez choisi Captain Canada, tabernacle, ca va chier !" << std::endl;
 							sortie=4;
 							character.push_back(canada);
 							character.push_back(john);
@@ -920,8 +920,8 @@ void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts)
 				kart=new Kart(2,0.01,0.75,5);
 				kart->setPosition(glm::vec3(-10,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC.obj");	
-				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->LoadObjFromFile("../models/Klaus.obj");	
+				kart->LoadTexture("../textures/TexKlaus.jpg");
 				kart->build();
 				break;
 			case DOUG:
