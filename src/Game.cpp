@@ -124,7 +124,7 @@ int Game::playTrack(Track& track){
 	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans powObject
-	PowerObject boost(BOOST,1000);
+	PowerObject boost(ATK_FRONT,1000);
 	boost.sphere(1,32,16);
 	boost.setScale(glm::vec3(1,1,1));
 	boost.setPosition(glm::vec3(-39,0,0));
@@ -148,6 +148,14 @@ int Game::playTrack(Track& track){
 	
 
 	//Element de décor test
+	// Object3D elt1;
+	// elt1.sphere(1,32,16);
+	// elt1.setPosition(-38,0,0);
+	// elt1.setScale(glm::vec3(1));
+	// elt1.setHitbox(glm::vec3(1));
+	// elt1.build();
+	// elt1.LoadTexture("../textures/sky.jpg");
+	// track.push_back(elt1);
 	
 	//On donne le prochain noeud pour que les IA s'y dirigent
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
@@ -164,7 +172,6 @@ int Game::playTrack(Track& track){
 		
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-			//A decommenter (Marie)
 		prog2D.use();
 		vao.bind();
 		glUniform1i(locVarTexture,0);
@@ -208,8 +215,8 @@ int Game::playTrack(Track& track){
 		for (int id=0;id<8;++id){
 			if(id!=0){
 				//Deplacement IA
-				Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower());	
-				Players[id]->usePower(Karts,id,tStart,track.getMapObjects());
+				if(Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower())==1)	
+					Players[id]->usePower(Karts,id,tStart,track.getMapObjects());
 			}
 				
 			Karts[id]->getVAO().bind();		//Bind du VAO

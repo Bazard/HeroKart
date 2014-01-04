@@ -39,6 +39,8 @@ public:
 	
 	void setNodeTo(Node* node){nodeTo=node;}
 	
-	void moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts,PowerObject* power); //power = Le pouvoir du kart
+	int moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts,PowerObject* power); //power = Le pouvoir du kart
+	float getAngle2Vec(glm::vec3 vec2, glm::vec3 vec1);
+	float getAngle2Vec(float x, float z);
 };
 

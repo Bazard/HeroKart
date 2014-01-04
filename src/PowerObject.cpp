@@ -38,6 +38,7 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 					pos=vecKart[idLanceur]->getPosition()+glm::vec3(3*vecKart[idLanceur]->getDirection().x,3*vecKart[idLanceur]->getDirection().y,3*vecKart[idLanceur]->getDirection().z);
 					dir=vecKart[idLanceur]->getDirection();
 					angle=vecKart[idLanceur]->getAngle();
+					sca=glm::vec3(3);
 					objs.push_back(this);
 					retour=1;
 					break;
@@ -185,6 +186,7 @@ bool PowerObject::isPerimed(int tStart){
 }
 
 void PowerObject::hitKart(Kart& kart, int id, int tStart){
+	
 	if(pick){
 		stock.push_back(-1);
 		return;
@@ -195,7 +197,6 @@ void PowerObject::hitKart(Kart& kart, int id, int tStart){
 		stock.push_back(-1);
 		return;
 	}
-
 		stock.push_back(id);
 		timeOfUse=tStart;
 		

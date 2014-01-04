@@ -86,24 +86,18 @@ void Kart::rotate(int sens){
 	// else if(angle<-180) angle+=360;
 }
 
-void Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts, PowerObject* power){
+int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts, PowerObject* power){
 	float idle=0.05;
 	float angleNode,x,z;
 	bool marchearriere=false, droite=false, gauche=false, obstacle=false;
+	int sortie=0;
 	
 	//Repere les obstacles
 	for (std::vector<Object3D*>::iterator it = mapObjects.begin()+1 ; it != mapObjects.end(); ++it){
 		x=(*it)->getPosition().x-pos.x;
-		z=(*it)->getPosition().z-pos.z;
-		
-		angleNode=atan(x/z)*180/M_PI-angle;
-		if(z<0){ 
-				if(angleNode<0) angleNode+=180;
-				else angleNode-=180;
-			}
-			while(angleNode>180) angleNode-=360;
-			while(angleNode<-180) angleNode+=360;
-					
+		z=(*it)->getPosition().z-pos.z;		
+		angleNode=getAngle2Vec(x,z);
+			
 		if(x < 20 && x > -20 && z < 20 &&  z > -20 && angleNode>-30 && angleNode<30){
 				obstacle=true;
 			if(x < 10 && x > -10 && z < 10 &&  z > -10 && angleNode>-5 && angleNode<5){
@@ -121,35 +115,52 @@ void Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& 
 		//Cherche un pouvoir sur la route
 		for (std::vector<PowerObject*>::iterator it = powObjects.begin() ; it != powObjects.end(); ++it){
 			x=(*it)->getPosition().x-pos.x;
-			z=(*it)->getPosition().z-pos.z;
+			z=(*it)->getPosition().z-pos.z;		
+			angleNode=getAngle2Vec(x,z);
 			
-			angleNode=atan(x/z)*180/M_PI-angle;
-			if(z<0){ 
-					if(angleNode<0) angleNode+=180;
-					else angleNode-=180;
-				}
-				while(angleNode>180) angleNode-=360;
-				while(angleNode<-180) angleNode+=360;
-						
-			if(x < 20 && x > -20 && z < 20 &&  z > -20 && angleNode>-30 && angleNode<30){
+			if(x < 40 && x > -40 && z < 40 &&  z > -40 && angleNode>-20 && angleNode<20){
 					obstacle=true;
 			}
-			if(x < 20 && x > -20 && z < 20 &&  z > -20 && angleNode>20 && angleNode<30){
+			if(x < 40 && x > -40 && z < 40 &&  z > -40 && angleNode>20 && angleNode<30){
 					droite=true;
 					gauche=false;
 			}
-			if(x < 20 && x > -20 && z < 20 &&  z > -20 && angleNode<-20 && angleNode>-30){
+			if(x < 40 && x > -40 && z < 40 &&  z > -40 && angleNode<-20 && angleNode>-30){
 					gauche=true;
 					droite=false;
 			}
 		}
 	}
 	//S'il a déjà un pouvoir, il va chercher à piner quelqu'un
-	else{
+	else if(!obstacle && power){
 		for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
-		
+			if((*it)==this)
+				continue;
+				
+			x=(*it)->getPosition().x-pos.x;
+			z=(*it)->getPosition().z-pos.z;		
+			angleNode=getAngle2Vec(x,z);
+			
+			//Cherche devant
+			if(power->getType() == ATK_FRONT){
+				if(x < 30 && x > -30 && z < 30 &&  z > -30 && angleNode<5 && angleNode>-5){
+						sortie=1;
+				}
+			}
+			//Cherche derriere
+			else if(power->getType() == ATK_BACK || power->getType()==TRAP){
+				if(x < 30 && x > -30 && z < 30 &&  z > -30 && (angleNode<-175 || angleNode>175)){
+						sortie=1;
+				}
+			}
+			else {
+				sortie=1;
+			}
 		}
 	}
+	// else if(!obstacle || superPower){
+	
+	// }
 
 	//Marche arriere si obstacle
 	if(marchearriere){
@@ -157,16 +168,8 @@ void Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& 
 	}
 	else{
 	//Direction le prochain noeud
-	x=nodeTo->getPosition().x-pos.x;
-	z=nodeTo->getPosition().z-pos.z;
-	angleNode=atan(x/z)*180/M_PI-angle;
-	if(z<0){ 
-		if(angleNode<0) angleNode+=180;
-		else angleNode-=180;
-	}
+	angleNode=getAngle2Vec(nodeTo->getPosition(),pos);
 	
-	while(angleNode>180) angleNode-=360;
-	while(angleNode<-180) angleNode+=360;
 	if(obstacle && !droite){
 		rotate(-1);
 	}
@@ -195,4 +198,35 @@ void Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& 
 		nodeTo=nodeTo->next;
 	}
 	
+	return sortie;
+}
+
+float Kart::getAngle2Vec(glm::vec3 vec2, glm::vec3 vec1){
+			float x=vec2.x-vec1.x;
+			float z=vec2.z-vec1.z;
+			
+			float angleNode=atan(x/z)*180/M_PI-angle;
+			
+			if(z<0){ 
+					if(angleNode<0) angleNode+=180;
+					else angleNode-=180;
+				}
+				while(angleNode>180) angleNode-=360;
+				while(angleNode<-180) angleNode+=360;
+				
+			return angleNode;
+}
+
+float Kart::getAngle2Vec(float x, float z){
+			
+			float angleNode=atan(x/z)*180/M_PI-angle;
+			
+			if(z<0){ 
+					if(angleNode<0) angleNode+=180;
+					else angleNode-=180;
+				}
+				while(angleNode>180) angleNode-=360;
+				while(angleNode<-180) angleNode+=360;
+				
+			return angleNode;
 }
