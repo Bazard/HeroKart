@@ -398,6 +398,14 @@ core/setup.hpp
 ./core/_swizzle.hpp
 ../third-party/glm/glm/./core/_swizzle.hpp
 
+../third-party/glm/glm/gtc/matrix_transform.hpp
+../glm.hpp
+../third-party/glm/glm/glm.hpp
+matrix_transform.inl
+../third-party/glm/glm/gtc/matrix_transform.inl
+
+../third-party/glm/glm/gtc/matrix_transform.inl
+
 C:/Logiciels/MinGW/include/GL/gl.h
 
 C:/Logiciels/MinGW/include/GL/glu.h
@@ -454,6 +462,14 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
 VAO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
 
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.cpp
+PowerObject.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
+glm/gtc/matrix_transform.hpp
+-
+iostream
+-
+
 C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
 Object3D.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
@@ -461,24 +477,4 @@ Kart.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
 vector
 -
-
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.cpp
-Track.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
-fstream
--
-vector
--
-
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
-Object3D.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
-PowerObject.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.h
-vector
--
-string
--
-Node.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
 

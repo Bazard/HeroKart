@@ -47,7 +47,8 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 					visible=true;
 					LoadObjFromFile("../models/Mine.obj");	
 					build();
-					LoadTexture("../textures/EarthMap.jpg"); //A changer par une mine
+					LoadTexture("../textures/TexMine.jpg"); //A changer par une mine
+					sca=glm::vec3(2);
 					pos=vecKart[idLanceur]->getPosition()-glm::vec3(3*vecKart[idLanceur]->getDirection().x,3*vecKart[idLanceur]->getDirection().y,3*vecKart[idLanceur]->getDirection().z);
 					objs.push_back(this);
 					retour=1;
