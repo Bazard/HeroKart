@@ -5,6 +5,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/HeroKart.dir/src/Kart.cpp.obj"
   "CMakeFiles/HeroKart.dir/src/Menu.cpp.obj"
   "CMakeFiles/HeroKart.dir/src/Node.cpp.obj"
+  "CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj"
   "CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj"
   "CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj"
   "CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj"

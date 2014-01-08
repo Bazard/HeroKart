@@ -195,10 +195,34 @@ CMakeFiles/HeroKart.dir/src/Node.cpp.obj.provides: CMakeFiles/HeroKart.dir/src/N
 
 CMakeFiles/HeroKart.dir/src/Node.cpp.obj.provides.build: CMakeFiles/HeroKart.dir/src/Node.cpp.obj
 
+CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj: CMakeFiles/HeroKart.dir/flags.make
+CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.rsp
+CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj: ../src/Object2D.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj"
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Object2D.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Object2D.cpp
+
+CMakeFiles/HeroKart.dir/src/Object2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/Object2D.cpp.i"
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Object2D.cpp > CMakeFiles\HeroKart.dir\src\Object2D.cpp.i
+
+CMakeFiles/HeroKart.dir/src/Object2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/Object2D.cpp.s"
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Object2D.cpp -o CMakeFiles\HeroKart.dir\src\Object2D.cpp.s
+
+CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj.requires:
+.PHONY : CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj.requires
+
+CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj.provides: CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj.provides.build
+.PHONY : CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj.provides
+
+CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj.provides.build: CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj
+
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: CMakeFiles/HeroKart.dir/flags.make
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.rsp
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj"
 	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Object3D.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Object3D.cpp
 
@@ -222,7 +246,7 @@ CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj.provides.build: CMakeFiles/HeroKart
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: CMakeFiles/HeroKart.dir/flags.make
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.rsp
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj: ../src/PlayerIA.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj"
 	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\PlayerIA.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\PlayerIA.cpp
 
@@ -246,7 +270,7 @@ CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj.provides.build: CMakeFiles/HeroKart
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: CMakeFiles/HeroKart.dir/flags.make
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.rsp
 CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj: ../src/PowerObject.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj"
 	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\PowerObject.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\PowerObject.cpp
 
@@ -270,7 +294,7 @@ CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj.provides.build: CMakeFiles/HeroK
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: CMakeFiles/HeroKart.dir/flags.make
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.rsp
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj: ../src/Race.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Race.cpp.obj"
 	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Race.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Race.cpp
 
@@ -294,7 +318,7 @@ CMakeFiles/HeroKart.dir/src/Race.cpp.obj.provides.build: CMakeFiles/HeroKart.dir
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: CMakeFiles/HeroKart.dir/flags.make
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.rsp
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Track.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Track.cpp.obj"
 	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Track.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Track.cpp
 
@@ -323,6 +347,7 @@ HeroKart_OBJECTS = \
 "CMakeFiles/HeroKart.dir/src/Kart.cpp.obj" \
 "CMakeFiles/HeroKart.dir/src/Menu.cpp.obj" \
 "CMakeFiles/HeroKart.dir/src/Node.cpp.obj" \
+"CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj" \
 "CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj" \
 "CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj" \
 "CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj" \
@@ -338,6 +363,7 @@ HeroKart.exe: CMakeFiles/HeroKart.dir/src/heromain.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/Kart.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/Menu.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/Node.cpp.obj
+HeroKart.exe: CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj
@@ -369,6 +395,7 @@ CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/heromain.cpp.obj.r
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/Kart.cpp.obj.requires
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/Menu.cpp.obj.requires
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/Node.cpp.obj.requires
+CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj.requires
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj.requires
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj.requires
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj.requires

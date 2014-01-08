@@ -14,7 +14,9 @@ private:
 	std::vector<PowerObject*> powObjects;
 	std::string file; //Son fichier .map
 	Node* nodeStart;
-	 std::vector<std::string> split(std::string str,std::string sep);
+	
+	std::vector<std::string> split(std::string str,std::string sep);
+	
 public:
 	Track(std::string);
 	~Track();

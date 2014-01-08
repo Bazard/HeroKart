@@ -1138,7 +1138,7 @@ void restartSDL(){
 			Mix_PlayMusic(musique, -1);
 }
 
-GLuint* loadTexture(){
+GLuint* PowerTexture(){
 	GLuint* tabTexture=new GLuint[7];
 	// Power boost
 	int img_width, img_height;

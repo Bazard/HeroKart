@@ -7,21 +7,7 @@
 
 Track::Track(std::string s):file(s)
 {
-/*Node* node1=new Node(0,-30,2,-30);
-Node* node2=new Node(1,-30,2,30);
-Node* node3=new Node(2,30,2,30);
-Node* node4=new Node(3,30,2,-30);*/
 
-Node* node1=new Node(0,glm::vec3(-35,2,-35),glm::vec3(-25,2,-25));
-Node* node2=new Node(1,glm::vec3(-35,2,25),glm::vec3(-25,2,35));
-Node* node3=new Node(2,glm::vec3(25,2,25),glm::vec3(35,2,35));
-Node* node4=new Node(3,glm::vec3(25,2,-35),glm::vec3(35,2,-25));
-
-nodeStart=node1;
-node1->next=node2;
-node2->next=node3;
-node3->next=node4;
-node4->next=node1;
 
 }
 
@@ -87,7 +73,6 @@ void Track::insertElt(){
 	while(ligne[0]=='#')
 		std::getline(fichier, ligne);
 		
-		std::cout << ligne << std::endl;
 	PowerObject* pow;
 	
 	while (!fichier.eof()){
@@ -110,11 +95,9 @@ void Track::insertElt(){
 			std::getline(fichier, ligne);
 			pow->LoadObjFromFile(ligne);
 			pow->build();
-			std::cout << "Modele " << ligne << std::endl;
 			
 			std::getline(fichier, ligne);
 			pow->LoadTexture((char*)ligne.c_str());
-			std::cout << "Texture " << ligne << std::endl;
 			
 			std::getline(fichier, ligne);
 			fields=split(ligne," ");
@@ -135,6 +118,24 @@ void Track::insertElt(){
 			std::getline(fichier, ligne);
 	}
 	
+	while(ligne[0]=='#')
+		std::getline(fichier, ligne);
+		
+	Node* node;
+	Node* oldNode=NULL;
+	//Noeuds
+	while (!fichier.eof()){
+		fields=split(ligne," ");
+		node=new Node((int)atoi(fields[0].c_str()),glm::vec3((float)atof(fields[1].c_str()),(float)atof(fields[2].c_str()),(float)atof(fields[3].c_str())),glm::vec3((float)atof(fields[4].c_str()),(float)atof(fields[5].c_str()),(float)atof(fields[6].c_str())));
+		if(oldNode)
+			oldNode->next=node;
+		else
+			nodeStart=node;
+			
+		oldNode=node;
+		std::getline(fichier, ligne);
+	}
+	node->next=nodeStart;
 	fichier.close();
  }
 
@@ -144,7 +145,6 @@ std::vector<std::string> Track::split(std::string str,std::string sep){
     std::vector<std::string> arr;
     current=strtok(cstr,sep.c_str());
     while(current!=NULL){
-		// std::cout << current << std::endl;
         arr.push_back(current);
         current=strtok(NULL,sep.c_str());
     }
