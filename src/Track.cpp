@@ -1,6 +1,7 @@
 #include "Track.h"
 #include <fstream>
 #include <vector>
+#include <cstdio>
 
 Track::Track(std::string s):file(s)
 {
