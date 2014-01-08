@@ -45,8 +45,7 @@ void Track::insertElt(){
 	while(ligne[0]=='#')
 		std::getline(fichier, ligne);
 	
-	//Objets
-    while (ligne[0]=='#')
+    while (!fichier.eof())
     {
 		obj=new Object3D();
 		
@@ -77,13 +76,6 @@ void Track::insertElt(){
 		std::getline(fichier, ligne);
     }
 	
-	// while(ligne[0]=='#')
-		// std::getline(fichier, ligne);
-		
-	// //Powers
-	// while (ligne[0]=='#'){
-		
-	// }
 	fichier.close();
  }
 
