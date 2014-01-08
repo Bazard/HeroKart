@@ -5,11 +5,11 @@
 
 #define EPSILON 0.00001
 
-Kart::Kart():tourne(2.f), acceleration(0.1f), speed(0),speedmax(0.5), back(false), poids(5),invincible(false),intouchable(false),nodeTo(NULL){
+Kart::Kart():tourne(2.f), acceleration(0.1f), speed(0),speedmax(0.5), back(false), poids(5),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0){
 	dir.z=1;
 }
 
-Kart::Kart(float tourne, float acceleration, float speedmax, float poids) :tourne(tourne), acceleration(acceleration), speedmax(speedmax), speed(0), back(false), poids(poids),invincible(false),intouchable(false),nodeTo(NULL)
+Kart::Kart(float tourne, float acceleration, float speedmax, float poids) :tourne(tourne), acceleration(acceleration), speedmax(speedmax), speed(0), back(false), poids(poids),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0)
 {
 	dir.z=1;
 }
@@ -85,6 +85,59 @@ void Kart::rotate(int sens){
 	// if(angle>180) angle-=360;
 	// else if(angle<-180) angle+=360;
 }
+
+
+
+
+
+void Kart::incrRank(){
+	if(rank < 8){ rank++; }
+	else{  }
+}
+
+void Kart::decrRank(){
+	if(rank > 1){ rank--; }
+	else{  }
+}
+
+
+void Kart::crossANode(void){
+	glm::vec3 u;
+	u.x = nodeTo->getRightPos().x - nodeTo->getLeftPos().x;
+	u.y = 0;
+	u.z = nodeTo->getRightPos().z - nodeTo->getLeftPos().z;
+
+	glm::vec3 AC;
+	AC.x = pos.x - nodeTo->getLeftPos().x;
+	AC.y = 0;
+	AC.z = pos.z - nodeTo->getLeftPos().z;
+
+	float numerateur = u.x*AC.z - u.z*AC.x;   // norme du vecteur v
+	if (numerateur < 0)
+		numerateur = -numerateur ;   // valeur absolue ; si c'est négatif, on prend l'opposé.
+	float denominateur = sqrt(u.x*u.x + u.z*u.z);  // norme de u
+	float CI = numerateur / denominateur;
+	
+	// Si on franchit le checkpoint
+	if (CI<2*hitbox.x){
+		nbNodesPassed++;
+		nodeTo=nodeTo->next;
+	}
+}
+
+
+float Kart::distanceToNextNode(void){
+	return sqrt( pow((nodeTo->getPosition().x - pos.x),2) + pow((nodeTo->getPosition().y - pos.y),2) + pow((nodeTo->getPosition().z - pos.z),2) );
+}
+
+
+
+
+
+
+
+
+
 
 int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts, PowerObject* power, Hero hero, bool powerReady){
 	float idle=0.05;
@@ -228,9 +281,10 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 	}
 	
 	//Changement de noeud
-	if(nodeTo->getPosition().x-pos.x < 5 && nodeTo->getPosition().x-pos.x > -5 && nodeTo->getPosition().z-pos.z < 5 && nodeTo->getPosition().z-pos.z > -5){
+	/*if(nodeTo->getPosition().x-pos.x < 5 && nodeTo->getPosition().x-pos.x > -5 && nodeTo->getPosition().z-pos.z < 5 && nodeTo->getPosition().z-pos.z > -5){
 		nodeTo=nodeTo->next;
-	}
+	}*/
+	crossANode();
 	
 	return sortie;
 }

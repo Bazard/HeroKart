@@ -136,6 +136,20 @@ int Game::playTrack(Track& track){
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 	
+	//Nodes
+	Node* currentNode = track.getNodeStart();
+	Object3D* node;
+	for(int i=0; i<4; ++i){
+		node = new Object3D();
+		node->sphere(1,32,16);
+		node->setScale(glm::vec3(1,1,1));
+		node->setPosition(currentNode->getPosition());
+		node->build();
+		node->LoadTexture("../textures/CCTex.jpg");
+		track.push_back(*node);
+		currentNode = currentNode->next;
+	}
+
 
 	//Element de décor test
 	// Object3D elt1;
@@ -146,12 +160,13 @@ int Game::playTrack(Track& track){
 	// elt1.build();
 	// elt1.LoadTexture("../textures/textMap.jpg");
 	// track.push_back(elt1);
-	
-	
-	
+
+	unsigned int rank = 1;
 	//On donne le prochain noeud pour que les IA s'y dirigent
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
 		(*it)->setNodeTo(track.getNodeStart()->next);
+		(*it)->setRank(rank);
+		rank++;
 	}
 	
 	PowerObject *obj=NULL;
@@ -215,6 +230,8 @@ int Game::playTrack(Track& track){
 						Players[id]->usePower(Karts,id,tStart,track.getMapObjects());
 					else if(sortie==2)
 						Players[id]->getCharacter().useSuperPower(tStart,*Karts[id],track.getMapObjects());
+			 }else{
+			 	Karts[id]->crossANode();
 			 }
 				
 			Karts[id]->getVAO().bind();		//Bind du VAO
@@ -320,6 +337,13 @@ int Game::playTrack(Track& track){
 			}
 		
 		}
+
+
+		//Gestion du classement
+		ranking(Karts);
+		std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
+		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
+
 	
 		
 		//Sky
@@ -437,4 +461,56 @@ Players.clear();
 for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it)
 	delete(*it);
 Karts.clear();
+}
+
+
+// Gère le classement de la course
+void Game::ranking(std::vector<Kart*>& karts){
+	// Boucle sur tous les karts
+	for(std::vector<Kart*>::iterator currKart = karts.begin() ; currKart != karts.end(); ++currKart){
+
+		// Boucle sur tous les autres karts
+		for(std::vector<Kart*>::iterator otherKart = currKart+1 ; otherKart != karts.end(); ++otherKart){
+			// Si currKart a passé moins de noeuds que otherKart
+			if( (*currKart)->getNbNodesPassed() < (*otherKart)->getNbNodesPassed() ){
+				// Si currKart est devant otherKart
+				if( (*currKart)->getRank() < (*otherKart)->getRank() ){
+					(*currKart)->incrRank();
+					(*otherKart)->decrRank();
+				}else{
+
+				}
+			}// Si currKart a passé plus de noeuds que otherKart
+			else if( (*currKart)->getNbNodesPassed() > (*otherKart)->getNbNodesPassed() ){
+				// Si currKart est derriere otherKart
+				if( (*currKart)->getRank() > (*otherKart)->getRank() ){
+					(*currKart)->decrRank();
+					(*otherKart)->incrRank();
+				}else{
+
+				}
+			}// Si currKart et otherKart ont franchi le même nombre de noeuds
+			else if( (*currKart)->getNbNodesPassed() == (*otherKart)->getNbNodesPassed() ){
+				// Si currKart est plus proche du noeud que otherKart
+				if( (*currKart)->distanceToNextNode() < (*otherKart)->distanceToNextNode() ){
+					// Si currKart est derrière otherKart
+					if( (*currKart)->getRank() > (*otherKart)->getRank() ){
+						(*currKart)->decrRank();
+						(*otherKart)->incrRank();
+					}else{
+
+					}
+				}// Si currKart est plus loin du noeud que otherKart
+				else if( (*currKart)->distanceToNextNode() > (*otherKart)->distanceToNextNode() ){
+					// Si currKart est devant otherKart
+					if( (*currKart)->getRank() < (*otherKart)->getRank() ){
+						(*currKart)->incrRank();
+						(*otherKart)->decrRank();
+					}else{
+
+					}
+				}
+			}
+		}//for tous les autres karts
+	}//for tous les karts
 }
