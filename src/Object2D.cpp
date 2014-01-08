@@ -84,15 +84,11 @@ int Object2D::getIdTexture(){
 }
 
 void Object2D::setVertices(float xdep, float xarr, float ydep, float yarr){
-    // vertices.push_back(Vertex2DUV(xdep,ydep, 0.0, 1.0));
-	// vertices.push_back(Vertex2DUV(xdep,yarr, 0.0, 0.0));
-	// vertices.push_back(Vertex2DUV(xarr,yarr, 1.0, 0.0));
-	// vertices.push_back(Vertex2DUV(xarr,ydep, 1.0, 1.0));
-   vertices.clear();
-		vertices.push_back(Vertex2DUV(0.7, -0.9, 0.0, 1.0));
-		vertices.push_back(Vertex2DUV(0.7, -0.64, 0.0, 0.0));
-		vertices.push_back(Vertex2DUV(0.9, -0.64, 1.0, 0.0));
-		vertices.push_back(Vertex2DUV(0.9, -0.9, 1.0, 1.0));
+    vertices.push_back(Vertex2DUV(xdep,ydep, 0.0, 1.0));
+	vertices.push_back(Vertex2DUV(xdep,yarr, 0.0, 0.0));
+	vertices.push_back(Vertex2DUV(xarr,yarr, 1.0, 0.0));
+	vertices.push_back(Vertex2DUV(xarr,ydep, 1.0, 1.0));
+
 }
 
 std::vector<Vertex2DUV> Object2D::getVertices(){
@@ -111,7 +107,6 @@ void Object2D::bindTex(GLuint texture){
 void Object2D::Draw(GLint uTex){
     glUniform1i(uTex,0);
     glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
-	// glDrawArrays(GL_TRIANGLE_FAN, 1, 3);
     glBindTexture(GL_TEXTURE_2D,0);
 }
 
