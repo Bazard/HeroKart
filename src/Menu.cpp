@@ -210,10 +210,11 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
 	glBindTexture(GL_TEXTURE_2D,0);
 
-	Track* circuit1=new Track("village");
-	Track* circuit2=new Track("montreal");
-	Track* circuit3=new Track("forteresse");
-		
+	Track* circuit1=new Track("../maps/Village.map");
+	// circuit1->insertElt();
+	Track* circuit2=new Track("../maps/Village.map");
+	Track* circuit3=new Track("../maps/Village.map");
+	
 	bool done = false;
 	while (!done) {
 		Uint32 tStart = SDL_GetTicks();
@@ -245,6 +246,7 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 						yClicked=(float)(e.button.y);
 						if (xClicked>=(88.0/800.0)*WINDOW_WIDTH && xClicked <=(277.0/800.0)*WINDOW_WIDTH && yClicked>=(226.0/600.0)*WINDOW_HEIGHT && yClicked<=(416.0/600.0)*WINDOW_HEIGHT){
 							std::cout << "Vous avez choisi le circuit 1" << std::endl;
+							
 							track.push_back(circuit1);
 							track.push_back(circuit2);
 							track.push_back(circuit3);
@@ -253,6 +255,7 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 						}
 						else if (xClicked>=(298.0/800.0)*WINDOW_WIDTH && xClicked <=(492.0/800.0)*WINDOW_WIDTH && yClicked>=(226.0/600.0)*WINDOW_HEIGHT && yClicked<=(416.0/600.0)*WINDOW_HEIGHT){
 							std::cout << "Vous avez choisi le circuit 2" << std::endl;
+							
 							track.push_back(circuit2);
 							track.push_back(circuit1);
 							track.push_back(circuit3);
@@ -261,6 +264,7 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 						}
 						else if (xClicked>=(512.0/800.0)*WINDOW_WIDTH && xClicked <=(705.0/800.0)*WINDOW_WIDTH && yClicked>=(226.0/600.0)*WINDOW_HEIGHT && yClicked<=(416.0/600.0)*WINDOW_HEIGHT){
 							std::cout << "Vous avez choisi le circuit 3" << std::endl;
+							
 							track.push_back(circuit3);
 							track.push_back(circuit2);
 							track.push_back(circuit1);
@@ -907,6 +911,8 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 	srand(time(NULL));
 	int r=rand()%9;
 	std::cout << r << std::endl;
+	
+		r=7;
 	switch(r){
 					case 0:
 							character.push_back(new Character(JOHN,10000));
@@ -989,6 +995,7 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 							character.push_back(new Character(MCKORMACK,10000));
 							break;
 					case 8:
+							
 							character.push_back(new Character(CANADA,10000));
 							character.push_back(new Character(JOHN,10000));
 							character.push_back(new Character(KLAUS,10000));
@@ -1024,6 +1031,9 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 							track.push_back(circuit3);
 							track.push_back(circuit1);
 							track.push_back(circuit2);
+							break;
+						default:
+							return -1;
 							break;
 					}
 
@@ -1098,8 +1108,8 @@ void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts)
 				kart=new Kart(2,0.01,0.75,5);
 				kart->setPosition(glm::vec3(8,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC.obj");	
-				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->LoadObjFromFile("../models/Stan.obj");	
+				kart->LoadTexture("../textures/TexStan.jpg");
 				kart->build();
 				break;
 			case JENNIFER:

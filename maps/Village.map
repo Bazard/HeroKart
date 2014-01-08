@@ -1,0 +1,37 @@
+# La map du village d'Hero
+# Made by Cyriuk
+#Objets
+../models/map.obj
+../textures/TexMap.jpg
+0 0 0
+0 0 1 
+1 1 1
+
+../models/Road.obj
+../textures/Road.jpg
+0 0 0
+0 0 1
+1 1 1
+
+../models/Maison.obj
+../textures/Maison.jpg
+10 0 0
+0 0 1
+1 1 1
+
+#Powers
+ATK_FRONT
+../models/MissileArme.obj
+../textures/TexMissileArme.jpg
+-10 0 0
+0 0 1 
+3 3 3
+
+ATK_BACK
+../models/MineArme.obj
+../textures/TexMineArme.jpg
+20 0 0
+0 0 1 
+3 3 3
+
+#Nodes

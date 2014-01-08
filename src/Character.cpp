@@ -49,7 +49,7 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 				obj->LoadTexture("../textures/TexFlaque.jpg");
 				obj->setHitbox(glm::vec3(3));
 				obj->setScale(glm::vec3(3));
-				obj->setPosition(kart.getPosition()-glm::vec3(6*kart.getDirection().x,6*kart.getDirection().y,6*kart.getDirection().z));
+				obj->setPosition(kart.getPosition()-glm::vec3(6*kart.getDirection().x,kart.getDirection().y,6*kart.getDirection().z));
 				obj->setDirection(kart.getDirection());
 				obj->setAngle(kart.getAngle());
 				mapObjects.push_back(obj);

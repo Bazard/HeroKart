@@ -14,7 +14,7 @@ private:
 	std::vector<PowerObject*> powObjects;
 	std::string file; //Son fichier .map
 	Node* nodeStart;
-	
+	 std::vector<std::string> split(std::string str,std::string sep);
 public:
 	Track(std::string);
 	~Track();
@@ -24,5 +24,6 @@ public:
 	void push_back(Object3D& obj);
 	void push_back_pow(PowerObject& pow);
 	Node* getNodeStart(){return nodeStart;}
+	void insertElt();
 };
 
