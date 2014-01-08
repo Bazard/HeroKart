@@ -1,0 +1,18 @@
+# La map du village d'Hero
+# Made by Cyriuk
+#Objets
+../models/map.obj
+../textures/TextMap.jpg
+0 0 0
+0 0 1 
+1 1 1
+
+../models/Road.obj
+../textures/Road.jpg
+0 0 0
+0 0 1
+1 1 1
+
+#Powers
+
+#Nodes

@@ -44,22 +44,11 @@ int Game::playChampionShip(){
 	
 	std::cout << "End Championship" << std::endl;
 	CleanAll();
-	std::cout << "Yeah" << std::endl;
 	
 }
 
 int Game::playTrack(Track& track){
 
-	//Lecture du fichier Map
-	//Objet temporaire
-	Object3D floor;
-	floor.LoadObjFromFile("../models/floor.obj");	
-	floor.setScale(glm::vec3(16,1,16));
-	floor.setHitbox(glm::vec3(0, 0, 0));
-	floor.build();
-	floor.LoadTexture("../textures/MoonMap.png");
-	track.push_back(floor);
-	
 	//Interface
 	Program prog2D;
 	prog2D = loadProgram("../shaders/tex2D.vs.glsl", "../shaders/tex2D.fs.glsl");
@@ -126,13 +115,13 @@ int Game::playTrack(Track& track){
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans powObject
 	PowerObject boost(BOOST,10000);
-	boost.sphere(1,32,16);
-	boost.setScale(glm::vec3(1,1,1));
-	boost.setPosition(glm::vec3(-39,0,0));
-	boost.setHitbox(glm::vec3(1));
-	boost.build();
-	boost.LoadTexture("../textures/CCTex.jpg");
-	track.push_back_pow(boost);
+	// boost.sphere(1,32,16);
+	// boost.setScale(glm::vec3(1,1,1));
+	// boost.setPosition(glm::vec3(-39,0,0));
+	// boost.setHitbox(glm::vec3(1));
+	// boost.build();
+	// boost.LoadTexture("../textures/CCTex.jpg");
+	// track.push_back_pow(boost);
 	
 	PowerObject atk_back(ATK_BACK,10000);
 	PowerObject trap(TRAP,10000);
@@ -150,13 +139,15 @@ int Game::playTrack(Track& track){
 
 	//Element de décor test
 	// Object3D elt1;
-	// elt1.sphere(1,32,16);
+	// elt1.LoadObjFromFile("../models/Road.obj");
 	// elt1.setPosition(-38,0,0);
-	// elt1.setScale(glm::vec3(1));
-	// elt1.setHitbox(glm::vec3(1));
+	// elt1.setScale(glm::vec3(0));
+	// elt1.setHitbox(glm::vec3(0));
 	// elt1.build();
-	// elt1.LoadTexture("../textures/sky.jpg");
+	// elt1.LoadTexture("../textures/textMap.jpg");
 	// track.push_back(elt1);
+	
+	
 	
 	//On donne le prochain noeud pour que les IA s'y dirigent
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
@@ -166,6 +157,9 @@ int Game::playTrack(Track& track){
 	PowerObject *obj=NULL;
 	bool done=false;
 	int sortie=0;
+	
+	//Lecture du fichier Map
+	track.insertElt();
 	
 	while(!done) {
 
@@ -202,8 +196,7 @@ int Game::playTrack(Track& track){
         /*RenderText(police, 255, 255, 255, -1, 0,"bonjour");*/
 
 		prog.use();
-		
-		
+			
 		//Decalage camera
 		if(tStart-anglefile.front().second>330){
 			if(anglefile.size()>1)
@@ -417,19 +410,22 @@ int Game::playTrack(Track& track){
 			SDL_Delay(FRAME_DURATION - d);
 		}
 	}
-	
+	std::cout << "Nettoyage" << std::endl;
 	CleanObjects(track);
+
 	return sortie;
 }
 
 void Game::CleanObjects(Track& track){
 	
-	// Object3D *obj;
-	// while(!track.getMapObjects().empty()){
-		// obj=track.getMapObjects().back();
-		// track.getMapObjects().pop_back();
-		// delete(obj);
-	// }
+// for (std::vector<Object3D*>::iterator it = track.getMapObjects().begin() ; it != track.getMapObjects().end(); ++it)
+	// delete(*it);
+// track.getMapObjects().clear();
+
+// for (std::vector<PowerObject*>::iterator it = track.getPowObjects().begin() ; it != track.getPowObjects().end(); ++it)
+	// delete(*it);
+// track.getPowObjects().clear();
+
 }
 
 void Game::CleanAll(){

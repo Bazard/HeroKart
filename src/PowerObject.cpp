@@ -45,7 +45,7 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 					
 			case ATK_BACK:
 					visible=true;
-					sphere(1,32,16);
+					LoadObjFromFile("../models/Mine.obj");	
 					build();
 					LoadTexture("../textures/EarthMap.jpg"); //A changer par une mine
 					pos=vecKart[idLanceur]->getPosition()-glm::vec3(3*vecKart[idLanceur]->getDirection().x,3*vecKart[idLanceur]->getDirection().y,3*vecKart[idLanceur]->getDirection().z);
@@ -121,7 +121,6 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 							for(int j=0;j<stock.size();++j){
 								if(stock[j]==i) inv=true;
 							}
-							std::cout << inv << std::endl;
 							if(!inv){
 								vecKart[i]->setSpeedMax(2*vecKart[i]->getSpeedMax());
 								vecKart[i]->setScale(glm::vec3(2*vecKart[i]->getScale().x,2*vecKart[i]->getScale().y,2*vecKart[i]->getScale().z));
