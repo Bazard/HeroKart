@@ -15,6 +15,8 @@ private:
 	float speed;
 	float poids;
 	Node* nodeTo;
+	unsigned int nbNodesPassed;
+	unsigned int rank;
 	
 public:
 	bool back;
@@ -38,8 +40,17 @@ public:
 	
 	void setAcceleration(float a){ 	acceleration=a;}
 	float getAcceleration(){ return acceleration;}
+
+	unsigned int getNbNodesPassed(){return nbNodesPassed;}
+
+	void setRank(unsigned int r){rank=r;}
+	unsigned int getRank(){return rank;}
+	void incrRank();
+	void decrRank();
 	
 	void setNodeTo(Node* node){nodeTo=node;}
+	void crossANode(void);
+	float distanceToNextNode(void);
 	
 	int moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts,PowerObject* power, Hero hero, bool powerReady); //power = Le pouvoir du kart
 	float getAngle2Vec(glm::vec3 vec2, glm::vec3 vec1);

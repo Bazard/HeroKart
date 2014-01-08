@@ -9,6 +9,7 @@ class Track
 {
 private:
 	int nblaps;
+	int nbNodes;
 	std::vector<Object3D*> mapObjects; //Les objets qui composent ce circuit
 	std::vector<PowerObject*> powObjects;
 	std::string file; //Son fichier .map
