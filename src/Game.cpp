@@ -200,7 +200,7 @@ int Game::playTrack(Track& track){
 	
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
-			 if(id!=0 && ready){
+			 if(id!=-1 && ready){
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
 				Players[id]->getCharacter().getHero(), Players[id]->getCharacter().isPowerReady(tStart));

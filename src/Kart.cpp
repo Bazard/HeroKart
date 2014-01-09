@@ -5,11 +5,11 @@
 
 #define EPSILON 0.00001
 
-Kart::Kart():tourne(2.f), acceleration(0.1f), speed(0),speedmax(0.5), back(false), poids(5),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0){
+Kart::Kart():tourne(2.f), acceleration(0.1f), speed(0),speedmax(0.5), back(false), poids(5),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0),idTexture2(-1){
 	dir.z=1;
 }
 
-Kart::Kart(float tourne, float acceleration, float speedmax, float poids) :tourne(tourne), acceleration(acceleration), speedmax(speedmax), speed(0), back(false), poids(poids),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0)
+Kart::Kart(float tourne, float acceleration, float speedmax, float poids) :tourne(tourne), acceleration(acceleration), speedmax(speedmax), speed(0), back(false), poids(poids),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0),idTexture2(-1)
 {
 	dir.z=1;
 }
@@ -129,11 +129,6 @@ void Kart::crossANode(void){
 float Kart::distanceToNextNode(void){
 	return sqrt( pow((nodeTo->getPosition().x - pos.x),2) + pow((nodeTo->getPosition().y - pos.y),2) + pow((nodeTo->getPosition().z - pos.z),2) );
 }
-
-
-
-
-
 
 
 
@@ -271,8 +266,8 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 	}
 	
 	if(speed > idle){
-		if(angleNode > -20 && angleNode < 20 || obstacle) move(1); //J'Accelere !
-		else if(angleNode > -100 && angleNode < 100) move(0); //Lache l'accelerateur
+		if(angleNode > -10 && angleNode < 10 || obstacle) move(1); //J'Accelere !
+		else if(angleNode > -50 && angleNode < 50) move(0); //Lache l'accelerateur
 		else move(-1); //Freine
 	}
 	else {

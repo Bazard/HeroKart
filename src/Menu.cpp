@@ -1051,8 +1051,9 @@ void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts)
 				kart=new Kart(2,0.01,0.75,5);
 				kart->setPosition(glm::vec3(-13,0,0));
 				kart->setHitbox(glm::vec3(1, 1, 1));
-				kart->LoadObjFromFile("../models/ACC.obj");	
-				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->LoadObjFromFile("../models/John.obj");	
+				kart->LoadTexture("../textures/TexJohn.jpg");
+				kart->LoadTexture("../textures/TexJohn2.jpg",1);
 				kart->build();
 				break;
 			case KLAUS:
@@ -1120,6 +1121,7 @@ void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts)
 				kart->build();
 				break;
 		}
+		kart->setScale(glm::vec3(0.5,0.5,0.5));
 		Karts.push_back(kart);
 	}
 }

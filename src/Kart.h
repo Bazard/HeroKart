@@ -22,6 +22,7 @@ public:
 	bool back;
 	bool invincible;
 	bool intouchable;
+	int idTexture2;
 	
 	Kart();
 	Kart(float tourne, float acceleration, float speedmax, float poids);
