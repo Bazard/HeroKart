@@ -8,7 +8,7 @@
 class Track
 {
 private:
-	int nblaps;
+	int nbLaps;
 	int nbNodes;
 	std::vector<Object3D*> mapObjects; //Les objets qui composent ce circuit
 	std::vector<PowerObject*> powObjects;
@@ -22,6 +22,12 @@ public:
 	~Track();
 	std::vector<Object3D*>& getMapObjects() {return mapObjects;}
 	std::vector<PowerObject*>& getPowObjects() {return powObjects;}
+	
+	int getNbLaps(){ return nbLaps; };
+	void setNbLaps(int l){ nbLaps = l; };
+
+	int getNbNodes(){ return nbNodes; };
+	void setNbNodes(int n){ nbNodes = n; };
 	
 	void push_back(Object3D& obj);
 	void push_back_pow(PowerObject& pow);

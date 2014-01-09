@@ -48,6 +48,10 @@ int Game::playChampionShip(){
 }
 
 int Game::playTrack(Track& track){
+	track.setNbNodes(15);
+	track.setNbLaps(1);
+	bool raceFinished = false;
+	unsigned int timeElapsed;
 
 	//Interface
 	Program prog2D;
@@ -141,7 +145,7 @@ int Game::playTrack(Track& track){
 
 		Uint32 tStart = SDL_GetTicks();
 		
-		if(tStart > 40000)
+		if(timeElapsed > 120)
 			ready=true;
 		// std::cout << tStart << std::endl;
 		
@@ -189,7 +193,7 @@ int Game::playTrack(Track& track){
 	
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
-			 if(id!=0 && ready){
+			 if((id!=0 && ready) || raceFinished ){
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
 				Players[id]->getCharacter().getHero(), Players[id]->getCharacter().isPowerReady(tStart));
@@ -310,7 +314,9 @@ int Game::playTrack(Track& track){
 		ranking(Karts);
 		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
-
+		if( Karts[0]->getNbNodesPassed()/track.getNbNodes() == track.getNbLaps() ){
+			raceFinished = true;
+		}
 	
 		
 		//Sky
@@ -402,6 +408,8 @@ int Game::playTrack(Track& track){
 		if(d < FRAME_DURATION) {
 			SDL_Delay(FRAME_DURATION - d);
 		}
+		
+		timeElapsed++;
 	}
 	std::cout << "Nettoyage" << std::endl;
 	CleanObjects(track);
@@ -486,3 +494,6 @@ void Game::ranking(std::vector<Kart*>& karts){
 		}//for tous les autres karts
 	}//for tous les karts
 }
+
+
+
