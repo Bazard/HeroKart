@@ -435,37 +435,10 @@ void Game::ranking(std::vector<Kart*>& karts){
 
 		// Boucle sur tous les autres karts
 		for(std::vector<Kart*>::iterator otherKart = currKart+1 ; otherKart != karts.end(); ++otherKart){
-			// Si currKart a passé moins de noeuds que otherKart
-			if( (*currKart)->getNbNodesPassed() < (*otherKart)->getNbNodesPassed() ){
-				// Si currKart est devant otherKart
-				if( (*currKart)->getRank() < (*otherKart)->getRank() ){
-					(*currKart)->incrRank();
-					(*otherKart)->decrRank();
-				}else{
-
-				}
-			}// Si currKart a passé plus de noeuds que otherKart
-			else if( (*currKart)->getNbNodesPassed() > (*otherKart)->getNbNodesPassed() ){
-				// Si currKart est derriere otherKart
-				if( (*currKart)->getRank() > (*otherKart)->getRank() ){
-					(*currKart)->decrRank();
-					(*otherKart)->incrRank();
-				}else{
-
-				}
-			}// Si currKart et otherKart ont franchi le même nombre de noeuds
-			else if( (*currKart)->getNbNodesPassed() == (*otherKart)->getNbNodesPassed() ){
-				// Si currKart est plus proche du noeud que otherKart
-				if( (*currKart)->distanceToNextNode() < (*otherKart)->distanceToNextNode() ){
-					// Si currKart est derrière otherKart
-					if( (*currKart)->getRank() > (*otherKart)->getRank() ){
-						(*currKart)->decrRank();
-						(*otherKart)->incrRank();
-					}else{
-
-					}
-				}// Si currKart est plus loin du noeud que otherKart
-				else if( (*currKart)->distanceToNextNode() > (*otherKart)->distanceToNextNode() ){
+			// Si otherKart est classé juste avant ou juste après currKart
+			if( (*currKart)->getRank() == (*otherKart)->getRank()+1 || (*currKart)->getRank() == (*otherKart)->getRank()-1 ){
+				// Si currKart a passé moins de noeuds que otherKart
+				if( (*currKart)->getNbNodesPassed() < (*otherKart)->getNbNodesPassed() ){
 					// Si currKart est devant otherKart
 					if( (*currKart)->getRank() < (*otherKart)->getRank() ){
 						(*currKart)->incrRank();
@@ -473,8 +446,38 @@ void Game::ranking(std::vector<Kart*>& karts){
 					}else{
 
 					}
+				}// Si currKart a passé plus de noeuds que otherKart
+				else if( (*currKart)->getNbNodesPassed() > (*otherKart)->getNbNodesPassed() ){
+					// Si currKart est derriere otherKart
+					if( (*currKart)->getRank() > (*otherKart)->getRank() ){
+						(*currKart)->decrRank();
+						(*otherKart)->incrRank();
+					}else{
+
+					}
+				}// Si currKart et otherKart ont franchi le même nombre de noeuds
+				else if( (*currKart)->getNbNodesPassed() == (*otherKart)->getNbNodesPassed() ){
+					// Si currKart est plus proche du noeud que otherKart
+					if( (*currKart)->distanceToNextNode() < (*otherKart)->distanceToNextNode() ){
+						// Si currKart est derrière otherKart
+						if( (*currKart)->getRank() > (*otherKart)->getRank() ){
+							(*currKart)->decrRank();
+							(*otherKart)->incrRank();
+						}else{
+
+						}
+					}// Si currKart est plus loin du noeud que otherKart
+					else if( (*currKart)->distanceToNextNode() > (*otherKart)->distanceToNextNode() ){
+						// Si currKart est devant otherKart
+						if( (*currKart)->getRank() < (*otherKart)->getRank() ){
+							(*currKart)->incrRank();
+							(*otherKart)->decrRank();
+						}else{
+
+						}
+					}
 				}
-			}
+			}	
 		}//for tous les autres karts
 	}//for tous les karts
 }
