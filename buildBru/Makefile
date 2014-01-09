@@ -329,6 +329,30 @@ src/Node.cpp.s:
 	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Node.cpp.s
 .PHONY : src/Node.cpp.s
 
+src/Object2D.obj: src/Object2D.cpp.obj
+.PHONY : src/Object2D.obj
+
+# target to build an object file
+src/Object2D.cpp.obj:
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Object2D.cpp.obj
+.PHONY : src/Object2D.cpp.obj
+
+src/Object2D.i: src/Object2D.cpp.i
+.PHONY : src/Object2D.i
+
+# target to preprocess a source file
+src/Object2D.cpp.i:
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Object2D.cpp.i
+.PHONY : src/Object2D.cpp.i
+
+src/Object2D.s: src/Object2D.cpp.s
+.PHONY : src/Object2D.s
+
+# target to generate assembly for a file
+src/Object2D.cpp.s:
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Object2D.cpp.s
+.PHONY : src/Object2D.cpp.s
+
 src/Object3D.obj: src/Object3D.cpp.obj
 .PHONY : src/Object3D.obj
 
@@ -505,6 +529,9 @@ help:
 	@echo ... src/Node.obj
 	@echo ... src/Node.i
 	@echo ... src/Node.s
+	@echo ... src/Object2D.obj
+	@echo ... src/Object2D.i
+	@echo ... src/Object2D.s
 	@echo ... src/Object3D.obj
 	@echo ... src/Object3D.i
 	@echo ... src/Object3D.s

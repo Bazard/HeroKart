@@ -10,7 +10,7 @@
 #include "VAO.hpp"
 #include <queue>
 #include <cstdlib>
-
+#include "Object2D.h"
 #include "Menu.h"
 
 static const Uint32 FPS = 30;
@@ -54,45 +54,15 @@ int Game::playTrack(Track& track){
 	prog2D = loadProgram("../shaders/tex2D.vs.glsl", "../shaders/tex2D.fs.glsl");
 	prog2D.use();
 	
-	VBO vbo;
-	vbo.bind(GL_ARRAY_BUFFER);
 	
-	Vertex2DUV vertices[] = {
-		Vertex2DUV(0.7, -0.9, 0.0, 1.0),
-		Vertex2DUV(0.7, -0.64, 0.0, 0.0),
-		Vertex2DUV(0.9, -0.64, 1.0, 0.0),
-		Vertex2DUV(0.9, -0.9, 1.0, 1.0),
-	};
-	//on remplit les donnees du bateau
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-	//on remet le bateau à la mer
-	vbo.debind(GL_ARRAY_BUFFER);
-
-	//Création du VAO
-	VAO vao;
-	//on binde le vao
-	vao.bind();
-	//on attribue une position 2D qui aura pour id 0
-	glEnableVertexAttribArray(0);
-	//on attribue une texture qui aura pour id 1
-	glEnableVertexAttribArray(1);
-	//on remet le bateau au port
-	vbo.bind(GL_ARRAY_BUFFER);
-	//on définit les paramètres des attributs (position 2D)
-	glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex2DUV), (const GLvoid*)(offsetof(Vertex2DUV, x)));
-	//on définit les paramètres des attributs (textures)
-	glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex2DUV), (const GLvoid*)(offsetof(Vertex2DUV, u)));
-	//on débinde le VBO
-	vbo.debind(GL_ARRAY_BUFFER);
-	//on débinde le VAO
-	vao.debind();
+	//Carre qui affiche les pouvoirs
+	Object2D powerquad;
+	powerquad.setVertices(0.7, 0.9, -0.9, -0.64);
+	powerquad.build();
 	
 	GLint locVarTexture;
 	locVarTexture= glGetUniformLocation(prog2D.getGLId(), "uTexture");
-	
-	//On loade les textures
-	GLuint* texture=loadTexture();
+	GLuint* texturepower=PowerTexture();
 	
 	Program prog;
 	prog = loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
@@ -115,14 +85,6 @@ int Game::playTrack(Track& track){
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans powObject
 	PowerObject boost(BOOST,10000);
-	// boost.sphere(1,32,16);
-	// boost.setScale(glm::vec3(1,1,1));
-	// boost.setPosition(glm::vec3(-39,0,0));
-	// boost.setHitbox(glm::vec3(1));
-	// boost.build();
-	// boost.LoadTexture("../textures/CCTex.jpg");
-	// track.push_back_pow(boost);
-	
 	PowerObject atk_back(ATK_BACK,10000);
 	PowerObject trap(TRAP,10000);
 	PowerObject shield(SHIELD, 10000);
@@ -135,10 +97,29 @@ int Game::playTrack(Track& track){
 	sky.setScale(glm::vec3(80,80,80));
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
+
+	unsigned int rank = 1;
+	
+	PowerObject *obj=NULL;
+	bool done=false;
+	int sortie=0;
+	
+	std::cout << "Lecture du fichier Map" << std::endl;
+	//Lecture du fichier Map
+	track.insertElt();
 	
 	//Nodes
 	Node* currentNode = track.getNodeStart();
 	Object3D* node;
+	
+	//On donne le prochain noeud pour que les IA s'y dirigent
+	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
+		(*it)->setNodeTo(track.getNodeStart()->next);
+		(*it)->setRank(rank);
+		rank++;
+	}
+	
+	
 	for(int i=0; i<4; ++i){
 		node = new Object3D();
 		node->sphere(1,32,16);
@@ -149,33 +130,9 @@ int Game::playTrack(Track& track){
 		track.push_back(*node);
 		currentNode = currentNode->next;
 	}
+	
 
 
-	//Element de décor test
-	// Object3D elt1;
-	// elt1.LoadObjFromFile("../models/Road.obj");
-	// elt1.setPosition(-38,0,0);
-	// elt1.setScale(glm::vec3(0));
-	// elt1.setHitbox(glm::vec3(0));
-	// elt1.build();
-	// elt1.LoadTexture("../textures/textMap.jpg");
-	// track.push_back(elt1);
-
-	unsigned int rank = 1;
-	//On donne le prochain noeud pour que les IA s'y dirigent
-	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
-		(*it)->setNodeTo(track.getNodeStart()->next);
-		(*it)->setRank(rank);
-		rank++;
-	}
-	
-	PowerObject *obj=NULL;
-	bool done=false;
-	int sortie=0;
-	
-	//Lecture du fichier Map
-	track.insertElt();
-	
 	while(!done) {
 
 		Uint32 tStart = SDL_GetTicks();
@@ -183,32 +140,34 @@ int Game::playTrack(Track& track){
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		prog2D.use();
-		vao.bind();
-		glUniform1i(locVarTexture,0);
+		//affichage des pouvoirs
+		 powerquad.initDraw(locVarTexture);
 		if (Players[0]->getPower()==NULL){
-			glBindTexture(GL_TEXTURE_2D,texture[6]);
+			powerquad.bindTex(texturepower[6]);
 		}
 		else{
 			switch(Players[0]->getPower()->getType()){
-				case BOOST: glBindTexture(GL_TEXTURE_2D,texture[0]);
-				break;
-				case ATK_FRONT: glBindTexture(GL_TEXTURE_2D,texture[1]);
-				break;
-				case ATK_BACK: glBindTexture(GL_TEXTURE_2D,texture[2]);
-				break;
-				case ATK_ALL: glBindTexture(GL_TEXTURE_2D,texture[3]);
-				break;
-				case SHIELD: glBindTexture(GL_TEXTURE_2D,texture[4]);
-				break;
-				case TRAP: glBindTexture(GL_TEXTURE_2D,texture[5]);
-				break;
+				case BOOST:
+					powerquad.bindTex(texturepower[0]);
+					break;
+				case ATK_FRONT:
+					powerquad.bindTex(texturepower[1]);
+					break;
+				case ATK_BACK: 
+					powerquad.bindTex(texturepower[2]);
+					break;
+				case ATK_ALL:
+					powerquad.bindTex(texturepower[3]);
+					break;
+				case SHIELD:
+					powerquad.bindTex(texturepower[4]);
+					break;
+				case TRAP:
+					powerquad.bindTex(texturepower[5]);
+					break;
 			}
 		}
-		glUniform1i(locVarTexture,0);
-		glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
-		glBindTexture(GL_TEXTURE_2D,0);
-
-        /*RenderText(police, 255, 255, 255, -1, 0,"bonjour");*/
+		powerquad.Draw(locVarTexture);
 
 		prog.use();
 			
@@ -341,7 +300,7 @@ int Game::playTrack(Track& track){
 
 		//Gestion du classement
 		ranking(Karts);
-		std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
+		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
 
 	

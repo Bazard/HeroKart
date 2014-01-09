@@ -7,6 +7,7 @@
 #include "Race.h"
 #include "Vertex2DUV.hpp"
 #include <SOIL/SOIL.h>
+#include <SDL/SDL_ttf.h>
 
 static Uint32 WINDOW_WIDTH=800;
 static Uint32 WINDOW_HEIGHT=600;
@@ -19,5 +20,6 @@ int lancerJeuRandom(std::vector<Character*>&,std::vector<Track*>&);
 int menuOptions(std::vector<Character*>&,std::vector<Track*>&);
 int menuPrincipal(std::vector<Character*>&,std::vector<Track*>&);
 void KartWithChar(std::vector<Character*>&,std::vector<Kart*>&);
-GLuint* loadTexture();
 void restartSDL();
+GLuint* PowerTexture();
+GLuint creerTextureTexte(const char* texte, int largeurTexte, int hauteurTexte, unsigned int taille, const char* policeTexte, Uint8 r, Uint8 g, Uint8 b);
