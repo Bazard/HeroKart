@@ -5,7 +5,7 @@
 #include <string.h>
 
 
-Track::Track(std::string s):file(s)
+Track::Track(std::string s, int nbLaps):file(s),nbLaps(nbLaps)
 {
 
 

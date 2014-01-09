@@ -210,10 +210,9 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
 	glBindTexture(GL_TEXTURE_2D,0);
 
-	Track* circuit1=new Track("../maps/Village.map");
-	// circuit1->insertElt();
-	Track* circuit2=new Track("../maps/Village.map");
-	Track* circuit3=new Track("../maps/Village.map");
+	Track* circuit1=new Track("../maps/Village.map",3);
+	Track* circuit2=new Track("../maps/Village.map",3);
+	Track* circuit3=new Track("../maps/Village.map",3);
 	
 	bool done = false;
 	while (!done) {
@@ -1012,9 +1011,9 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 	
 					r=rand()%4;
 					
-					Track* circuit1=new Track("../maps/Village.map");
-					Track* circuit2=new Track("../maps/Village.map");
-					Track* circuit3=new Track("../maps/Village.map");		
+					Track* circuit1=new Track("../maps/Village.map",3);
+					Track* circuit2=new Track("../maps/Village.map",3);
+					Track* circuit3=new Track("../maps/Village.map",3);		
 	
 					switch(r){
 						case 1:
