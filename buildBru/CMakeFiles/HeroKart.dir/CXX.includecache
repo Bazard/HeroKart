@@ -1082,6 +1082,18 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
 vector
 -
 
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.cpp
+Track.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
+fstream
+-
+vector
+-
+cstdio
+-
+string.h
+-
+
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
 Object3D.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h

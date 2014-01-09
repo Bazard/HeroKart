@@ -39,6 +39,8 @@ void Track::insertElt(){
 	while(ligne[0]=='#')
 		std::getline(fichier, ligne);
 	
+	float angleNode;
+	
     while (!fichier.eof())
     {
 		if(ligne[0]=='#')
@@ -59,6 +61,22 @@ void Track::insertElt(){
 		fields=split(ligne," ");
 		obj->setDirection(glm::vec3((float)atof(fields[0].c_str()),(float)atof(fields[1].c_str()),(float)atof(fields[2].c_str())));
 		
+		
+		
+		if(obj->getDirection().z==1){
+			angleNode=obj->getDirection().x*180/M_PI;
+		}
+		else
+			angleNode=atan(-obj->getDirection().x/(1-obj->getDirection().z))*180/M_PI;
+			
+			if(obj->getDirection().z<0){ 
+					if(angleNode<0) angleNode+=180;
+					else angleNode-=180;
+				}
+				while(angleNode>180) angleNode-=360;
+				while(angleNode<-180) angleNode+=360;
+		obj->setAngle(angleNode);
+			
 		std::getline(fichier, ligne);
 		fields=split(ligne," ");
 		obj->setScale(glm::vec3((float)atof(fields[0].c_str()),(float)atof(fields[1].c_str()),(float)atof(fields[2].c_str())));
@@ -135,7 +153,6 @@ void Track::insertElt(){
 			oldNode->next=node;
 		else
 			nodeStart=node;
-			
 		oldNode=node;
 		std::getline(fichier, ligne);
 	}

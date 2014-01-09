@@ -120,15 +120,20 @@ int Game::playTrack(Track& track){
 	
 		Node* currentNode = track.getNodeStart();
 		Object3D* node;
-	while(currentNode->next!=track.getNodeStart()){
+	while(1){
 		node = new Object3D();
 		node->sphere(1,32,16);
 		node->setScale(glm::vec3(1,1,1));
 		node->setPosition(currentNode->getPosition());
 		node->build();
+		if(currentNode==track.getNodeStart())
+		node->LoadTexture("../textures/Maison.jpg");
+		else
 		node->LoadTexture("../textures/CCTex.jpg");
 		track.push_back(*node);
 		currentNode = currentNode->next;
+		if(currentNode==track.getNodeStart())
+			break;
 	}
 	
 	
@@ -303,7 +308,7 @@ int Game::playTrack(Track& track){
 
 		//Gestion du classement
 		ranking(Karts);
-		std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
+		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
 
 	
