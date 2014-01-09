@@ -63,6 +63,10 @@ void Track::insertElt(){
 		fields=split(ligne," ");
 		obj->setScale(glm::vec3((float)atof(fields[0].c_str()),(float)atof(fields[1].c_str()),(float)atof(fields[2].c_str())));
 		
+		std::getline(fichier, ligne);
+		fields=split(ligne," ");
+		obj->setHitbox(glm::vec3((float)atof(fields[0].c_str()),(float)atof(fields[1].c_str()),(float)atof(fields[2].c_str())));
+		
 		obj->visible=true;
 		
         mapObjects.push_back(obj);

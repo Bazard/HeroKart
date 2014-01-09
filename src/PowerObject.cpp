@@ -80,6 +80,7 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 					vecKart[idLanceur]->invincible=true;
 					timeOfUse=tStart;
 					retour=0;
+					
 					break;
 					
 			case TRAP:

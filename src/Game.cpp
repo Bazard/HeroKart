@@ -102,6 +102,7 @@ int Game::playTrack(Track& track){
 	
 	PowerObject *obj=NULL;
 	bool done=false;
+	bool ready=false;
 	int sortie=0;
 	
 	std::cout << "Lecture du fichier Map" << std::endl;
@@ -109,9 +110,7 @@ int Game::playTrack(Track& track){
 	track.insertElt();
 	
 	//Nodes
-	Node* currentNode = track.getNodeStart();
-	Object3D* node;
-	
+
 	//On donne le prochain noeud pour que les IA s'y dirigent
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
 		(*it)->setNodeTo(track.getNodeStart()->next);
@@ -119,8 +118,9 @@ int Game::playTrack(Track& track){
 		rank++;
 	}
 	
-	
-	for(int i=0; i<4; ++i){
+		Node* currentNode = track.getNodeStart();
+		Object3D* node;
+	while(currentNode->next!=track.getNodeStart()){
 		node = new Object3D();
 		node->sphere(1,32,16);
 		node->setScale(glm::vec3(1,1,1));
@@ -131,11 +131,14 @@ int Game::playTrack(Track& track){
 		currentNode = currentNode->next;
 	}
 	
-
-
+	
 	while(!done) {
 
 		Uint32 tStart = SDL_GetTicks();
+		
+		if(tStart > 40000)
+			ready=true;
+		// std::cout << tStart << std::endl;
 		
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -181,7 +184,7 @@ int Game::playTrack(Track& track){
 	
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
-			 if(id!=0){
+			 if(id==-1 && ready){
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
 				Players[id]->getCharacter().getHero(), Players[id]->getCharacter().isPowerReady(tStart));
@@ -357,7 +360,8 @@ int Game::playTrack(Track& track){
 							obj->hitKart(*Karts[0], 0, tStart);
 							break;
 						case SDLK_SPACE:
-							Players[0]->usePower(Karts,0,tStart,track.getMapObjects());
+							if(ready)
+								Players[0]->usePower(Karts,0,tStart,track.getMapObjects());
 							break;
 						case SDLK_ESCAPE:
 							std::cout << "Pause" << std::endl;
@@ -365,7 +369,8 @@ int Game::playTrack(Track& track){
 							done=true;
 							break;
 						case 'q':
-							Players[0]->getCharacter().useSuperPower(tStart,*Karts[0],track.getMapObjects());
+							if(ready)
+								Players[0]->getCharacter().useSuperPower(tStart,*Karts[0],track.getMapObjects());
 							break;
 					}
 					break;
@@ -376,14 +381,14 @@ int Game::playTrack(Track& track){
 		}
 		
 		Uint8 *keystate = SDL_GetKeyState(NULL);
-	
-		if ( keystate[SDLK_UP] ) Karts[0]->move(1);
-		if ( keystate[SDLK_DOWN] ) Karts[0]->move(-1);
-		if (!keystate[SDLK_UP] && !keystate[SDLK_UP]) Karts[0]->move(0);
-		
-		if ( keystate[SDLK_LEFT] ){ Karts[0]->rotate(1); anglefile.push(std::pair<float,Uint32>(Karts[0]->getAngle(),tStart));}
-		if ( keystate[SDLK_RIGHT] ){ Karts[0]->rotate(-1); anglefile.push(std::pair<float,Uint32>(Karts[0]->getAngle(),tStart));}
-		
+		if(ready){
+			if ( keystate[SDLK_UP] ) Karts[0]->move(1);
+			if ( keystate[SDLK_DOWN] ) Karts[0]->move(-1);
+			if (!keystate[SDLK_UP] && !keystate[SDLK_UP]) Karts[0]->move(0);
+			
+			if ( keystate[SDLK_LEFT] ){ Karts[0]->rotate(1); anglefile.push(std::pair<float,Uint32>(Karts[0]->getAngle(),tStart));}
+			if ( keystate[SDLK_RIGHT] ){ Karts[0]->rotate(-1); anglefile.push(std::pair<float,Uint32>(Karts[0]->getAngle(),tStart));}
+		}
 		// Mise à jour de la fenêtre (synchronisation implicite avec OpenGL)
 		SDL_GL_SwapBuffers();
 
