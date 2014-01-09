@@ -10,7 +10,7 @@ namespace glimac {
 		float m_fAngleY; //angle selon y
 		
 	public:
-		TrackballCamera(): m_fDistance(5),m_fAngleX(0),m_fAngleY(180){};
+		TrackballCamera(): m_fDistance(3),m_fAngleX(0),m_fAngleY(180){};
 		
 		void moveFront(float delta){
 			m_fDistance+=delta;
@@ -28,13 +28,13 @@ namespace glimac {
 			glm::mat4 VMatrix=glm::mat4(1);
 			
 			if(!back){
-				VMatrix=glm::translate(VMatrix, glm::vec3(0,-1.5,-m_fDistance));
+				VMatrix=glm::translate(VMatrix, glm::vec3(0,-1,-m_fDistance));
 				VMatrix=glm::rotate(VMatrix, m_fAngleX, glm::vec3(1,0,0));
 				VMatrix=glm::rotate(VMatrix, m_fAngleY-angle, glm::vec3(0,1,0));
 				VMatrix=glm::translate(VMatrix,-glm::vec3(pos.x,pos.y,pos.z));
 			}
 			else {
-				VMatrix=glm::translate(VMatrix, glm::vec3(0,-1,-m_fDistance));
+				VMatrix=glm::translate(VMatrix, glm::vec3(0,-0.5,-m_fDistance));
 				VMatrix=glm::rotate(VMatrix, m_fAngleX, glm::vec3(1,0,0));
 				VMatrix=glm::rotate(VMatrix, m_fAngleY-angle-180, glm::vec3(0,1,0));
 				VMatrix=glm::translate(VMatrix,-glm::vec3(pos.x,pos.y,pos.z));

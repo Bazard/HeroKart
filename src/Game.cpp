@@ -50,8 +50,7 @@ int Game::playChampionShip(){
 }
 
 int Game::playTrack(Track& track){
-	track.setNbNodes(15);
-	track.setNbLaps(1);
+	
 	bool raceFinished = false;
 	unsigned int timeElapsed;
 
@@ -331,7 +330,8 @@ int Game::playTrack(Track& track){
 		else getFinalRanking(Players);
 		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
-		if( Karts[0]->getNbNodesPassed()/track.getNbNodes() == track.getNbLaps() ){
+
+		if((float)Karts[0]->getNbNodesPassed()/track.getNbNodes() == track.getNbLaps() ){
 			raceFinished = true;
 		}
 	

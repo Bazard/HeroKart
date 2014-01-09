@@ -377,32 +377,8 @@ void Object3D::avoidCollision(Object3D &other){
 
 void Object3D::setDirection(glm::vec3 vec){
 	dir=vec;
-	if(dir.z==1){
-		angle=dir.x*180/M_PI;
-	}
-	else
-		angle=atan(-dir.x/(1-dir.z))*180/M_PI;
-			
-		if(dir.z<0){ 
-				if(angle<0) angle+=180;
-				else angle-=180;
-		}
-		while(angle>180) angle-=360;
-		while(angle<-180) angle+=360;
 }
 				
 void Object3D::setDirection(float x,float y,float z){
 	dir=glm::vec3(x,y,z);
-	if(dir.z==1){
-		angle=dir.x*180/M_PI;
-	}
-	else
-		angle=atan(-dir.x/(1-dir.z))*180/M_PI;
-			
-		if(dir.z<0){ 
-				if(angle<0) angle+=180;
-				else angle-=180;
-		}
-		while(angle>180) angle-=360;
-		while(angle<-180) angle+=360;
 }
