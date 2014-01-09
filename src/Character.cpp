@@ -2,7 +2,7 @@
 #include "PowerObject.h"
 #include <iostream>
 
-Character::Character(Hero hero, int duration):hero(hero), reloadtime(10000),timeOfUse(-10000), duration(duration), launched(false), stock(0.f)
+Character::Character(Hero hero, int duration, const char* characterName):hero(hero), reloadtime(10000),timeOfUse(-10000), duration(duration), launched(false), stock(0.f), characterName(characterName)
 {
 }
 

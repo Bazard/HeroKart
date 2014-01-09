@@ -449,6 +449,30 @@ src/Race.cpp.s:
 	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Race.cpp.s
 .PHONY : src/Race.cpp.s
 
+src/Rank.obj: src/Rank.cpp.obj
+.PHONY : src/Rank.obj
+
+# target to build an object file
+src/Rank.cpp.obj:
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Rank.cpp.obj
+.PHONY : src/Rank.cpp.obj
+
+src/Rank.i: src/Rank.cpp.i
+.PHONY : src/Rank.i
+
+# target to preprocess a source file
+src/Rank.cpp.i:
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Rank.cpp.i
+.PHONY : src/Rank.cpp.i
+
+src/Rank.s: src/Rank.cpp.s
+.PHONY : src/Rank.s
+
+# target to generate assembly for a file
+src/Rank.cpp.s:
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Rank.cpp.s
+.PHONY : src/Rank.cpp.s
+
 src/Track.obj: src/Track.cpp.obj
 .PHONY : src/Track.obj
 
@@ -544,6 +568,9 @@ help:
 	@echo ... src/Race.obj
 	@echo ... src/Race.i
 	@echo ... src/Race.s
+	@echo ... src/Rank.obj
+	@echo ... src/Rank.i
+	@echo ... src/Rank.s
 	@echo ... src/Track.obj
 	@echo ... src/Track.i
 	@echo ... src/Track.s

@@ -315,10 +315,34 @@ CMakeFiles/HeroKart.dir/src/Race.cpp.obj.provides: CMakeFiles/HeroKart.dir/src/R
 
 CMakeFiles/HeroKart.dir/src/Race.cpp.obj.provides.build: CMakeFiles/HeroKart.dir/src/Race.cpp.obj
 
+CMakeFiles/HeroKart.dir/src/Rank.cpp.obj: CMakeFiles/HeroKart.dir/flags.make
+CMakeFiles/HeroKart.dir/src/Rank.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.rsp
+CMakeFiles/HeroKart.dir/src/Rank.cpp.obj: ../src/Rank.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Rank.cpp.obj"
+	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Rank.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Rank.cpp
+
+CMakeFiles/HeroKart.dir/src/Rank.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroKart.dir/src/Rank.cpp.i"
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\bruno\Documents\GitHub\HeroKart\src\Rank.cpp > CMakeFiles\HeroKart.dir\src\Rank.cpp.i
+
+CMakeFiles/HeroKart.dir/src/Rank.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroKart.dir/src/Rank.cpp.s"
+	C:\Logiciels\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\bruno\Documents\GitHub\HeroKart\src\Rank.cpp -o CMakeFiles\HeroKart.dir\src\Rank.cpp.s
+
+CMakeFiles/HeroKart.dir/src/Rank.cpp.obj.requires:
+.PHONY : CMakeFiles/HeroKart.dir/src/Rank.cpp.obj.requires
+
+CMakeFiles/HeroKart.dir/src/Rank.cpp.obj.provides: CMakeFiles/HeroKart.dir/src/Rank.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\HeroKart.dir\build.make CMakeFiles/HeroKart.dir/src/Rank.cpp.obj.provides.build
+.PHONY : CMakeFiles/HeroKart.dir/src/Rank.cpp.obj.provides
+
+CMakeFiles/HeroKart.dir/src/Rank.cpp.obj.provides.build: CMakeFiles/HeroKart.dir/src/Rank.cpp.obj
+
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: CMakeFiles/HeroKart.dir/flags.make
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: CMakeFiles/HeroKart.dir/includes_CXX.rsp
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Track.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\bruno\Documents\GitHub\HeroKart\buildBru\CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/HeroKart.dir/src/Track.cpp.obj"
 	C:\Logiciels\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\HeroKart.dir\src\Track.cpp.obj -c C:\Users\bruno\Documents\GitHub\HeroKart\src\Track.cpp
 
@@ -352,6 +376,7 @@ HeroKart_OBJECTS = \
 "CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj" \
 "CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj" \
 "CMakeFiles/HeroKart.dir/src/Race.cpp.obj" \
+"CMakeFiles/HeroKart.dir/src/Rank.cpp.obj" \
 "CMakeFiles/HeroKart.dir/src/Track.cpp.obj"
 
 # External object files for target HeroKart
@@ -368,6 +393,7 @@ HeroKart.exe: CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/Race.cpp.obj
+HeroKart.exe: CMakeFiles/HeroKart.dir/src/Rank.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/src/Track.cpp.obj
 HeroKart.exe: CMakeFiles/HeroKart.dir/build.make
 HeroKart.exe: third-party/assimp/code/libassimp.dll.a
@@ -400,6 +426,7 @@ CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj.r
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj.requires
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj.requires
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/Race.cpp.obj.requires
+CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/Rank.cpp.obj.requires
 CMakeFiles/HeroKart.dir/requires: CMakeFiles/HeroKart.dir/src/Track.cpp.obj.requires
 .PHONY : CMakeFiles/HeroKart.dir/requires
 

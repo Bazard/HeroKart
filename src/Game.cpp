@@ -12,6 +12,8 @@
 #include <cstdlib>
 #include "Object2D.h"
 #include "Menu.h"
+#include "Rank.h"
+
 
 static const Uint32 FPS = 30;
 static const Uint32 FRAME_DURATION = 1000.f / FPS;
@@ -48,6 +50,10 @@ int Game::playChampionShip(){
 }
 
 int Game::playTrack(Track& track){
+	track.setNbNodes(15);
+	track.setNbLaps(1);
+	bool raceFinished = false;
+	unsigned int timeElapsed;
 
 	//Interface
 	Program prog2D;
@@ -147,7 +153,7 @@ int Game::playTrack(Track& track){
 
 		Uint32 tStart = SDL_GetTicks();
 		
-		if(tStart > 40000)
+		if(timeElapsed > 120)
 			ready=true;
 		// std::cout << tStart << std::endl;
 		
@@ -200,7 +206,9 @@ int Game::playTrack(Track& track){
 	
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
-			 if(id!=-1 && ready){
+
+			 if((id!=0 && ready) || raceFinished ){
+
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
 				Players[id]->getCharacter().getHero(), Players[id]->getCharacter().isPowerReady(tStart));
@@ -318,10 +326,14 @@ int Game::playTrack(Track& track){
 
 
 		//Gestion du classement
-		ranking(Karts);
+		if( !raceFinished )
+			ranking(Karts);
+		else getFinalRanking(Players);
 		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
-
+		if( Karts[0]->getNbNodesPassed()/track.getNbNodes() == track.getNbLaps() ){
+			raceFinished = true;
+		}
 	
 		
 		//Sky
@@ -413,6 +425,8 @@ int Game::playTrack(Track& track){
 		if(d < FRAME_DURATION) {
 			SDL_Delay(FRAME_DURATION - d);
 		}
+		
+		timeElapsed++;
 	}
 	std::cout << "Nettoyage" << std::endl;
 	CleanObjects(track);
@@ -444,60 +458,6 @@ Karts.clear();
 }
 
 
-// Gère le classement de la course
-void Game::ranking(std::vector<Kart*>& karts){
-	// Boucle sur tous les karts
-	for(std::vector<Kart*>::iterator currKart = karts.begin() ; currKart != karts.end(); ++currKart){
-
-		// Boucle sur tous les autres karts
-		for(std::vector<Kart*>::iterator otherKart = currKart+1 ; otherKart != karts.end(); ++otherKart){
-			// Si otherKart est classé juste avant ou juste après currKart
-			if( (*currKart)->getRank() == (*otherKart)->getRank()+1 || (*currKart)->getRank() == (*otherKart)->getRank()-1 ){
-				// Si currKart a passé moins de noeuds que otherKart
-				if( (*currKart)->getNbNodesPassed() < (*otherKart)->getNbNodesPassed() ){
-					// Si currKart est devant otherKart
-					if( (*currKart)->getRank() < (*otherKart)->getRank() ){
-						(*currKart)->incrRank();
-						(*otherKart)->decrRank();
-					}else{
-
-					}
-				}// Si currKart a passé plus de noeuds que otherKart
-				else if( (*currKart)->getNbNodesPassed() > (*otherKart)->getNbNodesPassed() ){
-					// Si currKart est derriere otherKart
-					if( (*currKart)->getRank() > (*otherKart)->getRank() ){
-						(*currKart)->decrRank();
-						(*otherKart)->incrRank();
-					}else{
-
-					}
-				}// Si currKart et otherKart ont franchi le même nombre de noeuds
-				else if( (*currKart)->getNbNodesPassed() == (*otherKart)->getNbNodesPassed() ){
-					// Si currKart est plus proche du noeud que otherKart
-					if( (*currKart)->distanceToNextNode() < (*otherKart)->distanceToNextNode() ){
-						// Si currKart est derrière otherKart
-						if( (*currKart)->getRank() > (*otherKart)->getRank() ){
-							(*currKart)->decrRank();
-							(*otherKart)->incrRank();
-						}else{
-
-						}
-					}// Si currKart est plus loin du noeud que otherKart
-					else if( (*currKart)->distanceToNextNode() > (*otherKart)->distanceToNextNode() ){
-						// Si currKart est devant otherKart
-						if( (*currKart)->getRank() < (*otherKart)->getRank() ){
-							(*currKart)->incrRank();
-							(*otherKart)->decrRank();
-						}else{
-
-						}
-					}
-				}
-			}	
-		}//for tous les autres karts
-	}//for tous les karts
-}
-
 
 void Game::placementKart(Node *nodeStart){
 	Node* nodeTo=nodeStart->next;
@@ -506,3 +466,4 @@ void Game::placementKart(Node *nodeStart){
 		
 	}
 }
+

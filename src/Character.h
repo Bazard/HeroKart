@@ -1,6 +1,7 @@
 #pragma once
 #include "Kart.h"
 #include <vector>
+#include <cstring>
 
 class Object3D;
 
@@ -10,7 +11,7 @@ class Character
 {
 private:
 	Hero hero;
-	char* characterName;
+	const char* characterName;
 	//Power power;
 	int timeOfUse;
 	int reloadtime;
@@ -18,7 +19,7 @@ private:
 	bool launched;
 	std::vector<float> stock; //Stockage de données
 public:
-	Character(Hero,int);
+	Character(Hero,int, const char*);
 	~Character();
 	
 	bool isPowerReady(int tStart);
@@ -29,6 +30,8 @@ public:
 	void hitSuperPower(int tStart,std::vector<Kart*>& karts, int idTouche, Kart& kartFrom);//Effet lorsque l'on touche un adversaire avec le pouvoir. Une attaque physique
 	void hitSuperPowerBack(std::vector<Kart*>& karts); //Effet retour
 	void continuousHitSuperPower(std::vector<Kart*>& karts, Kart& kart); //Effet continue
+
+	const char* getCharacterName(){ return characterName; };
 	
 	Hero getHero(){ return hero;}
 };

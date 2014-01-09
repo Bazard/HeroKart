@@ -17,8 +17,6 @@ public:
 	
 	int playChampionShip(); //Joue tout le championnat
 	int playTrack(Track& track); //Joue une course du championnat
-
-	void ranking(std::vector<Kart*>& karts); // Gère le classement de la course
 	
 	void CleanObjects(Track& track); //Nettoie les objets de la map qui vient d'être utilisé
 	void CleanAll(); //Nettoie tout le reste (Perso, Kart)

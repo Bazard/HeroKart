@@ -14,6 +14,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/buildBru/CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj"
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/PowerObject.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/buildBru/CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj"
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/buildBru/CMakeFiles/HeroKart.dir/src/Race.cpp.obj"
+  "C:/Users/bruno/Documents/GitHub/HeroKart/src/Rank.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/buildBru/CMakeFiles/HeroKart.dir/src/Rank.cpp.obj"
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/buildBru/CMakeFiles/HeroKart.dir/src/Track.cpp.obj"
   "C:/Users/bruno/Documents/GitHub/HeroKart/src/heromain.cpp" "C:/Users/bruno/Documents/GitHub/HeroKart/buildBru/CMakeFiles/HeroKart.dir/src/heromain.cpp.obj"
   )
