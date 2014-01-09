@@ -184,7 +184,7 @@ int Game::playTrack(Track& track){
 	
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
-			 if(id==-1 && ready){
+			 if(id!=0 && ready){
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
 				Players[id]->getCharacter().getHero(), Players[id]->getCharacter().isPowerReady(tStart));
@@ -303,7 +303,7 @@ int Game::playTrack(Track& track){
 
 		//Gestion du classement
 		ranking(Karts);
-		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
+		std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
 
 	
