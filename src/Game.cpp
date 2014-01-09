@@ -106,6 +106,7 @@ int Game::playTrack(Track& track){
 	Object3D sky;
 	sky.sphere(1,32,16);
 	sky.setScale(glm::vec3(80,80,80));
+	sky.setHitbox(glm::vec3(0));
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 
@@ -276,6 +277,7 @@ int Game::playTrack(Track& track){
 		for (std::vector<PowerObject*>::iterator it = track.getPowObjects().begin() ; it != track.getPowObjects().end(); ++it){
 			if((*it)->isVisible()){
 				(*it)->getVAO().bind();		
+				(*it)->rotateObj();
 				(*it)->TransfoMatrix(ViewMatrix, (*it)->getPosition());
 				(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 				(*it)->Draw(uTex);
@@ -409,7 +411,7 @@ int Game::playTrack(Track& track){
 		}
 		
 		Uint8 *keystate = SDL_GetKeyState(NULL);
-		if(ready){
+		if(ready && !raceFinished){
 			if ( keystate[SDLK_UP] ) Karts[0]->move(1);
 			if ( keystate[SDLK_DOWN] ) Karts[0]->move(-1);
 			if (!keystate[SDLK_UP] && !keystate[SDLK_UP]) Karts[0]->move(0);

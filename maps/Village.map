@@ -21,14 +21,14 @@ ATK_FRONT
 ../textures/TexMissileArme.jpg
 -10 0 0
 0 0 1 
-1 1 1
+1.5 1.5 1.5
 
 SHIELD
 ../models/mineArme.obj
 ../textures/TexMineArme.jpg
 20 0 0
 0 0 1 
-1 1 1
+1.5 1.5 1.5
 
 #Nodes
 0 -11.48977 0 -35.93304 -12.77889 0 -45.26217

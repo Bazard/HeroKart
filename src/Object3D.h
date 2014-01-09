@@ -73,6 +73,7 @@ public:
 	void setIdTexture(int i){idTexture=i;}
 	int getIdTexture2(){return idTexture2;}
 	void setIdTexture2(int i){idTexture2=i;}
+	void rotateObj(){angle+=2;}
 	
 	std::vector<glimac::ShapeVertex>& getVertices(){
 		return m_Vertices;
