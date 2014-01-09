@@ -1012,9 +1012,9 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 	
 					r=rand()%4;
 					
-					Track* circuit1=new Track("village");
-					Track* circuit2=new Track("montreal");
-					Track* circuit3=new Track("forteresse");				
+					Track* circuit1=new Track("../maps/Village.map");
+					Track* circuit2=new Track("../maps/Village.map");
+					Track* circuit3=new Track("../maps/Village.map");		
 	
 					switch(r){
 						case 1:

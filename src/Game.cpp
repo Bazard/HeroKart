@@ -66,6 +66,12 @@ int Game::playTrack(Track& track){
 	powerquad.setVertices(0.7, 0.9, -0.9, -0.64);
 	powerquad.build();
 	
+	//Carre qui affiche la vitesse
+	Object2D vitessequad;
+	vitessequad.setVertices(-0.9,-0.7,-0.9,-0.64);
+	vitessequad.build();
+	
+	
 	GLint locVarTexture;
 	locVarTexture= glGetUniformLocation(prog2D.getGLId(), "uTexture");
 	GLuint* texturepower=PowerTexture();
@@ -124,24 +130,24 @@ int Game::playTrack(Track& track){
 		rank++;
 	}
 	
-		Node* currentNode = track.getNodeStart();
-		Object3D* node;
-	while(1){
-		node = new Object3D();
-		node->sphere(1,32,16);
-		node->setScale(glm::vec3(1,1,1));
-		node->setPosition(currentNode->getPosition());
-		node->build();
-		if(currentNode==track.getNodeStart())
-		node->LoadTexture("../textures/Maison.jpg");
-		else
-		node->LoadTexture("../textures/CCTex.jpg");
-		track.push_back(*node);
-		currentNode = currentNode->next;
-		if(currentNode==track.getNodeStart())
-			break;
-	}
-	
+		// Node* currentNode = track.getNodeStart();
+		// Object3D* node;
+	// while(1){
+		// node = new Object3D();
+		// node->sphere(1,32,16);
+		// node->setScale(glm::vec3(1,1,1));
+		// node->setPosition(currentNode->getPosition());
+		// node->build();
+		// if(currentNode==track.getNodeStart())
+		// node->LoadTexture("../textures/Maison.jpg");
+		// else
+		// node->LoadTexture("../textures/CCTex.jpg");
+		// track.push_back(*node);
+		// currentNode = currentNode->next;
+		// if(currentNode==track.getNodeStart())
+			// break;
+	// }
+	placementKart(track.getNodeStart());
 	
 	while(!done) {
 
@@ -155,7 +161,7 @@ int Game::playTrack(Track& track){
 
 		prog2D.use();
 		//affichage des pouvoirs
-		 powerquad.initDraw(locVarTexture);
+		 powerquad.initDraw();
 		if (Players[0]->getPower()==NULL){
 			powerquad.bindTex(texturepower[6]);
 		}
@@ -183,6 +189,11 @@ int Game::playTrack(Track& track){
 		}
 		powerquad.Draw(locVarTexture);
 
+		//affichage de la vitesse
+		vitessequad.initDraw();
+		vitessequad.bindTex(locVarTexture);
+		vitessequad.Draw(locVarTexture);
+		
 		prog.use();
 			
 		//Decalage camera
@@ -446,6 +457,11 @@ Karts.clear();
 
 
 
-
-
+void Game::placementKart(Node *nodeStart){
+	Node* nodeTo=nodeStart->next;
+	
+	for(std::vector<Kart*>::iterator itkart = Karts.begin() ; itkart != Karts.end(); ++itkart){
+		
+	}
+}
 

@@ -157,6 +157,7 @@ void Track::insertElt(){
 		std::getline(fichier, ligne);
 	}
 	node->next=nodeStart;
+	nbNodes=node->id+1;
 	fichier.close();
  }
 

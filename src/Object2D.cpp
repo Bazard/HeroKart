@@ -95,9 +95,8 @@ std::vector<Vertex2DUV> Object2D::getVertices(){
     return vertices;
 }
 
-void Object2D::initDraw(GLint uTex){
+void Object2D::initDraw(){
     vao.bind();
-    // glUniform1i(uTex,0);
 }
 
 void Object2D::bindTex(GLuint texture){
@@ -108,5 +107,51 @@ void Object2D::Draw(GLint uTex){
     glUniform1i(uTex,0);
     glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
     glBindTexture(GL_TEXTURE_2D,0);
+}
+
+GLuint Object2D::LoadTexte(const char* texte, int largeurTexte, int hauteurTexte, unsigned int taille, const char* policeTexte, int r, int g, int b){
+    SDL_Color couleurTexte = {(Uint8)r, (Uint8)g, (Uint8)b};
+    TTF_Font* police = TTF_OpenFont(policeTexte, taille);
+    SDL_Surface* texteEtiquette = TTF_RenderText_Blended(police, texte, couleurTexte);
+    
+    if (NULL == texteEtiquette){
+            std::cout<< "Impossible de créer le texte de l'etiquette";
+            TTF_Quit();
+    }
+ 
+    // Activation de la transparence
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+    // Generation de la texture du texte
+    glGenTextures(1, &idTexture);
+
+    // Selection de la texture generee
+    glBindTexture(GL_TEXTURE_2D, idTexture);
+
+    // Parametrage
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+    // Detection du codage des pixels
+    GLenum codagePixel;
+    if (texteEtiquette->format->Rmask == 0x000000ff){
+        codagePixel = GL_RGBA;
+    }
+    else{
+    #ifndef GL_BGRA
+    #define GL_BGRA 0x80E1
+    #endif
+        codagePixel = GL_BGRA;
+    }
+
+    // Chargement de la texture du texte precedament creee
+    glTexImage2D(GL_TEXTURE_2D, 0, 4, texteEtiquette->w, texteEtiquette->h, 0, codagePixel, GL_UNSIGNED_BYTE, NULL);
+    glTexSubImage2D(GL_TEXTURE_2D, 200, 200, 200, texteEtiquette->w, texteEtiquette->h, codagePixel, GL_UNSIGNED_BYTE, texteEtiquette->pixels);
+    // Liberation de l'image du texte du bouton
+    SDL_FreeSurface(texteEtiquette);
+	TTF_CloseFont(police);
+    //retour texture
+    return idTexture;
 }
 

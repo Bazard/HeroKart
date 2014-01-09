@@ -20,5 +20,7 @@ public:
 	
 	void CleanObjects(Track& track); //Nettoie les objets de la map qui vient d'être utilisé
 	void CleanAll(); //Nettoie tout le reste (Perso, Kart)
+	
+	void placementKart(Node *node);
 };
 

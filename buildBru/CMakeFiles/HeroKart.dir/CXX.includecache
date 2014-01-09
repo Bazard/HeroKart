@@ -670,6 +670,22 @@ C:/Logiciels/MinGW/include/SDL/begin_code.h
 close_code.h
 C:/Logiciels/MinGW/include/SDL/close_code.h
 
+C:/Logiciels/MinGW/include/SDL/SDL_mixer.h
+SDL_types.h
+C:/Logiciels/MinGW/include/SDL/SDL_types.h
+SDL_rwops.h
+C:/Logiciels/MinGW/include/SDL/SDL_rwops.h
+SDL_audio.h
+C:/Logiciels/MinGW/include/SDL/SDL_audio.h
+SDL_endian.h
+C:/Logiciels/MinGW/include/SDL/SDL_endian.h
+SDL_version.h
+C:/Logiciels/MinGW/include/SDL/SDL_version.h
+begin_code.h
+C:/Logiciels/MinGW/include/SDL/begin_code.h
+close_code.h
+C:/Logiciels/MinGW/include/SDL/close_code.h
+
 C:/Logiciels/MinGW/include/SDL/SDL_mouse.h
 SDL_stdinc.h
 C:/Logiciels/MinGW/include/SDL/SDL_stdinc.h
@@ -791,6 +807,10 @@ begin_code.h
 C:/Logiciels/MinGW/include/SDL/begin_code.h
 close_code.h
 C:/Logiciels/MinGW/include/SDL/close_code.h
+
+C:/Logiciels/MinGW/include/SDL/SDL_types.h
+SDL_stdinc.h
+C:/Logiciels/MinGW/include/SDL/SDL_stdinc.h
 
 C:/Logiciels/MinGW/include/SDL/SDL_version.h
 SDL_stdinc.h
@@ -1043,6 +1063,8 @@ VAO.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
 Vertex2DUV.hpp
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Vertex2DUV.hpp
+SDL/SDL_ttf.h
+-
 
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 vector
@@ -1082,18 +1104,6 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
 vector
 -
 
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.cpp
-Track.h
-C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
-fstream
--
-vector
--
-cstdio
--
-string.h
--
-
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
 Object3D.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
@@ -1105,4 +1115,44 @@ string
 -
 Node.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
+
+C:/Users/bruno/Documents/GitHub/HeroKart/src/heromain.cpp
+iostream
+-
+cstdlib
+-
+cmath
+-
+VBO.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/VBO.hpp
+VAO.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/VAO.hpp
+vector
+-
+ctime
+-
+PlayerIA.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/PlayerIA.h
+Race.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Race.h
+Game.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Game.h
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+Program.hpp
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Program.hpp
+SDL/SDL.h
+-
+SDL/SDL_ttf.h
+-
+SDL/SDL_mixer.h
+-
+GL/glew.h
+-
+Menu.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Menu.h
 

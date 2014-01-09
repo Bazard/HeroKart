@@ -49,6 +49,7 @@ public:
 	void decrRank();
 	
 	void setNodeTo(Node* node){nodeTo=node;}
+	Node* getNodeTo(){ return nodeTo;}
 	void crossANode(void);
 	float distanceToNextNode(void);
 	
