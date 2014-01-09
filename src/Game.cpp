@@ -130,23 +130,23 @@ int Game::playTrack(Track& track){
 		rank++;
 	}
 	
-		// Node* currentNode = track.getNodeStart();
-		// Object3D* node;
-	// while(1){
-		// node = new Object3D();
-		// node->sphere(1,32,16);
-		// node->setScale(glm::vec3(1,1,1));
-		// node->setPosition(currentNode->getPosition());
-		// node->build();
-		// if(currentNode==track.getNodeStart())
-		// node->LoadTexture("../textures/Maison.jpg");
-		// else
-		// node->LoadTexture("../textures/CCTex.jpg");
-		// track.push_back(*node);
-		// currentNode = currentNode->next;
-		// if(currentNode==track.getNodeStart())
-			// break;
-	// }
+		 Node* currentNode = track.getNodeStart();
+		 Object3D* node;
+	 while(1){
+		 node = new Object3D();
+		 node->sphere(1,32,16);
+		 node->setScale(glm::vec3(1,1,1));
+		 node->setPosition(currentNode->getPosition());
+		 node->build();
+		 if(currentNode==track.getNodeStart())
+		 node->LoadTexture("../textures/Maison.jpg");
+		 else
+		 node->LoadTexture("../textures/CCTex.jpg");
+		 track.push_back(*node);
+		 currentNode = currentNode->next;
+		 if(currentNode==track.getNodeStart())
+			 break;
+	 }
 	placementKart(track.getNodeStart());
 	
 	while(!done) {

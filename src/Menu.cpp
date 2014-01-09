@@ -211,6 +211,7 @@ int menuCircuit(std::vector<Character*>& character,std::vector<Track*>& track){
 	glBindTexture(GL_TEXTURE_2D,0);
 
 	Track* circuit1=new Track("../maps/Village.map",3);
+	// circuit1->insertElt();
 	Track* circuit2=new Track("../maps/Village.map",3);
 	Track* circuit3=new Track("../maps/Village.map",3);
 	
@@ -1079,8 +1080,8 @@ void KartWithChar(std::vector<Character*>& Characters,std::vector<Kart*>& Karts)
 			case BURT:
 				kart=new Kart(2,0.01,0.75,5);
 				kart->setPosition(glm::vec3(-1,0,0));
-				kart->LoadObjFromFile("../models/ACC.obj");	
-				kart->LoadTexture("../textures/CCTex.jpg");
+				kart->LoadObjFromFile("../models/Burt.obj");	
+				kart->LoadTexture("../textures/TexBurt.jpg");
 				kart->build();
 				break;
 			case MCKORMACK:
