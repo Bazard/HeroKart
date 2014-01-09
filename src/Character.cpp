@@ -55,7 +55,7 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 				mapObjects.push_back(obj);
 				break;
 			case MCKORMACK:
-				kart.setPosition(kart.getPosition().x+20*kart.getDirection().x, kart.getPosition().y+20*kart.getDirection().y, kart.getPosition().z+20*kart.getDirection().z);
+				kart.setPosition(kart.getNodeTo()->getPosition());
 				break;
 			case STEVE:
 				obj=new PowerObject(ATK_FRONT, 10000);

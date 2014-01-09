@@ -15,13 +15,6 @@
 1 1 1
 0 0 0
 
-../models/Maison.obj
-../textures/Maison.jpg
-30 0 0
-0 0 1
-1 1 1
-3 3 3
-
 #Powers
 ATK_FRONT
 ../models/MissileArme.obj

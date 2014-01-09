@@ -399,7 +399,7 @@ int menuPersonnage(std::vector<Character*>& character, std::vector<Track*>& trac
 		// Application code goes here
 		Character *john=new Character(JOHN,10000);
 		Character *klaus=new Character(KLAUS,10000);
-		Character *doug=new Character(DOUG,10000);
+		Character *doug=new Character(DOUG,1000);
 		Character *stan=new Character(STAN,10000);
 		Character *steve=new Character(STEVE,10000);
 		Character *burt=new Character(BURT,10000);
@@ -917,7 +917,7 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 					case 0:
 							character.push_back(new Character(JOHN,10000));
 							character.push_back(new Character(KLAUS,10000));
-							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(DOUG,1000));
 							character.push_back(new Character(STAN,10000));
 							character.push_back(new Character(BURT,10000));
 							character.push_back(new Character(STEVE,10000));
@@ -927,7 +927,7 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 					case 1:
 							character.push_back(new Character(KLAUS,10000));
 							character.push_back(new Character(JOHN,10000));
-							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(DOUG,1000));
 							character.push_back(new Character(STAN,10000));
 							character.push_back(new Character(BURT,10000));
 							character.push_back(new Character(STEVE,10000));
@@ -935,7 +935,7 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 							character.push_back(new Character(JENNIFER,10000));
 							break;
 					case 2:
-							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(DOUG,1000));
 							character.push_back(new Character(JOHN,10000));
 							character.push_back(new Character(KLAUS,10000));
 							character.push_back(new Character(STAN,10000));
@@ -948,7 +948,7 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 							character.push_back(new Character(STAN,10000));
 							character.push_back(new Character(JOHN,10000));
 							character.push_back(new Character(KLAUS,10000));
-							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(DOUG,1000));
 							character.push_back(new Character(BURT,10000));
 							character.push_back(new Character(STEVE,10000));
 							character.push_back(new Character(MCKORMACK,10000));
@@ -958,7 +958,7 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 							character.push_back(new Character(BURT,10000));
 							character.push_back(new Character(JOHN,10000));
 							character.push_back(new Character(KLAUS,10000));
-							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(DOUG,1000));
 							character.push_back(new Character(STAN,10000));
 							character.push_back(new Character(STEVE,10000));
 							character.push_back(new Character(MCKORMACK,10000));
@@ -968,7 +968,7 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 							character.push_back(new Character(STEVE,10000));
 							character.push_back(new Character(JOHN,10000));
 							character.push_back(new Character(KLAUS,10000));
-							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(DOUG,1000));
 							character.push_back(new Character(STAN,10000));
 							character.push_back(new Character(BURT,10000));
 							character.push_back(new Character(MCKORMACK,10000));
@@ -978,7 +978,7 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 							character.push_back(new Character(MCKORMACK,10000));
 							character.push_back(new Character(JOHN,10000));
 							character.push_back(new Character(KLAUS,10000));
-							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(DOUG,1000));
 							character.push_back(new Character(STAN,10000));
 							character.push_back(new Character(BURT,10000));
 							character.push_back(new Character(STEVE,10000));
@@ -988,18 +988,17 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 							character.push_back(new Character(JENNIFER,10000));
 							character.push_back(new Character(JOHN,10000));
 							character.push_back(new Character(KLAUS,10000));
-							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(DOUG,1000));
 							character.push_back(new Character(STAN,10000));
 							character.push_back(new Character(BURT,10000));
 							character.push_back(new Character(STEVE,10000));
 							character.push_back(new Character(MCKORMACK,10000));
 							break;
 					case 8:
-							
 							character.push_back(new Character(CANADA,10000));
 							character.push_back(new Character(JOHN,10000));
 							character.push_back(new Character(KLAUS,10000));
-							character.push_back(new Character(DOUG,10000));
+							character.push_back(new Character(DOUG,1000));
 							character.push_back(new Character(STAN,10000));
 							character.push_back(new Character(BURT,10000));
 							character.push_back(new Character(STEVE,10000));
@@ -1012,9 +1011,9 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 	
 					r=rand()%4;
 					
-					Track* circuit1=new Track("village");
-					Track* circuit2=new Track("montreal");
-					Track* circuit3=new Track("forteresse");				
+					Track* circuit1=new Track("../maps/Village.map");
+					Track* circuit2=new Track("../maps/Village.map");
+					Track* circuit3=new Track("../maps/Village.map");		
 	
 					switch(r){
 						case 1:
