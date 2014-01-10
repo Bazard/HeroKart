@@ -1377,3 +1377,197 @@ GLuint* PowerTexture(){
 
 	return tabTexture;
 }
+
+
+
+
+GLuint* RankTexture(){
+	GLuint* tabTexture=new GLuint[8];
+	
+	// 1er
+	int img_width, img_height;
+	unsigned char* img=SOIL_load_image("../textures/chiffres/1.jpg", &img_width, &img_height, NULL, 0);
+	
+	GLuint id1;
+	glGenTextures(1, &id1);
+	glBindTexture(GL_TEXTURE_2D, id1);
+	glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[0]=id1;
+
+	// 2ème
+	img=SOIL_load_image("../textures/chiffres/2.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id2;
+	glGenTextures(1, &id2);
+	glBindTexture(GL_TEXTURE_2D, id2);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[1]=id2;
+
+	// 3ème
+	img=SOIL_load_image("../textures/chiffres/3.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id3;
+	glGenTextures(1, &id3);
+	glBindTexture(GL_TEXTURE_2D, id3);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[2]=id3;
+
+	// 4ème
+	img=SOIL_load_image("../textures/chiffres/4.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id4;
+	glGenTextures(1, &id4);
+	glBindTexture(GL_TEXTURE_2D, id4);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[3]=id4;
+
+	// 5ème
+	img=SOIL_load_image("../textures/chiffres/5.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id5;
+	glGenTextures(1, &id5);
+	glBindTexture(GL_TEXTURE_2D, id5);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[4]=id5;
+
+	// 6ème
+	img=SOIL_load_image("../textures/chiffres/6.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id6;
+	glGenTextures(1, &id6);
+	glBindTexture(GL_TEXTURE_2D, id6);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[5]=id6;
+
+	// 7ème
+	img=SOIL_load_image("../textures/chiffres/7.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id7;
+	glGenTextures(1, &id7);
+	glBindTexture(GL_TEXTURE_2D, id7);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[6]=id7;
+
+	// 8ème
+	img=SOIL_load_image("../textures/chiffres/8.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id8;
+	glGenTextures(1, &id8);
+	glBindTexture(GL_TEXTURE_2D, id8);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[7]=id8;
+
+	return tabTexture;
+}
+
+
+GLuint* PersoTexture(){
+	GLuint* tabTexture=new GLuint[8];
+	
+	// John
+	int img_width, img_height;
+	unsigned char* img=SOIL_load_image("../textures/minipersos/john.jpg", &img_width, &img_height, NULL, 0);
+	
+	GLuint id1;
+	glGenTextures(1, &id1);
+	glBindTexture(GL_TEXTURE_2D, id1);
+	glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[0]=id1;
+
+	// Klaus
+	img=SOIL_load_image("../textures/minipersos/klaus.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id2;
+	glGenTextures(1, &id2);
+	glBindTexture(GL_TEXTURE_2D, id2);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[1]=id2;
+
+	// Doug
+	img=SOIL_load_image("../textures/minipersos/doug.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id3;
+	glGenTextures(1, &id3);
+	glBindTexture(GL_TEXTURE_2D, id3);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[2]=id3;
+
+	// Stan
+	img=SOIL_load_image("../textures/minipersos/stan.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id4;
+	glGenTextures(1, &id4);
+	glBindTexture(GL_TEXTURE_2D, id4);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[3]=id4;
+
+	// Steve
+	img=SOIL_load_image("../textures/minipersos/steve.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id5;
+	glGenTextures(1, &id5);
+	glBindTexture(GL_TEXTURE_2D, id5);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[4]=id5;
+
+	// Burt
+	img=SOIL_load_image("../textures/minipersos/burt.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id6;
+	glGenTextures(1, &id6);
+	glBindTexture(GL_TEXTURE_2D, id6);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[5]=id6;
+
+	// McKormack
+	img=SOIL_load_image("../textures/minipersos/mckormack.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id7;
+	glGenTextures(1, &id7);
+	glBindTexture(GL_TEXTURE_2D, id7);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[6]=id7;
+
+	// Jennifer
+	img=SOIL_load_image("../textures/minipersos/jennifer.jpg", &img_width, &img_height, NULL, 0);
+
+	GLuint id8;
+	glGenTextures(1, &id8);
+	glBindTexture(GL_TEXTURE_2D, id8);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+	glBindTexture(GL_TEXTURE_2D,0);
+	tabTexture[7]=id8;
+
+	return tabTexture;
+}

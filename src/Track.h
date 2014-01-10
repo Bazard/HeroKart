@@ -28,6 +28,9 @@ public:
 
 	int getNbNodes(){ return nbNodes; };
 	void setNbNodes(int n){ nbNodes = n; };
+
+	int getLargeur(){ return largeur; };
+	int getLongueur(){ return longueur; };
 	
 	void push_back(Object3D& obj);
 	void push_back_pow(PowerObject& pow);

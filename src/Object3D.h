@@ -98,4 +98,7 @@ public:
     // Empêche les collisions entre objets
     void avoidCollision(Object3D &other);
 
+    // Collisions avec le bord de la map
+    void collisionWithMap(int largeur, int longueur);
+
 };

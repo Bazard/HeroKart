@@ -374,6 +374,33 @@ void Object3D::avoidCollision(Object3D &other){
     }
 }
 
+
+// Collisions avec le bord de la map
+void Object3D::collisionWithMap(int largeur, int longueur){
+    int margin = 15;
+    // Si le kart sort de la map à droite
+    if( pos.x+hitbox.x >= largeur-margin ){
+        pos=glm::vec3(largeur-margin-hitbox.x, pos.y, pos.z);        
+    }
+
+    // Si le kart sort de la map à gauche
+    if( pos.x-hitbox.x <= -largeur+margin ){
+        pos=glm::vec3(-largeur+margin+hitbox.x, pos.y, pos.z);        
+    }
+
+    // Si le kart sort de la map en bas
+    if( pos.z+hitbox.z >= longueur-margin ){
+        pos=glm::vec3(pos.x, pos.y, longueur-margin-hitbox.z);        
+    }
+
+    // Si le kart sort de la map en haut
+    if( pos.z-hitbox.z <= -longueur+margin ){
+        pos=glm::vec3(pos.x, pos.y, -longueur+margin+hitbox.z);        
+    }
+}
+
+
+
 void Object3D::setDirection(glm::vec3 vec){
 	dir=vec;
 }

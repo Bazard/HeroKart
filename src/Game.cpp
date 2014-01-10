@@ -54,8 +54,8 @@ int Game::playChampionShip(){
 int Game::playTrack(Track& track){
 	
 	bool raceFinished = false;
-	unsigned int timeElapsed;
-   
+	unsigned int timeElapsed = 0;
+
 	//Interface
 	Program prog2D;
 	prog2D = loadProgram("../shaders/tex2D.vs.glsl", "../shaders/tex2D.fs.glsl");
@@ -67,15 +67,68 @@ int Game::playTrack(Track& track){
 	powerquad.setVertices(0.7, 0.9, -0.9, -0.64);
 	powerquad.build();
 	
-	//Carre qui affiche la vitesse
-	Object2D vitessequad;
-	vitessequad.setVertices(-0.9,-0.7,-0.9,-0.64);
-	vitessequad.build();
-	
+	//Carre qui affiche la position
+	Object2D positionQuad;
+	positionQuad.setVertices(-0.9,-0.7,0.64,0.9);
+	positionQuad.build();
+
+	//Surfaces pour afficher le classement final (à optimiser)
+	Object2D positionQuad1;
+	positionQuad1.setVertices(-0.2,-0.1,0.8,0.9);
+	positionQuad1.build();
+	Object2D positionQuad2;
+	positionQuad2.setVertices(-0.2,-0.1,0.6,0.7);
+	positionQuad2.build();
+	Object2D positionQuad3;
+	positionQuad3.setVertices(-0.2,-0.1,0.4,0.5);
+	positionQuad3.build();
+	Object2D positionQuad4;
+	positionQuad4.setVertices(-0.2,-0.1,0.2,0.3);
+	positionQuad4.build();
+	Object2D positionQuad5;
+	positionQuad5.setVertices(-0.2,-0.1,0.0,0.1);
+	positionQuad5.build();
+	Object2D positionQuad6;
+	positionQuad6.setVertices(-0.2,-0.1,-0.2,-0.1);
+	positionQuad6.build();
+	Object2D positionQuad7;
+	positionQuad7.setVertices(-0.2,-0.1,-0.4,-0.3);
+	positionQuad7.build();
+	Object2D positionQuad8;
+	positionQuad8.setVertices(-0.2,-0.1,-0.6,-0.5);
+	positionQuad8.build();
+
+	Object2D persoQuad1;
+	persoQuad1.setVertices(0.1,0.2,0.8,0.9);
+	persoQuad1.build();
+	Object2D persoQuad2;
+	persoQuad2.setVertices(0.1,0.2,0.6,0.7);
+	persoQuad2.build();
+	Object2D persoQuad3;
+	persoQuad3.setVertices(0.1,0.2,0.4,0.5);
+	persoQuad3.build();
+	Object2D persoQuad4;
+	persoQuad4.setVertices(0.1,0.2,0.2,0.3);
+	persoQuad4.build();
+	Object2D persoQuad5;
+	persoQuad5.setVertices(0.1,0.2,0.0,0.1);
+	persoQuad5.build();
+	Object2D persoQuad6;
+	persoQuad6.setVertices(0.1,0.2,-0.2,-0.1);
+	persoQuad6.build();
+	Object2D persoQuad7;
+	persoQuad7.setVertices(0.1,0.2,-0.4,-0.3);
+	persoQuad7.build();
+	Object2D persoQuad8;
+	persoQuad8.setVertices(0.1,0.2,-0.6,-0.5);
+	persoQuad8.build();
+
 	
 	GLint locVarTexture;
 	locVarTexture= glGetUniformLocation(prog2D.getGLId(), "uTexture");
 	GLuint* texturepower=PowerTexture();
+	GLuint* textureRank=RankTexture();
+	GLuint* texturePerso=PersoTexture();
 	
 	Program prog;
 	prog = loadProgram("../shaders/3D.vs.glsl","../shaders/tex3D.fs.glsl");
@@ -122,7 +175,7 @@ int Game::playTrack(Track& track){
 	std::cout << "Lecture du fichier Map" << std::endl;
 	//Lecture du fichier Map
 	track.insertElt();
-	
+
 	//Nodes
 
 	unsigned int rank = 8;
@@ -169,14 +222,14 @@ int Game::playTrack(Track& track){
 
 		Uint32 tStart = SDL_GetTicks();
 		
-		if(timeElapsed > FPS && timeElapsed < 2*FPS)
+		if(timeElapsed >= FPS && timeElapsed < 2*FPS)
 			std::cout << "3 ..." << std::endl;
-		if(timeElapsed > 2*FPS && timeElapsed < 3*FPS)
+		if(timeElapsed >= 2*FPS && timeElapsed < 3*FPS)
 			std::cout << "2 ..." << std::endl;
-		if(timeElapsed > 3*FPS && timeElapsed < 4*FPS)
+		if(timeElapsed >= 3*FPS && timeElapsed < 4*FPS)
 			std::cout << "1 ..." << std::endl;
 
-		if(timeElapsed > 4*FPS && timeElapsed < 5*FPS){
+		if(timeElapsed >= 4*FPS && timeElapsed < 5*FPS){
 			std::cout << "PINAAAAAAAAAAGE !!!" << std::endl;
 			ready=true;
 		}
@@ -214,11 +267,67 @@ int Game::playTrack(Track& track){
 		}
 		powerquad.Draw(locVarTexture);
 
-		//affichage de la vitesse
-		// vitessequad.initDraw();
-		// vitessequad.bindTex(idTexture[0]);
-		// vitessequad.Draw(idTexture[0]);
-		
+		//Gestion du classement
+		if( !raceFinished ){
+			ranking(Karts);
+			positionQuad.initDraw();		
+			positionQuad.bindTex(textureRank[Karts[0]->getRank()-1]);
+			positionQuad.Draw(locVarTexture);
+		}
+		else{
+			getFinalRanking(Players);
+
+			positionQuad1.initDraw();		
+			positionQuad1.bindTex(textureRank[0]);
+			positionQuad1.Draw(locVarTexture);
+			positionQuad2.initDraw();		
+			positionQuad2.bindTex(textureRank[1]);
+			positionQuad2.Draw(locVarTexture);
+			positionQuad3.initDraw();		
+			positionQuad3.bindTex(textureRank[2]);
+			positionQuad3.Draw(locVarTexture);
+			positionQuad4.initDraw();		
+			positionQuad4.bindTex(textureRank[3]);
+			positionQuad4.Draw(locVarTexture);
+			positionQuad5.initDraw();		
+			positionQuad5.bindTex(textureRank[4]);
+			positionQuad5.Draw(locVarTexture);
+			positionQuad6.initDraw();		
+			positionQuad6.bindTex(textureRank[5]);
+			positionQuad6.Draw(locVarTexture);
+			positionQuad7.initDraw();		
+			positionQuad7.bindTex(textureRank[6]);
+			positionQuad7.Draw(locVarTexture);
+			positionQuad8.initDraw();		
+			positionQuad8.bindTex(textureRank[7]);
+			positionQuad8.Draw(locVarTexture);
+
+			persoQuad1.initDraw();		
+			persoQuad1.bindTex(texturePerso[getIdPersoByRank(Players, 1)]);
+			persoQuad1.Draw(locVarTexture);
+			persoQuad2.initDraw();		
+			persoQuad2.bindTex(texturePerso[getIdPersoByRank(Players, 2)]);
+			persoQuad2.Draw(locVarTexture);
+			persoQuad3.initDraw();		
+			persoQuad3.bindTex(texturePerso[getIdPersoByRank(Players, 3)]);
+			persoQuad3.Draw(locVarTexture);
+			persoQuad4.initDraw();		
+			persoQuad4.bindTex(texturePerso[getIdPersoByRank(Players, 4)]);
+			persoQuad4.Draw(locVarTexture);
+			persoQuad5.initDraw();		
+			persoQuad5.bindTex(texturePerso[getIdPersoByRank(Players, 5)]);
+			persoQuad5.Draw(locVarTexture);
+			persoQuad6.initDraw();		
+			persoQuad6.bindTex(texturePerso[getIdPersoByRank(Players, 6)]);
+			persoQuad6.Draw(locVarTexture);
+			persoQuad7.initDraw();		
+			persoQuad7.bindTex(texturePerso[getIdPersoByRank(Players, 7)]);
+			persoQuad7.Draw(locVarTexture);
+			persoQuad8.initDraw();		
+			persoQuad8.bindTex(texturePerso[getIdPersoByRank(Players, 8)]);
+			persoQuad8.Draw(locVarTexture);
+		} 
+
 		prog.use();
 			
 		//Decalage camera
@@ -348,13 +457,19 @@ int Game::playTrack(Track& track){
 					Players[idotherkart]->getCharacter().hitSuperPower(tStart, Karts, idkart, *Karts[idotherkart]); //Pouvoir spécial kart2 sur kart1
 				}
 			}
+
+			//Collision avec les bords de la map
+			Karts[idkart]->collisionWithMap(track.getLargeur(), track.getLongueur());
 		
 		}
 
-		//Gestion du classement
-		if( !raceFinished )
-			ranking(Karts);
-		else getFinalRanking(Players);
+
+/*		for(int i=0; i<8; ++i){
+			finalRankQuad[i].initDraw();		
+			finalRankQuad[i].bindTex(textureRank[i]);
+			finalRankQuad[i].Draw(locVarTexture);
+		}
+*/		
 		//getFinalRanking(Players, textSurfaces, font);
 
 		// showRankSurfaces(rankSurfaces, screen, positionSurfaces);
@@ -545,6 +660,11 @@ Karts.clear();
 void Game::placementKart(Node *nodeStart){
 	Node* nodeTo=nodeStart->next;
 	float angleNode,x,z;
+	
+	// for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
+	
+	// }
+	
 	// glm::vec3 direction=glm::vec3(nodeStart->getPosition().x-nodeTo->getPosition().x,0,nodeStart->getPosition().z-nodeTo->getPosition().z);
 	// direction=glm::normalize(direction);
 	glm::vec3 dirVect = glm::vec3(nodeTo->getPosition().x-nodeStart->getPosition().x, 0, nodeTo->getPosition().z-nodeStart->getPosition().z);
@@ -576,19 +696,19 @@ void Game::placementKart(Node *nodeStart){
 				(*it)->setPosition(glm::vec3(positionFirst.x-5*dirVect.x,0,positionFirst.z-5*dirVect.z));
 			break;
 			case 4 :
-				(*it)->setPosition(glm::vec3(positionSecond.x-5*dirVect.x,0,positionSecond.z-5*dirVect.z));
+				(*it)->setPosition(glm::vec3(positionSecond.x-7*dirVect.x,0,positionSecond.z-7*dirVect.z));
 			break;
 			case 5 : 
 				(*it)->setPosition(glm::vec3(positionFirst.x-10*dirVect.x,0,positionFirst.z-10*dirVect.z));
 			break;
 			case 6 : 
-				(*it)->setPosition(glm::vec3(positionSecond.x-10*dirVect.x,0,positionSecond.z-10*dirVect.z));
+				(*it)->setPosition(glm::vec3(positionSecond.x-12*dirVect.x,0,positionSecond.z-12*dirVect.z));
 			break;
 			case 7 :
 				(*it)->setPosition(glm::vec3(positionFirst.x-15*dirVect.x,0,positionFirst.z-15*dirVect.z));
 			break;
 			case 8 :
-				(*it)->setPosition(glm::vec3(positionSecond.x-15*dirVect.x,0,positionSecond.z-15*dirVect.z));
+				(*it)->setPosition(glm::vec3(positionSecond.x-17*dirVect.x,0,positionSecond.z-17*dirVect.z));
 			break;
 		}
 	}

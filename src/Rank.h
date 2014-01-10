@@ -12,4 +12,6 @@ std::vector<SDL_Surface*> createRankSurfaces(TTF_Font* font);
 std::vector<SDL_Surface*> createCharactersSurfaces();
 std::vector<SDL_Rect> createPositions();
 
+int getIdPersoByRank(std::vector<PlayerIA*>& players, int rank);
+
 GLuint* showRankSurfaces(std::vector<SDL_Surface*> surfaces, SDL_Surface* screen, std::vector<SDL_Rect> positions);

@@ -40,8 +40,8 @@ void Track::insertElt(){
 		std::getline(fichier, ligne);
 	
 	fields=split(ligne," ");
-	largeur=(float)atof(fields[0].c_str());
-	longueur=(float)atof(fields[1].c_str());
+	largeur=(float)atof(fields[0].c_str())/2;
+	longueur=(float)atof(fields[1].c_str())/2;
 	std::getline(fichier, ligne);
 	std::getline(fichier, ligne);
 	
