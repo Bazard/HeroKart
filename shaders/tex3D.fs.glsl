@@ -13,15 +13,25 @@ uniform float uShininess;
 uniform vec3 uLightDir_vs;
 uniform vec3 uLightIntensity;
 
-vec3 blinnPhong(){
-	vec3 halfVector=vec3((normalize(-vFragPosition)+uLightDir_vs)/2);
-	return vec3(uLightIntensity*(uKd*(dot(uLightDir_vs,vFragNormal))+uKs*pow(dot(halfVector,vFragNormal),uShininess)));
+vec3 blinnPhong() {
+	vec3 wi = normalize(uLightDir_vs);
+	vec3 N = normalize(vFragNormal);
+	vec3 wo = normalize(-vFragPosition);
+
+	vec3 halfVector = 0.5f * (wi + wo);
+
+	return uLightIntensity * (uKd * dot(wi, N) + uKs * pow(dot(halfVector, N), uShininess));
 }
 
 uniform sampler2D uTexture;
 
 void main() {
 	vec4 colortex=texture(uTexture, vFragTexCoords);
-    fFragColor = colortex.xyz;//blinnPhong()*colortex.xyz;
+	vec3 blinn=blinnPhong();
+	if(blinn.x<0.2) blinn.x=1;
+	if(blinn.y<0.2) blinn.y=1;
+	if(blinn.z<0.2) blinn.z=1;
+		
+    fFragColor = colortex.xyz;//*blinn;
 }
                     

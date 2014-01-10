@@ -165,6 +165,12 @@ int Game::playTrack(Track& track){
 
 	placementKart(track.getNodeStart());
 
+	glUniform3f(uKd, 1, 1, 1);
+	glUniform3f(uKs, 1, 1, 1);
+	glUniform1f(uShininess, 32);
+
+	glUniform3f(uLightIntensity, 3, 3, 3);
+		
 	timeElapsed=0;
 	while(!done) {
 
@@ -229,11 +235,8 @@ int Game::playTrack(Track& track){
 		}
 		//Camera
 		ViewMatrix=camera.getViewMatrix(Karts[0]->getPosition(), anglefile.front().first,Karts[0]->back);
-		glUniform3f(uKd, 0.9, 1, 0.4);
-		glUniform3f(uKs, 0.4, 0.8, 1.3);
-		glUniform1f(uShininess, 0.7);
-		glUniform3fv(uLightDir_vs, 1,glm::value_ptr(glm::vec3(ViewMatrix * glm::vec4(1.2))));
-		glUniform3f(uLightIntensity, 2.3, 1.5, 0.9);
+		
+		glUniform3fv(uLightDir_vs, 1, glm::value_ptr(glm::vec3(ViewMatrix * glm::vec4(3, 3, 3, 1))));
 		
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){

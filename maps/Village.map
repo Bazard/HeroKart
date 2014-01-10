@@ -1,5 +1,7 @@
 # La map du village d'Hero
 # Made by Cyriuk
+200 200
+
 #Objets
 ../models/map.obj
 ../textures/TexMap.jpg
@@ -24,7 +26,21 @@
 
 ../models/coin.obj
 ../textures/coin.jpg
--14.76 0 4.64
+-10 0 5
+0
+3 3 3
+0 0 0
+
+../models/coin.obj
+../textures/coin.jpg
+-11 0 5
+0
+3 3 3
+0 0 0
+
+../models/coin.obj
+../textures/coin.jpg
+-13 0 4
 0
 3 3 3
 0 0 0
