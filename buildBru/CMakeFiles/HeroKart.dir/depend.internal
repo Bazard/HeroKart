@@ -173,6 +173,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj
  C:/Logiciels/MinGW/include/SDL/SDL_endian.h
  C:/Logiciels/MinGW/include/SDL/SDL_error.h
  C:/Logiciels/MinGW/include/SDL/SDL_events.h
+ C:/Logiciels/MinGW/include/SDL/SDL_image.h
  C:/Logiciels/MinGW/include/SDL/SDL_joystick.h
  C:/Logiciels/MinGW/include/SDL/SDL_keyboard.h
  C:/Logiciels/MinGW/include/SDL/SDL_keysym.h
@@ -1069,10 +1070,53 @@ CMakeFiles/HeroKart.dir/src/Rank.cpp.obj
  ../third-party/glm/glm/glm.hpp
  C:/Logiciels/MinGW/include/GL/gl.h
  C:/Logiciels/MinGW/include/GL/glu.h
+ C:/Logiciels/MinGW/include/SDL/SDL.h
+ C:/Logiciels/MinGW/include/SDL/SDL_active.h
+ C:/Logiciels/MinGW/include/SDL/SDL_audio.h
+ C:/Logiciels/MinGW/include/SDL/SDL_cdrom.h
+ C:/Logiciels/MinGW/include/SDL/SDL_config.h
+ C:/Logiciels/MinGW/include/SDL/SDL_config_win32.h
+ C:/Logiciels/MinGW/include/SDL/SDL_cpuinfo.h
+ C:/Logiciels/MinGW/include/SDL/SDL_endian.h
+ C:/Logiciels/MinGW/include/SDL/SDL_error.h
+ C:/Logiciels/MinGW/include/SDL/SDL_events.h
+ C:/Logiciels/MinGW/include/SDL/SDL_image.h
+ C:/Logiciels/MinGW/include/SDL/SDL_joystick.h
+ C:/Logiciels/MinGW/include/SDL/SDL_keyboard.h
+ C:/Logiciels/MinGW/include/SDL/SDL_keysym.h
+ C:/Logiciels/MinGW/include/SDL/SDL_loadso.h
+ C:/Logiciels/MinGW/include/SDL/SDL_main.h
+ C:/Logiciels/MinGW/include/SDL/SDL_mouse.h
+ C:/Logiciels/MinGW/include/SDL/SDL_mutex.h
+ C:/Logiciels/MinGW/include/SDL/SDL_platform.h
+ C:/Logiciels/MinGW/include/SDL/SDL_quit.h
+ C:/Logiciels/MinGW/include/SDL/SDL_rwops.h
+ C:/Logiciels/MinGW/include/SDL/SDL_stdinc.h
+ C:/Logiciels/MinGW/include/SDL/SDL_thread.h
+ C:/Logiciels/MinGW/include/SDL/SDL_timer.h
+ C:/Logiciels/MinGW/include/SDL/SDL_ttf.h
+ C:/Logiciels/MinGW/include/SDL/SDL_version.h
+ C:/Logiciels/MinGW/include/SDL/SDL_video.h
+ C:/Logiciels/MinGW/include/SDL/begin_code.h
+ C:/Logiciels/MinGW/include/SDL/close_code.h
  C:/Logiciels/MinGW/include/_mingw.h
+ C:/Logiciels/MinGW/include/ctype.h
+ C:/Logiciels/MinGW/include/errno.h
+ C:/Logiciels/MinGW/include/iconv.h
  C:/Logiciels/MinGW/include/inttypes.h
+ C:/Logiciels/MinGW/include/malloc.h
+ C:/Logiciels/MinGW/include/memory.h
+ C:/Logiciels/MinGW/include/process.h
  C:/Logiciels/MinGW/include/sdkddkver.h
  C:/Logiciels/MinGW/include/stdint.h
+ C:/Logiciels/MinGW/include/stdio.h
+ C:/Logiciels/MinGW/include/stdlib.h
+ C:/Logiciels/MinGW/include/string.h
+ C:/Logiciels/MinGW/include/strings.h
+ C:/Logiciels/MinGW/include/sys/types.h
+ C:/Logiciels/MinGW/include/time.h
+ C:/Logiciels/MinGW/include/wchar.h
+ C:/Logiciels/MinGW/include/wctype.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Character.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h

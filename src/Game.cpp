@@ -54,6 +54,15 @@ int Game::playTrack(Track& track){
 	bool raceFinished = false;
 	unsigned int timeElapsed;
 
+	//TTF
+	TTF_Font *font = NULL;
+    font = TTF_OpenFont("../font/CALIBRI.TTF", 12);
+    if(font==NULL) std::cout << "ERREUR d'importation de la police" << std::endl;
+    
+    SDL_Surface* screen = SDL_GetVideoSurface();
+    std::vector<SDL_Surface*> rankSurfaces = createRankSurfaces(font);
+    std::vector<SDL_Rect> positionSurfaces = createPositions();
+
 	//Interface
 	Program prog2D;
 	prog2D = loadProgram("../shaders/tex2D.vs.glsl", "../shaders/tex2D.fs.glsl");
@@ -110,7 +119,7 @@ int Game::playTrack(Track& track){
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 
-	unsigned int rank = 1;
+	unsigned int rank = 8;
 	
 	PowerObject *obj=NULL;
 	bool done=false;
@@ -127,7 +136,7 @@ int Game::playTrack(Track& track){
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
 		(*it)->setNodeTo(track.getNodeStart()->next);
 		(*it)->setRank(rank);
-		rank++;
+		rank--;
 	}
 	
 		 Node* currentNode = track.getNodeStart();
@@ -208,8 +217,7 @@ int Game::playTrack(Track& track){
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
 
-			 if((id==-1 && ready) || raceFinished ){
-
+			 if((id!=0 && ready) || raceFinished ){
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
 				Players[id]->getCharacter().getHero(), Players[id]->getCharacter().isPowerReady(tStart));
@@ -330,7 +338,9 @@ int Game::playTrack(Track& track){
 		//Gestion du classement
 		if( !raceFinished )
 			ranking(Karts);
-		else getFinalRanking(Players);
+		//else getFinalRanking(Players, font);
+		//getFinalRanking(Players, textSurfaces, font);
+		showRankSurfaces(rankSurfaces, screen, positionSurfaces);
 		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
 
@@ -434,6 +444,7 @@ int Game::playTrack(Track& track){
 	}
 	std::cout << "Nettoyage" << std::endl;
 	CleanObjects(track);
+	TTF_CloseFont(font);
 
 	return sortie;
 }

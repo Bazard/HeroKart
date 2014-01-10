@@ -624,6 +624,16 @@ C:/Logiciels/MinGW/include/SDL/begin_code.h
 close_code.h
 C:/Logiciels/MinGW/include/SDL/close_code.h
 
+C:/Logiciels/MinGW/include/SDL/SDL_image.h
+SDL.h
+C:/Logiciels/MinGW/include/SDL/SDL.h
+SDL_version.h
+C:/Logiciels/MinGW/include/SDL/SDL_version.h
+begin_code.h
+C:/Logiciels/MinGW/include/SDL/begin_code.h
+close_code.h
+C:/Logiciels/MinGW/include/SDL/close_code.h
+
 C:/Logiciels/MinGW/include/SDL/SDL_joystick.h
 SDL_stdinc.h
 C:/Logiciels/MinGW/include/SDL/SDL_stdinc.h
@@ -1088,8 +1098,18 @@ C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
 vector
 -
 
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Rank.cpp
+Rank.h
+C:/Users/bruno/Documents/GitHub/HeroKart/src/Rank.h
+
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Rank.h
 vector
+-
+SDL/SDL.h
+-
+SDL/SDL_ttf.h
+-
+SDL/SDL_image.h
 -
 Kart.h
 C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
