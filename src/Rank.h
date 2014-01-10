@@ -3,7 +3,6 @@
 #include <SDL/SDL.h>
 #include <SDL/SDL_ttf.h>
 #include <SDL/SDL_image.h>
-#include "Kart.h"
 #include "PlayerIA.h"
 
 void ranking(std::vector<Kart*>& karts); // Gère le classement de la course

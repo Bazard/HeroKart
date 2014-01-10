@@ -1,17 +1,11 @@
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
-#include "VBO.hpp"
-#include "VAO.hpp"
-#include <vector>
 #include <ctime>
-#include "PlayerIA.h"
-#include "Race.h"
 #include "Game.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp> 
 #include <glm/gtc/type_ptr.hpp> 
-#include "Program.hpp"
 #include <SDL/SDL.h>
 #include <SDL/SDL_ttf.h>
 #include <SDL/SDL_mixer.h>

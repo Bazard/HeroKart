@@ -1,5 +1,4 @@
 #pragma once
-#include "Object3D.h"
 #include "PowerObject.h"
 #include <vector>
 #include <string>

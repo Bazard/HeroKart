@@ -179,6 +179,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj
  C:/Logiciels/MinGW/include/SDL/SDL_keysym.h
  C:/Logiciels/MinGW/include/SDL/SDL_loadso.h
  C:/Logiciels/MinGW/include/SDL/SDL_main.h
+ C:/Logiciels/MinGW/include/SDL/SDL_mixer.h
  C:/Logiciels/MinGW/include/SDL/SDL_mouse.h
  C:/Logiciels/MinGW/include/SDL/SDL_mutex.h
  C:/Logiciels/MinGW/include/SDL/SDL_platform.h
@@ -188,6 +189,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj
  C:/Logiciels/MinGW/include/SDL/SDL_thread.h
  C:/Logiciels/MinGW/include/SDL/SDL_timer.h
  C:/Logiciels/MinGW/include/SDL/SDL_ttf.h
+ C:/Logiciels/MinGW/include/SDL/SDL_types.h
  C:/Logiciels/MinGW/include/SDL/SDL_version.h
  C:/Logiciels/MinGW/include/SDL/SDL_video.h
  C:/Logiciels/MinGW/include/SDL/begin_code.h
@@ -757,8 +759,6 @@ CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj
  C:/Logiciels/MinGW/include/stdint.h
  C:/Logiciels/MinGW/include/string.h
  C:/Logiciels/MinGW/include/sys/types.h
- C:/Users/bruno/Documents/GitHub/HeroKart/src/Kart.h
- C:/Users/bruno/Documents/GitHub/HeroKart/src/Node.h
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Object3D.h
 CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj
@@ -1206,8 +1206,6 @@ CMakeFiles/HeroKart.dir/src/Track.cpp.obj
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.cpp
  C:/Users/bruno/Documents/GitHub/HeroKart/src/Track.h
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj
- ../lib/include/Program.hpp
- ../lib/include/Shader.hpp
  ../lib/include/VAO.hpp
  ../lib/include/VBO.hpp
  ../lib/include/Vertex2DUV.hpp

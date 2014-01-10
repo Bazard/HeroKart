@@ -28,10 +28,10 @@ uniform sampler2D uTexture;
 void main() {
 	vec4 colortex=texture(uTexture, vFragTexCoords);
 	vec3 blinn=blinnPhong();
-	if(blinn.x<0.2) blinn.x=1;
-	if(blinn.y<0.2) blinn.y=1;
-	if(blinn.z<0.2) blinn.z=1;
+	if(blinn.x<0.4) blinn.x=1;
+	if(blinn.y<0.4) blinn.y=1;
+	if(blinn.z<0.4) blinn.z=1;
 		
-    fFragColor = colortex.xyz;//*blinn;
+    fFragColor = colortex.xyz*blinn;
 }
                     

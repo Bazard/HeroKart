@@ -2,7 +2,6 @@
 #include "Race.h"
 #include "PlayerIA.h"
 #include <vector>
-#include "Kart.h"
 
 class Game
 {

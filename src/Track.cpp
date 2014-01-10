@@ -45,7 +45,6 @@ void Track::insertElt(){
 	std::getline(fichier, ligne);
 	std::getline(fichier, ligne);
 	
-	std::cout << largeur << " " << longueur << std::endl;
 	while(ligne[0]=='#')
 		std::getline(fichier, ligne);
 		
@@ -87,7 +86,6 @@ void Track::insertElt(){
 	
 	while(ligne[0]=='#')
 		std::getline(fichier, ligne);
-		
 	PowerObject* pow;
 	
 	while (!fichier.eof()){

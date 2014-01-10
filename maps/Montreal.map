@@ -1,0 +1,42 @@
+# La map de la grande ville
+# Made by Cyriuk
+200 200
+
+#Objets
+../models/BATIMENTS.obj
+../textures/TEXTURE.jpg
+0 0 0
+0 0 1 
+500 500 500
+0 0 0
+
+../models/SolMontreal.obj
+../textures/Tex.jpg
+0 0 0
+0 0 1 
+1 1 1
+0 0 0
+
+
+#Powers
+ATK_FRONT
+../models/MissileArme.obj
+../textures/TexMissileArme.jpg
+-10 0 0
+3 3 3
+
+SHIELD
+../models/MissileArme.obj
+../textures/TexMissileArme.jpg
+20 0 0
+3 3 3
+
+#Nodes
+0 125.7092 0 367.3931 125.7092 0 -401.1656
+1 833.3911 0 397.7318 833.3911 0 370.454
+2 835.4894 0 403.1274 861.8679 0 403.1274
+3 833.7814 0 1008.406 862.2581 0 1008.406
+4 869.4523 0 1010.505 869.4523 0 1037.483
+5 1153.449 0 1038.17 1153.449 0 1010.292
+6 1155.547 0 1006.096 1181.027 0 1007.295
+7 1154.226 0 78.08993 1182.104 0 78.08993

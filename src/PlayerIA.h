@@ -1,6 +1,5 @@
 #pragma once
 #include "Character.h"
-#include "Kart.h"
 #include "PowerObject.h"
 
 class PlayerIA

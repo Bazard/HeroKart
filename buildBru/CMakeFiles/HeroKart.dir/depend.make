@@ -178,6 +178,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_key
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_keysym.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_loadso.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_main.h
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_mixer.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_mouse.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_mutex.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_platform.h
@@ -187,6 +188,7 @@ CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_std
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_thread.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_timer.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_ttf.h
+CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_types.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_version.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/SDL_video.h
 CMakeFiles/HeroKart.dir/src/Game.cpp.obj: C:/Logiciels/MinGW/include/SDL/begin_code.h
@@ -756,8 +758,6 @@ CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/sdkddkv
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/stdint.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/string.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: C:/Logiciels/MinGW/include/sys/types.h
-CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Kart.h
-CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Node.h
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.cpp
 CMakeFiles/HeroKart.dir/src/Object3D.cpp.obj: ../src/Object3D.h
 
@@ -1205,8 +1205,6 @@ CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/PowerObject.h
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Track.cpp
 CMakeFiles/HeroKart.dir/src/Track.cpp.obj: ../src/Track.h
 
-CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/Program.hpp
-CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/Shader.hpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/VAO.hpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/VBO.hpp
 CMakeFiles/HeroKart.dir/src/heromain.cpp.obj: ../lib/include/Vertex2DUV.hpp

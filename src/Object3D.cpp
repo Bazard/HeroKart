@@ -7,7 +7,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp> 
-#include "Kart.h"
 
 using namespace glimac;
 
@@ -22,7 +21,7 @@ bool Object3D::LoadObjFromFile(std::string sFilePath)
 
    if(!scene) 
    { 
-      std::cerr << "Erreur d'importer" << std::endl;
+      std::cerr << "Erreur d'importation" << std::endl;
       return false; 
    } 
 
@@ -300,7 +299,7 @@ void Object3D::TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra){
 }
 
 void Object3D::MatrixToShader(GLuint uMVMatrix,GLuint uMVPMatrix,GLuint uNormalMatrix,int WIDTH, int HEIGHT){
-		glm::mat4 ProjMatrix=glm::perspective(70.f,(float)WIDTH/(float)HEIGHT,0.1f,100.f); //angle vertical, ratio largeur/hauteur, near, far
+		glm::mat4 ProjMatrix=glm::perspective(70.f,(float)WIDTH/(float)HEIGHT,0.1f,300.f); //angle vertical, ratio largeur/hauteur, near, far
 		glUniformMatrix4fv(uMVMatrix, 1, false, glm::value_ptr(MVMatrix));
 		glUniformMatrix4fv(uMVPMatrix, 1, false, glm::value_ptr(ProjMatrix*MVMatrix));			
 		glUniformMatrix4fv(uNormalMatrix, 1, false, glm::value_ptr(glm::transpose(glm::inverse(MVMatrix))));

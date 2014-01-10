@@ -1,12 +1,12 @@
 #include "Game.h"
 #include "Program.hpp"
 #include <SDL/SDL.h>
+#include <SDL/SDL_mixer.h>
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp> 
 #include <glm/gtc/type_ptr.hpp> 
 #include "TrackballCamera.hpp"
-#include <iostream>
 #include "VAO.hpp"
 #include <queue>
 #include <cstdlib>
@@ -14,6 +14,7 @@
 #include "Menu.h"
 #include "Rank.h"
 
+Mix_Chunk *son;
 
 static const Uint32 FPS = 30;
 static const Uint32 FRAME_DURATION = 1000.f / FPS;
@@ -105,10 +106,6 @@ int Game::playTrack(Track& track){
 	glm::mat4 ViewMatrix;
 		
 	TrackballCamera camera;
-	 
-	 //Rotation pour la caméra
-	std::queue<std::pair<float,Uint32>> anglefile;
-	anglefile.push(std::pair<float,Uint32>(0,0));
 	
 	// Les power qu'on peut ramasser, a enlever car ils seront inclus dans powObject
 	PowerObject boost(BOOST,10000);
@@ -165,11 +162,15 @@ int Game::playTrack(Track& track){
 
 	placementKart(track.getNodeStart());
 
+	 //Rotation pour la caméra
+	std::queue<std::pair<float,Uint32>> anglefile;
+	anglefile.push(std::pair<float,Uint32>(Karts[0]->getAngle(),0));
+	
 	glUniform3f(uKd, 1, 1, 1);
 	glUniform3f(uKs, 1, 1, 1);
-	glUniform1f(uShininess, 32);
+	glUniform1f(uShininess, 2);
 
-	glUniform3f(uLightIntensity, 3, 3, 3);
+	glUniform3f(uLightIntensity, 1, 1, 1);
 		
 	timeElapsed=0;
 	while(!done) {
@@ -236,7 +237,7 @@ int Game::playTrack(Track& track){
 		//Camera
 		ViewMatrix=camera.getViewMatrix(Karts[0]->getPosition(), anglefile.front().first,Karts[0]->back);
 		
-		glUniform3fv(uLightDir_vs, 1, glm::value_ptr(glm::vec3(ViewMatrix * glm::vec4(3, 3, 3, 1))));
+		glUniform3fv(uLightDir_vs, 1, glm::value_ptr(glm::rotate(ViewMatrix,Karts[0]->getAngle()+90, glm::vec3(0,1,0))));
 		
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
@@ -430,13 +431,66 @@ int Game::playTrack(Track& track){
 								Players[0]->usePower(Karts,0,tStart,track.getMapObjects());
 							break;
 						case SDLK_ESCAPE:
-							std::cout << "Pause" << std::endl;
 							sortie=0;
 							done=true;
 							break;
+						case 'p':
+							sortie =	redirectionPause();
+							std::cout << sortie << std::endl;
+							break;
 						case 'q':
-							if(ready)
+							if(ready){
+								if(!Players[0]->getCharacter().isPowerReady(tStart))
+									break;
+								switch(Players[0]->getCharacter().getHero()){
+									case JOHN :
+										son = Mix_LoadWAV("../sounds/John.wav");
+										Mix_VolumeChunk(son, MIX_MAX_VOLUME);
+										Mix_PlayChannel(-1, son, 0);
+									break;
+									case KLAUS :
+										son = Mix_LoadWAV("../sounds/Klaus.wav");
+										Mix_VolumeChunk(son, MIX_MAX_VOLUME);
+										Mix_PlayChannel(-1, son, 0);
+									break;
+									case DOUG :
+										son = Mix_LoadWAV("../sounds/Doug.wav");
+										Mix_VolumeChunk(son, MIX_MAX_VOLUME);
+										Mix_PlayChannel(-1, son, 0);
+									break;
+									case CANADA :
+										son = Mix_LoadWAV("../sounds/Captain.wav");
+										Mix_VolumeChunk(son, MIX_MAX_VOLUME);
+										Mix_PlayChannel(-1, son, 0);
+									break;
+									case BURT :
+										son = Mix_LoadWAV("../sounds/Burt.wav");
+										Mix_VolumeChunk(son, MIX_MAX_VOLUME);
+										Mix_PlayChannel(-1, son, 0);
+									break;
+									case MCKORMACK :
+										son = Mix_LoadWAV("../sounds/Mac.wav");
+										Mix_VolumeChunk(son, MIX_MAX_VOLUME);
+										Mix_PlayChannel(-1, son, 0);
+									break;
+									case STEVE :
+										son = Mix_LoadWAV("../sounds/Steve.wav");
+										Mix_VolumeChunk(son, MIX_MAX_VOLUME);
+										Mix_PlayChannel(-1, son, 0);
+									break;
+									case STAN :
+										son = Mix_LoadWAV("../sounds/Stan.wav");
+										Mix_VolumeChunk(son, MIX_MAX_VOLUME);
+										Mix_PlayChannel(-1, son, 0);
+									break;
+									case JENNIFER :
+										son = Mix_LoadWAV("../sounds/Jennifer.wav");
+										Mix_VolumeChunk(son, MIX_MAX_VOLUME);
+										Mix_PlayChannel(-1, son, 0);
+									break;
+								}
 								Players[0]->getCharacter().useSuperPower(tStart,*Karts[0],track.getMapObjects());
+							}
 							break;
 					}
 					break;
@@ -475,14 +529,11 @@ int Game::playTrack(Track& track){
 
 void Game::CleanObjects(Track& track){
 	
-// for (std::vector<Object3D*>::iterator it = track.getMapObjects().begin() ; it != track.getMapObjects().end(); ++it)
-	// delete(*it);
-// track.getMapObjects().clear();
+for (std::vector<Object3D*>::iterator it = track.getMapObjects().begin() ; it != track.getMapObjects().end(); ++it)
+	delete(*it);
 
-// for (std::vector<PowerObject*>::iterator it = track.getPowObjects().begin() ; it != track.getPowObjects().end(); ++it)
-	// delete(*it);
-// track.getPowObjects().clear();
-
+for (std::vector<PowerObject*>::iterator it = track.getPowObjects().begin() ; it != track.getPowObjects().end(); ++it)
+	delete(*it);
 }
 
 void Game::CleanAll(){

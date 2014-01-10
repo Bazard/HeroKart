@@ -3,7 +3,7 @@
 #include <GL/glew.h>
 #include <vector>
 #include <cstdlib>
-#include "Character.h"
+#include "PlayerIA.h"
 #include "Race.h"
 #include "Vertex2DUV.hpp"
 #include <SOIL/SOIL.h>
@@ -12,12 +12,14 @@
 static Uint32 WINDOW_WIDTH=800;
 static Uint32 WINDOW_HEIGHT=600;
 
-int redirection(std::vector<Character*>&,std::vector<Track*>&);
+int redirection(std::vector<Character*>& characters,std::vector<Track*>& tracks);
+int redirectionPause();
+int menuPause();
 void menuChargement();
 int menuCircuit(std::vector<Character*>&,std::vector<Track*>&);
 int menuPersonnage(std::vector<Character*>&,std::vector<Track*>&);
 int lancerJeuRandom(std::vector<Character*>&,std::vector<Track*>&);
-int menuOptions(std::vector<Character*>&,std::vector<Track*>&);
+int menuOptions();
 int menuPrincipal(std::vector<Character*>&,std::vector<Track*>&);
 void KartWithChar(std::vector<Character*>&,std::vector<Kart*>&);
 void restartSDL();
