@@ -1,4 +1,5 @@
 #include "Rank.h"
+#include "Kart.h"
 
 // Gère le classement de la course
 void ranking(std::vector<Kart*>& karts){
@@ -71,6 +72,31 @@ void getFinalRanking(std::vector<PlayerIA*>& players){
 	std::cout << "8 : " <<  finalRankTab[7] << std::endl;
  
 } 
+
+int getIdPersoByRank(std::vector<PlayerIA*>& players, int rank){
+	Hero finalRankTab[8];
+	for(std::vector<PlayerIA*>::iterator it = players.begin() ; it != players.end(); ++it){
+		finalRankTab[(*it)->getKart().getRank()-1] = (*it)->getCharacter().getHero();
+	}
+	switch(finalRankTab[rank-1]){
+		case JOHN:
+			return 0;
+		case KLAUS:
+			return 1;
+		case DOUG:
+			return 2;
+		case STAN:
+			return 3;
+		case STEVE:
+			return 4;
+		case BURT:
+			return 5;
+		case MCKORMACK:
+			return 6;
+		case JENNIFER:
+			return 7;
+	}
+}
 
 
 std::vector<SDL_Surface*> createRankSurfaces(TTF_Font* font){

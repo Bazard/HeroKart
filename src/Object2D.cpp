@@ -11,7 +11,7 @@ using namespace glimac;
 Object2D::Object2D(){
 }
 
-
+Object2D::Object2D(const Object2D&){}
 
 void Object2D::build(){
     buildVBO();

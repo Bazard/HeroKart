@@ -19,7 +19,7 @@ class Object2D {
 	
 public:
     Object2D();
-	/*Object2D(const Object2D&);*/
+	Object2D(const Object2D&);
 	void build();
 	void buildVAO();
 	void buildVBO();

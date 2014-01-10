@@ -22,4 +22,6 @@ int menuPrincipal(std::vector<Character*>&,std::vector<Track*>&);
 void KartWithChar(std::vector<Character*>&,std::vector<Kart*>&);
 void restartSDL();
 GLuint* PowerTexture();
+GLuint* RankTexture();
+GLuint* PersoTexture();
 GLuint creerTextureTexte(const char* texte, int largeurTexte, int hauteurTexte, unsigned int taille, const char* policeTexte, Uint8 r, Uint8 g, Uint8 b);
