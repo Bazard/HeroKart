@@ -132,23 +132,24 @@ int Game::playTrack(Track& track){
 	
 		 Node* currentNode = track.getNodeStart();
 		 Object3D* node;
-	 while(1){
-		 node = new Object3D();
-		 node->sphere(1,32,16);
-		 node->setScale(glm::vec3(1,1,1));
-		 node->setPosition(currentNode->getPosition());
-		 node->build();
-		 if(currentNode==track.getNodeStart())
-		 node->LoadTexture("../textures/Maison.jpg");
-		 else
-		 node->LoadTexture("../textures/CCTex.jpg");
-		 track.push_back(*node);
-		 currentNode = currentNode->next;
-		 if(currentNode==track.getNodeStart())
-			 break;
-	 }
+	 // while(1){
+		 // node = new Object3D();
+		 // node->sphere(1,32,16);
+		 // node->setScale(glm::vec3(1,1,1));
+		 // node->setPosition(currentNode->getPosition());
+		 // node->build();
+		 // if(currentNode==track.getNodeStart())
+		 // node->LoadTexture("../textures/Maison.jpg");
+		 // else
+		 // node->LoadTexture("../textures/CCTex.jpg");
+		 // track.push_back(*node);
+		 // currentNode = currentNode->next;
+		 // if(currentNode==track.getNodeStart())
+			 // break;
+	 // }
+
 	placementKart(track.getNodeStart());
-	
+
 	while(!done) {
 
 		Uint32 tStart = SDL_GetTicks();
@@ -207,7 +208,7 @@ int Game::playTrack(Track& track){
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
 
-			 if((id!=0 && ready) || raceFinished ){
+			 if((id==-1 && ready) || raceFinished ){
 
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
@@ -347,6 +348,7 @@ int Game::playTrack(Track& track){
 		
 		VAO::debind();
 		
+	
 		
 		SDL_Event e;
 		while(SDL_PollEvent(&e)) {
@@ -463,9 +465,58 @@ Karts.clear();
 
 void Game::placementKart(Node *nodeStart){
 	Node* nodeTo=nodeStart->next;
+	float angleNode,x,z;
+	// glm::vec3 direction=glm::vec3(nodeStart->getPosition().x-nodeTo->getPosition().x,0,nodeStart->getPosition().z-nodeTo->getPosition().z);
+	// direction=glm::normalize(direction);
 	
-	for(std::vector<Kart*>::iterator itkart = Karts.begin() ; itkart != Karts.end(); ++itkart){
+				
+	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
+		// if(direction.z==1){
+			// angleNode=direction.x*180/M_PI-(*it)->getAngle();
+		// }
+		// else
+			// angleNode=atan(-direction.x/(1-direction.z))*180/M_PI-(*it)->getAngle();
+			
+		// if(direction.z<0){ 
+				// if(angleNode<0) angleNode+=180;
+				// else angleNode-=180;
+		// }
+		// while(angleNode>180) angleNode-=360;
+		// while(angleNode<-180) angleNode+=360;
 		
+		// (*it)->setAngle(angleNode-90);
+		// (*it)->setDirection((*it)->getDirection()+direction);
+		
+		switch((*it)->getRank()){
+			case 1 :
+				x=nodeStart->getLeftPos().x-nodeStart->getPosition().x;
+				z=nodeStart->getLeftPos().z-nodeStart->getPosition().z;
+				(*it)->setPosition(glm::vec3(nodeStart->getPosition().x+x/2.0,0,nodeStart->getPosition().z+z/2.0));
+			break;
+			case 2 :
+				x=nodeStart->getRightPos().x-nodeStart->getPosition().x;
+				z=nodeStart->getRightPos().z-nodeStart->getPosition().z;
+				(*it)->setPosition(glm::vec3(nodeStart->getPosition().x+x/2.0,0,nodeStart->getPosition().z+z/2.0));
+			break;
+			case 3 :
+				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+			break;
+			case 4 :
+				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+			break;
+			case 5 : 
+				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+			break;
+			case 6 : 
+				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+			break;
+			case 7 :
+				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+			break;
+			case 8 :
+				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+			break;
+		}
 	}
 }
 

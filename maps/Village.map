@@ -17,9 +17,16 @@
 
 ../models/panneau.obj
 ../textures/panneau.jpg
--12.31 0 -41.777
+-12.31 0 -40.777
 -53.83
-0.5 0.5 0.5
+0.6 0.6 0.6
+0 0 0
+
+../models/coin.obj
+../textures/coin.jpg
+-14.76 0 4.64
+0
+3 3 3
 0 0 0
 
 #Powers
