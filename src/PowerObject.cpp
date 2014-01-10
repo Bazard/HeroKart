@@ -64,7 +64,6 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 							vecKart[i]->setScale(glm::vec3(0.5*vecKart[i]->getScale().x,0.5*vecKart[i]->getScale().y,0.5*vecKart[i]->getScale().z));
 						}
 						else if(idLanceur!=i && vecKart[i]->invincible){
-							std::cout << "John" << i << std::endl;
 							stock.push_back(i);
 						}
 					}

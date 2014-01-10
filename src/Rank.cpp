@@ -61,15 +61,15 @@ void getFinalRanking(std::vector<PlayerIA*>& players){
 	for(std::vector<PlayerIA*>::iterator it = players.begin() ; it != players.end(); ++it){
 		finalRankTab[(*it)->getKart().getRank()-1] = (*it)->getCharacter().getCharacterName();
 	}
-	std::cout << "Résultat final : " << std::endl;
-	std::cout << "1 : " <<  finalRankTab[0] << std::endl;
-	std::cout << "2 : " <<  finalRankTab[1] << std::endl;
-	std::cout << "3 : " <<  finalRankTab[2] << std::endl;
-	std::cout << "4 : " <<  finalRankTab[3] << std::endl;
-	std::cout << "5 : " <<  finalRankTab[4] << std::endl;
-	std::cout << "6 : " <<  finalRankTab[5] << std::endl;
-	std::cout << "7 : " <<  finalRankTab[6] << std::endl;
-	std::cout << "8 : " <<  finalRankTab[7] << std::endl;
+	// std::cout << "Résultat final : " << std::endl;
+	// std::cout << "1 : " <<  finalRankTab[0] << std::endl;
+	// std::cout << "2 : " <<  finalRankTab[1] << std::endl;
+	// std::cout << "3 : " <<  finalRankTab[2] << std::endl;
+	// std::cout << "4 : " <<  finalRankTab[3] << std::endl;
+	// std::cout << "5 : " <<  finalRankTab[4] << std::endl;
+	// std::cout << "6 : " <<  finalRankTab[5] << std::endl;
+	// std::cout << "7 : " <<  finalRankTab[6] << std::endl;
+	// std::cout << "8 : " <<  finalRankTab[7] << std::endl;
  
 } 
 
