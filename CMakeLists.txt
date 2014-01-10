@@ -7,8 +7,9 @@ find_package(SDL REQUIRED)
 find_package(Freetype REQUIRED)
 find_package(SDL_mixer REQUIRED)
 find_package(SDL_ttf REQUIRED)
+find_package(SDL_image REQUIRED)
 
-include_directories(${OPENGL_INCLUDE_DIR} ${SDL_INCLUDE_DIR} ${SDLTTF_INCLUDE_DIR} ${SDLMIXER_INCLUDE_DIR} third-party/glm)
+include_directories(${OPENGL_INCLUDE_DIR} ${SDL_INCLUDE_DIR} ${SDLTTF_INCLUDE_DIR} ${SDLMIXER_INCLUDE_DIR} ${SDLIMAGE_INCLUDE_DIR} third-party/glm)
 
 set(ENABLE_BOOST_WORKAROUND ON)
 set(BUILD_ASSIMP_TOOLS OFF)
@@ -36,8 +37,8 @@ include_directories(third-party/soil)
 include_directories(third-party/freetype/include)
 include_directories(third-party/freetype/include/freetype2)
 
-set(ALL_LIBRARIES glew ${OPENGL_LIBRARIES} ${SDLTTF_LIBRARY} ${SDLMIXER_LIBRARY} ${SDL_LIBRARY} glimac)
+set(ALL_LIBRARIES glew ${OPENGL_LIBRARIES} ${SDLTTF_LIBRARY} ${SDLIMAGE_LIBRARY} ${SDLMIXER_LIBRARY} ${SDL_LIBRARY} glimac)
 
 file(GLOB_RECURSE source_files src/*)
 add_executable(HeroKart ${source_files})
-target_link_libraries(HeroKart assimp SOIL ${SDLTTF_LIBRARY} ${ALL_LIBRARIES} freetype)
+target_link_libraries(HeroKart assimp SOIL ${SDLTTF_LIBRARY} ${SDLIMAGE_LIBRARY} ${ALL_LIBRARIES} freetype)

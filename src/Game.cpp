@@ -55,6 +55,18 @@ int Game::playTrack(Track& track){
 	bool raceFinished = false;
 	unsigned int timeElapsed;
 
+	//TTF
+	TTF_Font *font = NULL;
+    font = TTF_OpenFont("../font/CALIBRI.TTF", 65);
+    if(font==NULL) std::cout << "ERREUR d'importation de la police" << std::endl;
+    
+    std::vector<SDL_Surface*> textSurfaces;
+    for(int i=0; i<9; ++i){
+    	SDL_Surface* newSurface;
+    	textSurfaces.push_back(newSurface);
+    }
+    textSurfaces[0] = SDL_GetVideoSurface();
+
 	//Interface
 	Program prog2D;
 	prog2D = loadProgram("../shaders/tex2D.vs.glsl", "../shaders/tex2D.fs.glsl");
@@ -110,7 +122,7 @@ int Game::playTrack(Track& track){
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 
-	unsigned int rank = 1;
+	unsigned int rank = 8;
 	
 	PowerObject *obj=NULL;
 	bool done=false;
@@ -127,7 +139,7 @@ int Game::playTrack(Track& track){
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
 		(*it)->setNodeTo(track.getNodeStart()->next);
 		(*it)->setRank(rank);
-		rank++;
+		rank--;
 	}
 	
 		// Node* currentNode = track.getNodeStart();
@@ -326,7 +338,8 @@ int Game::playTrack(Track& track){
 		//Gestion du classement
 		if( !raceFinished )
 			ranking(Karts);
-		else getFinalRanking(Players);
+		//else getFinalRanking(Players, font);
+		getFinalRanking(Players, textSurfaces, font);
 		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
 		if( Karts[0]->getNbNodesPassed()/track.getNbNodes() == track.getNbLaps() ){
@@ -428,6 +441,7 @@ int Game::playTrack(Track& track){
 	}
 	std::cout << "Nettoyage" << std::endl;
 	CleanObjects(track);
+	TTF_CloseFont(font);
 
 	return sortie;
 }
