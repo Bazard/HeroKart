@@ -93,8 +93,8 @@ ATK_FRONT
 1.5 1.5 1.5
 
 SHIELD
-../models/mineArme.obj
-../textures/TexMineArme.jpg
+../models/bouclierArme.obj
+../textures/TexBouclier.jpg
 61.96725 0 -14.45495
 1.5 1.5 1.5
 
@@ -105,26 +105,26 @@ ATK_BACK
 1.5 1.5 1.5
 
 BOOST
-../models/mineArme.obj
-../textures/TexMineArme.jpg
+../models/boost.obj
+../textures/boost.jpg
 -55.57298 0 -30.25937
 1.5 1.5 1.5
 
 BOOST
-../models/mineArme.obj
-../textures/TexMineArme.jpg
+../models/boost.obj
+../textures/boost.jpg
 35.05569 0 36.2281
 1.5 1.5 1.5
 
 TRAP
-../models/mineArme.obj
-../textures/TexMineArme.jpg
+../models/trap.obj
+../textures/TexTrap.jpg
 39.01327 0 -46.68682
 1.5 1.5 1.5
 
 TRAP
-../models/mineArme.obj
-../textures/TexMineArme.jpg
+../models/trap.obj
+../textures/TexTrap.jpg
 -4.124395 0 54.80275
 1.5 1.5 1.5
 

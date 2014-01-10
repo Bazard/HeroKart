@@ -661,9 +661,10 @@ void Game::placementKart(Node *nodeStart){
 	Node* nodeTo=nodeStart->next;
 	float angleNode,x,z;
 	
-	// for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
-	
-	// }
+	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
+		(*it)->setDirection(glm::vec3(0,0,1));
+		(*it)->setAngle(0);
+	}
 	
 	// glm::vec3 direction=glm::vec3(nodeStart->getPosition().x-nodeTo->getPosition().x,0,nodeStart->getPosition().z-nodeTo->getPosition().z);
 	// direction=glm::normalize(direction);

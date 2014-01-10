@@ -247,23 +247,19 @@ int menuPause(){
 					if (e.button.button==SDL_BUTTON_LEFT){
 						xClicked=(float)(e.button.x);
 						yClicked=(float)(e.button.y);
-						if (xClicked>=(88.0/800.0)*WINDOW_WIDTH && xClicked <=(277.0/800.0)*WINDOW_WIDTH && yClicked>=(226.0/600.0)*WINDOW_HEIGHT && yClicked<=(416.0/600.0)*WINDOW_HEIGHT){
-							std::cout << "Vous avez choisi le circuit 1" << std::endl;
-							
-							sortie=2;
+						if (xClicked>=(278.0/800.0)*WINDOW_WIDTH && xClicked <=(533.0/800.0)*WINDOW_WIDTH && yClicked>=(265.0/600.0)*WINDOW_HEIGHT && yClicked<=(286.0/600.0)*WINDOW_HEIGHT){
+							std::cout << "Reprise du jeu" << std::endl;
+							sortie=6;
 							done=true;
 						}
-						else if (xClicked>=(298.0/800.0)*WINDOW_WIDTH && xClicked <=(492.0/800.0)*WINDOW_WIDTH && yClicked>=(226.0/600.0)*WINDOW_HEIGHT && yClicked<=(416.0/600.0)*WINDOW_HEIGHT){
-							std::cout << "Vous avez choisi le circuit 2" << std::endl;
-							
-							sortie=1;
+						else if (xClicked>=(346.0/800.0)*WINDOW_WIDTH && xClicked <=(468.0/800.0)*WINDOW_WIDTH && yClicked>=(322.0/600.0)*WINDOW_HEIGHT && yClicked<=(342.0/600.0)*WINDOW_HEIGHT){
+							std::cout << "Options" << std::endl;
+							sortie=7;
 							done=true;
 						}
-						else if (xClicked>=(512.0/800.0)*WINDOW_WIDTH && xClicked <=(705.0/800.0)*WINDOW_WIDTH && yClicked>=(226.0/600.0)*WINDOW_HEIGHT && yClicked<=(416.0/600.0)*WINDOW_HEIGHT){
-							std::cout << "Vous avez choisi le circuit 3" << std::endl;
-							
-							sortie=-1;
-							done=true;
+						else if (xClicked>=(347.0/800.0)*WINDOW_WIDTH && xClicked <=(462.0/800.0)*WINDOW_WIDTH && yClicked>=(397.0/600.0)*WINDOW_HEIGHT && yClicked<=(416.0/600.0)*WINDOW_HEIGHT){
+							std::cout << "Quitter" << std::endl;
+							exit(0);
 						}
 					}
 					break;

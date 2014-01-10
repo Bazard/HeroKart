@@ -1,6 +1,7 @@
 #include "PowerObject.h"
 #include <glm/gtc/matrix_transform.hpp>
 #include <iostream>
+#include <ctime>
 
 PowerObject::PowerObject(typeEnum type, int duration):Object3D(), type(type), duration(duration), launched(false), timeOfUse(-1), pick(true)
 {
@@ -73,21 +74,49 @@ int PowerObject::power(std::vector<Kart*>& vecKart, int idLanceur, int tStart, s
 					
 			case SHIELD:
 					visible=true;
-					sphere(1,32,16);
+					LoadObjFromFile("../models/bouclier.obj");
 					build();
-					LoadTexture("../textures/MoonMap.png"); //A changer par un bouclier
+					LoadTexture("../textures/TexBouclier.jpg"); //A changer par un bouclier
 					pos=vecKart[idLanceur]->getPosition();
 					vecKart[idLanceur]->invincible=true;
 					timeOfUse=tStart;
+					sca=glm::vec3(0.5,0.5,0.5);
 					retour=0;
 					
 					break;
 					
 			case TRAP:
 					visible=true;
-					sphere(1,32,16);
+					srand(time(NULL));
+					
+					switch(rand()%6){
+						case 0: // BOOST
+							LoadObjFromFile("../models/boost.obj");
+							LoadTexture("../textures/boost.jpg");
+							break;
+						case 1: //ATK_FRONT
+							LoadObjFromFile("../models/MissileArme.obj");
+							LoadTexture("../textures/TexMissileArme.jpg");
+							break;
+						case 2: //ATK_BACK
+							LoadObjFromFile("../models/mineArme.obj");
+							LoadTexture("../textures/TexMineArme.jpg");
+							break;
+						case 3: //ATK_ALL
+							LoadObjFromFile("../models/bouclier.obj");
+							LoadTexture("../textures/triforce.jpg");
+							break;
+						case 4: //SHIELD
+							LoadObjFromFile("../models/bouclier.obj");
+							LoadTexture("../textures/TexBouclier.jpg");
+							break;
+						case 5: //TRAP
+							LoadObjFromFile("../models/boost.obj");
+							LoadTexture("../textures/TexTrap.jpg");
+							break;
+					}
+					
 					build();
-					LoadTexture("../textures/triforce.jpg"); //A changer par un piege
 					pos=vecKart[idLanceur]->getPosition()-glm::vec3(3*vecKart[idLanceur]->getDirection().x,3*vecKart[idLanceur]->getDirection().y,3*vecKart[idLanceur]->getDirection().z);
 					objs.push_back(this);
 					retour=1;

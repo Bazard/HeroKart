@@ -106,6 +106,7 @@ void Track::insertElt(){
 					pow=new PowerObject(SHIELD,10000);
 			
 			std::getline(fichier, ligne);
+			std::cout << ligne << std::endl;
 			pow->LoadObjFromFile(ligne);
 			pow->build();
 			
