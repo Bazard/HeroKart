@@ -56,15 +56,12 @@ int Game::playTrack(Track& track){
 
 	//TTF
 	TTF_Font *font = NULL;
-    font = TTF_OpenFont("../font/CALIBRI.TTF", 65);
+    font = TTF_OpenFont("../font/CALIBRI.TTF", 12);
     if(font==NULL) std::cout << "ERREUR d'importation de la police" << std::endl;
     
-    std::vector<SDL_Surface*> textSurfaces;
-    for(int i=0; i<9; ++i){
-    	SDL_Surface* newSurface;
-    	textSurfaces.push_back(newSurface);
-    }
-    textSurfaces[0] = SDL_GetVideoSurface();
+    SDL_Surface* screen = SDL_GetVideoSurface();
+    std::vector<SDL_Surface*> rankSurfaces = createRankSurfaces(font);
+    std::vector<SDL_Rect> positionSurfaces = createPositions();
 
 	//Interface
 	Program prog2D;
@@ -342,7 +339,8 @@ int Game::playTrack(Track& track){
 		if( !raceFinished )
 			ranking(Karts);
 		//else getFinalRanking(Players, font);
-		getFinalRanking(Players, textSurfaces, font);
+		//getFinalRanking(Players, textSurfaces, font);
+		showRankSurfaces(rankSurfaces, screen, positionSurfaces);
 		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
 
