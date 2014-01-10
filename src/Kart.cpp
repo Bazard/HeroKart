@@ -177,7 +177,7 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			}
 			else if(hero==BURT){
 				if(x <= 30 && x >= -30 && z <= 30 &&  z >= -30 && (angleNode<=-175 || angleNode>=175)){
-						sortie=2;
+						// sortie=2;
 				}
 			}
 			else if(hero == KLAUS || hero == DOUG || hero == STAN){

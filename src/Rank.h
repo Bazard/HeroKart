@@ -13,4 +13,4 @@ std::vector<SDL_Surface*> createRankSurfaces(TTF_Font* font);
 std::vector<SDL_Surface*> createCharactersSurfaces();
 std::vector<SDL_Rect> createPositions();
 
-void showRankSurfaces(std::vector<SDL_Surface*> surfaces, SDL_Surface* screen, std::vector<SDL_Rect> positions);
+GLuint* showRankSurfaces(std::vector<SDL_Surface*> surfaces, SDL_Surface* screen, std::vector<SDL_Rect> positions);

@@ -39,6 +39,16 @@ void Track::insertElt(){
 	while(ligne[0]=='#')
 		std::getline(fichier, ligne);
 	
+	fields=split(ligne," ");
+	largeur=(float)atof(fields[0].c_str());
+	longueur=(float)atof(fields[1].c_str());
+	std::getline(fichier, ligne);
+	std::getline(fichier, ligne);
+	
+	std::cout << largeur << " " << longueur << std::endl;
+	while(ligne[0]=='#')
+		std::getline(fichier, ligne);
+		
 	float angleNode;
 	
     while (!fichier.eof())
