@@ -55,7 +55,7 @@ void ranking(std::vector<Kart*>& karts){
 }
 
 // Affiche le classement à la fin de la course
-void getFinalRanking(std::vector<PlayerIA*>& players, std::vector<SDL_Surface*> textSurfaces, TTF_Font* font){
+void getFinalRanking(std::vector<PlayerIA*>& players){
 	const char* finalRankTab[8];
 	for(std::vector<PlayerIA*>::iterator it = players.begin() ; it != players.end(); ++it){
 		finalRankTab[(*it)->getKart().getRank()-1] = (*it)->getCharacter().getCharacterName();
@@ -69,26 +69,7 @@ void getFinalRanking(std::vector<PlayerIA*>& players, std::vector<SDL_Surface*> 
 	std::cout << "6 : " <<  finalRankTab[5] << std::endl;
 	std::cout << "7 : " <<  finalRankTab[6] << std::endl;
 	std::cout << "8 : " <<  finalRankTab[7] << std::endl;
-
-/*	SDL_Color black = {0, 0, 0};
-	//SDL_Surface* texte = NULL;
-    SDL_Rect position;
-
-    textSurfaces[1] = TTF_RenderText_Blended(font, "POUET", black);
-    //SDL_Surface* ecran = SDL_GetVideoSurface();
-    //SDL_Surface* fond = NULL;
-    //fond = IMG_Load("../textures/CCTex.jpg");
-
-    SDL_FillRect(textSurfaces[0], NULL, SDL_MapRGB(textSurfaces[0]->format, 255, 255, 255));
-    position.x = 0;
-    position.y = 0;
-    //SDL_BlitSurface(fond, NULL, textSurfaces[0], &position); 
-    position.x = 60;
-    position.y = 60;
-    SDL_BlitSurface(textSurfaces[1], NULL, textSurfaces[0], &position); 
-    //SDL_Flip(textSurfaces[0]);
-    //SDL_FreeSurface(texte);
-*/    
+ 
 } 
 
 

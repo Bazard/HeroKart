@@ -118,8 +118,6 @@ int Game::playTrack(Track& track){
 	sky.setHitbox(glm::vec3(0));
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
-
-	unsigned int rank = 8;
 	
 	PowerObject *obj=NULL;
 	bool done=false;
@@ -132,6 +130,7 @@ int Game::playTrack(Track& track){
 	
 	//Nodes
 
+	unsigned int rank = 8;
 	//On donne le prochain noeud pour que les IA s'y dirigent
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
 		(*it)->setNodeTo(track.getNodeStart()->next);
@@ -163,8 +162,18 @@ int Game::playTrack(Track& track){
 
 		Uint32 tStart = SDL_GetTicks();
 		
-		if(timeElapsed > 120)
+		if(timeElapsed > FPS && timeElapsed < 2*FPS)
+			std::cout << "3 ..." << std::endl;
+		if(timeElapsed > 2*FPS && timeElapsed < 3*FPS)
+			std::cout << "2 ..." << std::endl;
+		if(timeElapsed > 3*FPS && timeElapsed < 4*FPS)
+			std::cout << "1 ..." << std::endl;
+
+		if(timeElapsed > 4*FPS && timeElapsed < 5*FPS){
+			std::cout << "PINAAAAAAAAAAGE !!!" << std::endl;
 			ready=true;
+		}
+			
 		// std::cout << tStart << std::endl;
 		
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -338,9 +347,9 @@ int Game::playTrack(Track& track){
 		//Gestion du classement
 		if( !raceFinished )
 			ranking(Karts);
-		//else getFinalRanking(Players, font);
+		else getFinalRanking(Players);
 		//getFinalRanking(Players, textSurfaces, font);
-		showRankSurfaces(rankSurfaces, screen, positionSurfaces);
+		//showRankSurfaces(rankSurfaces, screen, positionSurfaces);
 		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
 
@@ -479,53 +488,48 @@ void Game::placementKart(Node *nodeStart){
 	float angleNode,x,z;
 	// glm::vec3 direction=glm::vec3(nodeStart->getPosition().x-nodeTo->getPosition().x,0,nodeStart->getPosition().z-nodeTo->getPosition().z);
 	// direction=glm::normalize(direction);
-	
+	glm::vec3 dirVect = glm::vec3(nodeTo->getPosition().x-nodeStart->getPosition().x, 0, nodeTo->getPosition().z-nodeStart->getPosition().z);
+	dirVect=glm::normalize(dirVect);
+	glm::vec3 defautVect = glm::vec3(0,0,1);
+	float angleToNode = acos(glm::dot(defautVect, dirVect))*180/M_PI;	
 				
 	for (std::vector<Kart*>::iterator it = Karts.begin() ; it != Karts.end(); ++it){
-		// if(direction.z==1){
-			// angleNode=direction.x*180/M_PI-(*it)->getAngle();
-		// }
-		// else
-			// angleNode=atan(-direction.x/(1-direction.z))*180/M_PI-(*it)->getAngle();
+		(*it)->setDirection(dirVect);
+		(*it)->setAngle(angleToNode);
+
+		float x_first=nodeStart->getLeftPos().x-nodeStart->getPosition().x;
+		float z_first=nodeStart->getLeftPos().z-nodeStart->getPosition().z;
+		glm::vec3 positionFirst = glm::vec3(nodeStart->getPosition().x+x_first/4.0,0,nodeStart->getPosition().z+z_first/4.0); 
+
+		float x_second=nodeStart->getRightPos().x-nodeStart->getPosition().x;
+		float z_second=nodeStart->getRightPos().z-nodeStart->getPosition().z;
+		glm::vec3 positionSecond = glm::vec3(nodeStart->getPosition().x+x_second/4.0,0,nodeStart->getPosition().z+z_second/4.0);
 			
-		// if(direction.z<0){ 
-				// if(angleNode<0) angleNode+=180;
-				// else angleNode-=180;
-		// }
-		// while(angleNode>180) angleNode-=360;
-		// while(angleNode<-180) angleNode+=360;
-		
-		// (*it)->setAngle(angleNode-90);
-		// (*it)->setDirection((*it)->getDirection()+direction);
-		
+
 		switch((*it)->getRank()){
 			case 1 :
-				x=nodeStart->getLeftPos().x-nodeStart->getPosition().x;
-				z=nodeStart->getLeftPos().z-nodeStart->getPosition().z;
-				(*it)->setPosition(glm::vec3(nodeStart->getPosition().x+x/2.0,0,nodeStart->getPosition().z+z/2.0));
+				(*it)->setPosition(positionFirst);
 			break;
 			case 2 :
-				x=nodeStart->getRightPos().x-nodeStart->getPosition().x;
-				z=nodeStart->getRightPos().z-nodeStart->getPosition().z;
-				(*it)->setPosition(glm::vec3(nodeStart->getPosition().x+x/2.0,0,nodeStart->getPosition().z+z/2.0));
+				(*it)->setPosition(positionSecond);
 			break;
 			case 3 :
-				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+				(*it)->setPosition(glm::vec3(positionFirst.x-5*dirVect.x,0,positionFirst.z-5*dirVect.z));
 			break;
 			case 4 :
-				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+				(*it)->setPosition(glm::vec3(positionSecond.x-5*dirVect.x,0,positionSecond.z-5*dirVect.z));
 			break;
 			case 5 : 
-				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+				(*it)->setPosition(glm::vec3(positionFirst.x-10*dirVect.x,0,positionFirst.z-10*dirVect.z));
 			break;
 			case 6 : 
-				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+				(*it)->setPosition(glm::vec3(positionSecond.x-10*dirVect.x,0,positionSecond.z-10*dirVect.z));
 			break;
 			case 7 :
-				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+				(*it)->setPosition(glm::vec3(positionFirst.x-15*dirVect.x,0,positionFirst.z-15*dirVect.z));
 			break;
 			case 8 :
-				// (*it)->setPosition(glm::vec3(nodeStart->getPosition().x,0,nodeStart->getPosition().z));
+				(*it)->setPosition(glm::vec3(positionSecond.x-15*dirVect.x,0,positionSecond.z-15*dirVect.z));
 			break;
 		}
 	}
