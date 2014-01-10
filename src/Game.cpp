@@ -52,7 +52,7 @@ int Game::playChampionShip(){
 int Game::playTrack(Track& track){
 	
 	bool raceFinished = false;
-	unsigned int timeElapsed;
+	unsigned int timeElapsed = 0;
 
 	//TTF
 	TTF_Font *font = NULL;
@@ -127,7 +127,16 @@ int Game::playTrack(Track& track){
 	std::cout << "Lecture du fichier Map" << std::endl;
 	//Lecture du fichier Map
 	track.insertElt();
-	
+
+	Object3D hitboxMapLeft;
+	hitboxMapLeft.sphere(1,32,16);
+	hitboxMapLeft.setScale(glm::vec3(2,10,100));
+	hitboxMapLeft.setPosition(glm::vec3(90,0,0));
+	hitboxMapLeft.setHitbox(glm::vec3(2,10,100));
+	hitboxMapLeft.build();
+	hitboxMapLeft.LoadTexture("../textures/TexDoug.jpg");
+	track.push_back(hitboxMapLeft);
+
 	//Nodes
 
 	unsigned int rank = 8;
@@ -162,14 +171,14 @@ int Game::playTrack(Track& track){
 
 		Uint32 tStart = SDL_GetTicks();
 		
-		if(timeElapsed > FPS && timeElapsed < 2*FPS)
+		if(timeElapsed >= FPS && timeElapsed < 2*FPS)
 			std::cout << "3 ..." << std::endl;
-		if(timeElapsed > 2*FPS && timeElapsed < 3*FPS)
+		if(timeElapsed >= 2*FPS && timeElapsed < 3*FPS)
 			std::cout << "2 ..." << std::endl;
-		if(timeElapsed > 3*FPS && timeElapsed < 4*FPS)
+		if(timeElapsed >= 3*FPS && timeElapsed < 4*FPS)
 			std::cout << "1 ..." << std::endl;
 
-		if(timeElapsed > 4*FPS && timeElapsed < 5*FPS){
+		if(timeElapsed >= 4*FPS && timeElapsed < 5*FPS){
 			std::cout << "PINAAAAAAAAAAGE !!!" << std::endl;
 			ready=true;
 		}
