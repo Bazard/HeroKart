@@ -135,10 +135,25 @@ std::vector<SDL_Rect> createPositions(){
 }
 
 
-void showRankSurfaces(std::vector<SDL_Surface*> surfaces, SDL_Surface* screen, std::vector<SDL_Rect> positions){
+GLuint* showRankSurfaces(std::vector<SDL_Surface*> surfaces, SDL_Surface* screen, std::vector<SDL_Rect> positions){
+GLuint* idTexture=new GLuint[8];
 	for(int i=0; i<8; ++i){
 		SDL_BlitSurface(surfaces[i], NULL, screen, &positions[i]); 
+		SDL_Surface *tmp = SDL_CreateRGBSurface(0, surfaces[i]->w, surfaces[i]->h, 32, 0, 0, 0, 0.5);
+
+		SDL_BlitSurface(surfaces[i], NULL, tmp, NULL);
+
+		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+		glGenTextures(1, &idTexture[i]);
+		glBindTexture(GL_TEXTURE_2D, idTexture[i]);
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, surfaces[i]->w, surfaces[i]->h, 0, GL_RGBA,
+             GL_UNSIGNED_BYTE, surfaces[i]->pixels);
 	}
+	
+
 	SDL_Flip(screen); 
+	return idTexture;
 }
 

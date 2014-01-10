@@ -149,8 +149,10 @@ void PowerObject::powerBack(std::vector<Kart*>& vecKart, int idLanceur){
 	}
 
 bool PowerObject::withKart(){
-	if(type==SHIELD)
+	if(type==SHIELD){
+		rotateObj();
 		return true;
+	}
 	return false;
 }
 

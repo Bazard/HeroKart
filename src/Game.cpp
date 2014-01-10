@@ -62,7 +62,8 @@ int Game::playTrack(Track& track){
     SDL_Surface* screen = SDL_GetVideoSurface();
     std::vector<SDL_Surface*> rankSurfaces = createRankSurfaces(font);
     std::vector<SDL_Rect> positionSurfaces = createPositions();
-
+	GLuint* idTexture=showRankSurfaces(rankSurfaces, screen, positionSurfaces);
+	
 	//Interface
 	Program prog2D;
 	prog2D = loadProgram("../shaders/tex2D.vs.glsl", "../shaders/tex2D.fs.glsl");
@@ -92,6 +93,12 @@ int Game::playTrack(Track& track){
 	GLuint uMVMatrix=glGetUniformLocation(prog.getGLId(),"uMVMatrix");
 	GLuint uNormalMatrix=glGetUniformLocation(prog.getGLId(),"uNormalMatrix");
 	GLuint uTex=glGetUniformLocation(prog.getGLId(),"uTexture");
+	
+	GLuint uKd=glGetUniformLocation(prog.getGLId(),"uKd");
+	GLuint uKs=glGetUniformLocation(prog.getGLId(),"uKs");
+	GLuint uShininess=glGetUniformLocation(prog.getGLId(),"uShininess");
+	GLuint uLightDir_vs=glGetUniformLocation(prog.getGLId(),"uLightDir_vs");
+	GLuint uLightIntensity=glGetUniformLocation(prog.getGLId(),"uLightIntensity");
 	
 	glEnable(GL_DEPTH_TEST);
 	
@@ -173,7 +180,7 @@ int Game::playTrack(Track& track){
 		//affichage des pouvoirs
 		 powerquad.initDraw();
 		if (Players[0]->getPower()==NULL){
-			powerquad.bindTex(texturepower[6]);
+			powerquad.bindTex(texturepower[0]);
 		}
 		else{
 			switch(Players[0]->getPower()->getType()){
@@ -201,8 +208,8 @@ int Game::playTrack(Track& track){
 
 		//affichage de la vitesse
 		vitessequad.initDraw();
-		vitessequad.bindTex(locVarTexture);
-		vitessequad.Draw(locVarTexture);
+		vitessequad.bindTex(idTexture[0]);
+		vitessequad.Draw(idTexture[0]);
 		
 		prog.use();
 			
@@ -213,10 +220,14 @@ int Game::playTrack(Track& track){
 		}
 		//Camera
 		ViewMatrix=camera.getViewMatrix(Karts[0]->getPosition(), anglefile.front().first,Karts[0]->back);
-	
+		glUniform3f(uKd, 0.9, 1, 0.4);
+		glUniform3f(uKs, 0.4, 0.8, 1.3);
+		glUniform1f(uShininess, 0.7);
+		glUniform3fv(uLightDir_vs, 1,glm::value_ptr(glm::vec3(ViewMatrix * glm::vec4(1.2))));
+		glUniform3f(uLightIntensity, 2.3, 1.5, 0.9);
+		
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
-
 			 if((id!=0 && ready) || raceFinished ){
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
@@ -334,20 +345,18 @@ int Game::playTrack(Track& track){
 		
 		}
 
-
 		//Gestion du classement
 		if( !raceFinished )
 			ranking(Karts);
 		//else getFinalRanking(Players, font);
 		//getFinalRanking(Players, textSurfaces, font);
-		showRankSurfaces(rankSurfaces, screen, positionSurfaces);
+		// showRankSurfaces(rankSurfaces, screen, positionSurfaces);
 		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
 
 		if((float)Karts[0]->getNbNodesPassed()/track.getNbNodes() == track.getNbLaps() ){
 			raceFinished = true;
 		}
-	
 		
 		//Sky
 		sky.getVAO().bind();		
