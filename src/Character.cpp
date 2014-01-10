@@ -74,6 +74,12 @@ void Character::useSuperPower(int tStart, Kart& kart, std::vector<Object3D*>& ma
 			default:
 				break;
 		}
+		
+		if(kart.getIdTexture2()>0){
+			int id=kart.getIdTexture();
+			kart.setIdTexture(kart.getIdTexture2());
+			kart.setIdTexture2(id);
+		}
 	}
 	else{
 		std::cout << "Reloading" << std::endl;
@@ -105,6 +111,12 @@ void Character::useSuperPowerBack(Kart& kart){
 			default:
 				break;
 		}
+		
+	if(kart.getIdTexture2()>0){
+			int id=kart.getIdTexture();
+			kart.setIdTexture(kart.getIdTexture2());
+			kart.setIdTexture2(id);
+		}
 }
 
 bool Character::isPerimed(int tStart){
@@ -126,8 +138,6 @@ void Character::hitSuperPower(int tStart,std::vector<Kart*>& karts, int idTouche
 				//Defonce tout
 				karts[idTouche]->setAngle(karts[idTouche]->getAngle()-180);
 				karts[idTouche]->setDirection(-karts[idTouche]->getDirection().x,0,-karts[idTouche]->getDirection().z);
-				karts[idTouche]->setSpeed(0.25*karts[idTouche]->getSpeedMax());
-				karts[idTouche]->setSpeedMax(0.25*karts[idTouche]->getSpeedMax());
 				break;
 			case DOUG:
 				karts[idTouche]->setSpeed(0.5*karts[idTouche]->getSpeedMax());
@@ -161,9 +171,6 @@ void Character::hitSuperPowerBack(std::vector<Kart*>& karts){
 	}
 		
 		switch(hero){
-			case KLAUS:
-				karts[stock[0]]->setSpeedMax(4*karts[stock[0]]->getSpeedMax());
-				break;
 			case DOUG:
 				karts[stock[0]]->setSpeedMax(2*karts[stock[0]]->getSpeedMax());
 				break;

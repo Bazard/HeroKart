@@ -18,7 +18,7 @@ private:
 	std::vector<std::string> split(std::string str,std::string sep);
 	
 public:
-	Track(std::string);
+	Track(std::string,int nbLaps);
 	~Track();
 	std::vector<Object3D*>& getMapObjects() {return mapObjects;}
 	std::vector<PowerObject*>& getPowObjects() {return powObjects;}

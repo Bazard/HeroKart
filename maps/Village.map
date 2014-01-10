@@ -4,15 +4,22 @@
 ../models/map.obj
 ../textures/TexMap.jpg
 0 0 0
-0 0 1 
+0
 1 1 1
 0 0 0
 
 ../models/Road.obj
 ../textures/Road.jpg
 0 0 0
-0 0 -1
+180
 1 1 1
+0 0 0
+
+../models/panneau.obj
+../textures/panneau.jpg
+-12.31 0 -41.777
+-53.83
+0.5 0.5 0.5
 0 0 0
 
 #Powers
@@ -20,15 +27,13 @@ ATK_FRONT
 ../models/MissileArme.obj
 ../textures/TexMissileArme.jpg
 -10 0 0
-0 0 1 
-3 3 3
+1.5 1.5 1.5
 
 SHIELD
-../models/MissileArme.obj
-../textures/TexMissileArme.jpg
+../models/mineArme.obj
+../textures/TexMineArme.jpg
 20 0 0
-0 0 1 
-3 3 3
+1.5 1.5 1.5
 
 #Nodes
 0 -11.48977 0 -35.93304 -12.77889 0 -45.26217

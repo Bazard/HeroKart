@@ -13,6 +13,7 @@ class Object3D {
 	std::vector<glimac::ShapeVertex> m_Vertices;
     GLsizei m_nVertexCount; // Nombre de sommets
 	GLuint idTexture;
+	GLuint idTexture2;
 	glimac::VAO vao;
 	glimac::VBO vbo;
 	
@@ -28,7 +29,7 @@ public:
 	bool visible; //L'objet est-il visible ? 
 	
     // Constructeur: alloue le tableau de données et construit les attributs des vertex
-    Object3D():m_nVertexCount(0), angle(0), visible(true){dir.z=1; sca=glm::vec3(1,1,1); hitbox=glm::vec3(0,0,0);};
+    Object3D():m_nVertexCount(0), angle(0), visible(true), idTexture2(-1){dir.z=1; sca=glm::vec3(1,1,1); hitbox=glm::vec3(0,0,0);};
 	
 	Object3D(const Object3D&);
 	
@@ -52,9 +53,8 @@ public:
 
 	void setPosition(glm::vec3 vec){ pos=vec;}
 	void setPosition(float x,float y,float z){pos=glm::vec3(x,y,z);}
-	
-	void setDirection(glm::vec3 vec){ dir=vec;}
-	void setDirection(float x,float y,float z){dir=glm::vec3(x,y,z);}
+	void setDirection(glm::vec3 vec);
+	void setDirection(float,float,float);
 	
 	void setScale(glm::vec3 vec){ sca=vec;}
 
@@ -67,11 +67,13 @@ public:
 	void TransfoMatrix(glm::mat4 ViewMatrix, glm::vec3 tra); //Transformation
 	
 	int LoadTexture();
-	int LoadTexture(const char* sFilePath);
+	int LoadTexture(const char* sFilePath, int sec=0);
 	
-	int getIdTexture(){
-		return idTexture;
-	}
+	int getIdTexture(){	return idTexture;}
+	void setIdTexture(int i){idTexture=i;}
+	int getIdTexture2(){return idTexture2;}
+	void setIdTexture2(int i){idTexture2=i;}
+	void rotateObj(){angle+=2;}
 	
 	std::vector<glimac::ShapeVertex>& getVertices(){
 		return m_Vertices;

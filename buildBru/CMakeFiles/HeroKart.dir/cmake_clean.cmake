@@ -10,6 +10,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/HeroKart.dir/src/PlayerIA.cpp.obj"
   "CMakeFiles/HeroKart.dir/src/PowerObject.cpp.obj"
   "CMakeFiles/HeroKart.dir/src/Race.cpp.obj"
+  "CMakeFiles/HeroKart.dir/src/Rank.cpp.obj"
   "CMakeFiles/HeroKart.dir/src/Track.cpp.obj"
   "HeroKart.pdb"
   "HeroKart.exe"

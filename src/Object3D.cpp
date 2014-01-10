@@ -88,19 +88,27 @@ int Object3D::LoadTexture(){
 
 }
 
-int Object3D::LoadTexture(const char* sFilePath){
+int Object3D::LoadTexture(const char* sFilePath, int sec){
 	int img_width=0, img_height=0;
 	
 	unsigned char* img = SOIL_load_image(sFilePath, &img_width, &img_height, NULL, 0);
 	
-	glGenTextures(1, &idTexture);
-	glBindTexture(GL_TEXTURE_2D, idTexture);
+	if(sec==0){
+		glGenTextures(1, &idTexture);
+		glBindTexture(GL_TEXTURE_2D, idTexture);
+	}
+	else {
+		glGenTextures(1, &idTexture2);
+		glBindTexture(GL_TEXTURE_2D, idTexture2);
+	}
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);//GL_NEAREST_MIPMAP_NEAREST
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, img_width, img_height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
 	glBindTexture(GL_TEXTURE_2D,0);
 	
-	
-	return idTexture;
+	if(sec==0)
+		return idTexture;
+	else
+		return idTexture2;
 	}
 
 void Object3D::buildVAO(){
@@ -365,4 +373,12 @@ void Object3D::avoidCollision(Object3D &other){
     if( (other.pos.z <= pos.z-hitbox.z) && (pos.z-hitbox.z <= other.pos.z+other.hitbox.z) ){
         pos=glm::vec3(pos.x, pos.y, other.pos.z+other.hitbox.z+hitbox.z);        
     }
+}
+
+void Object3D::setDirection(glm::vec3 vec){
+	dir=vec;
+}
+				
+void Object3D::setDirection(float x,float y,float z){
+	dir=glm::vec3(x,y,z);
 }

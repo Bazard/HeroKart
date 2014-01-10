@@ -50,8 +50,7 @@ int Game::playChampionShip(){
 }
 
 int Game::playTrack(Track& track){
-	track.setNbNodes(15);
-	track.setNbLaps(1);
+	
 	bool raceFinished = false;
 	unsigned int timeElapsed;
 
@@ -119,6 +118,7 @@ int Game::playTrack(Track& track){
 	Object3D sky;
 	sky.sphere(1,32,16);
 	sky.setScale(glm::vec3(80,80,80));
+	sky.setHitbox(glm::vec3(0));
 	sky.build();
 	sky.LoadTexture("../textures/sky.jpg");
 
@@ -142,23 +142,23 @@ int Game::playTrack(Track& track){
 		rank--;
 	}
 	
-		// Node* currentNode = track.getNodeStart();
-		// Object3D* node;
-	// while(1){
-		// node = new Object3D();
-		// node->sphere(1,32,16);
-		// node->setScale(glm::vec3(1,1,1));
-		// node->setPosition(currentNode->getPosition());
-		// node->build();
-		// if(currentNode==track.getNodeStart())
-		// node->LoadTexture("../textures/Maison.jpg");
-		// else
-		// node->LoadTexture("../textures/CCTex.jpg");
-		// track.push_back(*node);
-		// currentNode = currentNode->next;
-		// if(currentNode==track.getNodeStart())
-			// break;
-	// }
+		 Node* currentNode = track.getNodeStart();
+		 Object3D* node;
+	 while(1){
+		 node = new Object3D();
+		 node->sphere(1,32,16);
+		 node->setScale(glm::vec3(1,1,1));
+		 node->setPosition(currentNode->getPosition());
+		 node->build();
+		 if(currentNode==track.getNodeStart())
+		 node->LoadTexture("../textures/Maison.jpg");
+		 else
+		 node->LoadTexture("../textures/CCTex.jpg");
+		 track.push_back(*node);
+		 currentNode = currentNode->next;
+		 if(currentNode==track.getNodeStart())
+			 break;
+	 }
 	placementKart(track.getNodeStart());
 	
 	while(!done) {
@@ -218,7 +218,9 @@ int Game::playTrack(Track& track){
 	
 		//Kart (boucle sur tous les karts)
 		for (int id=0;id<8;++id){
+
 			 if((id!=0 && ready) || raceFinished ){
+
 				//Deplacement IA
 				int sortie=Karts[id]->moveIA(track.getMapObjects(),track.getPowObjects(), Karts,Players[id]->getPower(),
 				Players[id]->getCharacter().getHero(), Players[id]->getCharacter().isPowerReady(tStart));
@@ -287,6 +289,7 @@ int Game::playTrack(Track& track){
 		for (std::vector<PowerObject*>::iterator it = track.getPowObjects().begin() ; it != track.getPowObjects().end(); ++it){
 			if((*it)->isVisible()){
 				(*it)->getVAO().bind();		
+				(*it)->rotateObj();
 				(*it)->TransfoMatrix(ViewMatrix, (*it)->getPosition());
 				(*it)->MatrixToShader(uMVMatrix, uMVPMatrix, uNormalMatrix, WINDOW_WIDTH, WINDOW_HEIGHT);
 				(*it)->Draw(uTex);
@@ -342,7 +345,8 @@ int Game::playTrack(Track& track){
 		getFinalRanking(Players, textSurfaces, font);
 		// std::cout << "Votre classement : " << Karts[0]->getRank() << std::endl;
 		//std::cout << "NbNodesPassed : " << Karts[0]->getNbNodesPassed() << std::endl;
-		if( Karts[0]->getNbNodesPassed()/track.getNbNodes() == track.getNbLaps() ){
+
+		if((float)Karts[0]->getNbNodesPassed()/track.getNbNodes() == track.getNbLaps() ){
 			raceFinished = true;
 		}
 	
@@ -420,7 +424,7 @@ int Game::playTrack(Track& track){
 		}
 		
 		Uint8 *keystate = SDL_GetKeyState(NULL);
-		if(ready){
+		if(ready && !raceFinished){
 			if ( keystate[SDLK_UP] ) Karts[0]->move(1);
 			if ( keystate[SDLK_DOWN] ) Karts[0]->move(-1);
 			if (!keystate[SDLK_UP] && !keystate[SDLK_UP]) Karts[0]->move(0);

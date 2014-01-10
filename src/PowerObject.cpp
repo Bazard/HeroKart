@@ -159,7 +159,7 @@ void PowerObject::movePower(){
 		case ATK_FRONT:
 			pos+=glm::vec3(2*dir.x,2*dir.y,2*dir.z);
 			break;
-			
+		
 		case TRAP:
 			angle+=1;
 			break;

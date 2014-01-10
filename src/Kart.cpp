@@ -5,11 +5,11 @@
 
 #define EPSILON 0.00001
 
-Kart::Kart():tourne(2.f), acceleration(0.1f), speed(0),speedmax(0.5), back(false), poids(5),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0){
+Kart::Kart():tourne(2.f), acceleration(0.1f), speed(0),speedmax(0.5), back(false), poids(5),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0),idTexture2(-1){
 	dir.z=1;
 }
 
-Kart::Kart(float tourne, float acceleration, float speedmax, float poids) :tourne(tourne), acceleration(acceleration), speedmax(speedmax), speed(0), back(false), poids(poids),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0)
+Kart::Kart(float tourne, float acceleration, float speedmax, float poids) :tourne(tourne), acceleration(acceleration), speedmax(speedmax), speed(0), back(false), poids(poids),invincible(false),intouchable(false),nodeTo(NULL),nbNodesPassed(0),rank(0),idTexture2(-1)
 {
 	dir.z=1;
 }
@@ -134,17 +134,12 @@ float Kart::distanceToNextNode(void){
 
 
 
-
-
-
-
-
 int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts, PowerObject* power, Hero hero, bool powerReady){
 	float idle=0.05;
 	float angleNode,x,z;
 	bool marchearriere=false, droite=false, gauche=false, obstacle=false;
 	int sortie=0;
-
+			
 	//Repere les obstacles
 	for (std::vector<Object3D*>::iterator it = mapObjects.begin()+1 ; it != mapObjects.end(); ++it){
 		if(!(*it)->isVisible())
@@ -154,17 +149,15 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 		z=(*it)->getPosition().z-pos.z;		
 		angleNode=getAngle2Vec(x,z);
 			
-		if(x < 20 && x > -20 && z < 20 &&  z > -20 && angleNode>-30 && angleNode<30){
+		if(x <= 20 && x >= -20 && z <= 20 &&  z >= -20 && angleNode>=-30 && angleNode<=30){
 				obstacle=true;
-			if(x < 10 && x > -10 && z < 10 &&  z > -10 && angleNode>-5 && angleNode<5){
+			if(x <= 10 && x >= -10 && z <= 10 &&  z >= -10 && angleNode>=-5 && angleNode<=5){
 					marchearriere=true;
-					// if(this==Karts[0])
-						// std::cout << x << " " << z << std::endl;
 			}
-			if(x < 20 && x > -20 && z < 20 &&  z > -20 && angleNode>20 && angleNode<30){
+			if(x <= 20 && x >= -20 && z <= 20 &&  z >= -20 && angleNode>=20 && angleNode<=30){
 					gauche=true;
 			}
-			if(x < 20 && x > -20 && z < 20 &&  z > -20 && angleNode<-20 && angleNode>-30){
+			if(x <= 20 && x >= -20 && z <= 20 &&  z >= -20 && angleNode<=-20 && angleNode>=-30){
 					droite=true;
 			}
 		}
@@ -178,17 +171,17 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			
 			
 			if(hero==STEVE){
-				if(x < 30 && x > -30 && z < 30 &&  z > -30 && angleNode<5 && angleNode>-5){
+				if(x <= 30 && x >= -30 && z <= 30 &&  z >= -30 && angleNode<=5 && angleNode>=-5){
 						sortie=2;
 				}
 			}
 			else if(hero==BURT){
-				if(x < 30 && x > -30 && z < 30 &&  z > -30 && (angleNode<-175 || angleNode>175)){
+				if(x <= 30 && x >= -30 && z <= 30 &&  z >= -30 && (angleNode<=-175 || angleNode>=175)){
 						sortie=2;
 				}
 			}
 			else if(hero == KLAUS || hero == DOUG || hero == STAN){
-				if(x < 6 && x > -6 && z < 6 &&  z > -6){
+				if(x <= 6 && x >= -6 && z <= 6 &&  z >= -6){
 					sortie=2;
 				}
 			}
@@ -207,14 +200,16 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			z=(*it)->getPosition().z-pos.z;		
 			angleNode=getAngle2Vec(x,z);
 			
-			if(x < 40 && x > -40 && z < 40 &&  z > -40 && angleNode>-20 && angleNode<20){
+			if(x <= 40 && x >= -40 && z <= 40 &&  z >= -40 && angleNode>=-20 && angleNode<=20){
 					obstacle=true;
+					if(this==Karts[0])
+						std::cout << "Pouvoirs detected" << std::endl;
 			}
-			if(x < 40 && x > -40 && z < 40 &&  z > -40 && angleNode>20 && angleNode<30){
+			if(x <= 40 && x >= -40 && z <= 40 &&  z >= -40 && angleNode>=10 && angleNode<=20){
 					droite=true;
 					gauche=false;
 			}
-			if(x < 40 && x > -40 && z < 40 &&  z > -40 && angleNode<-20 && angleNode>-30){
+			if(x <= 40 && x >= -40 && z <= 40 &&  z >= -40 && angleNode<=-10 && angleNode>=-20){
 					gauche=true;
 					droite=false;
 			}
@@ -232,13 +227,13 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			
 			//Cherche devant
 			if(power->getType() == ATK_FRONT){
-				if(x < 30 && x > -30 && z < 30 &&  z > -30 && angleNode<5 && angleNode>-5){
+				if(x <= 30 && x >= -30 && z <= 30 &&  z >= -30 && angleNode<=5 && angleNode>=-5){
 						sortie=1;
 				}
 			}
 			//Cherche derriere
 			else if(power->getType() == ATK_BACK || power->getType()==TRAP){
-				if(x < 30 && x > -30 && z < 30 &&  z > -30 && (angleNode<-175 || angleNode>175)){
+				if(x <= 30 && x >= -30 && z <= 30 &&  z >= -30 && (angleNode<=-175 || angleNode>=175)){
 						sortie=1;
 				}
 			}
@@ -247,7 +242,6 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			}
 		}
 	}
-
 
 	//Marche arriere si obstacle
 	if(marchearriere){
@@ -263,17 +257,19 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 	else if(obstacle && !gauche){
 		rotate(1);
 	}
-	if(angleNode<7 && !droite){
+	if(angleNode<=-7 && !droite){
 		rotate(-1);
 	}
-	else if (angleNode>7 && !gauche){
+	else if (angleNode>=7 && !gauche){
 		rotate(1);
 	}
 	
 	if(speed > idle){
-		if(angleNode > -20 && angleNode < 20 || obstacle) move(1); //J'Accelere !
-		else if(angleNode > -100 && angleNode < 100) move(0); //Lache l'accelerateur
-		else move(-1); //Freine
+		if(angleNode >= -10 && angleNode <= 10 || obstacle){
+		move(1); //J'Accelere !
+		}
+		else if(angleNode >= -50 && angleNode <= 50){ move(0);}//Lache l'accelerateur
+		else {move(-1);} //Freine
 	}
 	else {
 		move(1);
@@ -295,7 +291,7 @@ float Kart::getAngle2Vec(glm::vec3 vec2, glm::vec3 vec1){
 			
 			float angleNode=atan(x/z)*180/M_PI-angle;
 			
-			if(z<0){ 
+			if(z<=0){ 
 					if(angleNode<0) angleNode+=180;
 					else angleNode-=180;
 				}
