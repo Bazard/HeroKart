@@ -86,6 +86,48 @@ SHIELD
 20 0 0
 1.5 1.5 1.5
 
+ATK_FRONT
+../models/MissileArme.obj
+../textures/TexMissileArme.jpg
+-67.84149 0 9.68631
+1.5 1.5 1.5
+
+SHIELD
+../models/mineArme.obj
+../textures/TexMineArme.jpg
+61.96725 0 -14.45495
+1.5 1.5 1.5
+
+ATK_BACK
+../models/mineArme.obj
+../textures/TexMineArme.jpg
+60.38422 0 -48.86002
+1.5 1.5 1.5
+
+BOOST
+../models/mineArme.obj
+../textures/TexMineArme.jpg
+-55.57298 0 -30.25937
+1.5 1.5 1.5
+
+BOOST
+../models/mineArme.obj
+../textures/TexMineArme.jpg
+35.05569 0 36.2281
+1.5 1.5 1.5
+
+TRAP
+../models/mineArme.obj
+../textures/TexMineArme.jpg
+39.01327 0 -46.68682
+1.5 1.5 1.5
+
+TRAP
+../models/mineArme.obj
+../textures/TexMineArme.jpg
+-4.124395 0 54.80275
+1.5 1.5 1.5
+
 #Nodes
 0 -11.48977 0 -35.93304 -12.77889 0 -45.26217
 1 23.68128 0 -40.79174 23.68128 0 -50.76

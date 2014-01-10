@@ -43,6 +43,7 @@ int Game::playChampionShip(){
 		if(res!=0)
 			break;
 		std::cout << "Next Track" << std::endl;
+		menuChargement();
 	}
 	
 	std::cout << "End Championship" << std::endl;
@@ -54,17 +55,7 @@ int Game::playTrack(Track& track){
 	
 	bool raceFinished = false;
 	unsigned int timeElapsed;
-
-	//TTF
-	TTF_Font *font = NULL;
-    font = TTF_OpenFont("../font/CALIBRI.TTF", 12);
-    if(font==NULL) std::cout << "ERREUR d'importation de la police" << std::endl;
-    
-    SDL_Surface* screen = SDL_GetVideoSurface();
-    std::vector<SDL_Surface*> rankSurfaces = createRankSurfaces(font);
-    std::vector<SDL_Rect> positionSurfaces = createPositions();
-	GLuint* idTexture=showRankSurfaces(rankSurfaces, screen, positionSurfaces);
-	
+   
 	//Interface
 	Program prog2D;
 	prog2D = loadProgram("../shaders/tex2D.vs.glsl", "../shaders/tex2D.fs.glsl");
@@ -148,6 +139,7 @@ int Game::playTrack(Track& track){
 		 // node = new Object3D();
 		 // node->sphere(1,32,16);
 		 // node->setScale(glm::vec3(1,1,1));
+		 // node->setHitbox(glm::vec3(0));
 		 // node->setPosition(currentNode->getPosition());
 		 // node->build();
 		 // if(currentNode==track.getNodeStart())
@@ -196,7 +188,7 @@ int Game::playTrack(Track& track){
 		//affichage des pouvoirs
 		 powerquad.initDraw();
 		if (Players[0]->getPower()==NULL){
-			powerquad.bindTex(texturepower[0]);
+			powerquad.bindTex(texturepower[6]);
 		}
 		else{
 			switch(Players[0]->getPower()->getType()){
@@ -223,9 +215,9 @@ int Game::playTrack(Track& track){
 		powerquad.Draw(locVarTexture);
 
 		//affichage de la vitesse
-		vitessequad.initDraw();
-		vitessequad.bindTex(idTexture[0]);
-		vitessequad.Draw(idTexture[0]);
+		// vitessequad.initDraw();
+		// vitessequad.bindTex(idTexture[0]);
+		// vitessequad.Draw(idTexture[0]);
 		
 		prog.use();
 			
@@ -435,7 +427,9 @@ int Game::playTrack(Track& track){
 							done=true;
 							break;
 						case 'p':
-							sortie =	redirectionPause();
+							sortie = redirectionPause();
+							if(sortie==-1)
+								done = true;
 							std::cout << sortie << std::endl;
 							break;
 						case 'q':
@@ -522,8 +516,7 @@ int Game::playTrack(Track& track){
 	}
 	std::cout << "Nettoyage" << std::endl;
 	CleanObjects(track);
-	TTF_CloseFont(font);
-
+	
 	return sortie;
 }
 

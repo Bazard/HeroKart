@@ -131,9 +131,6 @@ float Kart::distanceToNextNode(void){
 }
 
 
-
-
-
 int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& powObjects, std::vector<Kart*>& Karts, PowerObject* power, Hero hero, bool powerReady){
 	float idle=0.05;
 	float angleNode,x,z;
@@ -151,7 +148,7 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			
 		if(x <= 20 && x >= -20 && z <= 20 &&  z >= -20 && angleNode>=-30 && angleNode<=30){
 				obstacle=true;
-			if(x <= 10 && x >= -10 && z <= 10 &&  z >= -10 && angleNode>=-5 && angleNode<=5){
+			if(x <= 5 && x >= -5 && z <= 5 &&  z >= -5 && angleNode>=-5 && angleNode<=5){
 					marchearriere=true;
 			}
 			if(x <= 20 && x >= -20 && z <= 20 &&  z >= -20 && angleNode>=20 && angleNode<=30){
@@ -177,7 +174,7 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			}
 			else if(hero==BURT){
 				if(x <= 30 && x >= -30 && z <= 30 &&  z >= -30 && (angleNode<=-175 || angleNode>=175)){
-						// sortie=2;
+						sortie=2;
 				}
 			}
 			else if(hero == KLAUS || hero == DOUG || hero == STAN){
@@ -202,8 +199,6 @@ int Kart::moveIA(std::vector<Object3D*>& mapObjects,std::vector<PowerObject*>& p
 			
 			if(x <= 40 && x >= -40 && z <= 40 &&  z >= -40 && angleNode>=-20 && angleNode<=20){
 					obstacle=true;
-					if(this==Karts[0])
-						std::cout << "Pouvoirs detected" << std::endl;
 			}
 			if(x <= 40 && x >= -40 && z <= 40 &&  z >= -40 && angleNode>=10 && angleNode<=20){
 					droite=true;

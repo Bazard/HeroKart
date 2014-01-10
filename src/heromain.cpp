@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
 			return EXIT_FAILURE;
 		}
 
-		SDL_WM_SetCaption("Hero Kaaaaart", NULL);
+		SDL_WM_SetCaption("Hero Kart", NULL);
 
 		// Initialisation de OpenGL
 		GLenum glewCode = glewInit();
@@ -42,12 +42,6 @@ int main(int argc, char** argv) {
 			std::cerr << "Unable to initialize GLEW : " << glewGetErrorString(glewCode) << std::endl;
 			return EXIT_FAILURE;
 		}
-		// Initialisation de SDL_TTF
-		if(TTF_Init() == -1)
-			{
-			 std::cerr << "Erreur d'initialisation de TTF_Init : "<< TTF_GetError() << std::endl;
-			 return EXIT_FAILURE;
-			}
 
 		// Initialisation de SDL_Mixer
 		if(Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024) == -1){
@@ -89,7 +83,6 @@ int main(int argc, char** argv) {
 	Game game(race,Players,Karts);
 	game.playChampionShip();
 	
-	TTF_Quit();
 	Mix_FreeMusic(musique); //Libération de la musique
     Mix_CloseAudio(); //Fermeture de l'API
 

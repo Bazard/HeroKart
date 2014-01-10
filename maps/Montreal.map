@@ -3,20 +3,19 @@
 200 200
 
 #Objets
+../models/SolMontreal.obj
+../textures/Tex.jpg
+0 0 0
+0 0 1 
+500 500 500
+0 0 0
+
 ../models/BATIMENTS.obj
 ../textures/TEXTURE.jpg
 0 0 0
 0 0 1 
 500 500 500
 0 0 0
-
-../models/SolMontreal.obj
-../textures/Tex.jpg
-0 0 0
-0 0 1 
-1 1 1
-0 0 0
-
 
 #Powers
 ATK_FRONT

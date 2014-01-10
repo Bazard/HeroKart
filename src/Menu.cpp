@@ -53,9 +53,8 @@ int redirection(std::vector<Character*>& character,std::vector<Track*>& track){
 
 int redirectionPause(){
 	int sortie=1;
-		sortie=menuOptions();
-	while(sortie!=0 && sortie!=-1){
-		std::cout << "Pause" << std::endl;
+	
+	while(sortie!=2 && sortie!=-1){
 		sortie=menuPause();
 		if(sortie==1){
 			sortie=menuOptions();
@@ -251,7 +250,7 @@ int menuPause(){
 						if (xClicked>=(88.0/800.0)*WINDOW_WIDTH && xClicked <=(277.0/800.0)*WINDOW_WIDTH && yClicked>=(226.0/600.0)*WINDOW_HEIGHT && yClicked<=(416.0/600.0)*WINDOW_HEIGHT){
 							std::cout << "Vous avez choisi le circuit 1" << std::endl;
 							
-							sortie=0;
+							sortie=2;
 							done=true;
 						}
 						else if (xClicked>=(298.0/800.0)*WINDOW_WIDTH && xClicked <=(492.0/800.0)*WINDOW_WIDTH && yClicked>=(226.0/600.0)*WINDOW_HEIGHT && yClicked<=(416.0/600.0)*WINDOW_HEIGHT){
@@ -1161,7 +1160,7 @@ int lancerJeuRandom(std::vector<Character*>& character,std::vector<Track*>& trac
 					r=rand()%4;
 					
 					Track* circuit1=new Track("../maps/Village.map",3);
-					Track* circuit2=new Track("../maps/Village.map",3);
+					Track* circuit2=new Track("../maps/Montreal.map",3);
 					Track* circuit3=new Track("../maps/Village.map",3);		
 	
 					switch(r){
