@@ -135,15 +135,6 @@ int Game::playTrack(Track& track){
 	//Lecture du fichier Map
 	track.insertElt();
 
-	Object3D hitboxMapLeft;
-	hitboxMapLeft.sphere(1,32,16);
-	hitboxMapLeft.setScale(glm::vec3(2,10,100));
-	hitboxMapLeft.setPosition(glm::vec3(90,0,0));
-	hitboxMapLeft.setHitbox(glm::vec3(2,10,100));
-	hitboxMapLeft.build();
-	hitboxMapLeft.LoadTexture("../textures/TexDoug.jpg");
-	track.push_back(hitboxMapLeft);
-
 	//Nodes
 
 	unsigned int rank = 8;
@@ -364,6 +355,9 @@ int Game::playTrack(Track& track){
 					Players[idotherkart]->getCharacter().hitSuperPower(tStart, Karts, idkart, *Karts[idotherkart]); //Pouvoir spécial kart2 sur kart1
 				}
 			}
+
+			//Collision avec les bords de la map
+			Karts[idkart]->collisionWithMap(track.getLargeur(), track.getLongueur());
 		
 		}
 
